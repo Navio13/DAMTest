@@ -2,6 +2,7 @@ package com.navio.damtests
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.ViewGroup
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -56,24 +57,31 @@ class ReviewActivity : AppCompatActivity() {
      * Muestra un diálogo con la explicación generada por IA
      */
     private fun showAiExplanation(result: QuestionResult) {
-        // Creamos el diálogo de espera
-        val dialog = MaterialAlertDialogBuilder(this)
-            .setTitle("Explicación de la IA")
-            .setMessage("Analizando la pregunta y generando respuesta...")
-            .setPositiveButton("Cerrar", null)
-            .show()
+        val dialogView = layoutInflater.inflate(R.layout.dialog_explanation, null)
+        val tvMessage = dialogView.findViewById<TextView>(R.id.tvAiExplanation)
+        val btnClose = dialogView.findViewById<MaterialButton>(R.id.btnDialogClose)
 
-        // Lanzamos la corrutina para no bloquear la app mientras la IA piensa
+        val dialog = MaterialAlertDialogBuilder(this)
+            .setView(dialogView)
+            .create()
+
+        dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+        dialog.show()
+
+        // --- AQUÍ EL TRUCO PARA EL TAMAÑO ---
+        // Ajustamos el ancho al 90% de la pantalla para que no ocupe todo
+        val width = (resources.displayMetrics.widthPixels * 0.90).toInt()
+        dialog.window?.setLayout(width, ViewGroup.LayoutParams.WRAP_CONTENT)
+        // ------------------------------------
+
+        btnClose.setOnClickListener { dialog.dismiss() }
+
         lifecycleScope.launch {
             try {
-                val explainer = GeminiExplainer()
-                // Llamamos a la IA pasándole la pregunta y el índice que marcó el usuario
-                val explanation = explainer.explicarFallo(result.question, result.userSelectedIndex)
-
-                // Una vez recibida, actualizamos el texto del diálogo
-                dialog.setMessage(explanation)
+                val explanation = GeminiExplainer().explicarFallo(result.question, result.userSelectedIndex)
+                tvMessage.text = explanation
             } catch (e: Exception) {
-                dialog.setMessage("No se pudo obtener la explicación: ${e.message}")
+                tvMessage.text = "Error: ${e.message}"
             }
         }
     }
