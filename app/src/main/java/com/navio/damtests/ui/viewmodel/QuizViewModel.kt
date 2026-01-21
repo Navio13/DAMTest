@@ -51,7 +51,6 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
     }
 
     // Comprobar respuesta
-// Actualiza la firma de la función y la creación del objeto Result
     fun checkAnswer(selectedIndex: Int, shuffledOptions: List<String>) {
         val currentQuestion = _questions.value.getOrNull(_currentQuestionIndex.value)
 

@@ -35,7 +35,7 @@ class ReviewActivity : AppCompatActivity() {
             showAiExplanation(result)
         }
 
-        // 4. Botones de navegación (Tus botones originales)
+        // 4. Botones de navegación
         findViewById<MaterialButton>(R.id.btnBackToMenu).setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
@@ -68,11 +68,8 @@ class ReviewActivity : AppCompatActivity() {
         dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
         dialog.show()
 
-        // --- AQUÍ EL TRUCO PARA EL TAMAÑO ---
-        // Ajustamos el ancho al 90% de la pantalla para que no ocupe todo
         val width = (resources.displayMetrics.widthPixels * 0.90).toInt()
         dialog.window?.setLayout(width, ViewGroup.LayoutParams.WRAP_CONTENT)
-        // ------------------------------------
 
         btnClose.setOnClickListener { dialog.dismiss() }
 

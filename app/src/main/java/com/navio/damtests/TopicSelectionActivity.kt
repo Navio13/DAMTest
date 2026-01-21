@@ -28,7 +28,6 @@ class TopicSelectionActivity : AppCompatActivity() {
         val database = AppDatabase.getDatabase(this)
         repository = QuizRepository(database.questionsDao())
 
-        // 1. Configurar Toolbar con estilo limpio
         val toolbar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar_topics)
         setSupportActionBar(toolbar)
         supportActionBar?.apply {
@@ -37,14 +36,11 @@ class TopicSelectionActivity : AppCompatActivity() {
             elevation = 0f
         }
 
-        // Ajustar color de barra de estado
         window.statusBarColor = getColor(R.color.colorPrimary)
 
-        // 2. Configurar RecyclerView
         val rvTopics = findViewById<RecyclerView>(R.id.rvTopics)
         rvTopics.layoutManager = LinearLayoutManager(this)
 
-        // 3. Generar la lista con el Test General al FINAL
         val topicsList = getMockTopics(subjectId)
 
         lifecycleScope.launchWhenStarted {

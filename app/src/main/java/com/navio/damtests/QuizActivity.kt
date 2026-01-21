@@ -37,7 +37,6 @@ class QuizActivity : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
         window.statusBarColor = Color.parseColor("#F8FAFC")
 
-        // Enlazamos con los IDs REALES de tu activity_quiz.xml
         tvQuestion = findViewById(R.id.tvQuestionText)
         btnA = findViewById(R.id.btnOptionA)
         btnB = findViewById(R.id.btnOptionB)
@@ -129,7 +128,6 @@ class QuizActivity : AppCompatActivity() {
         btnD.setOnClickListener { processAnswer(3) }
     }
 
-    // En QuizActivity.kt
     private fun processAnswer(uiSelectedIndex: Int) {
         val shuffled = currentShuffledQuestion ?: return
 
@@ -157,7 +155,6 @@ class QuizActivity : AppCompatActivity() {
             .setCancelable(false)
             .create()
 
-        // Quitar el fondo feo por defecto del diálogo para que se vea redondeado
         dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
 
         dialogView.findViewById<TextView>(R.id.tvDialogMessage).text = "Has acertado $score preguntas."
