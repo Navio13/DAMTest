@@ -5,7 +5,6 @@ import com.navio.damtests.BuildConfig
 import com.navio.damtests.data.local.entity.Question // He visto que esta es tu clase base
 
 class GeminiExplainer {
-    // Usamos 1.5-flash que es el más compatible con el SDK 0.7.0
     private val generativeModel = GenerativeModel(
         modelName = "gemini-2.5-flash",
         apiKey = BuildConfig.GEMINI_API_KEY
@@ -13,7 +12,7 @@ class GeminiExplainer {
 
     suspend fun explicarFallo(pregunta: Question, respuestaUsuario: Int): String {
         val prompt = """
-            Actúa como un profesor de informática. Un alumno ha fallado una pregunta de test.
+            Actúa como un profesor de DAM. Un alumno ha fallado una pregunta de test.
             Pregunta: ${pregunta.text}
             Opciones:
             0: ${pregunta.optionA}
@@ -21,7 +20,8 @@ class GeminiExplainer {
             2: ${pregunta.optionC}
             3: ${pregunta.optionD}
             El alumno marcó la opción $respuestaUsuario, pero la correcta es la ${pregunta.correctOptionIndex}.
-            Explica de forma breve y clara por qué la respuesta correcta es esa.
+            Explica de forma breve y clara por qué la respuesta correcta es esa. No te extiendas demasiado pero sé muy claro en tu respuesta,
+            como si fueras un profesor de DAM.
         """.trimIndent()
 
         return try {
