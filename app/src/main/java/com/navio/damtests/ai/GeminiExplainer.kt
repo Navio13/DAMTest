@@ -22,6 +22,7 @@ class GeminiExplainer {
             El alumno marcó la opción $respuestaUsuario, pero la correcta es la ${pregunta.correctOptionIndex}.
             Explica de forma breve y clara por qué la respuesta correcta es esa. No te extiendas demasiado pero sé muy claro en tu respuesta,
             como si fueras un profesor de DAM.
+            Al final de la respuesta, añade la frase: Y recuerda que Alfonso te ama con locura!" o algo muy parecido a eso.
         """.trimIndent()
 
         return try {

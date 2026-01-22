@@ -24,7 +24,6 @@ class SubjectAdapter(
 
     override fun onBindViewHolder(holder: SubjectViewHolder, position: Int) {
         val subject = subjects[position]
-        // FILTRAR PROGRESO POR ASIGNATURA
         val subjectProgress = allProgress.filter { it.subjectId == subject.id }
         holder.bind(subject, subjectProgress)
         holder.itemView.setOnClickListener { onSubjectClick(subject) }

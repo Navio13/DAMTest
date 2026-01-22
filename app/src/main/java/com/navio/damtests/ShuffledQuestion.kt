@@ -9,13 +9,13 @@ data class ShuffledQuestion(
 )
 
 fun Question.shuffle(): ShuffledQuestion {
-    // Creamos una lista de pares (Texto de la opción, ¿Era la correcta?)
+    // Creamos una lista de pares
     val options = listOf(
         optionA to (correctOptionIndex == 0),
         optionB to (correctOptionIndex == 1),
         optionC to (correctOptionIndex == 2),
         optionD to (correctOptionIndex == 3)
-    ).shuffled() // Mezclamos la lista
+    ).shuffled()
 
     return ShuffledQuestion(
         originalQuestion = this,

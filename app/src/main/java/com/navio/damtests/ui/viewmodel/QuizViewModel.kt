@@ -28,7 +28,6 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
 
     private val _resultsList = mutableListOf<QuestionResult>()
 
-
     // Cargar preguntas al iniciar el test
     fun loadQuestions(subjectId: String, topicId: Int) {
         viewModelScope.launch {
