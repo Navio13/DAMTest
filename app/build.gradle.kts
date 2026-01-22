@@ -11,6 +11,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.googleDevtoolsKsp)
+    id("com.google.gms.google-services") version "4.4.4" apply false
 }
 
 android {
@@ -89,4 +90,12 @@ dependencies {
 
     // AI
     implementation("com.google.ai.client.generativeai:generativeai:0.7.0")
+
+    // Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:32.7.2"))
+
+    // Firebase SDKs
+    implementation("com.google.firebase:firebase-database-ktx")
+    implementation("com.google.firebase:firebase-storage-ktx")
+    implementation("com.google.firebase:firebase-auth-ktx")
 }
