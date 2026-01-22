@@ -98,4 +98,7 @@ dependencies {
     implementation("com.google.firebase:firebase-database-ktx")
     implementation("com.google.firebase:firebase-storage-ktx")
     implementation("com.google.firebase:firebase-auth-ktx")
+
+    // Squareup
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
