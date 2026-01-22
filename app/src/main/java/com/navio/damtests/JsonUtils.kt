@@ -7,7 +7,6 @@ import com.navio.damtests.data.local.entity.Question
 
 object JsonUtils {
 
-    // Clase interna temporal para leer el JSON que generamos antes
     private data class QuestionRaw(
         val subjectId: String,
         val topicId: Int,
@@ -19,11 +18,9 @@ object JsonUtils {
     fun loadQuestionsFromAsset(context: Context, fileName: String): List<Question> {
         val jsonString = context.assets.open(fileName).bufferedReader().use { it.readText() }
 
-        // Sintaxis correcta de TypeToken en Kotlin
         val listType = object : TypeToken<List<QuestionRaw>>() {}.type
         val rawList: List<QuestionRaw> = Gson().fromJson(jsonString, listType)
 
-        // Mapeamos del formato JSON al formato de tu Entidad Room
         return rawList.map { raw ->
             Question(
                 subjectId = raw.subjectId,

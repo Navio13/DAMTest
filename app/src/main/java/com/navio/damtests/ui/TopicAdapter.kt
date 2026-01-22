@@ -36,13 +36,11 @@ class TopicAdapter(
     class TopicViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         private val tvTitle: TextView = view.findViewById(R.id.tvTopicName)
         private val tvTopicStats: TextView = view.findViewById(R.id.tvTopicStats)
-        // 1. Asegúrate de que este ID existe en tu item_topic.xml
         private val btnPdf: View = view.findViewById(R.id.btnOpenPdf)
 
         fun bind(topic: Topic, progress: TopicProgress?, onPdfClick: (Topic) -> Unit) {
             tvTitle.text = topic.title
 
-            // Lógica de estadísticas (se mantiene igual)
             if (progress == null) {
                 tvTopicStats.text = "Pendiente de realizar"
                 tvTopicStats.setTextColor(Color.parseColor("#94A3B8"))
@@ -52,7 +50,6 @@ class TopicAdapter(
                 tvTopicStats.setTextColor(if (percent >= 50) Color.parseColor("#22C55E") else Color.parseColor("#EF4444"))
             }
 
-            // 2. Lógica para el botón PDF
             if (topic.id == -1) {
                 // Si es Test General, ocultamos el botón de PDF
                 btnPdf.visibility = View.GONE

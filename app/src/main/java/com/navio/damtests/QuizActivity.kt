@@ -183,8 +183,8 @@ class QuizActivity : AppCompatActivity() {
 
         // Enviamos los datos por Intent para el encabezado
         val intent = Intent(this, ReviewActivity::class.java).apply {
-            putExtra("SCORE", correctAnswers)
-            putExtra("TOTAL", totalQuestions)
+            putExtra("SCORE", viewModel.score.value)
+            putExtra("TOTAL", results.size)
         }
         startActivity(intent)
         finish()
