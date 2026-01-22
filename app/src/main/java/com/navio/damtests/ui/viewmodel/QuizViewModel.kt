@@ -55,9 +55,14 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
 
     // Comprobar respuesta
     fun checkAnswer(selectedIndex: Int, shuffledOptions: List<String>) {
-        val currentQuestion = _questions.value.getOrNull(_currentQuestionIndex.value)
+        if (_isTestFinished.value) return
+
+        val questionsList = _questions.value
+        val currentIndex = _currentQuestionIndex.value
+        val currentQuestion = questionsList.getOrNull(currentIndex)
 
         if (currentQuestion != null) {
+            if (_resultsList.size > currentIndex) return
             // Guardamos el resultado con la lista mezclada incluida
             _resultsList.add(QuestionResult(currentQuestion, selectedIndex, shuffledOptions))
 

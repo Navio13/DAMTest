@@ -21,7 +21,9 @@ class ReviewActivity : AppCompatActivity() {
 
         // 1. Recuperamos los datos reales enviados desde QuizActivity
         val score = intent.getIntExtra("SCORE", 0)
-        val total = intent.getIntExtra("TOTAL", 0)
+        val results = TestDataHolder.lastResults
+
+        val total = results.size
 
         // 2. Actualizamos el texto con valores REALES
         findViewById<TextView>(R.id.tvReviewScore).text = "Resultado final: $score / $total"
