@@ -4,6 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import androidx.room.Transaction
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -22,6 +23,15 @@ interface QuestionsDao {
     // Obtener preguntas aleatorias para el TEST GENERAL (Cualquier tema de la asignatura)
     @Query("SELECT * FROM questions WHERE subjectId = :subjectId ORDER BY RANDOM() LIMIT :limit")
     suspend fun getRandomQuestionsForGeneralTest(subjectId: String, limit: Int): List<Question>
+
+    @Query("DELETE FROM questions")
+    suspend fun deleteAllQuestions();
+
+    @Transaction
+    suspend fun refreshAllQuestions(questions: List<Question>) {
+        deleteAllQuestions()
+        insertQuestions(questions)
+    }
 
     // --- Gestion de Progreso/Notas ---
 
