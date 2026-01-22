@@ -6,8 +6,8 @@ import com.navio.damtests.data.local.entity.TopicProgress
 
 class QuizRepository(private val questionsDao: QuestionsDao) {
 
-    // --- NUEVO MÉTODO PARA FIREBASE ---
-    // Este método llama al que creamos en el DAO anteriormente
+    // --- NUEVO METHOD PARA FIREBASE ---
+    // Este method llama al que creamos en el DAO anteriormente
     suspend fun refreshQuestions(questions: List<Question>) {
         questionsDao.refreshAllQuestions(questions)
     }
