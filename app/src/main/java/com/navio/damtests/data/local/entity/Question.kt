@@ -7,9 +7,9 @@ import androidx.room.PrimaryKey
 data class Question(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
-    val subjectId: String, //Identificador de la asignatura
-    val topicId: Int, // Numero del tema
-    val text: String, // Enunciado
+    val subjectId: String,
+    val topicId: Int,
+    val text: String,
     val optionA: String,
     val optionB: String,
     val optionC: String,

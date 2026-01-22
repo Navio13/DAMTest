@@ -11,6 +11,6 @@ data class TopicProgress(
     val topicId: Int,
     val lastScore: Int,
     val totalQuestions: Int = 20,
-    val attemptsCount: Int = 0, // <--- NUEVO: Para saber cuántas veces se ha hecho
+    val attemptsCount: Int = 0,
     val lastAttemptTimestamp: Long = System.currentTimeMillis()
 )

@@ -32,15 +32,13 @@ abstract class AppDatabase : RoomDatabase() {
                             kotlinx.coroutines.GlobalScope.launch(kotlinx.coroutines.Dispatchers.IO) {
                                 val dao = getDatabase(context).questionsDao()
 
-                                // Lista con todos tus archivos JSON en la carpeta assets
                                 val archivosJson = listOf(
                                     "base_de_datos.json",
                                     "digitalizacion.json",
                                     "entornos.json",
-                                    "programacion.json",
-
                                     "ipe.json",
                                     "marcas.json",
+                                    "programacion.json",
                                     "sistemas.json",
                                     "sostenibilidad.json"
                                 )
