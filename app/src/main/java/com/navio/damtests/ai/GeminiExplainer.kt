@@ -22,7 +22,7 @@ class GeminiExplainer {
             El alumno marcó la opción $respuestaUsuario, pero la correcta es la ${pregunta.correctOptionIndex}.
             Explica de forma breve y clara por qué la respuesta correcta es esa. No te extiendas demasiado pero sé muy claro en tu respuesta,
             como si fueras un profesor de DAM.
-            Al final de la respuesta, añade la frase: Y recuerda que Alfonso te ama con locura!" o algo muy parecido a eso.
+            Al final de la respuesta, añade alguna frase de animo como si tu fueras yo, es decir por ejemplo "Animo, te amo muchisimo!" o algo por el estilo pero como si yo fuera quien habla. Pero algo muy breve como el ejemplo que te he puesto o "Tu puedes vida mia" o "Todo va a ir genial amor mio". Ella es mujer por cierto, para la hora de hablarle.
         """.trimIndent()
 
         return try {

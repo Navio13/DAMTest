@@ -33,6 +33,10 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
         viewModelScope.launch {
             _isLoading.value = true
 
+            _resultsList.clear()
+            _score.value = 0
+            _currentQuestionIndex.value = 0
+
             // Lógica de decisión del límite
             val limit = if (topicId == -1) 20 else 10
 
