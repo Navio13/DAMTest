@@ -5,5 +5,5 @@ import com.navio.damtests.ui.viewmodel.QuestionResult
 object TestDataHolder {
     var lastResults: List<QuestionResult> = emptyList()
     var currentSubjectId: String = "programacion"
-    var currentTopicId: Int = 1
+    var currentTopicId: String = "1"
 }

@@ -8,7 +8,7 @@ import androidx.room.Entity
 )
 data class TopicProgress(
     val subjectId: String,
-    val topicId: Int,
+    val topicId: String,
     val lastScore: Int,
     val totalQuestions: Int = 20,
     val attemptsCount: Int = 0,

@@ -51,9 +51,9 @@ class QuizActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this, factory)[QuizViewModel::class.java]
 
         val subjectId = intent.getStringExtra("SUBJECT_ID") ?: "programacion"
-        val topicId = intent.getIntExtra("TOPIC_ID", 1)
+        val topicId = intent.getStringExtra("TOPIC_ID") ?: "1"
 
-        val limit = if (topicId == -1) 20 else 10
+        val limit = if (topicId == "-1") 20 else 10
 
         TestDataHolder.currentSubjectId = subjectId
         TestDataHolder.currentTopicId = topicId

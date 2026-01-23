@@ -2,6 +2,7 @@ package com.navio.damtests
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -10,12 +11,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.navio.damtests.data.local.db.AppDatabase
 import com.navio.damtests.data.local.entity.Subject
 import com.navio.damtests.ui.SubjectAdapter
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var repository: QuizRepository
     private lateinit var tvAvgScore: TextView
     private lateinit var tvTotalTests: TextView
+    private lateinit var syncManager: FirebaseSyncManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,6 +29,13 @@ class MainActivity : AppCompatActivity() {
 
         val database = AppDatabase.getDatabase(this)
         repository = QuizRepository(database.questionsDao())
+
+        syncManager = FirebaseSyncManager(this, repository)
+
+        lifecycleScope.launch {
+            Log.d("SYNC", "Iniciando sincronización desde MainActivity...")
+            syncManager.syncQuestions()
+        }
 
         setupDashboardStats()
         setupSubjectList()
