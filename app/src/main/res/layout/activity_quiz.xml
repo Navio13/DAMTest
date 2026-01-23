@@ -40,6 +40,21 @@
                 android:progress="0"
                 android:max="10"
                 android:progressDrawable="@drawable/custom_progress_bar" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnContextInfo"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="0dp"
+                android:visibility="gone"
+                app:icon="@android:drawable/ic_dialog_info"
+                app:iconTint="#4F46E5"
+                app:iconPadding="0dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp" />
         </LinearLayout>
 
         <com.google.android.material.card.MaterialCardView

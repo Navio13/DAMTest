@@ -12,41 +12,33 @@ class FirebaseManager(private val context: Context, private val repository: Quiz
     private val db = FirebaseDatabase.getInstance().reference
     private val prefs = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
 
-    suspend fun checkAndUpdateQuestions() {
-        try {
-            // 1. Mirar versión en Firebase
-            val remoteVersion = db.child("metadata").child("version_preguntas").get().await().getValue(Int::class.java) ?: 0
-            val localVersion = prefs.getInt("local_question_version", 0)
+    suspend fun checkAndUpdateQuestions(subjectId: String) {
+        // 1. Buscamos en 'versiones/asignatura' qué temas han cambiado
+        val versionsSnapshot = db.child("versiones").child(subjectId).get().await()
+
+        versionsSnapshot.children.forEach { topicSnap ->
+            val topicId = topicSnap.key ?: return@forEach
+            val remoteVersion = topicSnap.getValue(Int::class.java) ?: 0
+            val localVersion = prefs.getInt("version_${subjectId}_$topicId", 0)
 
             if (remoteVersion > localVersion) {
-                Log.d("FIREBASE", "Nueva versión detectada ($remoteVersion). Descargando...")
+                // 2. Si el tema ha cambiado, bajamos solo sus preguntas
+                val questionsSnap = db.child("preguntas").child(subjectId).child(topicId).get().await()
+                val questionsList = mutableListOf<Question>()
 
-                // 2. Descargar preguntas
-                // Asumimos que guardas todas las preguntas en un nodo "preguntas"
-                val snapshot = db.child("preguntas").get().await()
-                val nuevasPreguntas = mutableListOf<Question>()
-
-                snapshot.children.forEach { child ->
-                    // Aquí el mapeo depende de cómo subas el JSON a Firebase
-                    val q = child.getValue(Question::class.java)
-                    q?.let { nuevasPreguntas.add(it) }
+                questionsSnap.children.forEach { qSnap ->
+                    val q = qSnap.getValue(Question::class.java)
+                    q?.let { questionsList.add(it) }
                 }
 
-                if (nuevasPreguntas.isNotEmpty()) {
-                    // 3. Actualizar Room
-                    repository.refreshQuestions(nuevasPreguntas)
+                // 3. Guardamos en Room y actualizamos versión local
+                // En FirebaseManager.kt, dentro del bloque donde detectas nueva versión:
 
-                    // 4. Guardar nueva versión local
-                    prefs.edit().putInt("local_question_version", remoteVersion).apply()
-                    Log.d("FIREBASE", "Base de datos actualizada correctamente")
-                }
-            } else {
-                Log.d("FIREBASE", "La base de datos está al día (Versión $localVersion)")
+// En lugar de solo insert, hacemos una "limpieza y carga"
+                repository.deleteQuestionsByTopic(subjectId, topicId) // Borra lo viejo de este tema
+                repository.insertQuestions(questionsList)            // Inserta lo nuevo
+                prefs.edit().putInt("version_${subjectId}_$topicId", remoteVersion).apply()
             }
-        } catch (e: Exception) {
-            Log.e("FIREBASE", "Error en sincronización (Sin internet o error): ${e.message}")
-            // Si falla (ej. no hay internet), no hacemos nada.
-            // La app usará lo que ya tiene en Room por defecto.
         }
     }
 }

@@ -29,6 +29,7 @@ class QuizActivity : AppCompatActivity() {
     private lateinit var tvCount: TextView
     private lateinit var progressBar: ProgressBar
     private var currentShuffledQuestion: ShuffledQuestion? = null
+    private lateinit var btnContextInfo: Button // Al principio de la clase con los demás
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,6 +45,7 @@ class QuizActivity : AppCompatActivity() {
         btnD = findViewById(R.id.btnOptionD)
         tvCount = findViewById(R.id.tvQuestionCount)
         progressBar = findViewById(R.id.quizProgressBar)
+        btnContextInfo = findViewById(R.id.btnContextInfo)
 
         val database = AppDatabase.getDatabase(this)
         val repository = QuizRepository(database.questionsDao())
@@ -110,7 +112,6 @@ class QuizActivity : AppCompatActivity() {
     }
 
     private fun updateUI(question: Question) {
-        // Mezclamos la pregunta antes de mostrarla
         val shuffled = question.shuffle()
         currentShuffledQuestion = shuffled
 
@@ -119,6 +120,16 @@ class QuizActivity : AppCompatActivity() {
         btnB.text = shuffled.shuffledOptions[1]
         btnC.text = shuffled.shuffledOptions[2]
         btnD.text = shuffled.shuffledOptions[3]
+
+        // Lógica del enunciado/contexto
+        if (!question.contextText.isNullOrEmpty()) {
+            btnContextInfo.visibility = View.VISIBLE
+            btnContextInfo.setOnClickListener {
+                showContextDialog(question.contextText)
+            }
+        } else {
+            btnContextInfo.visibility = View.GONE
+        }
     }
 
     private fun setupClickListeners() {
@@ -188,5 +199,13 @@ class QuizActivity : AppCompatActivity() {
         }
         startActivity(intent)
         finish()
+    }
+
+    private fun showContextDialog(text: String) {
+        AlertDialog.Builder(this)
+            .setTitle("Enunciado del Caso")
+            .setMessage(text)
+            .setPositiveButton("Cerrar", null)
+            .show()
     }
 }

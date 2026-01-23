@@ -12,7 +12,8 @@ class GeminiExplainer {
 
     suspend fun explicarFallo(pregunta: Question, respuestaUsuario: Int): String {
         val prompt = """
-            Actúa como un profesor de DAM. Un alumno ha fallado una pregunta de test.
+            Actúa como un profesor de DAM. Una alumna llamada Mari Carmen ha fallado una pregunta de test.
+            Enunciado general: ${pregunta.contextText} ? "no tiene"
             Pregunta: ${pregunta.text}
             Opciones:
             0: ${pregunta.optionA}
