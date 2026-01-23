@@ -10,22 +10,22 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface QuestionsDao {
 
-    // --- Gestion de preguntas ---
+    // --- Gestión de preguntas ---
 
-    // Insertar preguntas masivamente
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertQuestions(questions: List<Question>)
 
-    // Obtener preguntas aleatorias de un TEMA ESPECIFICO
     @Query("SELECT * FROM questions WHERE subjectId = :subjectId AND topicId = :topicId ORDER BY RANDOM() LIMIT :limit")
-    suspend fun getRandomQuestionsForTopic(subjectId: String, topicId: Int, limit: Int): List<Question>
+    suspend fun getRandomQuestionsForTopic(subjectId: String, topicId: String, limit: Int): List<Question>
 
-    // Obtener preguntas aleatorias para el TEST GENERAL (Cualquier tema de la asignatura)
     @Query("SELECT * FROM questions WHERE subjectId = :subjectId ORDER BY RANDOM() LIMIT :limit")
     suspend fun getRandomQuestionsForGeneralTest(subjectId: String, limit: Int): List<Question>
 
+    @Query("DELETE FROM questions WHERE subjectId = :subjectId AND topicId = :topicId")
+    suspend fun deleteQuestionsByTopic(subjectId: String, topicId: String)
+
     @Query("DELETE FROM questions")
-    suspend fun deleteAllQuestions();
+    suspend fun deleteAllQuestions()
 
     @Transaction
     suspend fun refreshAllQuestions(questions: List<Question>) {
@@ -33,18 +33,17 @@ interface QuestionsDao {
         insertQuestions(questions)
     }
 
-    // --- Gestion de Progreso/Notas ---
+    // --- Gestión de Progreso/Notas ---
 
-    // Guardar o actualizar la nota
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun saveProgress(progress: TopicProgress)
 
-    // Obtener el progreso de una asignatura
     @Query("SELECT * FROM topic_progress WHERE subjectId = :subjectId")
     fun getProgressFlow(subjectId: String): Flow<List<TopicProgress>>
 
+    // Cambiado topicId a String para que coincida con la entidad
     @Query("SELECT * FROM topic_progress WHERE subjectId = :subjectId AND topicId = :topicId")
-    suspend fun getProgress(subjectId: String, topicId: Int): TopicProgress?
+    suspend fun getProgress(subjectId: String, topicId: String): TopicProgress?
 
     @Query("SELECT * FROM topic_progress")
     fun getAllProgress(): Flow<List<TopicProgress>>

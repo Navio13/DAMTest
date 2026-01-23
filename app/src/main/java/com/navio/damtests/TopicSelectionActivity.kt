@@ -65,8 +65,8 @@ class TopicSelectionActivity : AppCompatActivity() {
         }
     }
 
-    private fun openPdf(subjectId: String, topicId: Int) {
-        if (topicId == -1) return
+    private fun openPdf(subjectId: String, topicId: String) {
+        if (!topicId.equals("-1")) return
 
         val fileName = "${subjectId}_$topicId.pdf"
         val localFile = File(cacheDir, fileName)
@@ -149,13 +149,13 @@ class TopicSelectionActivity : AppCompatActivity() {
             else -> listOf("Tema 1", "Tema 2", "Tema 3")
         }
         names.forEachIndexed { index, name ->
-            list.add(Topic(index + 1, "Tema ${index + 1}: $name", subjectId))
+            list.add(Topic("tema_${index + 1}", "Tema ${index + 1}: $name", subjectId))
         }
-        list.add(Topic(-1, "TEST GENERAL", subjectId))
+        list.add(Topic("-1", "TEST GENERAL", subjectId))
         return list
     }
 
-    private fun startQuiz(subjectId: String, topicId: Int) {
+    private fun startQuiz(subjectId: String, topicId: String) {
         val intent = Intent(this, QuizActivity::class.java).apply {
             putExtra("SUBJECT_ID", subjectId)
             putExtra("TOPIC_ID", topicId)

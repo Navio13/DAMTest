@@ -26,36 +26,6 @@ abstract class AppDatabase : RoomDatabase() {
                     AppDatabase::class.java,
                     "quiz_database"
                 )
-                    .addCallback(object : RoomDatabase.Callback() {
-                        override fun onCreate(db: SupportSQLiteDatabase) {
-                            super.onCreate(db)
-                            kotlinx.coroutines.GlobalScope.launch(kotlinx.coroutines.Dispatchers.IO) {
-                                val dao = getDatabase(context).questionsDao()
-
-                                val archivosJson = listOf(
-                                    "base_de_datos.json",
-                                    "digitalizacion.json",
-                                    "entornos.json",
-                                    "ipe.json",
-                                    "marcas.json",
-                                    "programacion.json",
-                                    "sistemas.json",
-                                    "sostenibilidad.json"
-                                )
-
-                                try {
-                                    archivosJson.forEach { nombreArchivo ->
-                                        val preguntas = JsonUtils.loadQuestionsFromAsset(context, nombreArchivo)
-                                        dao.insertQuestions(preguntas)
-                                        android.util.Log.d("DB_DEBUG", "Cargadas preguntas de: $nombreArchivo")
-                                    }
-                                    android.util.Log.d("DB_DEBUG", "Carga inicial completa de todas las asignaturas")
-                                } catch (e: Exception) {
-                                    android.util.Log.e("DB_DEBUG", "Error cargando preguntas: ${e.message}")
-                                }
-                            }
-                        }
-                    })
                     .build()
                 INSTANCE = instance
                 instance

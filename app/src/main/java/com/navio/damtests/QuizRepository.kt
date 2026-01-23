@@ -6,14 +6,20 @@ import com.navio.damtests.data.local.entity.TopicProgress
 
 class QuizRepository(private val questionsDao: QuestionsDao) {
 
-    // --- NUEVO METHOD PARA FIREBASE ---
-    // Este method llama al que creamos en el DAO anteriormente
+    // 1. Actualiza solo un tema específico (Lo que usará el sincronizador)
+    suspend fun updateTopicQuestions(subjectId: String, topicId: String, questions: List<Question>) {
+        questionsDao.deleteQuestionsByTopic(subjectId, topicId)
+        questionsDao.insertQuestions(questions)
+    }
+
+    // 2. Mantenemos el refresh global por si acaso, pero cambiando el tipo de dato si fuera necesario
     suspend fun refreshQuestions(questions: List<Question>) {
         questionsDao.refreshAllQuestions(questions)
     }
 
-    suspend fun getQuestionsByTopic(subjectId: String, topicId: Int, limit: Int): List<Question> {
-        return if (topicId == -1) {
+    // 3. Cambiamos topicId de Int a String
+    suspend fun getQuestionsByTopic(subjectId: String, topicId: String, limit: Int): List<Question> {
+        return if (topicId == "-1") {
             questionsDao.getRandomQuestionsForGeneralTest(subjectId, limit)
         } else {
             questionsDao.getRandomQuestionsForTopic(subjectId, topicId, limit)
@@ -26,7 +32,8 @@ class QuizRepository(private val questionsDao: QuestionsDao) {
 
     fun getProgressFlow(subjectId: String) = questionsDao.getProgressFlow(subjectId)
 
-    suspend fun getProgress(subjectId: String, topicId: Int) = questionsDao.getProgress(subjectId, topicId)
+    // 4. Cambiamos topicId de Int a String aquí también
+    suspend fun getProgress(subjectId: String, topicId: String) = questionsDao.getProgress(subjectId, topicId)
 
     fun getAllProgress() = questionsDao.getAllProgress()
 }
