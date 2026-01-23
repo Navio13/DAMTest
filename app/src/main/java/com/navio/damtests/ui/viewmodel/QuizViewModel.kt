@@ -33,20 +33,19 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
     fun loadQuestions(subjectId: String, topicId: String) {
         viewModelScope.launch {
             _isLoading.value = true
-
             _resultsList.clear()
             _score.value = 0
             _currentQuestionIndex.value = 0
 
-            // Lógica de decisión del límite (Comparamos con el String "-1")
             val limit = if (topicId == "-1") 20 else 10
 
-            // Pasamos el límite al repositorio
-            var loadedQuestions = repository.getQuestionsByTopic(subjectId, topicId, limit)
-
-            if (loadedQuestions.isEmpty()) {
-                delay(1500)
-                loadedQuestions = repository.getQuestionsByTopic(subjectId, topicId, limit)
+            // CAMBIO AQUÍ: Decidimos qué consulta usar según el topicId
+            val loadedQuestions = if (topicId == "-1") {
+                // Llamamos a la nueva consulta de Test General (solo temas)
+                repository.getRandomQuestionsForGeneralTest(subjectId, limit)
+            } else {
+                // Llamamos a la consulta normal para un tema/caso/repaso específico
+                repository.getQuestionsByTopic(subjectId, topicId, limit)
             }
 
             _questions.value = loadedQuestions

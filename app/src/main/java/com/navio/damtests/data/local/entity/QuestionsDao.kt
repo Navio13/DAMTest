@@ -18,9 +18,6 @@ interface QuestionsDao {
     @Query("SELECT * FROM questions WHERE subjectId = :subjectId AND topicId = :topicId ORDER BY RANDOM() LIMIT :limit")
     suspend fun getRandomQuestionsForTopic(subjectId: String, topicId: String, limit: Int): List<Question>
 
-    @Query("SELECT * FROM questions WHERE subjectId = :subjectId ORDER BY RANDOM() LIMIT :limit")
-    suspend fun getRandomQuestionsForGeneralTest(subjectId: String, limit: Int): List<Question>
-
     @Query("DELETE FROM questions WHERE subjectId = :subjectId AND topicId = :topicId")
     suspend fun deleteQuestionsByTopic(subjectId: String, topicId: String)
 
@@ -30,6 +27,20 @@ interface QuestionsDao {
     @Transaction
     suspend fun refreshAllQuestions(questions: List<Question>) {
         deleteAllQuestions()
+        insertQuestions(questions)
+    }
+
+    @Query("SELECT DISTINCT topicId FROM questions WHERE subjectId = :subjectId")
+    suspend fun getUniqueTopicIds(subjectId: String): List<String>
+
+    // 2. Test General: SOLO coge preguntas de temas numéricos (ignora casos y repasos)
+    @Query("SELECT * FROM questions WHERE subjectId = :subjectId AND topicId LIKE 'tema_%' ORDER BY RANDOM() LIMIT :limit")
+    suspend fun getRandomQuestionsForGeneralTest(subjectId: String, limit: Int): List<Question>
+
+    // 3. Borrar y meter (para el SyncManager)
+    @Transaction
+    suspend fun refreshTopicQuestions(subjectId: String, topicId: String, questions: List<Question>) {
+        deleteQuestionsByTopic(subjectId, topicId)
         insertQuestions(questions)
     }
 

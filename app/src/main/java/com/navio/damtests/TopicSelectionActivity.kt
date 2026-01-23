@@ -51,14 +51,14 @@ class TopicSelectionActivity : AppCompatActivity() {
         val topicsList = getMockTopics(subjectId)
 
         lifecycleScope.launchWhenStarted {
+            // 1. Obtenemos los temas reales que hay en la DB para esta asignatura
+            val realTopics = repository.getUniqueTopicsForSubject(subjectId)
+
+            // 2. Escuchamos el progreso
             repository.getProgressFlow(subjectId).collect { progressList ->
-                adapter = TopicAdapter(topicsList, progressList,
-                    onTopicClick = { topic ->
-                        startQuiz(subjectId, topic.id)
-                    },
-                    onPdfClick = { topic ->
-                        openPdf(subjectId, topic.id)
-                    }
+                adapter = TopicAdapter(realTopics, progressList,
+                    onTopicClick = { topic -> startQuiz(subjectId, topic.id) },
+                    onPdfClick = { topic -> openPdf(subjectId, topic.id) }
                 )
                 rvTopics.adapter = adapter
             }
