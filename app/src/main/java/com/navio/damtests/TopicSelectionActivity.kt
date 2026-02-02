@@ -107,7 +107,7 @@ class TopicSelectionActivity : AppCompatActivity() {
 
     private fun downloadAndOpenPdf(fileName: String, destinationFile: File) {
         // URL a la carpeta externa que has creado en tu repo
-        val url = "https://raw.githubusercontent.com/Navio13/DAMTest/master/RECURSOS_APP/$fileName"
+        val url = "https://raw.githubusercontent.com/Navio13/DAMTest/Recursos/RECURSOS_APP/$fileName"
 
         Toast.makeText(this, "Descargando tema...", Toast.LENGTH_SHORT).show()
 
@@ -141,7 +141,6 @@ class TopicSelectionActivity : AppCompatActivity() {
 
     private fun showPdf(file: File) {
         try {
-            // Usamos tu FileProvider (asegúrate de que en el Manifest el provider termine en .provider o .fileprovider)
             val uri: Uri = FileProvider.getUriForFile(
                 this,
                 "${packageName}.provider",
@@ -151,10 +150,15 @@ class TopicSelectionActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW).apply {
                 setDataAndType(uri, "application/pdf")
                 addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK) // Añade esta línea
             }
-            startActivity(intent)
+
+            // Esto evita que la app explote si el usuario no tiene NINGÚN lector de PDF
+            val chooser = Intent.createChooser(intent, "Abrir PDF con...")
+            startActivity(chooser)
+
         } catch (e: Exception) {
-            Toast.makeText(this, "Error al abrir el PDF", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "No se pudo abrir el PDF: ${e.message}", Toast.LENGTH_LONG).show()
         }
     }
 
