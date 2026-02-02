@@ -9,7 +9,7 @@ object JsonUtils {
 
     private data class QuestionRaw(
         val subjectId: String,
-        val topicId: Int,
+        val topicId: String, // CAMBIADO: de Int a String
         val text: String,
         val options: List<String>,
         val correctOptionIndex: Int
@@ -24,7 +24,7 @@ object JsonUtils {
         return rawList.map { raw ->
             Question(
                 subjectId = raw.subjectId,
-                topicId = raw.topicId,
+                topicId = raw.topicId, // Ahora esto ya es String
                 text = raw.text,
                 optionA = raw.options.getOrNull(0) ?: "",
                 optionB = raw.options.getOrNull(1) ?: "",
