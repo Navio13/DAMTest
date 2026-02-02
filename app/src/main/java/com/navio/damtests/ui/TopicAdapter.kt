@@ -50,7 +50,7 @@ class TopicAdapter(
                 tvTopicStats.setTextColor(if (percent >= 50) Color.parseColor("#22C55E") else Color.parseColor("#EF4444"))
             }
 
-            if (topic.id.equals("-1")) {
+            if (!topic.id.contains("tema_")) {
                 // Si es Test General, ocultamos el botón de PDF
                 btnPdf.visibility = View.GONE
             } else {

@@ -51,12 +51,30 @@ class TopicSelectionActivity : AppCompatActivity() {
         val topicsList = getMockTopics(subjectId)
 
         lifecycleScope.launchWhenStarted {
-            // 1. Obtenemos los temas reales que hay en la DB para esta asignatura
-            val realTopics = repository.getUniqueTopicsForSubject(subjectId)
+            // 1. Obtenemos los temas reales de la DB
+            val dbTopics = repository.getUniqueTopicsForSubject(subjectId)
 
-            // 2. Escuchamos el progreso
+            // 2. Aplicamos la ordenación lógica (Temas primero, Casos después, y numéricamente)
+            val sortedTopics = dbTopics.sortedWith(compareBy({ topic ->
+                // Prioridad:
+                // 1. "tema_X" -> Valor 0
+                // 2. "caso_X" -> Valor 1
+                // 3. "-1" (Test General) -> Valor 2
+                when {
+                    topic.id.startsWith("tema_") -> 0
+                    topic.id.startsWith("caso_") -> 1
+                    topic.id == "-1" -> 2
+                    else -> 3
+                }
+            }, { topic ->
+                // Dentro de cada grupo, ordenamos por el número
+                // Extraemos solo los dígitos del ID (ej: "tema_10" -> 10)
+                topic.id.filter { it.isDigit() }.toIntOrNull() ?: Int.MAX_VALUE
+            }))
+
+            // 3. Escuchamos el progreso y pasamos la lista YA ORDENADA
             repository.getProgressFlow(subjectId).collect { progressList ->
-                adapter = TopicAdapter(realTopics, progressList,
+                adapter = TopicAdapter(sortedTopics, progressList,
                     onTopicClick = { topic -> startQuiz(subjectId, topic.id) },
                     onPdfClick = { topic -> openPdf(subjectId, topic.id) }
                 )
@@ -66,16 +84,23 @@ class TopicSelectionActivity : AppCompatActivity() {
     }
 
     private fun openPdf(subjectId: String, topicId: String) {
-        if (!topicId.equals("-1")) return
+        // 1. Si es el Test General, no hay PDF, así que salimos
+        if (topicId == "-1") {
+            Toast.makeText(this, "El Test General no tiene PDF", Toast.LENGTH_SHORT).show()
+            return
+        }
 
-        val fileName = "${subjectId}_$topicId.pdf"
+        // 2. Limpiamos el topicId para quitar el "tema_" y que quede solo el número
+        // Ejemplo: de "tema_1" a "1"
+        val cleanNumber = topicId.replace("tema_", "")
+
+        // 3. Formamos el nombre del archivo: ej. base_de_datos_1.pdf
+        val fileName = "${subjectId}_$cleanNumber.pdf"
         val localFile = File(cacheDir, fileName)
 
         if (localFile.exists()) {
-            // Caso A: Ya lo tenemos cacheado, lo abrimos
             showPdf(localFile)
         } else {
-            // Caso B: No está, hay que bajarlo de GitHub
             downloadAndOpenPdf(fileName, localFile)
         }
     }
