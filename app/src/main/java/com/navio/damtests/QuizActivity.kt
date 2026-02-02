@@ -34,8 +34,6 @@ class QuizActivity : AppCompatActivity() {
     private lateinit var btnContextInfo: Button // Al principio de la clase con los demás
     private val gemini = GeminiExplainer()
     private lateinit var btnNext: Button
-    private lateinit var cardIA: View
-    private lateinit var tvIA: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,8 +51,6 @@ class QuizActivity : AppCompatActivity() {
         progressBar = findViewById(R.id.quizProgressBar)
         btnContextInfo = findViewById(R.id.btnContextInfo)
         btnNext = findViewById(R.id.btnNextQuestion)
-        cardIA = findViewById(R.id.cardIA)
-        tvIA = findViewById(R.id.tvIAExplanation)
 
         val database = AppDatabase.getDatabase(this)
         val repository = QuizRepository(database.questionsDao())
@@ -223,39 +219,62 @@ class QuizActivity : AppCompatActivity() {
 
     private fun highlightButtons(result: QuizViewModel.AnswerResult) {
         val buttons = listOf(btnA, btnB, btnC, btnD)
-        setButtonsEnabled(false)
+        val feedbacks = listOf<TextView>(
+            findViewById(R.id.tvFeedbackA),
+            findViewById(R.id.tvFeedbackB),
+            findViewById(R.id.tvFeedbackC),
+            findViewById(R.id.tvFeedbackD)
+        )
 
+        // 1. Pintar bordes (igual que antes)
         buttons.forEachIndexed { index, button ->
             val mBtn = button as com.google.android.material.button.MaterialButton
-
             if (index == result.correctIndex) {
-                // Pintar VERDE el que tiene la respuesta correcta
                 mBtn.setStrokeColorResource(android.R.color.holo_green_dark)
                 mBtn.strokeWidth = 8
             } else if (index == result.selectedIndex && !result.isCorrect) {
-                // Pintar ROJO el que pulsó el usuario si falló
                 mBtn.setStrokeColorResource(android.R.color.holo_red_dark)
                 mBtn.strokeWidth = 8
             }
         }
 
+        // 2. Llamada a la IA y asignación de textos bajo los botones
         if (!result.isCorrect) {
-            cardIA.visibility = View.VISIBLE
-            tvIA.text = "Obteniendo explicación..."
             lifecycleScope.launch {
                 val q = viewModel.questions.value[viewModel.currentQuestionIndex.value]
-                tvIA.text = gemini.explicarFallo(q, result.selectedIndex)
+                val fullResponse = gemini.explicarFalloFlash(q, result.selectedIndex)
+
+                val partes = fullResponse.split("|")
+                if (partes.size >= 2) {
+                    // Texto de error debajo del botón pulsado
+                    feedbacks[result.selectedIndex].apply {
+                        text = "❌ ${partes[0].trim()}"
+                        setTextColor(Color.parseColor("#EF4444"))
+                        visibility = View.VISIBLE
+                    }
+                    // Texto de acierto debajo del botón correcto
+                    feedbacks[result.correctIndex].apply {
+                        text = "✅ ${partes[1].trim()}"
+                        setTextColor(Color.parseColor("#10B981"))
+                        visibility = View.VISIBLE
+                    }
+                }
             }
         }
         btnNext.visibility = View.VISIBLE
     }
 
     private fun resetUI() {
+        val feedbacks = listOf<TextView>(
+            findViewById(R.id.tvFeedbackA), findViewById(R.id.tvFeedbackB),
+            findViewById(R.id.tvFeedbackC), findViewById(R.id.tvFeedbackD)
+        )
+        feedbacks.forEach { it.visibility = View.GONE }
+
         val buttons = listOf(btnA, btnB, btnC, btnD)
         buttons.forEach {
             (it as com.google.android.material.button.MaterialButton).strokeWidth = 0
         }
-        cardIA.visibility = View.GONE
         btnNext.visibility = View.GONE
         setButtonsEnabled(true)
     }
