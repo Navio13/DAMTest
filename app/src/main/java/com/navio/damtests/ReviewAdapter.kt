@@ -30,14 +30,13 @@ class ReviewAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val res = results[position]
         val q = res.question
-        val isCorrect = res.userSelectedIndex == q.correctOptionIndex
+
+        // 1. USAMOS EL BOOLEANO QUE YA VIENE DEL VIEWMODEL
+        val isCorrect = res.isCorrect
 
         holder.tvQuestion.text = "${position + 1}. ${q.text}"
 
-        val optionsText = StringBuilder()
-        val labels = listOf("a", "b", "c", "d")
-        val displayedOptions = res.shuffledOptions
-
+        // 2. RECUPERAMOS LOS TEXTOS PARA PINTAR LOS ICONOS
         val correctText = when(q.correctOptionIndex) {
             0 -> q.optionA
             1 -> q.optionB
@@ -45,12 +44,12 @@ class ReviewAdapter(
             else -> q.optionD
         }
 
-        val userSelectedText = when(res.userSelectedIndex) {
-            0 -> q.optionA
-            1 -> q.optionB
-            2 -> q.optionC
-            else -> q.optionD
-        }
+        // El texto que eligió el usuario lo sacamos de la lista mezclada que guardamos
+        val userSelectedText = res.shuffledOptions.getOrNull(res.userSelectedIndex)
+
+        val optionsText = StringBuilder()
+        val labels = listOf("a", "b", "c", "d")
+        val displayedOptions = res.shuffledOptions
 
         for (i in displayedOptions.indices) {
             val currentOptionText = displayedOptions[i]
@@ -63,13 +62,13 @@ class ReviewAdapter(
         }
         holder.tvOptions.text = optionsText.toString().trim()
 
-        // LÓGICA DE COLORES Y BOTÓN
+        // 3. LÓGICA DE COLORES (Ahora sí será coherente con el test)
         if (isCorrect) {
-            holder.card.setCardBackgroundColor(Color.parseColor("#DCFCE7"))
+            holder.card.setCardBackgroundColor(Color.parseColor("#DCFCE7")) // Verde claro
             holder.card.strokeColor = Color.parseColor("#22C55E")
             holder.btnVerExplicacion.visibility = View.GONE
         } else {
-            holder.card.setCardBackgroundColor(Color.parseColor("#FEE2E2"))
+            holder.card.setCardBackgroundColor(Color.parseColor("#FEE2E2")) // Rojo claro
             holder.card.strokeColor = Color.parseColor("#EF4444")
             holder.btnVerExplicacion.visibility = View.VISIBLE
             holder.btnVerExplicacion.setOnClickListener { onExplainClick(res) }

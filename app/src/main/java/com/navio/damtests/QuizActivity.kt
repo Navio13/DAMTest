@@ -13,10 +13,12 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import com.navio.damtests.ai.GeminiExplainer
 import com.navio.damtests.data.local.db.AppDatabase
 import com.navio.damtests.data.local.entity.Question
 import com.navio.damtests.ui.viewmodel.QuizViewModel
 import com.navio.damtests.ui.viewmodel.QuizViewModelFactory
+import kotlinx.coroutines.launch
 
 class QuizActivity : AppCompatActivity() {
 
@@ -30,6 +32,10 @@ class QuizActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     private var currentShuffledQuestion: ShuffledQuestion? = null
     private lateinit var btnContextInfo: Button // Al principio de la clase con los demás
+    private val gemini = GeminiExplainer()
+    private lateinit var btnNext: Button
+    private lateinit var cardIA: View
+    private lateinit var tvIA: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,6 +52,9 @@ class QuizActivity : AppCompatActivity() {
         tvCount = findViewById(R.id.tvQuestionCount)
         progressBar = findViewById(R.id.quizProgressBar)
         btnContextInfo = findViewById(R.id.btnContextInfo)
+        btnNext = findViewById(R.id.btnNextQuestion)
+        cardIA = findViewById(R.id.cardIA)
+        tvIA = findViewById(R.id.tvIAExplanation)
 
         val database = AppDatabase.getDatabase(this)
         val repository = QuizRepository(database.questionsDao())
@@ -109,6 +118,13 @@ class QuizActivity : AppCompatActivity() {
                 if (finished) showResultsDialog(viewModel.score.value)
             }
         }
+
+        lifecycleScope.launchWhenStarted {
+            viewModel.currentAnswerState.collect { result ->
+                if (result != null) highlightButtons(result)
+                else resetUI()
+            }
+        }
     }
 
     private fun updateUI(question: Question) {
@@ -137,22 +153,18 @@ class QuizActivity : AppCompatActivity() {
         btnB.setOnClickListener { processAnswer(1) }
         btnC.setOnClickListener { processAnswer(2) }
         btnD.setOnClickListener { processAnswer(3) }
+        btnNext.setOnClickListener { viewModel.goToNextQuestion() }
     }
 
     private fun processAnswer(uiSelectedIndex: Int) {
         val shuffled = currentShuffledQuestion ?: return
+        val buttons = listOf(btnA, btnB, btnC, btnD)
 
-        val textSelected = shuffled.shuffledOptions[uiSelectedIndex]
-        val originalIndex = when (textSelected) {
-            shuffled.originalQuestion.optionA -> 0
-            shuffled.originalQuestion.optionB -> 1
-            shuffled.originalQuestion.optionC -> 2
-            shuffled.originalQuestion.optionD -> 3
-            else -> -1
-        }
+        // Obtenemos el texto que hay escrito en el botón que el usuario ha pulsado
+        val textSelected = buttons[uiSelectedIndex].text.toString()
 
-        // AHORA PASAMOS LA LISTA MEZCLADA TAMBIÉN
-        viewModel.checkAnswer(originalIndex, shuffled.shuffledOptions)
+        // Le pasamos al ViewModel el texto y la lista de opciones tal cual están en pantalla
+        viewModel.checkAnswer(textSelected, shuffled.shuffledOptions)
     }
 
     private fun setButtonsEnabled(enabled: Boolean) {
@@ -207,5 +219,44 @@ class QuizActivity : AppCompatActivity() {
             .setMessage(text)
             .setPositiveButton("Cerrar", null)
             .show()
+    }
+
+    private fun highlightButtons(result: QuizViewModel.AnswerResult) {
+        val buttons = listOf(btnA, btnB, btnC, btnD)
+        setButtonsEnabled(false)
+
+        buttons.forEachIndexed { index, button ->
+            val mBtn = button as com.google.android.material.button.MaterialButton
+
+            if (index == result.correctIndex) {
+                // Pintar VERDE el que tiene la respuesta correcta
+                mBtn.setStrokeColorResource(android.R.color.holo_green_dark)
+                mBtn.strokeWidth = 8
+            } else if (index == result.selectedIndex && !result.isCorrect) {
+                // Pintar ROJO el que pulsó el usuario si falló
+                mBtn.setStrokeColorResource(android.R.color.holo_red_dark)
+                mBtn.strokeWidth = 8
+            }
+        }
+
+        if (!result.isCorrect) {
+            cardIA.visibility = View.VISIBLE
+            tvIA.text = "Obteniendo explicación..."
+            lifecycleScope.launch {
+                val q = viewModel.questions.value[viewModel.currentQuestionIndex.value]
+                tvIA.text = gemini.explicarFallo(q, result.selectedIndex)
+            }
+        }
+        btnNext.visibility = View.VISIBLE
+    }
+
+    private fun resetUI() {
+        val buttons = listOf(btnA, btnB, btnC, btnD)
+        buttons.forEach {
+            (it as com.google.android.material.button.MaterialButton).strokeWidth = 0
+        }
+        cardIA.visibility = View.GONE
+        btnNext.visibility = View.GONE
+        setButtonsEnabled(true)
     }
 }

@@ -5,5 +5,6 @@ import com.navio.damtests.data.local.entity.Question
 data class QuestionResult(
     val question: Question,
     val userSelectedIndex: Int,
-    val shuffledOptions: List<String>
+    val shuffledOptions: List<String>,
+    val isCorrect: Boolean
 )

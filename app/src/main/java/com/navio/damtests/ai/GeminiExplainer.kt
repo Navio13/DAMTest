@@ -1,4 +1,4 @@
-package com.navio.damtests.ai // Ajusta según tu paquete real
+package com.navio.damtests.ai
 
 import com.google.ai.client.generativeai.GenerativeModel
 import com.navio.damtests.BuildConfig
@@ -12,7 +12,7 @@ class GeminiExplainer {
 
     suspend fun explicarFallo(pregunta: Question, respuestaUsuario: Int): String {
         val prompt = """
-            Actúa como un profesor de DAM. Una alumna llamada Mari Carmen ha fallado una pregunta de test.
+            Actúa como un profesor de DAM. Un alumno o alumna ha fallado una pregunta de test.
             Enunciado general: ${pregunta.contextText} ? "no tiene"
             Pregunta: ${pregunta.text}
             Opciones:
@@ -23,7 +23,30 @@ class GeminiExplainer {
             El alumno marcó la opción $respuestaUsuario, pero la correcta es la ${pregunta.correctOptionIndex}.
             Explica de forma breve y clara por qué la respuesta correcta es esa. No te extiendas demasiado pero sé muy claro en tu respuesta,
             como si fueras un profesor de DAM.
-            Al final de la respuesta, añade alguna frase de animo como si tu fueras yo, es decir por ejemplo "Animo, te amo muchisimo!" o algo por el estilo pero como si yo fuera quien habla. Pero algo muy breve como el ejemplo que te he puesto o "Tu puedes vida mia" o "Todo va a ir genial amor mio". Ella es mujer por cierto, para la hora de hablarle.
+        """.trimIndent()
+
+        return try {
+            val response = generativeModel.generateContent(prompt)
+            response.text ?: "No tengo una explicación disponible ahora mismo."
+        } catch (e: Exception) {
+            "Error al obtener explicación: ${e.localizedMessage}"
+        }
+    }
+
+    suspend fun explicarFalloBreve(pregunta: Question, respuestaUsuario: Int): String {
+        val prompt = """
+            Actúa como un profesor de DAM. Un alumno o alumna ha fallado una pregunta de test.
+            Enunciado general: ${pregunta.contextText} ? "no tiene"
+            Pregunta: ${pregunta.text}
+            Opciones:
+            0: ${pregunta.optionA}
+            1: ${pregunta.optionB}
+            2: ${pregunta.optionC}
+            3: ${pregunta.optionD}
+            El alumno marcó la opción $respuestaUsuario, pero la correcta es la ${pregunta.correctOptionIndex}.
+            Explica de forma breve y clara por qué la respuesta correcta es esa. No te extiendas demasiado pero sé muy claro en tu respuesta,
+            como si fueras un profesor de DAM.
+            Hazlo muy resumido.
         """.trimIndent()
 
         return try {

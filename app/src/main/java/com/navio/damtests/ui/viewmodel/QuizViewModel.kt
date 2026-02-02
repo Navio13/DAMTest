@@ -29,6 +29,11 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
 
     private val _resultsList = mutableListOf<QuestionResult>()
 
+    private val _currentAnswerState = MutableStateFlow<AnswerResult?>(null)
+    val currentAnswerState: StateFlow<AnswerResult?> = _currentAnswerState
+
+    data class AnswerResult(val selectedIndex: Int, val correctIndex: Int, val isCorrect: Boolean)
+
     // Cargar preguntas al iniciar el test - Ahora recibe String
     fun loadQuestions(subjectId: String, topicId: String) {
         viewModelScope.launch {
@@ -54,27 +59,36 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
     }
 
     // Comprobar respuesta
-    fun checkAnswer(selectedIndex: Int, shuffledOptions: List<String>) {
-        if (_isTestFinished.value) return
+    fun checkAnswer(selectedText: String, shuffledOptions: List<String>) {
+        val currentQuestion = _questions.value.getOrNull(_currentQuestionIndex.value) ?: return
 
-        val questionsList = _questions.value
-        val currentIndex = _currentQuestionIndex.value
-        val currentQuestion = questionsList.getOrNull(currentIndex)
+        val correctText = when(currentQuestion.correctOptionIndex) {
+            0 -> currentQuestion.optionA
+            1 -> currentQuestion.optionB
+            2 -> currentQuestion.optionC
+            else -> currentQuestion.optionD
+        }
 
-        if (currentQuestion != null) {
-            if (_resultsList.size > currentIndex) return
-            _resultsList.add(QuestionResult(currentQuestion, selectedIndex, shuffledOptions))
+        val isCorrect = selectedText == correctText
 
-            if (selectedIndex == currentQuestion.correctOptionIndex) {
-                _score.value += 1
-            }
+        // GUARDAMOS EL RESULTADO CON EL BOOLEANO YA CALCULADO
+        val uiIndex = shuffledOptions.indexOf(selectedText)
+        _resultsList.add(QuestionResult(currentQuestion, uiIndex, shuffledOptions, isCorrect)) // <--- CAMBIO AQUÍ
 
-            if (_currentQuestionIndex.value < _questions.value.size - 1) {
-                _currentQuestionIndex.value += 1
-            } else {
-                _isTestFinished.value = true
-                saveFinalProgress(currentQuestion.subjectId, currentQuestion.topicId)
-            }
+        if (isCorrect) _score.value += 1
+
+        val correctUiIndex = shuffledOptions.indexOf(correctText)
+        _currentAnswerState.value = AnswerResult(uiIndex, correctUiIndex, isCorrect)
+    }
+
+    fun goToNextQuestion() {
+        _currentAnswerState.value = null // Reseteamos colores
+        if (_currentQuestionIndex.value < _questions.value.size - 1) {
+            _currentQuestionIndex.value += 1
+        } else {
+            _isTestFinished.value = true
+            val q = _questions.value.first()
+            saveFinalProgress(q.subjectId, q.topicId)
         }
     }
 
