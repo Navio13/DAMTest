@@ -30,6 +30,7 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         buildConfigField("String", "GEMINI_API_KEY", "\"${localProperties.getProperty("GEMINI_API_KEY")}\"")
+        buildConfigField("String", "GROQ_API_KEY", "\"${localProperties.getProperty("GROQ_API_KEY")}\"")
     }
 
     buildTypes {
@@ -101,4 +102,7 @@ dependencies {
 
     // Squareup
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
+    // Groq
+    implementation("com.aallam.openai:openai-client:3.8.2")
 }

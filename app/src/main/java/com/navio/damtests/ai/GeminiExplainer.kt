@@ -6,7 +6,7 @@ import com.navio.damtests.data.local.entity.Question // He visto que esta es tu 
 
 class GeminiExplainer {
     private val generativeModel = GenerativeModel(
-        modelName = "gemini-2.5-flash",
+        modelName = "gemini-3.0-pro-preview",
         apiKey = BuildConfig.GEMINI_API_KEY
     )
 

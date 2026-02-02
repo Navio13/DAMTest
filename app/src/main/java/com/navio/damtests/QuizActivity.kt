@@ -13,6 +13,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import com.navio.damtests.ai.FastExplainer
 import com.navio.damtests.ai.GeminiExplainer
 import com.navio.damtests.data.local.db.AppDatabase
 import com.navio.damtests.data.local.entity.Question
@@ -33,6 +34,7 @@ class QuizActivity : AppCompatActivity() {
     private var currentShuffledQuestion: ShuffledQuestion? = null
     private lateinit var btnContextInfo: Button // Al principio de la clase con los demás
     private val gemini = GeminiExplainer()
+    private val groq = FastExplainer();
     private lateinit var btnNext: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -226,54 +228,95 @@ class QuizActivity : AppCompatActivity() {
             findViewById(R.id.tvFeedbackD)
         )
 
-        // 1. Pintar bordes (igual que antes)
+        setButtonsEnabled(false)
+
+        // 1. Pintamos los bordes de los botones (Lógica de textos infalible)
+        val shuffled = currentShuffledQuestion ?: return
+        val question = shuffled.originalQuestion
+        val correctText = when(question.correctOptionIndex) {
+            0 -> question.optionA
+            1 -> question.optionB
+            2 -> question.optionC
+            else -> question.optionD
+        }
+
         buttons.forEachIndexed { index, button ->
             val mBtn = button as com.google.android.material.button.MaterialButton
-            if (index == result.correctIndex) {
+            val isCorrectBtn = mBtn.text == correctText
+            val isSelectedBtn = index == result.selectedIndex
+
+            if (isCorrectBtn) {
                 mBtn.setStrokeColorResource(android.R.color.holo_green_dark)
                 mBtn.strokeWidth = 8
-            } else if (index == result.selectedIndex && !result.isCorrect) {
+            } else if (isSelectedBtn && !result.isCorrect) {
                 mBtn.setStrokeColorResource(android.R.color.holo_red_dark)
                 mBtn.strokeWidth = 8
             }
         }
 
-        // 2. Llamada a la IA y asignación de textos bajo los botones
+        // 2. Feedback de carga y llamada a la IA
         if (!result.isCorrect) {
-            lifecycleScope.launch {
-                val q = viewModel.questions.value[viewModel.currentQuestionIndex.value]
-                val fullResponse = gemini.explicarFalloFlash(q, result.selectedIndex)
+            // Mostramos un estado de carga en los sitios donde irán las explicaciones
+            feedbacks[result.selectedIndex].apply {
+                visibility = View.VISIBLE
+                text = "⏳ Analizando tu respuesta..."
+                setTextColor(Color.GRAY)
+            }
+            feedbacks[result.correctIndex].apply {
+                visibility = View.VISIBLE
+                text = "⏳ Preparando corrección..."
+                setTextColor(Color.GRAY)
+            }
 
-                val partes = fullResponse.split("|")
-                if (partes.size >= 2) {
-                    // Texto de error debajo del botón pulsado
-                    feedbacks[result.selectedIndex].apply {
-                        text = "❌ ${partes[0].trim()}"
-                        setTextColor(Color.parseColor("#EF4444"))
-                        visibility = View.VISIBLE
+            lifecycleScope.launch {
+                // 1. Extraemos los textos de las opciones para que la IA sepa qué dicen
+                val textoElegido = buttons[result.selectedIndex].text.toString()
+                val textoCorrecto = buttons[result.correctIndex].text.toString()
+
+                // 2. Ahora sí pasamos los STRINGS: el texto de la pregunta y los textos de las opciones
+                try {
+                    val fullResponse = groq.explicarRapido(
+                        pregunta = question.text,
+                        elegida = textoElegido,
+                        correcta = textoCorrecto
+                    )
+
+                    val partes = fullResponse.split("|")
+
+                    if (partes.size >= 2) {
+                        feedbacks[result.selectedIndex].apply {
+                            text = "❌ ${partes[0].trim()}"
+                            setTextColor(Color.parseColor("#EF4444"))
+                        }
+                        feedbacks[result.correctIndex].apply {
+                            text = "✅ ${partes[1].trim()}"
+                            setTextColor(Color.parseColor("#10B981"))
+                        }
+                    } else {
+                        feedbacks[result.correctIndex].text = "✅ $fullResponse"
+                        feedbacks[result.correctIndex].setTextColor(Color.parseColor("#10B981"))
+                        feedbacks[result.selectedIndex].visibility = View.GONE
                     }
-                    // Texto de acierto debajo del botón correcto
-                    feedbacks[result.correctIndex].apply {
-                        text = "✅ ${partes[1].trim()}"
-                        setTextColor(Color.parseColor("#10B981"))
-                        visibility = View.VISIBLE
-                    }
+                } catch (e: Exception) {
+                    feedbacks[result.selectedIndex].text = "❌ Error al conectar con la IA"
                 }
             }
         }
+
         btnNext.visibility = View.VISIBLE
     }
 
     private fun resetUI() {
+        val buttons = listOf(btnA, btnB, btnC, btnD)
         val feedbacks = listOf<TextView>(
             findViewById(R.id.tvFeedbackA), findViewById(R.id.tvFeedbackB),
             findViewById(R.id.tvFeedbackC), findViewById(R.id.tvFeedbackD)
         )
-        feedbacks.forEach { it.visibility = View.GONE }
 
-        val buttons = listOf(btnA, btnB, btnC, btnD)
-        buttons.forEach {
-            (it as com.google.android.material.button.MaterialButton).strokeWidth = 0
+        buttons.forEach { (it as com.google.android.material.button.MaterialButton).strokeWidth = 0 }
+        feedbacks.forEach {
+            it.visibility = View.GONE
+            it.text = ""
         }
         btnNext.visibility = View.GONE
         setButtonsEnabled(true)
