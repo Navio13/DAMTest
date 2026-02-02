@@ -56,8 +56,6 @@ class TopicAdapter(
             } else {
                 btnPdf.visibility = View.VISIBLE
                 btnPdf.setOnClickListener {
-                    // Usamos stopPropagation o simplemente llamamos al listener
-                    // Esto evita que al pulsar el PDF se abra también el examen
                     onPdfClick(topic)
                 }
             }
