@@ -8,6 +8,7 @@ import com.navio.damtests.data.local.entity.TopicProgress
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.delay
 
 class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
 
@@ -28,24 +29,23 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
 
     private val _resultsList = mutableListOf<QuestionResult>()
 
-    // Cargar preguntas al iniciar el test
-    fun loadQuestions(subjectId: String, topicId: Int) {
+    // Cargar preguntas al iniciar el test - Ahora recibe String
+    fun loadQuestions(subjectId: String, topicId: String) {
         viewModelScope.launch {
             _isLoading.value = true
-
             _resultsList.clear()
             _score.value = 0
             _currentQuestionIndex.value = 0
 
-            // Lógica de decisión del límite
-            val limit = if (topicId == -1) 20 else 10
+            val limit = if (topicId == "-1") 20 else 10
 
-            // Pasamos el límite al repositorio
-            var loadedQuestions = repository.getQuestionsByTopic(subjectId, topicId, limit)
-
-            if (loadedQuestions.isEmpty()) {
-                kotlinx.coroutines.delay(1500)
-                loadedQuestions = repository.getQuestionsByTopic(subjectId, topicId, limit)
+            // CAMBIO AQUÍ: Decidimos qué consulta usar según el topicId
+            val loadedQuestions = if (topicId == "-1") {
+                // Llamamos a la nueva consulta de Test General (solo temas)
+                repository.getRandomQuestionsForGeneralTest(subjectId, limit)
+            } else {
+                // Llamamos a la consulta normal para un tema/caso/repaso específico
+                repository.getQuestionsByTopic(subjectId, topicId, limit)
             }
 
             _questions.value = loadedQuestions
@@ -63,7 +63,6 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
 
         if (currentQuestion != null) {
             if (_resultsList.size > currentIndex) return
-            // Guardamos el resultado con la lista mezclada incluida
             _resultsList.add(QuestionResult(currentQuestion, selectedIndex, shuffledOptions))
 
             if (selectedIndex == currentQuestion.correctOptionIndex) {
@@ -79,7 +78,8 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
         }
     }
 
-    private fun saveFinalProgress(subjectId: String, topicId: Int) {
+    // Guardar progreso - Cambiado a String
+    private fun saveFinalProgress(subjectId: String, topicId: String) {
         viewModelScope.launch {
             // 1. Buscamos si ya existe progreso previo para este tema
             val currentProgress = repository.getProgress(subjectId, topicId)
@@ -90,7 +90,7 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
             // 3. Creamos el objeto con la info actualizada
             val progress = TopicProgress(
                 subjectId = subjectId,
-                topicId = topicId,
+                topicId = topicId, // Ahora es String
                 lastScore = _score.value,
                 totalQuestions = _questions.value.size,
                 attemptsCount = newAttemptsCount,
