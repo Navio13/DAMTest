@@ -1298,5 +1298,305 @@
         "optionC": "El bloqueo por exceso de uso y el control de recopilación de datos",
         "optionD": "Todas las anteriores",
         "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "Los SGBD pueden establecer bloqueos a nivel de",
+        "optionA": "Tabla y columna",
+        "optionB": "Tabla, fila y página",
+        "optionC": "Tabla y nodo",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "El problema de concurrencia que ocurre cuando, durante una transacción, se detectan nuevas filas en un conjunto de datos al repetir una consulta, se conoce como",
+        "optionA": "Lectura no repetible",
+        "optionB": "Lectura sucia",
+        "optionC": "Lectura fantasma",
+        "optionD": "Problema de la modificación perdida",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "Un problema de concurrencia de transacciones puede ser",
+        "optionA": "Lectura modificada",
+        "optionB": "Lectura sucia",
+        "optionC": "Lectura limpia",
+        "optionD": "Lectura repetible",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "Las técnicas de control de concurrencia pueden ser",
+        "optionA": "Marcas de tiempo",
+        "optionB": "Bloqueos",
+        "optionC": "Validación",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "Las técnicas de bloqueo para prevenir la concurrencia son",
+        "optionA": "Permanente y parcial",
+        "optionB": "Temporal y permanente",
+        "optionC": "Pesimista y optimista",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "La propiedad de las transacciones que asegura que la base de datos permanezca en un estado estable y consistente después de la transacción es",
+        "optionA": "Durabilidad",
+        "optionB": "Consistencia",
+        "optionC": "Atomicidad",
+        "optionD": "Estabilidad",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "Una transacción suele iniciarse con la primera instrucción DML que se ejecuta y concluye con una instrucción",
+        "optionA": "END TRANSACTION",
+        "optionB": "AUTOCOMMIT",
+        "optionC": "COMMIT o ROLLBACK",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "La instrucción que permite crear puntos de guardado intermedios es",
+        "optionA": "COMMIT",
+        "optionB": "ROLLBACK TO SAVEPOINT",
+        "optionC": "SAVEPOINT",
+        "optionD": "RELEASE SAVEPOINT",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "La instrucción que sirve para eliminar un SAVEPOINT es",
+        "optionA": "DELETE SAVEPOINT",
+        "optionB": "RELEASE SAVEPOINT",
+        "optionC": "ROLLBACK TO SAVEPOINT",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_14",
+        "text": "El COMMIT de dos fases asegura que todas las operaciones de la transacción distribuida se realicen de manera coherente en",
+        "optionA": "Todos los nodos involucrados",
+        "optionB": "El nodo principal",
+        "optionC": "Algunos de los nodos",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "En PL/SQL",
+        "optionA": "No se diferencia entre mayúsculas y minúsculas en las palabras clave, funciones, etc.",
+        "optionB": "Todas las instrucciones deben finalizar con un punto y coma",
+        "optionC": "Los comentarios de varias líneas se inician con /* y se cierran con */",
+        "optionD": "Todas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "Los tipos de datos simples en PL/SQL pueden ser",
+        "optionA": "Numéricos, object, booleanos, struct o de fecha",
+        "optionB": "Numéricos, de carácter, booleanos, de fecha o LOB",
+        "optionC": "Numéricos, de fecha o string",
+        "optionD": "Struct, LOB, string o booleanos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "DECLARE año_fabricacion CONSTANT NUMBER (4,0) := 1985;vehiculo VARCHAR := ‘coche’;consumo NUMBER (2, 2) := 5; En el código anterior se declaran",
+        "optionA": "Las variables vehículo y consumo, y la constante año_fabricacion",
+        "optionB": "Las variables año_fabricacion, vehículo y consumo",
+        "optionC": "Las variables año_fabricacion y vehículo",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "IF (c < 4) THENc := c **2;ELSEIF (5 < c AND c < 39)c := c + 7;END IF; Mediante la sentencia anterior",
+        "optionA": "La variable c se multiplica por dos y posteriormente se le suman siete unidades.",
+        "optionB": "Tiene parámetros erróneos, no devolvería nada.",
+        "optionC": "Si a es menor de 4 se eleva a 2, si está entre 5 y 39 se le suman siete unidades.",
+        "optionD": "Se le suman siete unidades a la variable a en cualquier caso.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "DECLARE i NUMBER := 11;BEGINWHILE i < 10 LOOPDBMS_OUTPUT.PUT_LINE (i);i := i+1;END LOPP; ¿Qué resultado produciría la sentencia anterior?",
+        "optionA": "Mostraría por pantalla los números del 1 al 10",
+        "optionB": "Mostraría por pantalla los números del 1 al 9",
+        "optionC": "Mostraría por pantalla los números del 11 al 1",
+        "optionD": "No produciría ningún resultado",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "Las excepciones en PL/SQL se utilizan para",
+        "optionA": "Verificar segmentos de código erróneos",
+        "optionB": "Manejar errores de forma controlada",
+        "optionC": "Indicar acciones que se salen de lo habitual en programación",
+        "optionD": "Indicar que un determinado código se trata de distinta forma",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "En PL/SQL podemos distinguir los siguientes tipos de excepciones",
+        "optionA": "Las automáticas y las definidas por el usuario",
+        "optionB": "Las que define el administrador y las predefinidas por el sistema",
+        "optionC": "Las que define el usuario y las definidas por Oracle",
+        "optionD": "Las que define el usuario, las predefinidas por Oracle y las excepciones de Oracle sin definir",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "De las librerías de funciones en PL/SQL, algunas de las funciones más utilizadas son",
+        "optionA": "Funciones de agregación y matemáticas",
+        "optionB": "Funciones de composición y control de flujo",
+        "optionC": "Funciones de fecha y manejo de transacciones",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "Entre los entornos de desarrollo de SQL más populares se encuentran",
+        "optionA": "Eclipse, Atom, Netbeans",
+        "optionB": "Visual SQLStudio, IntelliJ IDEA, RStudioSQL",
+        "optionC": "MySQL Wokbench, Microsoft SQL Server Management Studio y Oracle SQL Developer",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_15",
+        "text": "Los delimitadores se usan para",
+        "optionA": "Asignar nombres a los componentes de los programas",
+        "optionB": "Diferenciar operaciones o agregar comentarios",
+        "optionC": "Asignar un valor a un identificador o realizar comparaciones",
+        "optionD": "Delimitar las sentencias",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "Un conjunto de datos relacionados organizados en campos es un",
+        "optionA": "Array",
+        "optionB": "Cursor",
+        "optionC": "Registro",
+        "optionD": "Tabla anidada",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "DECLARETYPE RegPersona IS RECORD(CODIGO NUMBER (2), NOMBRE VARCHAR2 (40), EDAD NUMBER);  Mediante el código anterior se está",
+        "optionA": "Declarando un array",
+        "optionB": "Declarando un registro",
+        "optionC": "Declarando un cursor",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "En los registros, el atributo %ROWTYPE indica que un registro",
+        "optionA": "Tiene la misma estructura que una fila completa de una tabla",
+        "optionB": "Tiene un campo con el mismo tipo de dato que el de una tabla existente",
+        "optionC": "Tiene una fila con los mismos datos que la columna de una tabla existente",
+        "optionD": "No existe ese atributo",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "Los arrays",
+        "optionA": "Son una colección de elementos del mismo tipo",
+        "optionB": "Deben tener al menos un elemento",
+        "optionC": "Se crean vacíos (al definirlos)",
+        "optionD": "Todas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "array_z.LAST; Siendo “array_z” un array, ¿qué devolvería la sentencia anterior?",
+        "optionA": "El elemento anterior al referenciado",
+        "optionB": "El último elemento del array",
+        "optionC": "El tamaño final máximo del array",
+        "optionD": "Ninguna es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "En los cursores, la propiedad %FOUND",
+        "optionA": "Devuelve TRUE si el primer acceso al cursor mediante FETCH devuelve un resultado",
+        "optionB": "Devuelve TRUE si el último acceso al cursor mediante FETCH no ha devuelto resultados",
+        "optionC": "Devuelve TRUE si el último acceso al cursor mediante FETCH ha devuelto una fila",
+        "optionD": "Es una propiedad de arrays, no de cursores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "En los cursores, ¿qué devuelve la propiedad %ISOPEN?",
+        "optionA": "Devuelve un valor TRUE en caso de que el cursor esté cerrado",
+        "optionB": "Devuelve un valor TRUE en caso de que el cursor esté abierto",
+        "optionC": "Devuelve el número de filas que el cursor ha procesado",
+        "optionD": "Devuelve FALSE en caso de que el cursor se encuentre abierto",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "Los cursores explícitos",
+        "optionA": "Son creados automáticamente por el SGBD",
+        "optionB": "Se utilizan para recorrer los resultados de consultas que devuelven una fila",
+        "optionC": "Deben ser definidos y gestionados por el usuario",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "Para hacer la extracción de datos de un cursor se utiliza la instrucción",
+        "optionA": "OPEN",
+        "optionB": "EXTRACT",
+        "optionC": "ROWCOUNT",
+        "optionD": "FETCH",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_16",
+        "text": "Los arrays asociativos",
+        "optionA": "Son ideales para búsquedas rápidas y dinámicas de datos",
+        "optionB": "Tienen un límite en el número de elementos que pueden contener",
+        "optionC": "No pueden cambiar de tamaño dinámicamente",
+        "optionD": "Pueden ser almacenados directamente en la base de datos",
+        "correctOptionIndex": 0
     }
 ]
