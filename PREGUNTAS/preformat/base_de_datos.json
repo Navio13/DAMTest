@@ -1098,5 +1098,205 @@
         "optionC": "Los nombres, departamentos y ubicaciones de todos los departamentos",
         "optionD": "Sólo los nombres y departamentos de los empleados",
         "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "Al insertar datos en una tabla con integridad referencial, ¿qué ocurrirá si el valor no existe en la tabla referenciada?",
+        "optionA": "Se insertará el registro y se mostrará una advertencia",
+        "optionB": "Se insertará normalmente",
+        "optionC": "Se creará también un registro en la tabla referenciada",
+        "optionD": "Se producirá un error y la inserción no se realizará",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "Para insertar nuevos registros en la base de datos se emplea el comando",
+        "optionA": "UPDATE",
+        "optionB": "INSERT",
+        "optionC": "SELECT",
+        "optionD": "DELETE",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "La función Unpivot realiza",
+        "optionA": "La transformación de columnas en filas",
+        "optionB": "La transformación de filas en columnas",
+        "optionC": "El particionamiento de una tabla grande en partes más pequeñas",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "DELETE FROM EMPLEADOS WHERE NUM_DEPARTAMENTO = 5; Con la consulta anterior se consigue",
+        "optionA": "Actualizar el nº de departamento de los empleados al 5",
+        "optionB": "Obtener los datos de los empleados del departamento nº 5",
+        "optionC": "Eliminar los empleados que pertenecen al departamento nº 5",
+        "optionD": "No se consigue nada, la consulta es errónea",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "La función JSON_TABLE",
+        "optionA": "Extrae un objeto o array JSON",
+        "optionB": "Convierte filas y columnas SQL en datos JSON",
+        "optionC": "Convierte datos JSON en filas y columnas SQL",
+        "optionD": "Extrae un valor escalar de un documento JSON",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "El tratamiento de datos utilizando herramientas gráficas",
+        "optionA": "Sólo es posible en Oracle.",
+        "optionB": "No es posible en ningún caso.",
+        "optionC": "No se utiliza habitualmente porque no es muy útil",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "ALL_TABLES y ALL_TAB_COLUMNS son",
+        "optionA": "Funciones para el tratamiento de datos JSON",
+        "optionB": "Funciones para el tratamiento de XML",
+        "optionC": "Comandos para la actualización de registros",
+        "optionD": "Vistas para realizar consultas al diccionario de datos",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "Para eliminar los registros específicos de una tabla se utiliza el comando",
+        "optionA": "INSERT",
+        "optionB": "DELETE",
+        "optionC": "UPDATE",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "Las funciones de agregación avanzadas para resumir y analizar datos de forma más detallada son",
+        "optionA": "PIVOT y UNPIVOT",
+        "optionB": "ROLLUP, CUBE Y GROUPING SETS",
+        "optionC": "RESUME, RESUME_VALUE y ANALYZE",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_12",
+        "text": "En la siguiente consulta: SELECT * FROM libros WHERE autor_id = :id_autor; ¿qué es “:id_autor”?",
+        "optionA": "El resultado de concatenar “:” con el id del autor",
+        "optionB": "Una asignación de valor del campo “id_autor”",
+        "optionC": "Una actualización del campo “autor_id”",
+        "optionD": "Una variable enlazada",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "Para crear un usuario debemos utilizar la sentencia",
+        "optionA": "NEW USER userName",
+        "optionB": "CREATE USER userName",
+        "optionC": "MAKE USER userName",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "Algunas vistas para consultar las restricciones de la base de datos son:",
+        "optionA": "ALL_CONSTRAINTS, USER_CONSTRAINTS",
+        "optionB": "ALL_CONS_COLUMNS y DBA_CONSTRAINTS",
+        "optionC": "USER_CONS_COLUMNS y DBA_CONS_COLUMNS",
+        "optionD": "Todas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "La seguridad ante fallos lógicos conlleva:",
+        "optionA": "La planificación de copias de seguridad",
+        "optionB": "La gestión de usuarios, roles y perfiles.",
+        "optionC": "La construcción de un DataCenter homologado",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "Dentro de las prácticas recomendadas para garantizar la seguridad ante fallos lógicos se encuentra/n la/s",
+        "optionA": "Gestión de usuarios, roles y perfiles",
+        "optionB": "Restricciones de acceso a servicios y sistemas de gestión de bases de datos",
+        "optionC": "Políticas de seguridad a nivel de software",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "Las vistas permiten la Inserción de datos",
+        "optionA": "Siempre que sean materializadas",
+        "optionB": "Siempre que estén definidas como consultas simples de una tabla sin agrupaciones ni filtros",
+        "optionC": "Siempre que sean consultas multitabla y con agrupaciones o filtros",
+        "optionD": "Nunca",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "Los índices permiten",
+        "optionA": "Diferenciar las filas que cumplen una condición determinada",
+        "optionB": "Actualizar los datos de forma manual",
+        "optionC": "Acceder a otros objetos de forma indirecta",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "Se pueden crear índices usando las sentencias",
+        "optionA": "Sólo con CREATE INDEX",
+        "optionB": "CREATE INDEX y DROP INDEX",
+        "optionC": "CREATE INDEX y ALTER TABLE",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "Los comandos DCL son",
+        "optionA": "IDENTIFIED y MODIFY",
+        "optionB": "DELETE y REVOKE",
+        "optionC": "MODIFY y GRANT",
+        "optionD": "GRANT y REVOKE",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "Algunos de los objetos de la base de datos sobre los que asignar privilegios son",
+        "optionA": "DIRECTORY y REFACTORY",
+        "optionB": "TABLE Y EDITION",
+        "optionC": "EDITION Y REFACTORY",
+        "optionD": "TABLE y OPTIONAL",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_13",
+        "text": "Algunas de las políticas de bloqueo más frecuentes son",
+        "optionA": "El control de sesiones ficticias y la monitorización de accesos",
+        "optionB": "El bloqueo por intentos fallidos de inicio de sesión y la restricción de acceso por horario",
+        "optionC": "El bloqueo por exceso de uso y el control de recopilación de datos",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 1
     }
 ]
