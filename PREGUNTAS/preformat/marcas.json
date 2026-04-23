@@ -1,1442 +1,1202 @@
 [
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Cuál es la etiqueta correcta si queremos cerrar un elemento en un lenguaje de marcas?",
-    "options": [
-      "<\\marca>",
-      "<|marca>",
-      "<marca/>",
-      "</marca>"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿En qué década se creó el lenguaje de marcas HTML?",
-    "options": [
-      "En los años 80",
-      "En los años 70",
-      "En los años 90",
-      "Ninguna es correcta."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Qué significan las siglas XHTML?",
-    "options": [
-      "Extender Hypervisor Mark Language",
-      "Extra Hyperlink Mark Language",
-      "Extensible HyperText Markup Link",
-      "Extensible HyperText Markup Language"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Cómo se pueden clasificar los lenguajes de marcas?",
-    "options": [
-      "De presentación, análisis y descriptivo.",
-      "De procedimiento, conversión y semántico.",
-      "De presentación, procedimiento y descriptivo.",
-      "Ninguna de las anteriores es correcta."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Qué herramienta de edición está desarrollada por Microsoft?",
-    "options": [
-      "Visual Studio Code",
-      "Notepad++",
-      "Sublime text",
-      "Atom"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿De cuántas partes consta un documento XML?",
-    "options": [
-      "3",
-      "2",
-      "4",
-      "1"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Cómo se llama la primera parte de un documento XML?",
-    "options": [
-      "Inicio",
-      "Índice",
-      "Prólogo",
-      "Cuerpo"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Cómo se indican los comentarios en XML?",
-    "options": [
-      "<! - - para su apertura y - - > para su cierre",
-      "< - - para su apertura y - -! > para su cierre",
-      "<! - - para su apertura y * * > para su cierre",
-      "<! - - para su apertura y - -! > para su cierre"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "Indica una norma básica para que un documento esté bien formado.",
-    "options": [
-      "Sensibilidad a mayúsculas y minúsculas.",
-      "Siempre debe existir un nodo raíz.",
-      "En el prólogo se debe indicar versión y codificación.",
-      "Todas son correctas."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Qué atributo especial hay que usar cuando trabajamos con espacios de nombres?",
-    "options": [
-      "xmlns",
-      "xnlms",
-      "xlsmt",
-      "xtlsm"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "¿Cómo se llama el modelo en el que un usuario solicita un documento web y algún servicio de internet se lo suministra?",
-    "options": [
-      "Modelo cliente – nucleo.",
-      "Modelo servidor – cliente.",
-      "Modelo cliente – servidor.",
-      "Modelo servidor – servidor."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "¿Qué lenguaje permite indistintamente utilizar mayúsculas y minúsculas en las etiquetas del documento web?",
-    "options": [
-      "HTML",
-      "XML",
-      "XHTML",
-      "Ninguna es correcta."
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "¿Para qué se utiliza la etiqueta href?",
-    "options": [
-      "Para indicar cual es el índice del sitio web.",
-      "Para referenciar el final del documento HTML.",
-      "Para indicar el título del documento",
-      "Indica la dirección web para un enlace."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "¿Un elemento HTML es más que una etiqueta?",
-    "options": [
-      "No.",
-      "Sí.",
-      "Depende del tipo de etiqueta.",
-      "Depende del número de atributos."
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "Los elementos en línea ….",
-    "options": [
-      "Ocupan el espacio hasta el final de la línea.",
-      "Siempre van a comenzar una línea.",
-      "Sólo ocupan el espacio necesario según su contenido.",
-      "Ninguna es correcta."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "¿Cuál fue la primera versión de HTML que permitió incluir tablas?",
-    "options": [
-      "HTML 3.2",
-      "HTML 2.0",
-      "HTML 4.01",
-      "HTML 5"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "¿En qué año se publicó HTML5?",
-    "options": [
-      "2017",
-      "2013",
-      "2015",
-      "2014"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "¿Qué opción en el navegador nos permite visualizar el código de una página web?",
-    "options": [
-      "Botón izquierdo y ver código fuente de la página.",
-      "Botón derecho y ver código fuente de la página.",
-      "Botón derecho y ver diseño de la página.",
-      "Botón izquierdo y ver diseño de la página."
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "Indica alguna característica de XHTML.",
-    "options": [
-      "Las etiquetas se tienen que cerrar en el mismo orden de cómo se abrieron.",
-      "Todos los nombres tanto de las etiquetas como de los atributos se deben de escribir en minúsculas.",
-      "Los valores de los atributos que indico en la etiqueta de apertura deben de ir entre comillas.",
-      "Todas son correctas."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "¿Para qué se utiliza la extensión de Chrome Colorzilla?",
-    "options": [
-      "Sirve para conocer el número de colores diferentes que usa una web",
-      "Se utiliza para poder saber el color de un elemento de la web.",
-      "Con esta extensión se puede cambiar el tema del navegador.",
-      "Nos ayuda a elegir una paleta de colores para nuestra web."
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Con qué etiqueta identificamos el tipo de documento HTML?",
-    "options": [
-      "DOCTYPE",
-      "TYPEDOC",
-      "DOCHTML",
-      "DOC"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Dónde hay que indicar el título(<title>) del documento?",
-    "options": [
-      "En el body",
-      "En la etiqueta DOCTYPE",
-      "Justo después de la etiqueta HTML.",
-      "Dentro de la cabecera."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Qué versión de HTML 4.01 no permite etiquetas obsoletas?",
-    "options": [
-      "Estricto",
-      "Transicional",
-      "Frameset.",
-      "Todas lo permiten."
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Con qué etiqueta puedo escribir css en línea?",
-    "options": [
-      "<script>",
-      "<style>",
-      "<link>",
-      "<meta>"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Cuál es el juego de caracteres por defecto de HTML5?",
-    "options": [
-      "ISO-8859-1",
-      "ANSI",
-      "ASCII",
-      "UTF-8"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Qué etiqueta nos permite incluir una línea horizontal?",
-    "options": [
-      "<br>",
-      "<rh>",
-      "<hr>",
-      "<p>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Qué etiqueta debo utilizar para escribir un texto que mantenga espacios y tabuladores?",
-    "options": [
-      "<p>",
-      "<hr>",
-      "<div>",
-      "<pre>"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Qué etiqueta me permite agrupar otros elementos HTML y se le suele llamar también capas?",
-    "options": [
-      "<div>",
-      "<hr>",
-      "<pre>",
-      "<blockquote>"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Qué etiqueta muestra el texto incluido en su interior con márgenes a la derecha y a la izquierda?",
-    "options": [
-      "<div>",
-      "<hr>",
-      "<pre>",
-      "<blockquote>"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "Si tengo las etiquetas <h1> <h3> <h4> y <h6> en un documento HTML, ¿cuál se visualizará más grande?",
-    "options": [
-      "<h4>",
-      "<h2>",
-      "<h1>",
-      "<h3>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Qué etiqueta nos permite insertar saltos de línea?",
-    "options": [
-      "<hr>",
-      "<br>",
-      "<rb>",
-      "<rh>"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Qué etiqueta nos permite tachar un contenido?",
-    "options": [
-      "<i>",
-      "<sup>",
-      "<s>",
-      "<em>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Qué etiqueta nos permite resaltar un texto normalmente en amarillo?",
-    "options": [
-      "<strong>",
-      "<mark>",
-      "<s>",
-      "<em>"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿En qué atributo de la etiqueta <a> se indica el destino del enlace?",
-    "options": [
-      "target",
-      "src",
-      "href",
-      "uri"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Con qué carácter se indica una referencia de un enlace en la propia página web?",
-    "options": [
-      "$",
-      "%",
-      "&",
-      "#"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Qué valor del atributo target me permite abrir un enlace en la propia pestaña?.",
-    "options": [
-      "_self",
-      "_new",
-      "_blank",
-      "_up"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "Las listas ordenadas se crean con la etiqueta",
-    "options": [
-      "<ul>",
-      "<ol>",
-      "<dl>",
-      "<lo>"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "Las listas de definición se crean con la etiqueta",
-    "options": [
-      "<ul>",
-      "<ol>",
-      "<dl>",
-      "<lo>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Con qué etiqueta se indican los elementos de una lista?",
-    "options": [
-      "<ul>",
-      "<la>",
-      "<li>",
-      "<ol>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Qué nos permite la etiqueta <iframe>?",
-    "options": [
-      "Destacar el texto incluido.",
-      "Crear listas",
-      "Incluir contenido externo a través de dirección web",
-      "No existe esa etiqueta."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Qué etiqueta utilizamos para crear celdas de cabecera en una tabla?",
-    "options": [
-      "<tr>",
-      "<td>",
-      "<th>",
-      "<thead>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Dónde se pueden utilizar las celdas de cabecera en una tabla?",
-    "options": [
-      "En la cabecera",
-      "En el pie",
-      "En el cuerpo.",
-      "En cualquier parte."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Qué atributo utilizamos cuando queremos unir celdas de manera horizontal en una tabla?",
-    "options": [
-      "rowspan",
-      "colspan",
-      "row",
-      "colgroup"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Qué atributo utilizamos cuando queremos unir celdas de manera vertical en una tabla?",
-    "options": [
-      "rowspan",
-      "colspan",
-      "row",
-      "colgroup"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Qué atributo indica la página web de destino de los datos del formulario?",
-    "options": [
-      "method",
-      "url",
-      "action",
-      "destiny"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Qué atributo común de las etiquetas de los formularios nos permite controlar su tamaño en cuanto a visualización?",
-    "options": [
-      "length",
-      "maxlength",
-      "minlength",
-      "size"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Qué atributo común de las etiquetas de los formularios nos permite deshabilitar el control?",
-    "options": [
-      "readonly",
-      "null",
-      "disabled",
-      "read"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿De qué tipo es el botón que nos permite enviar la información del formulario?",
-    "options": [
-      "type=”send”",
-      "type=”submit”",
-      "type=”reset”",
-      "type=”button”"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Qué atributo nos permite marcar inicialmente una casilla de verificación?",
-    "options": [
-      "check",
-      "checking",
-      "uncheck",
-      "checked"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Cuál es el atributo a utilizar para indicar la opción seleccionada por defecto en una lista despegable?",
-    "options": [
-      "set",
-      "selected",
-      "first",
-      "Ninguna es correcta"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Qué características incluye HTML5?",
-    "options": [
-      "Etiquetas multimedia.",
-      "Semántica",
-      "Gráficos 2D/3D.",
-      "Todas son correctas."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Cuál es el tipo de documento de HTML5?",
-    "options": [
-      "<! TYPE html>",
-      "<! TYPEDOC html>",
-      "<!DOCTYPE html>",
-      "<! DOCTYPE vers=”html5”>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Qué etiqueta usaremos para indicar contenido auxiliar en un documento HTML5?",
-    "options": [
-      "header",
-      "main",
-      "footer",
-      "aside"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Qué etiqueta usaremos para definir la parte donde pondremos los enlaces para navegar por nuestra página en un documento HTML5?",
-    "options": [
-      "navegation",
-      "main",
-      "nav",
-      "aside"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Dónde hay que incluir las nuevas etiquetas semánticas de HTML5?",
-    "options": [
-      "head",
-      "meta",
-      "foot",
-      "body"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Qué atributo nos permite indicar un texto de ayuda que se borra cuando empezamos a escribir?",
-    "options": [
-      "pattern",
-      "placeholder",
-      "autocomplete",
-      "meter"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Qué tipo de input me permite mostrar un control deslizante que nos permitirá elegir un valor?",
-    "options": [
-      "meter",
-      "progress",
-      "range",
-      "step"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "El formato Ogg, ¿es de vídeo o de audio?",
-    "options": [
-      "Audio",
-      "Vídeo",
-      "Audio/Vídeo",
-      "Este formato no existe."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Qué aporta de nuevo la etiqueta <figure> a la etiqueta <img>?",
-    "options": [
-      "Se puede añadir una descripción a la imagen.",
-      "Se puede indicar el tamaño a la imagen.",
-      "Puede incluir imágenes de tipo jpg",
-      "Ninguna es correcta."
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Qué atributo hay que indicar en <details> para que el contenido aparezca visible desde que se carga la página web?",
-    "options": [
-      "free",
-      "noclose",
-      "open",
-      "opened"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "¿Qué significan las siglas CSS?",
-    "options": [
-      "Cascading Style Sheets",
-      "Cascading Sheets Style",
-      "Clear Style Sheets",
-      "Ninguna es correcta."
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "¿Qué etiqueta hay que utilizar para incluir CSS en el propio documento HTML?",
-    "options": [
-      "<link>",
-      "<sheets>",
-      "<style>",
-      "<src>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "En la siguiente regla a {b:c} ¿Qué letra identifica la propiedad?",
-    "options": [
-      "a",
-      "b",
-      "c",
-      "La propiedad no forma parte de la regla CSS."
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "Cuando queremos aplicar más de un estilo a un elemento se deben de separar con…",
-    "options": [
-      "Dos puntos",
-      "Coma",
-      "Punto y coma",
-      "Punto"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "El selector de clase se identifica con",
-    "options": [
-      "Punto",
-      "Coma",
-      "Punto y coma",
-      "Almohadilla"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "El selector de identificador se identifica con",
-    "options": [
-      "Punto",
-      "Coma",
-      "Punto y coma",
-      "Almohadilla"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "¿Cómo se activa el inspector de la página en el navegador Mozilla?",
-    "options": [
-      "Con F11",
-      "Con F10",
-      "Con F12",
-      "Con F7"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "Indica que unidad es relativa",
-    "options": [
-      "em",
-      "rem",
-      "vw",
-      "Todas son relativas"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "¿Qué unidad se relaciona con el tamaño de la fuente raiz?",
-    "options": [
-      "rem",
-      "em",
-      "px",
-      "pt"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "¿Qué color en formato RGB representa el blanco?",
-    "options": [
-      "(0,0,0)",
-      "(255,155,0)",
-      "(255,255,255)",
-      "(255,255,0)"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "¿Qué valor nos permite quitar el subrayado de un texto?",
-    "options": [
-      "none",
-      "null",
-      "underline",
-      "overline"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "¿Qué es una fuente segura?",
-    "options": [
-      "Una fuente con estilo negrita",
-      "Una fuente con tamaño fijo",
-      "Una fuente que tenemos seguro en el sistema",
-      "Una fuente sin virus"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "::first-line, ¿es un pseudo-elemento o una pseudo-clase?",
-    "options": [
-      "Pseudo-elemento",
-      "Pseudo-clase",
-      "Puede ser las dos cosas.",
-      "La sintaxis no es correcta."
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "Con qué pseudo-clase controlamos cuando el cursor pasa por encima del elemento.",
-    "options": [
-      "active",
-      "focus",
-      "hover",
-      "link"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "¿Qué propiedad nos permite incluir contenido antes o después de un elemento HTML?",
-    "options": [
-      "content",
-      "caption",
-      "adjunt",
-      "property"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "Si tengo una imagen de fondo y un color de fondo, ¿que se mostrara?",
-    "options": [
-      "El color de fondo",
-      "La imagen de fondo",
-      "Depende del tipo de imagen.",
-      "Depende del tamaño de la caja."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "¿Cómo se puede indicar que la imagen de fondo permanezca fija?",
-    "options": [
-      "background-fixed",
-      "background-full",
-      "background-attachment",
-      "background-position"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "¿Qué se indica con el valor max-width?",
-    "options": [
-      "El tamaño de la caja cuando se amplía la ventana",
-      "El tamaño del contenedor padre.",
-      "El tamaño fijo de la caja.",
-      "El tamaño máximo que puede tener una caja."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "¿Qué propiedad nos permite indicar como se va a calcular el ancho y el alto de una caja?",
-    "options": [
-      "box-sizing",
-      "box-size",
-      "box-width",
-      "box-height"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 8,
-    "text": "¿Qué propiedad oculta el elemento HTML y no sigue ocupando espacio?",
-    "options": [
-      "visibility:hidden",
-      "display:hidden",
-      "visibility:none",
-      "display:none"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "¿Cómo se comporta la propiedad position con el valor relative?",
-    "options": [
-      "Es el orden por defecto",
-      "Se puede desplazar el elemento respecto a la posición del contenedor padre.",
-      "Se puede desplazar el elemento respecto a su posición estática.",
-      "Ninguna es correcta."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "¿Qué valor de z-index le debo indicar a la capa 3 para que esté por debajo de la capa 2 que tiene z-index 3?",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "Todas son correctas."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "¿Qué propiedad hay que usar para indicar que ya no se quieren que los elementos HTML floten?",
-    "options": [
-      "clear",
-      "quit",
-      "none",
-      "null"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "¿Cuál es la versión reducida para indicar bordes redondeados en CSS3?",
-    "options": [
-      "radius-border",
-      "border-radius",
-      "border-all",
-      "border-radius-all"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "El radio de desenfoque se aplica a la propiedad …",
-    "options": [
-      "box-weight",
-      "border-radius",
-      "box-shadow",
-      "color"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "El rango de opacidad se indica con números entre",
-    "options": [
-      "1 a 10",
-      "0 a 10",
-      "0 a 1",
-      "1 a 2"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "Indica un parámetro a indicar cuando usamos radial-gradient",
-    "options": [
-      "Figura a mostrar",
-      "Tamaño",
-      "Posición",
-      "Todas son correctas."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "¿Cuál es la propiedad para indicar dónde se encuentra la fuente que quiero usar en la página web?",
-    "options": [
-      "src",
-      "url",
-      "origin",
-      "Ninguna es correcta."
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "¿Qué propiedad indica el número de columnas en las multicolumnas?",
-    "options": [
-      "column-num",
-      "column-count",
-      "column-number",
-      "column-gap"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "¿Qué se indica con la transformación scale(x,y)?",
-    "options": [
-      "Escala y veces el ancho y x veces el alto.",
-      "Escala x veces el ancho e y veces el alto.",
-      "Escala x veces el borde e y veces el margen.",
-      "Ninguna es correcta."
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "Indica una característica de XML.",
-    "options": [
-      "Es sensible a mayúsculas.",
-      "Describe el significado de los datos que contiene.",
-      "Es sensible a minúsculas.",
-      "Todas son correctas."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "¿De qué partes consta la estructura de un documento XML?",
-    "options": [
-      "Prólogo, introducción y cuerpo.",
-      "Prólogo y cuerpo.",
-      "Prólogo y declaración.",
-      "Declaración y cuerpo."
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "Indica la afirmación correcta.",
-    "options": [
-      "Es mejor utilizar atributos que nuevos elementos.",
-      "Sólo se puede indicar un atributo por elemento.",
-      "No se debe abusar de los atributos.",
-      "Los valores de los atributos no van entre comillas."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "Las instrucciones de procesamiento en un documento XML están delimitadas por:",
-    "options": [
-      "</ y />",
-      "<? y /?>",
-      "<¿ y /¿>",
-      "<? y ?>"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "Indica una forma de validar un documento XML.",
-    "options": [
-      "DTT",
-      "XTD",
-      "XMT",
-      "DTD"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "Cuando el documento DTD es público….",
-    "options": [
-      "Hay que indicarlo con SYSTEM.",
-      "Hay que indicarlo con public",
-      "Hay que indicarlo con public e indicar su FPI",
-      "Hay que indicarlo con public e indicar su DTD."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "¿De qué tipo es el DTD “<!DOCTYPE elemento raiz SYSTEM URL>”?",
-    "options": [
-      "Interno",
-      "Interno y público.",
-      "Externo y público.",
-      "Externo y privado."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "Cuando la cardinalidad en un elemento se indica con el carácter *:",
-    "options": [
-      "El elemento aparece 0 ó 1 vez.",
-      "El elemento aparece 0 a N veces",
-      "El elemento aparece 1 a N veces",
-      "El elemento sólo 1 vez."
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "Cuando la cardinalidad en un elemento se indica con el carácter +:",
-    "options": [
-      "El elemento aparece 0 ó 1 vez.",
-      "El elemento aparece 0 a N veces",
-      "El elemento aparece 1 a N veces",
-      "El elemento sólo 1 vez."
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "¿Cómo se representan los atributos en DTD?",
-    "options": [
-      "<ATTLIST>",
-      "<!ATTLIST>",
-      "<LISTATT>",
-      "<ATTRIB>"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "¿Qué propiedad CSS se utiliza para cambiar el color de fondo de un elemento?",
-    "options": [
-      "color",
-      "background-color",
-      "font-color",
-      "text-color"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Cuál es la etiqueta HTML para crear una lista ordenada?",
-    "options": [
-      "<ul>",
-      "<li>",
-      "<ol>",
-      "<dl>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Qué versión de HTML es la más reciente?",
-    "options": [
-      "HTML 4",
-      "HTML 5",
-      "XHTML 1.0",
-      "XHTML 1.1"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Qué significa HTML?",
-    "options": [
-      "Hyper Text Markup Language",
-      "High Tech Markup Language",
-      "Hyperlink Text Markup Language",
-      "Home Tool Markup Language"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "¿Qué etiqueta hay que utilizar para incluir CSS en el propio documento HTML, como estilos locales al archivo?",
-    "options": [
-      "<link>",
-      "<sheets>",
-      "<style>",
-      "<src>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Cuál es el uso más frecuente de los lenguajes de marcas?",
-    "options": [
-      "La creación de bases de datos",
-      "La creación de páginas web",
-      "La creación de aplicaciones móviles",
-      "La creación de videojuegos"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "¿Qué valor se utiliza en la propiedad \"clear\" para no permitir que los elementos floten en la orientación que le indiquemos?",
-    "options": [
-      "none",
-      "left",
-      "right",
-      "both"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 5,
-    "text": "¿Qué es el atributo \"required\" en un formulario HTML?",
-    "options": [
-      "Un atributo para definir que un campo es obligatorio",
-      "Un atributo para definir que un campo es opcional",
-      "Un atributo para definir que un campo es de solo lectura",
-      "Un atributo para definir que un campo es de selección múltiple"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "¿Cuál es la forma correcta de aplicar un estilo CSS a un elemento HTML con un ID específico?",
-    "options": [
-      "#elemento { estilo }",
-      ".elemento { estilo }",
-      "elemento { estilo }",
-      "id=\"elemento\" { estilo }"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 9,
-    "text": "¿Qué propiedad CSS se utiliza para sacar los elementos HTML del flujo normal y permitir que los elementos que lo rodean fluyan a izquierda o derecha?",
-    "options": [
-      "position",
-      "float",
-      "clear",
-      "display"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 1,
-    "text": "¿Qué es un lenguaje de marcas?",
-    "options": [
-      "Un lenguaje de programación",
-      "Un lenguaje de etiquetado",
-      "Un lenguaje de consulta",
-      "Un lenguaje de diseño"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "¿Qué es un atributo en DTD?",
-    "options": [
-      "Una propiedad que describe un elemento",
-      "Una etiqueta que define una estructura de datos",
-      "Un tipo de dato numérico",
-      "Un archivo de imagen"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Cuál es la etiqueta HTML para crear un salto de línea?",
-    "options": [
-      "<br>",
-      "<hr>",
-      "<p>",
-      "<span>"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 3,
-    "text": "¿Qué etiqueta se utiliza para agregar un título a una página web en HTML?",
-    "options": [
-      "<title>",
-      "<head>",
-      "<meta>",
-      "<body>"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 10,
-    "text": "¿Qué son las entidades en DTD?",
-    "options": [
-      "Constantes que se declaran con y se utilizan en el fichero XML",
-      "Elementos que definen la estructura de un documento XML",
-      "Atributos que se utilizan para incluir información adicional en un elemento",
-      "Tipos de datos que se utilizan para definir los valores de los atributos"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 2,
-    "text": "¿Para qué se utiliza el atributo href?",
-    "options": [
-      "Para indicar cual es el índice del sitio web.",
-      "Para referenciar el final del documento HTML.",
-      "Para indicar el título del documento",
-      "Indica la dirección web para un enlace."
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 4,
-    "text": "¿Qué elemento de HTML5 se utiliza para crear una lista de definiciones?",
-    "options": [
-      "<ul>",
-      "<ol>",
-      "<dl>",
-      "<dt>"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "¿Qué etiqueta de HTML5 se utiliza para crear un campo que reciba un email como tipo de valor?",
-    "options": [
-      "<form>",
-      "<input type=\"email\">",
-      "<label>",
-      "<textarea>"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 6,
-    "text": "Para hacer el menú superior que vemos en muchas páginas con varios enlaces usaremos la etiqueta:",
-    "options": [
-      "<nav>",
-      "<footer>",
-      "<main>",
-      "<section>"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "marcas",
-    "topicId": 7,
-    "text": "¿Cuál es la sintaxis correcta para incluir CSS en un archivo HTML externo?",
-    "options": [
-      "<link rel=\"stylesheet\" href=\"style.css\">",
-      "<style src=\"style.css\">",
-      "<link href=\"style.css\" type=\"text/css\">",
-      "<style type=\"text/css\" href=\"style.css\">"
-    ],
-    "correctOptionIndex": 0
-  }
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Cuál es la etiqueta correcta si queremos cerrar un elemento en un lenguaje de marcas?",
+        "correctOptionIndex": 3,
+        "optionA": "<\\marca>",
+        "optionB": "<|marca>",
+        "optionC": "<marca/>",
+        "optionD": "</marca>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿En qué década se creó el lenguaje de marcas HTML?",
+        "correctOptionIndex": 2,
+        "optionA": "En los años 80",
+        "optionB": "En los años 70",
+        "optionC": "En los años 90",
+        "optionD": "Ninguna es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Qué significan las siglas XHTML?",
+        "correctOptionIndex": 3,
+        "optionA": "Extender Hypervisor Mark Language",
+        "optionB": "Extra Hyperlink Mark Language",
+        "optionC": "Extensible HyperText Markup Link",
+        "optionD": "Extensible HyperText Markup Language"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Cómo se pueden clasificar los lenguajes de marcas?",
+        "correctOptionIndex": 2,
+        "optionA": "De presentación, análisis y descriptivo.",
+        "optionB": "De procedimiento, conversión y semántico.",
+        "optionC": "De presentación, procedimiento y descriptivo.",
+        "optionD": "Ninguna de las anteriores es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Qué herramienta de edición está desarrollada por Microsoft?",
+        "correctOptionIndex": 0,
+        "optionA": "Visual Studio Code",
+        "optionB": "Notepad++",
+        "optionC": "Sublime text",
+        "optionD": "Atom"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿De cuántas partes consta un documento XML?",
+        "correctOptionIndex": 1,
+        "optionA": "3",
+        "optionB": "2",
+        "optionC": "4",
+        "optionD": "1"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Cómo se llama la primera parte de un documento XML?",
+        "correctOptionIndex": 2,
+        "optionA": "Inicio",
+        "optionB": "Índice",
+        "optionC": "Prólogo",
+        "optionD": "Cuerpo"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Cómo se indican los comentarios en XML?",
+        "correctOptionIndex": 0,
+        "optionA": "<! - - para su apertura y - - > para su cierre",
+        "optionB": "< - - para su apertura y - -! > para su cierre",
+        "optionC": "<! - - para su apertura y * * > para su cierre",
+        "optionD": "<! - - para su apertura y - -! > para su cierre"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "Indica una norma básica para que un documento esté bien formado.",
+        "correctOptionIndex": 3,
+        "optionA": "Sensibilidad a mayúsculas y minúsculas.",
+        "optionB": "Siempre debe existir un nodo raíz.",
+        "optionC": "En el prólogo se debe indicar versión y codificación.",
+        "optionD": "Todas son correctas."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Qué atributo especial hay que usar cuando trabajamos con espacios de nombres?",
+        "correctOptionIndex": 0,
+        "optionA": "xmlns",
+        "optionB": "xnlms",
+        "optionC": "xlsmt",
+        "optionD": "xtlsm"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "¿Cómo se llama el modelo en el que un usuario solicita un documento web y algún servicio de internet se lo suministra?",
+        "correctOptionIndex": 2,
+        "optionA": "Modelo cliente – nucleo.",
+        "optionB": "Modelo servidor – cliente.",
+        "optionC": "Modelo cliente – servidor.",
+        "optionD": "Modelo servidor – servidor."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "¿Qué lenguaje permite indistintamente utilizar mayúsculas y minúsculas en las etiquetas del documento web?",
+        "correctOptionIndex": 0,
+        "optionA": "HTML",
+        "optionB": "XML",
+        "optionC": "XHTML",
+        "optionD": "Ninguna es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "¿Para qué se utiliza la etiqueta href?",
+        "correctOptionIndex": 3,
+        "optionA": "Para indicar cual es el índice del sitio web.",
+        "optionB": "Para referenciar el final del documento HTML.",
+        "optionC": "Para indicar el título del documento",
+        "optionD": "Indica la dirección web para un enlace."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "¿Un elemento HTML es más que una etiqueta?",
+        "correctOptionIndex": 1,
+        "optionA": "No.",
+        "optionB": "Sí.",
+        "optionC": "Depende del tipo de etiqueta.",
+        "optionD": "Depende del número de atributos."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "Los elementos en línea ….",
+        "correctOptionIndex": 2,
+        "optionA": "Ocupan el espacio hasta el final de la línea.",
+        "optionB": "Siempre van a comenzar una línea.",
+        "optionC": "Sólo ocupan el espacio necesario según su contenido.",
+        "optionD": "Ninguna es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "¿Cuál fue la primera versión de HTML que permitió incluir tablas?",
+        "correctOptionIndex": 0,
+        "optionA": "HTML 3.2",
+        "optionB": "HTML 2.0",
+        "optionC": "HTML 4.01",
+        "optionD": "HTML 5"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "¿En qué año se publicó HTML5?",
+        "correctOptionIndex": 3,
+        "optionA": "2017",
+        "optionB": "2013",
+        "optionC": "2015",
+        "optionD": "2014"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "¿Qué opción en el navegador nos permite visualizar el código de una página web?",
+        "correctOptionIndex": 1,
+        "optionA": "Botón izquierdo y ver código fuente de la página.",
+        "optionB": "Botón derecho y ver código fuente de la página.",
+        "optionC": "Botón derecho y ver diseño de la página.",
+        "optionD": "Botón izquierdo y ver diseño de la página."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "Indica alguna característica de XHTML.",
+        "correctOptionIndex": 3,
+        "optionA": "Las etiquetas se tienen que cerrar en el mismo orden de cómo se abrieron.",
+        "optionB": "Todos los nombres tanto de las etiquetas como de los atributos se deben de escribir en minúsculas.",
+        "optionC": "Los valores de los atributos que indico en la etiqueta de apertura deben de ir entre comillas.",
+        "optionD": "Todas son correctas."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "¿Para qué se utiliza la extensión de Chrome Colorzilla?",
+        "correctOptionIndex": 1,
+        "optionA": "Sirve para conocer el número de colores diferentes que usa una web",
+        "optionB": "Se utiliza para poder saber el color de un elemento de la web.",
+        "optionC": "Con esta extensión se puede cambiar el tema del navegador.",
+        "optionD": "Nos ayuda a elegir una paleta de colores para nuestra web."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Con qué etiqueta identificamos el tipo de documento HTML?",
+        "correctOptionIndex": 0,
+        "optionA": "DOCTYPE",
+        "optionB": "TYPEDOC",
+        "optionC": "DOCHTML",
+        "optionD": "DOC"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Dónde hay que indicar el título(<title>) del documento?",
+        "correctOptionIndex": 3,
+        "optionA": "En el body",
+        "optionB": "En la etiqueta DOCTYPE",
+        "optionC": "Justo después de la etiqueta HTML.",
+        "optionD": "Dentro de la cabecera."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Qué versión de HTML 4.01 no permite etiquetas obsoletas?",
+        "correctOptionIndex": 0,
+        "optionA": "Estricto",
+        "optionB": "Transicional",
+        "optionC": "Frameset.",
+        "optionD": "Todas lo permiten."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Con qué etiqueta puedo escribir css en línea?",
+        "correctOptionIndex": 1,
+        "optionA": "<script>",
+        "optionB": "<style>",
+        "optionC": "<link>",
+        "optionD": "<meta>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Cuál es el juego de caracteres por defecto de HTML5?",
+        "correctOptionIndex": 3,
+        "optionA": "ISO-8859-1",
+        "optionB": "ANSI",
+        "optionC": "ASCII",
+        "optionD": "UTF-8"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Qué etiqueta nos permite incluir una línea horizontal?",
+        "correctOptionIndex": 2,
+        "optionA": "<br>",
+        "optionB": "<rh>",
+        "optionC": "<hr>",
+        "optionD": "<p>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Qué etiqueta debo utilizar para escribir un texto que mantenga espacios y tabuladores?",
+        "correctOptionIndex": 3,
+        "optionA": "<p>",
+        "optionB": "<hr>",
+        "optionC": "<div>",
+        "optionD": "<pre>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Qué etiqueta me permite agrupar otros elementos HTML y se le suele llamar también capas?",
+        "correctOptionIndex": 0,
+        "optionA": "<div>",
+        "optionB": "<hr>",
+        "optionC": "<pre>",
+        "optionD": "<blockquote>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Qué etiqueta muestra el texto incluido en su interior con márgenes a la derecha y a la izquierda?",
+        "correctOptionIndex": 3,
+        "optionA": "<div>",
+        "optionB": "<hr>",
+        "optionC": "<pre>",
+        "optionD": "<blockquote>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "Si tengo las etiquetas <h1> <h3> <h4> y <h6> en un documento HTML, ¿cuál se visualizará más grande?",
+        "correctOptionIndex": 2,
+        "optionA": "<h4>",
+        "optionB": "<h2>",
+        "optionC": "<h1>",
+        "optionD": "<h3>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Qué etiqueta nos permite insertar saltos de línea?",
+        "correctOptionIndex": 1,
+        "optionA": "<hr>",
+        "optionB": "<br>",
+        "optionC": "<rb>",
+        "optionD": "<rh>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Qué etiqueta nos permite tachar un contenido?",
+        "correctOptionIndex": 2,
+        "optionA": "<i>",
+        "optionB": "<sup>",
+        "optionC": "<s>",
+        "optionD": "<em>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Qué etiqueta nos permite resaltar un texto normalmente en amarillo?",
+        "correctOptionIndex": 1,
+        "optionA": "<strong>",
+        "optionB": "<mark>",
+        "optionC": "<s>",
+        "optionD": "<em>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿En qué atributo de la etiqueta <a> se indica el destino del enlace?",
+        "correctOptionIndex": 2,
+        "optionA": "target",
+        "optionB": "src",
+        "optionC": "href",
+        "optionD": "uri"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Con qué carácter se indica una referencia de un enlace en la propia página web?",
+        "correctOptionIndex": 3,
+        "optionA": "$",
+        "optionB": "%",
+        "optionC": "&",
+        "optionD": "#"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Qué valor del atributo target me permite abrir un enlace en la propia pestaña?.",
+        "correctOptionIndex": 0,
+        "optionA": "_self",
+        "optionB": "_new",
+        "optionC": "_blank",
+        "optionD": "_up"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "Las listas ordenadas se crean con la etiqueta",
+        "correctOptionIndex": 1,
+        "optionA": "<ul>",
+        "optionB": "<ol>",
+        "optionC": "<dl>",
+        "optionD": "<lo>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "Las listas de definición se crean con la etiqueta",
+        "correctOptionIndex": 2,
+        "optionA": "<ul>",
+        "optionB": "<ol>",
+        "optionC": "<dl>",
+        "optionD": "<lo>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Con qué etiqueta se indican los elementos de una lista?",
+        "correctOptionIndex": 2,
+        "optionA": "<ul>",
+        "optionB": "<la>",
+        "optionC": "<li>",
+        "optionD": "<ol>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Qué nos permite la etiqueta <iframe>?",
+        "correctOptionIndex": 2,
+        "optionA": "Destacar el texto incluido.",
+        "optionB": "Crear listas",
+        "optionC": "Incluir contenido externo a través de dirección web",
+        "optionD": "No existe esa etiqueta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Qué etiqueta utilizamos para crear celdas de cabecera en una tabla?",
+        "correctOptionIndex": 2,
+        "optionA": "<tr>",
+        "optionB": "<td>",
+        "optionC": "<th>",
+        "optionD": "<thead>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Dónde se pueden utilizar las celdas de cabecera en una tabla?",
+        "correctOptionIndex": 3,
+        "optionA": "En la cabecera",
+        "optionB": "En el pie",
+        "optionC": "En el cuerpo.",
+        "optionD": "En cualquier parte."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Qué atributo utilizamos cuando queremos unir celdas de manera horizontal en una tabla?",
+        "correctOptionIndex": 1,
+        "optionA": "rowspan",
+        "optionB": "colspan",
+        "optionC": "row",
+        "optionD": "colgroup"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Qué atributo utilizamos cuando queremos unir celdas de manera vertical en una tabla?",
+        "correctOptionIndex": 0,
+        "optionA": "rowspan",
+        "optionB": "colspan",
+        "optionC": "row",
+        "optionD": "colgroup"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Qué atributo indica la página web de destino de los datos del formulario?",
+        "correctOptionIndex": 2,
+        "optionA": "method",
+        "optionB": "url",
+        "optionC": "action",
+        "optionD": "destiny"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Qué atributo común de las etiquetas de los formularios nos permite controlar su tamaño en cuanto a visualización?",
+        "correctOptionIndex": 3,
+        "optionA": "length",
+        "optionB": "maxlength",
+        "optionC": "minlength",
+        "optionD": "size"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Qué atributo común de las etiquetas de los formularios nos permite deshabilitar el control?",
+        "correctOptionIndex": 2,
+        "optionA": "readonly",
+        "optionB": "null",
+        "optionC": "disabled",
+        "optionD": "read"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿De qué tipo es el botón que nos permite enviar la información del formulario?",
+        "correctOptionIndex": 1,
+        "optionA": "type=”send”",
+        "optionB": "type=”submit”",
+        "optionC": "type=”reset”",
+        "optionD": "type=”button”"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Qué atributo nos permite marcar inicialmente una casilla de verificación?",
+        "correctOptionIndex": 3,
+        "optionA": "check",
+        "optionB": "checking",
+        "optionC": "uncheck",
+        "optionD": "checked"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Cuál es el atributo a utilizar para indicar la opción seleccionada por defecto en una lista despegable?",
+        "correctOptionIndex": 1,
+        "optionA": "set",
+        "optionB": "selected",
+        "optionC": "first",
+        "optionD": "Ninguna es correcta"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Qué características incluye HTML5?",
+        "correctOptionIndex": 3,
+        "optionA": "Etiquetas multimedia.",
+        "optionB": "Semántica",
+        "optionC": "Gráficos 2D/3D.",
+        "optionD": "Todas son correctas."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Cuál es el tipo de documento de HTML5?",
+        "correctOptionIndex": 2,
+        "optionA": "<! TYPE html>",
+        "optionB": "<! TYPEDOC html>",
+        "optionC": "<!DOCTYPE html>",
+        "optionD": "<! DOCTYPE vers=”html5”>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Qué etiqueta usaremos para indicar contenido auxiliar en un documento HTML5?",
+        "correctOptionIndex": 3,
+        "optionA": "header",
+        "optionB": "main",
+        "optionC": "footer",
+        "optionD": "aside"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Qué etiqueta usaremos para definir la parte donde pondremos los enlaces para navegar por nuestra página en un documento HTML5?",
+        "correctOptionIndex": 2,
+        "optionA": "navegation",
+        "optionB": "main",
+        "optionC": "nav",
+        "optionD": "aside"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Dónde hay que incluir las nuevas etiquetas semánticas de HTML5?",
+        "correctOptionIndex": 3,
+        "optionA": "head",
+        "optionB": "meta",
+        "optionC": "foot",
+        "optionD": "body"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Qué atributo nos permite indicar un texto de ayuda que se borra cuando empezamos a escribir?",
+        "correctOptionIndex": 1,
+        "optionA": "pattern",
+        "optionB": "placeholder",
+        "optionC": "autocomplete",
+        "optionD": "meter"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Qué tipo de input me permite mostrar un control deslizante que nos permitirá elegir un valor?",
+        "correctOptionIndex": 2,
+        "optionA": "meter",
+        "optionB": "progress",
+        "optionC": "range",
+        "optionD": "step"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "El formato Ogg, ¿es de vídeo o de audio?",
+        "correctOptionIndex": 2,
+        "optionA": "Audio",
+        "optionB": "Vídeo",
+        "optionC": "Audio/Vídeo",
+        "optionD": "Este formato no existe."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Qué aporta de nuevo la etiqueta <figure> a la etiqueta <img>?",
+        "correctOptionIndex": 0,
+        "optionA": "Se puede añadir una descripción a la imagen.",
+        "optionB": "Se puede indicar el tamaño a la imagen.",
+        "optionC": "Puede incluir imágenes de tipo jpg",
+        "optionD": "Ninguna es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Qué atributo hay que indicar en <details> para que el contenido aparezca visible desde que se carga la página web?",
+        "correctOptionIndex": 2,
+        "optionA": "free",
+        "optionB": "noclose",
+        "optionC": "open",
+        "optionD": "opened"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "¿Qué significan las siglas CSS?",
+        "correctOptionIndex": 0,
+        "optionA": "Cascading Style Sheets",
+        "optionB": "Cascading Sheets Style",
+        "optionC": "Clear Style Sheets",
+        "optionD": "Ninguna es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "¿Qué etiqueta hay que utilizar para incluir CSS en el propio documento HTML?",
+        "correctOptionIndex": 2,
+        "optionA": "<link>",
+        "optionB": "<sheets>",
+        "optionC": "<style>",
+        "optionD": "<src>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "En la siguiente regla a {b:c} ¿Qué letra identifica la propiedad?",
+        "correctOptionIndex": 1,
+        "optionA": "a",
+        "optionB": "b",
+        "optionC": "c",
+        "optionD": "La propiedad no forma parte de la regla CSS."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "Cuando queremos aplicar más de un estilo a un elemento se deben de separar con…",
+        "correctOptionIndex": 2,
+        "optionA": "Dos puntos",
+        "optionB": "Coma",
+        "optionC": "Punto y coma",
+        "optionD": "Punto"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "El selector de clase se identifica con",
+        "correctOptionIndex": 0,
+        "optionA": "Punto",
+        "optionB": "Coma",
+        "optionC": "Punto y coma",
+        "optionD": "Almohadilla"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "El selector de identificador se identifica con",
+        "correctOptionIndex": 3,
+        "optionA": "Punto",
+        "optionB": "Coma",
+        "optionC": "Punto y coma",
+        "optionD": "Almohadilla"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "¿Cómo se activa el inspector de la página en el navegador Mozilla?",
+        "correctOptionIndex": 2,
+        "optionA": "Con F11",
+        "optionB": "Con F10",
+        "optionC": "Con F12",
+        "optionD": "Con F7"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "Indica que unidad es relativa",
+        "correctOptionIndex": 3,
+        "optionA": "em",
+        "optionB": "rem",
+        "optionC": "vw",
+        "optionD": "Todas son relativas"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "¿Qué unidad se relaciona con el tamaño de la fuente raiz?",
+        "correctOptionIndex": 0,
+        "optionA": "rem",
+        "optionB": "em",
+        "optionC": "px",
+        "optionD": "pt"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "¿Qué color en formato RGB representa el blanco?",
+        "correctOptionIndex": 2,
+        "optionA": "(0,0,0)",
+        "optionB": "(255,155,0)",
+        "optionC": "(255,255,255)",
+        "optionD": "(255,255,0)"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "¿Qué valor nos permite quitar el subrayado de un texto?",
+        "correctOptionIndex": 0,
+        "optionA": "none",
+        "optionB": "null",
+        "optionC": "underline",
+        "optionD": "overline"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "¿Qué es una fuente segura?",
+        "correctOptionIndex": 2,
+        "optionA": "Una fuente con estilo negrita",
+        "optionB": "Una fuente con tamaño fijo",
+        "optionC": "Una fuente que tenemos seguro en el sistema",
+        "optionD": "Una fuente sin virus"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "::first-line, ¿es un pseudo-elemento o una pseudo-clase?",
+        "correctOptionIndex": 0,
+        "optionA": "Pseudo-elemento",
+        "optionB": "Pseudo-clase",
+        "optionC": "Puede ser las dos cosas.",
+        "optionD": "La sintaxis no es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "Con qué pseudo-clase controlamos cuando el cursor pasa por encima del elemento.",
+        "correctOptionIndex": 2,
+        "optionA": "active",
+        "optionB": "focus",
+        "optionC": "hover",
+        "optionD": "link"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "¿Qué propiedad nos permite incluir contenido antes o después de un elemento HTML?",
+        "correctOptionIndex": 0,
+        "optionA": "content",
+        "optionB": "caption",
+        "optionC": "adjunt",
+        "optionD": "property"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "Si tengo una imagen de fondo y un color de fondo, ¿que se mostrara?",
+        "correctOptionIndex": 2,
+        "optionA": "El color de fondo",
+        "optionB": "La imagen de fondo",
+        "optionC": "Depende del tipo de imagen.",
+        "optionD": "Depende del tamaño de la caja."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "¿Cómo se puede indicar que la imagen de fondo permanezca fija?",
+        "correctOptionIndex": 2,
+        "optionA": "background-fixed",
+        "optionB": "background-full",
+        "optionC": "background-attachment",
+        "optionD": "background-position"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "¿Qué se indica con el valor max-width?",
+        "correctOptionIndex": 3,
+        "optionA": "El tamaño de la caja cuando se amplía la ventana",
+        "optionB": "El tamaño del contenedor padre.",
+        "optionC": "El tamaño fijo de la caja.",
+        "optionD": "El tamaño máximo que puede tener una caja."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "¿Qué propiedad nos permite indicar como se va a calcular el ancho y el alto de una caja?",
+        "correctOptionIndex": 0,
+        "optionA": "box-sizing",
+        "optionB": "box-size",
+        "optionC": "box-width",
+        "optionD": "box-height"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_8",
+        "text": "¿Qué propiedad oculta el elemento HTML y no sigue ocupando espacio?",
+        "correctOptionIndex": 3,
+        "optionA": "visibility:hidden",
+        "optionB": "display:hidden",
+        "optionC": "visibility:none",
+        "optionD": "display:none"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "¿Cómo se comporta la propiedad position con el valor relative?",
+        "correctOptionIndex": 2,
+        "optionA": "Es el orden por defecto",
+        "optionB": "Se puede desplazar el elemento respecto a la posición del contenedor padre.",
+        "optionC": "Se puede desplazar el elemento respecto a su posición estática.",
+        "optionD": "Ninguna es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "¿Qué valor de z-index le debo indicar a la capa 3 para que esté por debajo de la capa 2 que tiene z-index 3?",
+        "correctOptionIndex": 3,
+        "optionA": "0",
+        "optionB": "1",
+        "optionC": "2",
+        "optionD": "Todas son correctas."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "¿Qué propiedad hay que usar para indicar que ya no se quieren que los elementos HTML floten?",
+        "correctOptionIndex": 0,
+        "optionA": "clear",
+        "optionB": "quit",
+        "optionC": "none",
+        "optionD": "null"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "¿Cuál es la versión reducida para indicar bordes redondeados en CSS3?",
+        "correctOptionIndex": 1,
+        "optionA": "radius-border",
+        "optionB": "border-radius",
+        "optionC": "border-all",
+        "optionD": "border-radius-all"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "El radio de desenfoque se aplica a la propiedad …",
+        "correctOptionIndex": 2,
+        "optionA": "box-weight",
+        "optionB": "border-radius",
+        "optionC": "box-shadow",
+        "optionD": "color"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "El rango de opacidad se indica con números entre",
+        "correctOptionIndex": 2,
+        "optionA": "1 a 10",
+        "optionB": "0 a 10",
+        "optionC": "0 a 1",
+        "optionD": "1 a 2"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "Indica un parámetro a indicar cuando usamos radial-gradient",
+        "correctOptionIndex": 3,
+        "optionA": "Figura a mostrar",
+        "optionB": "Tamaño",
+        "optionC": "Posición",
+        "optionD": "Todas son correctas."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "¿Cuál es la propiedad para indicar dónde se encuentra la fuente que quiero usar en la página web?",
+        "correctOptionIndex": 0,
+        "optionA": "src",
+        "optionB": "url",
+        "optionC": "origin",
+        "optionD": "Ninguna es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "¿Qué propiedad indica el número de columnas en las multicolumnas?",
+        "correctOptionIndex": 1,
+        "optionA": "column-num",
+        "optionB": "column-count",
+        "optionC": "column-number",
+        "optionD": "column-gap"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "¿Qué se indica con la transformación scale(x,y)?",
+        "correctOptionIndex": 1,
+        "optionA": "Escala y veces el ancho y x veces el alto.",
+        "optionB": "Escala x veces el ancho e y veces el alto.",
+        "optionC": "Escala x veces el borde e y veces el margen.",
+        "optionD": "Ninguna es correcta."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "Indica una característica de XML.",
+        "correctOptionIndex": 3,
+        "optionA": "Es sensible a mayúsculas.",
+        "optionB": "Describe el significado de los datos que contiene.",
+        "optionC": "Es sensible a minúsculas.",
+        "optionD": "Todas son correctas."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "¿De qué partes consta la estructura de un documento XML?",
+        "correctOptionIndex": 1,
+        "optionA": "Prólogo, introducción y cuerpo.",
+        "optionB": "Prólogo y cuerpo.",
+        "optionC": "Prólogo y declaración.",
+        "optionD": "Declaración y cuerpo."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "Indica la afirmación correcta.",
+        "correctOptionIndex": 2,
+        "optionA": "Es mejor utilizar atributos que nuevos elementos.",
+        "optionB": "Sólo se puede indicar un atributo por elemento.",
+        "optionC": "No se debe abusar de los atributos.",
+        "optionD": "Los valores de los atributos no van entre comillas."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "Las instrucciones de procesamiento en un documento XML están delimitadas por:",
+        "correctOptionIndex": 3,
+        "optionA": "</ y />",
+        "optionB": "<? y /?>",
+        "optionC": "<¿ y /¿>",
+        "optionD": "<? y ?>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "Indica una forma de validar un documento XML.",
+        "correctOptionIndex": 3,
+        "optionA": "DTT",
+        "optionB": "XTD",
+        "optionC": "XMT",
+        "optionD": "DTD"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "Cuando el documento DTD es público….",
+        "correctOptionIndex": 2,
+        "optionA": "Hay que indicarlo con SYSTEM.",
+        "optionB": "Hay que indicarlo con public",
+        "optionC": "Hay que indicarlo con public e indicar su FPI",
+        "optionD": "Hay que indicarlo con public e indicar su DTD."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "¿De qué tipo es el DTD “<!DOCTYPE elemento raiz SYSTEM URL>”?",
+        "correctOptionIndex": 3,
+        "optionA": "Interno",
+        "optionB": "Interno y público.",
+        "optionC": "Externo y público.",
+        "optionD": "Externo y privado."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "Cuando la cardinalidad en un elemento se indica con el carácter *:",
+        "correctOptionIndex": 1,
+        "optionA": "El elemento aparece 0 ó 1 vez.",
+        "optionB": "El elemento aparece 0 a N veces",
+        "optionC": "El elemento aparece 1 a N veces",
+        "optionD": "El elemento sólo 1 vez."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "Cuando la cardinalidad en un elemento se indica con el carácter +:",
+        "correctOptionIndex": 2,
+        "optionA": "El elemento aparece 0 ó 1 vez.",
+        "optionB": "El elemento aparece 0 a N veces",
+        "optionC": "El elemento aparece 1 a N veces",
+        "optionD": "El elemento sólo 1 vez."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "¿Cómo se representan los atributos en DTD?",
+        "correctOptionIndex": 1,
+        "optionA": "<ATTLIST>",
+        "optionB": "<!ATTLIST>",
+        "optionC": "<LISTATT>",
+        "optionD": "<ATTRIB>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "¿Qué propiedad CSS se utiliza para cambiar el color de fondo de un elemento?",
+        "correctOptionIndex": 1,
+        "optionA": "color",
+        "optionB": "background-color",
+        "optionC": "font-color",
+        "optionD": "text-color"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Cuál es la etiqueta HTML para crear una lista ordenada?",
+        "correctOptionIndex": 2,
+        "optionA": "<ul>",
+        "optionB": "<li>",
+        "optionC": "<ol>",
+        "optionD": "<dl>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Qué versión de HTML es la más reciente?",
+        "correctOptionIndex": 1,
+        "optionA": "HTML 4",
+        "optionB": "HTML 5",
+        "optionC": "XHTML 1.0",
+        "optionD": "XHTML 1.1"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Qué significa HTML?",
+        "correctOptionIndex": 0,
+        "optionA": "Hyper Text Markup Language",
+        "optionB": "High Tech Markup Language",
+        "optionC": "Hyperlink Text Markup Language",
+        "optionD": "Home Tool Markup Language"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "¿Qué etiqueta hay que utilizar para incluir CSS en el propio documento HTML, como estilos locales al archivo?",
+        "correctOptionIndex": 2,
+        "optionA": "<link>",
+        "optionB": "<sheets>",
+        "optionC": "<style>",
+        "optionD": "<src>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Cuál es el uso más frecuente de los lenguajes de marcas?",
+        "correctOptionIndex": 1,
+        "optionA": "La creación de bases de datos",
+        "optionB": "La creación de páginas web",
+        "optionC": "La creación de aplicaciones móviles",
+        "optionD": "La creación de videojuegos"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "¿Qué valor se utiliza en la propiedad \"clear\" para no permitir que los elementos floten en la orientación que le indiquemos?",
+        "correctOptionIndex": 3,
+        "optionA": "none",
+        "optionB": "left",
+        "optionC": "right",
+        "optionD": "both"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_5",
+        "text": "¿Qué es el atributo \"required\" en un formulario HTML?",
+        "correctOptionIndex": 0,
+        "optionA": "Un atributo para definir que un campo es obligatorio",
+        "optionB": "Un atributo para definir que un campo es opcional",
+        "optionC": "Un atributo para definir que un campo es de solo lectura",
+        "optionD": "Un atributo para definir que un campo es de selección múltiple"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "¿Cuál es la forma correcta de aplicar un estilo CSS a un elemento HTML con un ID específico?",
+        "correctOptionIndex": 0,
+        "optionA": "#elemento { estilo }",
+        "optionB": ".elemento { estilo }",
+        "optionC": "elemento { estilo }",
+        "optionD": "id=\"elemento\" { estilo }"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_9",
+        "text": "¿Qué propiedad CSS se utiliza para sacar los elementos HTML del flujo normal y permitir que los elementos que lo rodean fluyan a izquierda o derecha?",
+        "correctOptionIndex": 1,
+        "optionA": "position",
+        "optionB": "float",
+        "optionC": "clear",
+        "optionD": "display"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_1",
+        "text": "¿Qué es un lenguaje de marcas?",
+        "correctOptionIndex": 1,
+        "optionA": "Un lenguaje de programación",
+        "optionB": "Un lenguaje de etiquetado",
+        "optionC": "Un lenguaje de consulta",
+        "optionD": "Un lenguaje de diseño"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "¿Qué es un atributo en DTD?",
+        "correctOptionIndex": 0,
+        "optionA": "Una propiedad que describe un elemento",
+        "optionB": "Una etiqueta que define una estructura de datos",
+        "optionC": "Un tipo de dato numérico",
+        "optionD": "Un archivo de imagen"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Cuál es la etiqueta HTML para crear un salto de línea?",
+        "correctOptionIndex": 0,
+        "optionA": "<br>",
+        "optionB": "<hr>",
+        "optionC": "<p>",
+        "optionD": "<span>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_3",
+        "text": "¿Qué etiqueta se utiliza para agregar un título a una página web en HTML?",
+        "correctOptionIndex": 0,
+        "optionA": "<title>",
+        "optionB": "<head>",
+        "optionC": "<meta>",
+        "optionD": "<body>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_10",
+        "text": "¿Qué son las entidades en DTD?",
+        "correctOptionIndex": 0,
+        "optionA": "Constantes que se declaran con y se utilizan en el fichero XML",
+        "optionB": "Elementos que definen la estructura de un documento XML",
+        "optionC": "Atributos que se utilizan para incluir información adicional en un elemento",
+        "optionD": "Tipos de datos que se utilizan para definir los valores de los atributos"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_2",
+        "text": "¿Para qué se utiliza el atributo href?",
+        "correctOptionIndex": 3,
+        "optionA": "Para indicar cual es el índice del sitio web.",
+        "optionB": "Para referenciar el final del documento HTML.",
+        "optionC": "Para indicar el título del documento",
+        "optionD": "Indica la dirección web para un enlace."
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_4",
+        "text": "¿Qué elemento de HTML5 se utiliza para crear una lista de definiciones?",
+        "correctOptionIndex": 2,
+        "optionA": "<ul>",
+        "optionB": "<ol>",
+        "optionC": "<dl>",
+        "optionD": "<dt>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "¿Qué etiqueta de HTML5 se utiliza para crear un campo que reciba un email como tipo de valor?",
+        "correctOptionIndex": 1,
+        "optionA": "<form>",
+        "optionB": "<input type=\"email\">",
+        "optionC": "<label>",
+        "optionD": "<textarea>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_6",
+        "text": "Para hacer el menú superior que vemos en muchas páginas con varios enlaces usaremos la etiqueta:",
+        "correctOptionIndex": 0,
+        "optionA": "<nav>",
+        "optionB": "<footer>",
+        "optionC": "<main>",
+        "optionD": "<section>"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_7",
+        "text": "¿Cuál es la sintaxis correcta para incluir CSS en un archivo HTML externo?",
+        "correctOptionIndex": 0,
+        "optionA": "<link rel=\"stylesheet\" href=\"style.css\">",
+        "optionB": "<style src=\"style.css\">",
+        "optionC": "<link href=\"style.css\" type=\"text/css\">",
+        "optionD": "<style type=\"text/css\" href=\"style.css\">"
+    }
 ]

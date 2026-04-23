@@ -1,19 +1,31 @@
 import firebase_admin
 from firebase_admin import credentials, db
 import json
+import os
 
-# 1. CONFIGURACIÓN (Verifica que el nombre del .json de tu clave sea correcto)
-cred = credentials.Certificate("damtests-5ec43-firebase-adminsdk-fbsvc-c7a2bd3207.json")
-if not firebase_admin._apps:
-    firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://damtests-5ec43-default-rtdb.firebaseio.com/'
-    })
+# 1. ESTO CORRIGE EL ERROR: Detecta la carpeta donde está este script
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Construimos la ruta completa al archivo de la llave
+# Así, no importa desde dónde ejecutes el programa, siempre la encontrará al lado del .py
+ruta_llave = os.path.join(BASE_DIR, "damtests-5ec43-firebase-adminsdk-fbsvc-1cdbdab176.json")
+
+# Inicializar Firebase
+try:
+    cred = credentials.Certificate(ruta_llave)
+    if not firebase_admin._apps:
+        firebase_admin.initialize_app(cred, {
+            'databaseURL': 'https://damtests-5ec43-default-rtdb.firebaseio.com/'
+        })
+except Exception as e:
+    print(f"❌ Error al cargar la llave de Firebase: {e}")
+    print(f"Buscaba en: {ruta_llave}")
+    exit()
 
 def upload_questions(questions_list):
     temas_a_procesar = {}
     
     for q in questions_list:
-        # Aseguramos que el topicId sea un string (ej: "tema_1")
         tid = q.get('topicId', '1')
         topic_key = f"tema_{tid}" if isinstance(tid, int) or str(tid).isdigit() else tid
         
@@ -26,18 +38,10 @@ def upload_questions(questions_list):
         preguntas_dict = {}
         
         for i, q in enumerate(questions):
-            # LÓGICA DE DETECCIÓN DE FORMATO
-            # Si tiene la lista 'options', sacamos de ahí. Si no, buscamos 'optionA'
-            if 'options' in q:
-                opt_a = q['options'][0]
-                opt_b = q['options'][1]
-                opt_c = q['options'][2]
-                opt_d = q['options'][3]
-            else:
-                opt_a = q.get('optionA', "")
-                opt_b = q.get('optionB', "")
-                opt_c = q.get('optionC', "")
-                opt_d = q.get('optionD', "")
+            opt_a = q.get('optionA', "")
+            opt_b = q.get('optionB', "")
+            opt_c = q.get('optionC', "")
+            opt_d = q.get('optionD', "")
 
             datos_pregunta = {
                 "subjectId": subj,
@@ -64,16 +68,17 @@ def upload_questions(questions_list):
         current_version = ref_version.get() or 0
         ref_version.set(current_version + 1)
         
-        print(f"✅ Subido y Convertido: {subj} -> {topic_key} (v{current_version + 1})")
+        print(f"✅ Subido: {subj} -> {topic_key} (v{current_version + 1})")
 
-# CAMBIA ESTO por el archivo que quieras subir en cada momento
-nombre_archivo = "sostenibilidad.json" 
+# 2. SELECCIÓN DE ARCHIVO (También con ruta absoluta)
+nombre_archivo = "base_de_datos.json" 
+ruta_preguntas = os.path.join(BASE_DIR, nombre_archivo)
 
 try:
-    with open(nombre_archivo, 'r', encoding='utf-8') as f:
+    with open(ruta_preguntas, 'r', encoding='utf-8') as f:
         datos = json.load(f)
     upload_questions(datos)
 except FileNotFoundError:
-    print(f"❌ Error: No se encuentra el archivo {nombre_archivo}")
+    print(f"❌ Error: No se encuentra el archivo de preguntas en: {ruta_preguntas}")
 except Exception as e:
     print(f"❌ Error inesperado: {e}")

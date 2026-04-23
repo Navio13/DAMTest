@@ -2,9 +2,10 @@ import json
 import os
 
 def menu_creador():
+    directorio_actual = os.path.dirname(os.path.abspath(__file__))
     asignatura = input("📚 Asignatura (ej: sostenibilidad): ").strip().lower()
-    archivo_path = f"{asignatura}.json"
-    
+    archivo_path = os.path.join(directorio_actual, f"{asignatura}.json")
+
     # Cargar preguntas existentes si el archivo ya existe
     preguntas_totales = []
     if os.path.exists(archivo_path):

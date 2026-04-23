@@ -1,1202 +1,1002 @@
 [
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "La aplicación de las capacidades físicas e intelectuales de una persona hacia un fin previamente fijado se conoce como…",
-    "options": [
-      "Cultura preventiva",
-      "Salud",
-      "Trabajo",
-      "Salud laboral"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "Un estado completo de bienestar físico, psíquico y social, no meramente la ausencia de enfermedad se conoce como…",
-    "options": [
-      "Cultura preventiva",
-      "Salud",
-      "Trabajo",
-      "Salud laboral"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "Según las disciplinas estudiadas en la práctica de la salud laboral, ¿cuál se encarga de evitar que los trabajadores enfermen a consecuencia de su actividad laboral?",
-    "options": [
-      "Seguridad laboral",
-      "Higiene industrial",
-      "Medicina del trabajo",
-      "Ergonomía"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "¿En qué grupo de factores causantes de riesgos laborales debemos incluir a los virus, hongos y bacterias?",
-    "options": [
-      "Equipos de trabajo",
-      "Lugar de trabajo",
-      "Agentes químicos",
-      "Agentes biológicos"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "En relación a los riesgos laborales, las condiciones psicosociales son aquellas…",
-    "options": [
-      "Relacionadas con las condiciones fisiológicas",
-      "Relacionadas con el bienestar mental",
-      "Relacionadas con la calidad ambiental",
-      "Relacionadas con la salvaguarda del trabajador"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "¿En qué artículo de la Ley de Prevención de Riesgos Laborales se indica que los trabajadores tienen derecho a una protección eficaz?",
-    "options": [
-      "Artículo 40",
-      "Artículo 4",
-      "Artículo 19",
-      "Artículo 14"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "Señale cuál de los siguientes derechos NO es un derecho de los trabajadores en materia de salud laboral:",
-    "options": [
-      "Derecho a recibir información en materia de prevención de riesgos laborales",
-      "Derecho a que haya ascensores en todas las plantas.",
-      "Derecho a vigilar regularmente su estado de salud",
-      "Derecho de disponer de equipos de protección individual"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "¿Cuál de las siguientes no es una obligación del empresario en situaciones de riesgo grave e inminente?",
-    "options": [
-      "Informar lo antes posible a todos los trabajadores",
-      "Facilitar la formación de los trabajadores",
-      "Adoptar medidas y dar instrucciones oportunas",
-      "Disponer de lo necesario para evitar una situación de peligro"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "En el caso de que un trabajador no cumpla con sus obligaciones y se origine un accidente o enfermedad laboral sin lesiones, ¿qué tipo de responsabilidad tendrá dicho trabajador?",
-    "options": [
-      "Responsabilidad civil",
-      "Responsabilidad penal",
-      "Responsabilidad disciplinaria",
-      "Responsabilidad accidental"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 1,
-    "text": "¿Qué modelo de prevención debe instaurar una empresa con 300 trabajadores que desarrolla una actividad peligrosa?",
-    "options": [
-      "Personal",
-      "Servicio de prevención externo",
-      "Servicio de prevención propio",
-      "Delegada"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "¿Cuál de los siguientes no es un elemento que deba incluir el plan de prevención de riesgos laborales?",
-    "options": [
-      "La estructura organizativa",
-      "La política de prevención",
-      "Los salarios de los trabajadores",
-      "Los datos de la empresa"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "¿Cuál de las siguientes no es una situación en la que deba volver a realizarse una evaluación de riesgos tras la inicial?",
-    "options": [
-      "Introducción de nuevas tecnologías",
-      "Cambio del dueño de la empresa",
-      "Cambios en las condiciones de trabajo",
-      "Nuevos trabajos con componentes químicos"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "En la etapa de estimación del riesgo laboral, según la severidad del daño, ¿Qué clasificación corresponde a los cortes, irritaciones o dolores de cabeza?",
-    "options": [
-      "Dañinos",
-      "Extremadamente dañinos",
-      "Moderados",
-      "Ligeramente dañinos"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "¿A qué riesgo laboral se asocian los factores de riesgo tales como mala distribución, falta de orden, limpieza y mantenimiento?",
-    "options": [
-      "Lugar de trabajo",
-      "Utilización de equipo",
-      "Trabajo con máquinas",
-      "Riesgo eléctrico"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "¿Qué tipos de daños se pueden producir generalmente por un mal uso de las maquinas o herramientas?",
-    "options": [
-      "Caídas a distinto nivel",
-      "Estrés social",
-      "Fatiga",
-      "Cortes o aplastamientos"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "¿Qué medidas de prevención específicas podemos adoptar frente a los riesgos de incendio?",
-    "options": [
-      "Revisiones del nivel de ruido",
-      "Reducir la jornada laboral",
-      "Mantener alejados los combustibles del calor",
-      "Vía de circulación de materiales"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "¿Qué puede ocasionar un contacto eléctrico de 30 a 80 mA?",
-    "options": [
-      "Cosquilleo",
-      "Tetanización muscular",
-      "Quemaduras superficiales",
-      "Contracción muscular"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "¿Cuál de los siguientes no es uno de los riesgos físicos estudiados?",
-    "options": [
-      "Ruido",
-      "Temperatura",
-      "Radiaciones",
-      "Explosiones"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "Riesgo que relaciona con transferencia de material genético y reproducción de microorganismos:",
-    "options": [
-      "Riesgo eléctrico",
-      "Riesgo ergonómico",
-      "Riesgo biológico",
-      "Riesgo químico"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 2,
-    "text": "¿Con qué nombre se conocen los actos de violencia psicológica extrema, sistemática y prolongada sobre un trabajador en su lugar de trabajo?",
-    "options": [
-      "Burnout",
-      "Estrés laboral",
-      "Mobbing",
-      "Ergonomía"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "La lesión corporal que el trabajador sufre con ocasión o consecuencia del trabajo por cuenta ajena se conoce como:",
-    "options": [
-      "Accidente de trabajo",
-      "Causa de trabajo",
-      "Enfermedad profesional",
-      "Accidente ocasional"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "¿Cuál de los siguientes no se considera un accidente de trabajo?",
-    "options": [
-      "El accidente al ejercitar funciones de carácter sindical",
-      "Enfermedad no profesionales pero contraídas en el trabajo",
-      "Agravamiento de enfermedades como consecuencia del trabajo",
-      "Accidentes ocasionados por mala fe del trabajador"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "¿Cuál de las siguientes no es un requisito exigido para estimar un accidente in itinere?",
-    "options": [
-      "Que se produzca el trayecto habitual del trabajo al domicilio",
-      "Que se produzca dentro del tiempo normal del trayecto",
-      "Que el trabajador se encuentre solo en su vehículo",
-      "Que el medio de transporte elegido sea el habitual"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "¿Cuál de las siguientes afirmaciones no es correcta?",
-    "options": [
-      "La enfermedad profesional suele tener tratamiento médico",
-      "La enfermedad profesional se produce de manera súbita",
-      "El inicio de la enfermedad profesional suele ser lento y solapado",
-      "Las enfermedades profesionales se incluyen en un listado"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "En relación con los costes de los accidentes laborales, el coste psicológico y el dolor físico ¿a qué parte está asociado?",
-    "options": [
-      "Para la empresa",
-      "Para las familias",
-      "Para el trabajador",
-      "Para la sociedad"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "En relación con las medidas de prevención de riesgos, ¿cuál de ellas se fundamenta en la curación y rehabilitación de una enfermedad?",
-    "options": [
-      "La seguridad en el trabajo",
-      "La medicina del trabajo",
-      "La higiene industrial",
-      "Las técnicas basadas en ergonomía"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "¿Cuál de los siguientes es una medida de protección colectiva?",
-    "options": [
-      "Una mascarilla",
-      "Unas manoplas",
-      "Zapatos con suela antideslizante",
-      "Mejorar la barandilla de una escalera"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "Señale la respuesta CORRECTA:",
-    "options": [
-      "Los EPI son equipos de protección colectivos",
-      "Los EPI son equipos de protección individuales",
-      "Los EPI son equipos de prevención colectivos",
-      "Los EPI son equipos de prevención individuales"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "¿Cuál de las siguientes no es una norma relativa al uso de EPI?",
-    "options": [
-      "El trabajador debe recibir información sobre su uso",
-      "Se deben seguir las instrucciones del fabricante",
-      "Deben estar homologados y marcados como CE",
-      "Deben prestarse a los compañeros siempre que sea necesario"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 3,
-    "text": "¿Qué principio o criterio general de la Vigilancia de la Salud hace mención a la intimidad, igualdad y no discriminación?",
-    "options": [
-      "Garantizada y gratuita",
-      "Voluntaria",
-      "Ética",
-      "Documentada"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "Señale la respuesta CORRECTA, respecto al plan de autoprotección:",
-    "options": [
-      "Se encuentra incluido dentro del plan de emergencias",
-      "Es un documento más específico que el plan de emergencias",
-      "Es un documento más general que el plan de emergencias",
-      "Es voluntario para las empresas"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "Señala la afirmación correcta en relación a las emergencias parciales:",
-    "options": [
-      "Afectan a zonas muy amplias de la empresa",
-      "Intervienen equipos de primera intervención",
-      "Afectan a zonas muy concretas de la empresa",
-      "Suelen requerir una evacuación"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "La actuación que consiste en dar el aviso de emergencia o la señal de evacuación al personal de la empresa y se transmite por medios técnicos o humanos se conoce como:",
-    "options": [
-      "Mecanismos de alarma",
-      "Mecanismos de respuesta",
-      "Primeras ayudas",
-      "Procedimientos de evacuación"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "En el contexto de los primeros auxilios, el método PAS consiste en:",
-    "options": [
-      "Proteger, Animar, Socorrer",
-      "Proteger, Avisar, Socorrer",
-      "Proponer, Animar, Socorrer",
-      "Proteger, Avisar, Silenciar"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "La reanimación respiratoria se realiza cuando el accidentado:",
-    "options": [
-      "Está consciente, respira y tiene pulso",
-      "Está inconsciente, no respira, pero tiene pulso",
-      "Está inconsciente, no respira y no tiene pulso",
-      "Está inconsciente, respira y tiene pulso"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "La primera fase de las técnicas de soporte vital básico es:",
-    "options": [
-      "Comprobación de la consciencia",
-      "Apertura de las vías respiratorias",
-      "Realizar un masaje cardiaco",
-      "Chequear la respiración"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "Según las técnicas de soporte vital básico, cuando el accidentado respira:",
-    "options": [
-      "Debemos iniciar el masaje cardiaco",
-      "Debemos colocarle boca abajo",
-      "Debemos usar un desfibrilador",
-      "Hay que colocarlo en posición PLS"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "La maniobra de Heimlich se lleva a cabo en casos de...",
-    "options": [
-      "Atragantamiento",
-      "Fractura o esguince",
-      "Hemorragia",
-      "Quemadura"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "El protocolo de actuación en el caso de quemaduras indica que lo primero que hay que hacer es:",
-    "options": [
-      "Eliminar el agente que la causa",
-      "Cubrir al accidentado con una manta",
-      "Echar abundante agua sobre la quemadura",
-      "Tumbar al accidentado con los pies en alto"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 4,
-    "text": "Además de disponer de un botiquín, deberán contar con local de primeros auxilios:",
-    "options": [
-      "Las empresas con más de 10 trabajadores",
-      "Las empresas con más de 50 trabajadores",
-      "Las empresas con más de 25 trabajadores",
-      "Cualquier empresa"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "La falta de correspondencia entre las competencias ofrecidas por la población activa y demandadas por los oferentes de empleo ocasiona:",
-    "options": [
-      "Equilibrio laboral",
-      "Desempleo no estructural",
-      "Desempleo estructural",
-      "Pleno empleo"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "Es una característica de la evolución del mercado de trabajo actual en España:",
-    "options": [
-      "Reducción de la temporalidad",
-      "Reducción de los contratos fijos discontinuos",
-      "Reducción de la precariedad",
-      "Reducción del número de personas ocupadas"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "Un ejemplo de área de actividad con gran potencial es:",
-    "options": [
-      "Edición e imprenta",
-      "Las energías renovables",
-      "La minería",
-      "Atención al público presencial"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "Las actividades agrícolas pertenecen al sector (productivo):",
-    "options": [
-      "Primario",
-      "Secundario",
-      "Terciario",
-      "Cuaternario"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "El trabajo de un abogado del Estado pertenece al sector(productivo):",
-    "options": [
-      "Privado",
-      "Público",
-      "Primario",
-      "Secundario"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "Una física que trabaja en un laboratorio pertenece al sector profesional:",
-    "options": [
-      "Ciencia e investigación",
-      "Deporte",
-      "Tecnológico",
-      "Administración"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "La prospectiva de un título de grado superior proporciona información sobre:",
-    "options": [
-      "Los puestos de trabajo afines a la titulación por cuenta ajena",
-      "Los puestos de trabajo afines a la titulación por cuenta propia",
-      "Tendencias del mercado laboral para la titulación",
-      "Las profesiones reguladas asociadas al título"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "¿Cuál de los siguientes no se considera un método activo de búsqueda de empleo?",
-    "options": [
-      "Enviar una autocandidatura",
-      "Estudiar las ofertas de trabajo",
-      "Revisar diariamente Instagram",
-      "Estar en contacto con una oficina de empleo"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "Para la Encuesta de Población Activa, un estudiante que no busca trabajo es considerado:",
-    "options": [
-      "Activo ocupado",
-      "Activo desempleado",
-      "Inactivo",
-      "Parado"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 5,
-    "text": "El principal objetivo de la Red EURAXESS es:",
-    "options": [
-      "Proporcionar acceso a un listado de organizaciones sin ánimo de lucro acreditadas",
-      "Proporcionar información sobre vacantes y apoyo a investigadores profesionales",
-      "Proporcionar información sobre vacantes y apoyo a ciudadanos europeos para cualquier tipo de trabajo",
-      "Facilitar el acceso a micro financiación a emprendedores con dificultades financieras"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "¿Cuál de las siguientes no se considera una ventaja del empleo en el sector privado?",
-    "options": [
-      "Tener mayor estabilidad",
-      "Generalmente sueldos más elevados",
-      "Flexibilidad para cambiar de trabajo",
-      "Existencia de incentivos económicos"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "En relación con las fases en las que puede organizarse la búsqueda de trabajo, ¿Cuál sería el primer paso o primera fase?",
-    "options": [
-      "Contactar con empresas",
-      "Entrar en el proceso de selección",
-      "Mandar el curriculum a todas las empresas",
-      "Identificar el trabajo que queremos"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "¿Cuál de las siguientes fuentes de empleo se considera una fuente pública?",
-    "options": [
-      "Una red de contactos profesionales",
-      "El SEPE",
-      "Una ETT",
-      "Una revista especializada"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "¿Cuál de estos servicios NO es ofrecido por un portal de empleo?:",
-    "options": [
-      "Un tutorial sobre cómo hacer tu cv",
-      "Un simulador para calcular lo que cotiza la empresa por el trabajador",
-      "Un buscador de ofertas de empleo",
-      "La posibilidad de adjuntar una carta de presentación"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "En una oferta de trabajo, el número de personas inscritas lo podemos encontrar en el apartado de:",
-    "options": [
-      "Encabezado",
-      "Información adicional",
-      "Presentación",
-      "Requisitos exigidos"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "¿Cuál de estas redes sociales es específica para la búsqueda de empleo?:",
-    "options": [
-      "LinkedIn",
-      "Facebook",
-      "Whatsapp",
-      "TikTok"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "Un error común en el uso de redes sociales para buscar empleo es:",
-    "options": [
-      "Cuidar tu marca personal",
-      "Buscar empleo en diversas redes sociales",
-      "No separar lo personal de lo profesional",
-      "Responder de forma rápida a los mensajes"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "¿Cuál de las siguientes redes sociales para buscar empleo permite la creación de pools de talentos?",
-    "options": [
-      "LinkedIn",
-      "Xing",
-      "BeWanted",
-      "Womenalia"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "Para indicar en LinkedIn que estás buscando trabajo:",
-    "options": [
-      "Debes seleccionar la opción #OpenToWork",
-      "Debes seleccionar la opción #WantToWork",
-      "Debes personalizar tus mensajes",
-      "Debes agregar muchos contactos"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 6,
-    "text": "¿Qué titulación se exige como mínimo para acceder al grupo B de los empleos públicos?",
-    "options": [
-      "Titulación universitaria de grado",
-      "Título de técnico superior",
-      "Título de técnico medio",
-      "Graduado en ESO"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "El mal humor constante de un compañero de trabajo puede considerarse:",
-    "options": [
-      "Una aptitud",
-      "Una competencia general",
-      "Una actitud",
-      "Una unidad competencial"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "Una actitud muy demanda por el mercado laboral es:",
-    "options": [
-      "La empatía",
-      "El liderazgo",
-      "El trabajo en equipo",
-      "La ofimática"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "¿En cuántos niveles de cualificación profesional se estructura el CNCP?:",
-    "options": [
-      "3",
-      "5",
-      "2",
-      "6"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "¿Qué competencias son aquellas que comprenden las cualidades y habilidades de una persona para su día a día y para su crecimiento personal?",
-    "options": [
-      "Competencias personales",
-      "Competencias profesionales",
-      "Competencias especiales",
-      "Competencias sociales"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "En relación a las competencias profesionales y para la empleabilidad, la empatía, escucha activa y resolución de conflictos se consideran:",
-    "options": [
-      "Competencias personales",
-      "Competencias profesionales",
-      "Competencias especiales",
-      "Competencias sociales"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "¿Cuál de las siguientes afirmaciones es correcta en relación a la carta de presentación?",
-    "options": [
-      "Incluye una foto del candidato",
-      "Debe tener un mínimo de 3 páginas",
-      "Sustituye siempre al currículum",
-      "Tiene el objetivo de dar un toque personal"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "¿Qué tipo de currículum es aquel que organiza la información de la experiencia laboral por fecha de la más antigua a la más reciente?",
-    "options": [
-      "Cronológico",
-      "Funcional",
-      "Temporal",
-      "Curriculum 2.0"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "En relación al curriculum, ¿En qué apartado debemos incluir el permiso de conducir en caso de tenerlo?",
-    "options": [
-      "Datos personales",
-      "Formación académica",
-      "Otros datos",
-      "Experiencia laboral"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "Presentación en vídeo en la que el aspirante relata y habla de sí mismo, sobre sus aptitudes, habilidades y logros:",
-    "options": [
-      "Curriculum",
-      "Carta de presentación",
-      "Entrevista",
-      "Videocurriculum"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 7,
-    "text": "¿Cuál de las siguientes no se considera una recomendación a tener en cuenta en las entrevistas?",
-    "options": [
-      "Evitar juicios de valor",
-      "Adaptarse a la situación de la empresa",
-      "Comentar cuando serán las próximas vacaciones",
-      "Vestir adecuadamente y ser puntual"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "Identifica la jornada laboral que no es legal:",
-    "options": [
-      "María trabaja de 23:00 a 7:00 de martes a jueves",
-      "Mercedes trabaja de 10:00 a 15:00 de lunes a viernes",
-      "Juan trabaja a turnos y trabaja todo el mes de junio de noches",
-      "Pedro trabaja de 8:00 a 15:00 de lunes a viernes con veinte minutos de descanso al día"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "El descanso mínimo entre jornadas es de:",
-    "options": [
-      "12 horas en horario normal",
-      "12 horas en horario de turnos",
-      "9 horas en horario normal",
-      "9 horas en horario de turnos"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "¿Cuál de estos trabajadores puede realizar horas complementarias?:",
-    "options": [
-      "Un trabajador con un contrato a tiempo parcial de 9 horas semanales",
-      "Un trabajador con un contrato a tiempo parcial de 15 horas semanales",
-      "Un trabajador a jornada completa",
-      "Un trabajador cuya jornada laboral es de 1 hora diaria."
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "¿Cuál de estos trabajadores puede hacer horas extraordinarias?:",
-    "options": [
-      "Un trabajador en ERTE",
-      "Un trabajador con un contrato indefinido a tiempo completo",
-      "Un trabajador con un contrato a media jornada",
-      "Un trabajador con un contrato formativo"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "El empresario debe notificar al trabajador las fechas de sus vacaciones con una anticipación de:",
-    "options": [
-      "15 días",
-      "2 meses",
-      "6 meses",
-      "El 1 de enero de cada año"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "La duración mínima de vacaciones anuales de un trabajador es de:",
-    "options": [
-      "30 días naturales",
-      "15 días naturales",
-      "30 días hábiles",
-      "15 días hábiles"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "La duración del permiso retribuido por cuidado del lactante es de:",
-    "options": [
-      "Media hora diaria",
-      "30 horas al mes",
-      "1 hora diaria",
-      "La ley no contempla permisos retribuidos por esta causa"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "La protección jurídica de la Ley de Familias se refiere a:",
-    "options": [
-      "La regulación de las nuevas situaciones familiares",
-      "Las ayudas económicas para familias con menores de tres años",
-      "Las medidas de apoyo para el uso de las TICs",
-      "Las medidas de apoyo al ocio de las familias"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "La característica de “colectividad”, en la elaboración de un Plan de Igualdad, se refiere a que:",
-    "options": [
-      "Es secuencial y admite cambios",
-      "No es indefinido",
-      "Comprende todas las áreas de la empresa a nivel horizontal",
-      "Afecta positivamente a todos los trabajadores de la empresa"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 8,
-    "text": "Para ser considerado teletrabajo, el trabajo realizado a distancia debe comprender, al menos:",
-    "options": [
-      "El 50% de la jornada",
-      "El 30% de la jornada en un período de referencia de 3 meses",
-      "El 100% de la jornada, ya que es un trabajo a distancia",
-      "Ninguna de las respuestas es correcta"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "Señale cuáles son los requisitos de una relación laboral:",
-    "options": [
-      "Trabajo personal, voluntario, retribuido, independiente y por cuenta ajena",
-      "Trabajo personal, voluntario, retribuido, dependiente y por cuenta propia",
-      "Trabajo personal, voluntario, retribuido, dependiente y por cuenta ajena",
-      "Trabajo personal, forzoso, retribuido, dependiente y por cuenta ajena"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "Identifique cuál de las siguientes actividades es una relación laboral especial:",
-    "options": [
-      "Un hombre que presta servicios de limpieza en un hogar (retribuidos)",
-      "La profesora de una universidad privada",
-      "Un consultor de banca que cobra sólo a comisión",
-      "Un fontanero que trabaja por cuenta propia"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "¿Cuál de las siguientes fuentes del derecho laboral es prioritaria?:",
-    "options": [
-      "El convenio colectivo",
-      "Las leyes",
-      "El contrato de trabajo",
-      "Los usos y costumbres"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "El principio de jerarquía normativa implica:",
-    "options": [
-      "En caso de duda, la razón se le da al trabajador",
-      "Las normas superiores están por encima de las inferiores, y las inferiores no pueden contradecirlas",
-      "Ante dos normas del mismo rango, se aplicará la más beneficiosa para el trabajador",
-      "Las normas superiores marcan mínimos que las inferiores sólo pueden mejorar"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "El derecho al descanso del trabajador:",
-    "options": [
-      "Es un derecho colectivo",
-      "Es un derecho individual",
-      "Es una obligación colectiva",
-      "Es una obligación individual"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "El hecho de que un convenio colectivo sea aplicable al sector de oficinas y despachos es un ámbito de aplicación de tipo:",
-    "options": [
-      "Funcional",
-      "Territorial",
-      "Temporal",
-      "Personal"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "Según la última actualización de los convenios colectivos:",
-    "options": [
-      "Las empresas no pueden modificar el horario laboral",
-      "Las empresas pueden modificar el salario base, pero no los complementos salariales",
-      "El convenio se prorroga automáticamente si no hay nuevo acuerdo",
-      "Las empresas no pueden modificar los trabajos a turnos"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "La Inspección de Trabajo y Seguridad Social es:",
-    "options": [
-      "Una institución pública de carácter estatal",
-      "Una institución pública de carácter local",
-      "Una empresa de alcance internacional",
-      "Una PYME que vela por el cumplimiento de las normas laborales"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "Los derechos y obligaciones asociadas a una relación laboral están contemplados, en España en:",
-    "options": [
-      "La Constitución Española y en los reglamentos regionales",
-      "La Constitución Española y en los Tratados internacionales",
-      "Los Tratados internacionales y el Estatuto de los Trabajadores",
-      "La Constitución Española y el Estatuto de los Trabajadores"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 9,
-    "text": "El Tribunal Laboral es:",
-    "options": [
-      "Un tribunal mercantil con jurisdicción especial",
-      "Un tribunal civil con jurisdicción especial",
-      "Un tribunal penal",
-      "Un tribunal europeo"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "El consentimiento, como elemento esencial de un contrato de trabajo, se refiere:",
-    "options": [
-      "Al intercambio de trabajo por salario",
-      "A la prestación o trabajo realizado",
-      "A la voluntariedad por parte de las partes firmantes",
-      "A la contraprestación o salario recibido"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "Identifique cuál de las siguientes personas NO puede firmar un contrato de trabajo:",
-    "options": [
-      "Marta, de 15 años, con el consentimiento de sus padres a no ser que sea en espectáculos públicos.",
-      "Pepe, de 18 años, sin el consentimiento de sus padres",
-      "Laurita, de 37 años, que vive con sus padres",
-      "José Luis, de 17 años, que vive sólo, con el consentimiento de sus padres"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "Un contrato indefinido ordinario puede celebrarse de forma:",
-    "options": [
-      "Únicamente verbal",
-      "Verbal o escrita",
-      "Únicamente escrita",
-      "Ninguna de las respuestas es correcta"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "Indique la respuesta correcta respecto del período de prueba:",
-    "options": [
-      "Durante el período de prueba, el empleador debe preavisar del cese del contrato",
-      "Puede ser rescindido por cualquiera de las partes sin ningún tipo de causa",
-      "Durante el período de prueba, el trabajador debe preavisar del cese del contrato",
-      "Durante el período de prueba, el trabajador cobra un 90% del salario fijado en el contrato"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "Las modalidades de contratación legales en España son:",
-    "options": [
-      "Indefinida, contratos fijos-discontinuos y de formación",
-      "Indefinida, de duración determinada y de formación",
-      "A tiempo parcial, de duración determinada y de formación",
-      "Indefinida, de sustitución y a tiempo parcial"
-    ],
-    "correctOptionIndex": 1
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "Los contratos indefinidos ordinarios:",
-    "options": [
-      "No generan derechos a incentivos o bonificaciones",
-      "Alternan periodos de trabajo y de no trabajo",
-      "Tienen un componente formativo para mejorar las competencias del trabajador",
-      "La edad del trabajador debe estar comprendida entre 16 y 30 años"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "El contrato adecuado para un trabajador en la vendimia es:",
-    "options": [
-      "Un contrato indefinido ordinario",
-      "Un contrato de sustitución a tiempo parcial",
-      "Un contrato fijo discontinuo",
-      "Un contrato para la obtención de la práctica profesional"
-    ],
-    "correctOptionIndex": 2
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "La duración de un contrato de formación en alternancia debe ser:",
-    "options": [
-      "De 3 meses a 2 años",
-      "Indefinida",
-      "De 6 meses a 1 año",
-      "Máximo de 90 días trabajados de forma continuada"
-    ],
-    "correctOptionIndex": 0
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "En los contratos formativos en alternancia, el primer año se debe dedicar, como máximo, al trabajo efectivo:",
-    "options": [
-      "Nada, ya que es un contrato de formación",
-      "El 100% del tiempo",
-      "El 35% del tiempo",
-      "El 65% del tiempo"
-    ],
-    "correctOptionIndex": 3
-  },
-  {
-    "subjectId": "ipe",
-    "topicId": 10,
-    "text": "¿Cuál de las siguientes modificaciones del contrato de trabajo se refiere a una movilidad laboral?:",
-    "options": [
-      "La modificación del sistema de remuneración",
-      "El traslado de un trabajador",
-      "La movilidad funcional extraordinaria",
-      "Una modificación de la jornada de trabajo"
-    ],
-    "correctOptionIndex": 1
-  }
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "La aplicación de las capacidades físicas e intelectuales de una persona hacia un fin previamente fijado se conoce como…",
+        "correctOptionIndex": 2,
+        "optionA": "Cultura preventiva",
+        "optionB": "Salud",
+        "optionC": "Trabajo",
+        "optionD": "Salud laboral"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "Un estado completo de bienestar físico, psíquico y social, no meramente la ausencia de enfermedad se conoce como…",
+        "correctOptionIndex": 1,
+        "optionA": "Cultura preventiva",
+        "optionB": "Salud",
+        "optionC": "Trabajo",
+        "optionD": "Salud laboral"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "Según las disciplinas estudiadas en la práctica de la salud laboral, ¿cuál se encarga de evitar que los trabajadores enfermen a consecuencia de su actividad laboral?",
+        "correctOptionIndex": 1,
+        "optionA": "Seguridad laboral",
+        "optionB": "Higiene industrial",
+        "optionC": "Medicina del trabajo",
+        "optionD": "Ergonomía"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "¿En qué grupo de factores causantes de riesgos laborales debemos incluir a los virus, hongos y bacterias?",
+        "correctOptionIndex": 3,
+        "optionA": "Equipos de trabajo",
+        "optionB": "Lugar de trabajo",
+        "optionC": "Agentes químicos",
+        "optionD": "Agentes biológicos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "En relación a los riesgos laborales, las condiciones psicosociales son aquellas…",
+        "correctOptionIndex": 1,
+        "optionA": "Relacionadas con las condiciones fisiológicas",
+        "optionB": "Relacionadas con el bienestar mental",
+        "optionC": "Relacionadas con la calidad ambiental",
+        "optionD": "Relacionadas con la salvaguarda del trabajador"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "¿En qué artículo de la Ley de Prevención de Riesgos Laborales se indica que los trabajadores tienen derecho a una protección eficaz?",
+        "correctOptionIndex": 3,
+        "optionA": "Artículo 40",
+        "optionB": "Artículo 4",
+        "optionC": "Artículo 19",
+        "optionD": "Artículo 14"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "Señale cuál de los siguientes derechos NO es un derecho de los trabajadores en materia de salud laboral:",
+        "correctOptionIndex": 1,
+        "optionA": "Derecho a recibir información en materia de prevención de riesgos laborales",
+        "optionB": "Derecho a que haya ascensores en todas las plantas.",
+        "optionC": "Derecho a vigilar regularmente su estado de salud",
+        "optionD": "Derecho de disponer de equipos de protección individual"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "¿Cuál de las siguientes no es una obligación del empresario en situaciones de riesgo grave e inminente?",
+        "correctOptionIndex": 1,
+        "optionA": "Informar lo antes posible a todos los trabajadores",
+        "optionB": "Facilitar la formación de los trabajadores",
+        "optionC": "Adoptar medidas y dar instrucciones oportunas",
+        "optionD": "Disponer de lo necesario para evitar una situación de peligro"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "En el caso de que un trabajador no cumpla con sus obligaciones y se origine un accidente o enfermedad laboral sin lesiones, ¿qué tipo de responsabilidad tendrá dicho trabajador?",
+        "correctOptionIndex": 0,
+        "optionA": "Responsabilidad civil",
+        "optionB": "Responsabilidad penal",
+        "optionC": "Responsabilidad disciplinaria",
+        "optionD": "Responsabilidad accidental"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_1",
+        "text": "¿Qué modelo de prevención debe instaurar una empresa con 300 trabajadores que desarrolla una actividad peligrosa?",
+        "correctOptionIndex": 2,
+        "optionA": "Personal",
+        "optionB": "Servicio de prevención externo",
+        "optionC": "Servicio de prevención propio",
+        "optionD": "Delegada"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "¿Cuál de los siguientes no es un elemento que deba incluir el plan de prevención de riesgos laborales?",
+        "correctOptionIndex": 2,
+        "optionA": "La estructura organizativa",
+        "optionB": "La política de prevención",
+        "optionC": "Los salarios de los trabajadores",
+        "optionD": "Los datos de la empresa"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "¿Cuál de las siguientes no es una situación en la que deba volver a realizarse una evaluación de riesgos tras la inicial?",
+        "correctOptionIndex": 1,
+        "optionA": "Introducción de nuevas tecnologías",
+        "optionB": "Cambio del dueño de la empresa",
+        "optionC": "Cambios en las condiciones de trabajo",
+        "optionD": "Nuevos trabajos con componentes químicos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "En la etapa de estimación del riesgo laboral, según la severidad del daño, ¿Qué clasificación corresponde a los cortes, irritaciones o dolores de cabeza?",
+        "correctOptionIndex": 3,
+        "optionA": "Dañinos",
+        "optionB": "Extremadamente dañinos",
+        "optionC": "Moderados",
+        "optionD": "Ligeramente dañinos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "¿A qué riesgo laboral se asocian los factores de riesgo tales como mala distribución, falta de orden, limpieza y mantenimiento?",
+        "correctOptionIndex": 0,
+        "optionA": "Lugar de trabajo",
+        "optionB": "Utilización de equipo",
+        "optionC": "Trabajo con máquinas",
+        "optionD": "Riesgo eléctrico"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "¿Qué tipos de daños se pueden producir generalmente por un mal uso de las maquinas o herramientas?",
+        "correctOptionIndex": 3,
+        "optionA": "Caídas a distinto nivel",
+        "optionB": "Estrés social",
+        "optionC": "Fatiga",
+        "optionD": "Cortes o aplastamientos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "¿Qué medidas de prevención específicas podemos adoptar frente a los riesgos de incendio?",
+        "correctOptionIndex": 2,
+        "optionA": "Revisiones del nivel de ruido",
+        "optionB": "Reducir la jornada laboral",
+        "optionC": "Mantener alejados los combustibles del calor",
+        "optionD": "Vía de circulación de materiales"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "¿Qué puede ocasionar un contacto eléctrico de 30 a 80 mA?",
+        "correctOptionIndex": 1,
+        "optionA": "Cosquilleo",
+        "optionB": "Tetanización muscular",
+        "optionC": "Quemaduras superficiales",
+        "optionD": "Contracción muscular"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "¿Cuál de los siguientes no es uno de los riesgos físicos estudiados?",
+        "correctOptionIndex": 3,
+        "optionA": "Ruido",
+        "optionB": "Temperatura",
+        "optionC": "Radiaciones",
+        "optionD": "Explosiones"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "Riesgo que relaciona con transferencia de material genético y reproducción de microorganismos:",
+        "correctOptionIndex": 2,
+        "optionA": "Riesgo eléctrico",
+        "optionB": "Riesgo ergonómico",
+        "optionC": "Riesgo biológico",
+        "optionD": "Riesgo químico"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_2",
+        "text": "¿Con qué nombre se conocen los actos de violencia psicológica extrema, sistemática y prolongada sobre un trabajador en su lugar de trabajo?",
+        "correctOptionIndex": 2,
+        "optionA": "Burnout",
+        "optionB": "Estrés laboral",
+        "optionC": "Mobbing",
+        "optionD": "Ergonomía"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "La lesión corporal que el trabajador sufre con ocasión o consecuencia del trabajo por cuenta ajena se conoce como:",
+        "correctOptionIndex": 0,
+        "optionA": "Accidente de trabajo",
+        "optionB": "Causa de trabajo",
+        "optionC": "Enfermedad profesional",
+        "optionD": "Accidente ocasional"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "¿Cuál de los siguientes no se considera un accidente de trabajo?",
+        "correctOptionIndex": 3,
+        "optionA": "El accidente al ejercitar funciones de carácter sindical",
+        "optionB": "Enfermedad no profesionales pero contraídas en el trabajo",
+        "optionC": "Agravamiento de enfermedades como consecuencia del trabajo",
+        "optionD": "Accidentes ocasionados por mala fe del trabajador"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "¿Cuál de las siguientes no es un requisito exigido para estimar un accidente in itinere?",
+        "correctOptionIndex": 2,
+        "optionA": "Que se produzca el trayecto habitual del trabajo al domicilio",
+        "optionB": "Que se produzca dentro del tiempo normal del trayecto",
+        "optionC": "Que el trabajador se encuentre solo en su vehículo",
+        "optionD": "Que el medio de transporte elegido sea el habitual"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "¿Cuál de las siguientes afirmaciones no es correcta?",
+        "correctOptionIndex": 1,
+        "optionA": "La enfermedad profesional suele tener tratamiento médico",
+        "optionB": "La enfermedad profesional se produce de manera súbita",
+        "optionC": "El inicio de la enfermedad profesional suele ser lento y solapado",
+        "optionD": "Las enfermedades profesionales se incluyen en un listado"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "En relación con los costes de los accidentes laborales, el coste psicológico y el dolor físico ¿a qué parte está asociado?",
+        "correctOptionIndex": 2,
+        "optionA": "Para la empresa",
+        "optionB": "Para las familias",
+        "optionC": "Para el trabajador",
+        "optionD": "Para la sociedad"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "En relación con las medidas de prevención de riesgos, ¿cuál de ellas se fundamenta en la curación y rehabilitación de una enfermedad?",
+        "correctOptionIndex": 1,
+        "optionA": "La seguridad en el trabajo",
+        "optionB": "La medicina del trabajo",
+        "optionC": "La higiene industrial",
+        "optionD": "Las técnicas basadas en ergonomía"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "¿Cuál de los siguientes es una medida de protección colectiva?",
+        "correctOptionIndex": 3,
+        "optionA": "Una mascarilla",
+        "optionB": "Unas manoplas",
+        "optionC": "Zapatos con suela antideslizante",
+        "optionD": "Mejorar la barandilla de una escalera"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "Señale la respuesta CORRECTA:",
+        "correctOptionIndex": 1,
+        "optionA": "Los EPI son equipos de protección colectivos",
+        "optionB": "Los EPI son equipos de protección individuales",
+        "optionC": "Los EPI son equipos de prevención colectivos",
+        "optionD": "Los EPI son equipos de prevención individuales"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "¿Cuál de las siguientes no es una norma relativa al uso de EPI?",
+        "correctOptionIndex": 3,
+        "optionA": "El trabajador debe recibir información sobre su uso",
+        "optionB": "Se deben seguir las instrucciones del fabricante",
+        "optionC": "Deben estar homologados y marcados como CE",
+        "optionD": "Deben prestarse a los compañeros siempre que sea necesario"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_3",
+        "text": "¿Qué principio o criterio general de la Vigilancia de la Salud hace mención a la intimidad, igualdad y no discriminación?",
+        "correctOptionIndex": 2,
+        "optionA": "Garantizada y gratuita",
+        "optionB": "Voluntaria",
+        "optionC": "Ética",
+        "optionD": "Documentada"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "Señale la respuesta CORRECTA, respecto al plan de autoprotección:",
+        "correctOptionIndex": 2,
+        "optionA": "Se encuentra incluido dentro del plan de emergencias",
+        "optionB": "Es un documento más específico que el plan de emergencias",
+        "optionC": "Es un documento más general que el plan de emergencias",
+        "optionD": "Es voluntario para las empresas"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "Señala la afirmación correcta en relación a las emergencias parciales:",
+        "correctOptionIndex": 0,
+        "optionA": "Afectan a zonas muy amplias de la empresa",
+        "optionB": "Intervienen equipos de primera intervención",
+        "optionC": "Afectan a zonas muy concretas de la empresa",
+        "optionD": "Suelen requerir una evacuación"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "La actuación que consiste en dar el aviso de emergencia o la señal de evacuación al personal de la empresa y se transmite por medios técnicos o humanos se conoce como:",
+        "correctOptionIndex": 0,
+        "optionA": "Mecanismos de alarma",
+        "optionB": "Mecanismos de respuesta",
+        "optionC": "Primeras ayudas",
+        "optionD": "Procedimientos de evacuación"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "En el contexto de los primeros auxilios, el método PAS consiste en:",
+        "correctOptionIndex": 1,
+        "optionA": "Proteger, Animar, Socorrer",
+        "optionB": "Proteger, Avisar, Socorrer",
+        "optionC": "Proponer, Animar, Socorrer",
+        "optionD": "Proteger, Avisar, Silenciar"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "La reanimación respiratoria se realiza cuando el accidentado:",
+        "correctOptionIndex": 1,
+        "optionA": "Está consciente, respira y tiene pulso",
+        "optionB": "Está inconsciente, no respira, pero tiene pulso",
+        "optionC": "Está inconsciente, no respira y no tiene pulso",
+        "optionD": "Está inconsciente, respira y tiene pulso"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "La primera fase de las técnicas de soporte vital básico es:",
+        "correctOptionIndex": 0,
+        "optionA": "Comprobación de la consciencia",
+        "optionB": "Apertura de las vías respiratorias",
+        "optionC": "Realizar un masaje cardiaco",
+        "optionD": "Chequear la respiración"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "Según las técnicas de soporte vital básico, cuando el accidentado respira:",
+        "correctOptionIndex": 3,
+        "optionA": "Debemos iniciar el masaje cardiaco",
+        "optionB": "Debemos colocarle boca abajo",
+        "optionC": "Debemos usar un desfibrilador",
+        "optionD": "Hay que colocarlo en posición PLS"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "La maniobra de Heimlich se lleva a cabo en casos de...",
+        "correctOptionIndex": 0,
+        "optionA": "Atragantamiento",
+        "optionB": "Fractura o esguince",
+        "optionC": "Hemorragia",
+        "optionD": "Quemadura"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "El protocolo de actuación en el caso de quemaduras indica que lo primero que hay que hacer es:",
+        "correctOptionIndex": 0,
+        "optionA": "Eliminar el agente que la causa",
+        "optionB": "Cubrir al accidentado con una manta",
+        "optionC": "Echar abundante agua sobre la quemadura",
+        "optionD": "Tumbar al accidentado con los pies en alto"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_4",
+        "text": "Además de disponer de un botiquín, deberán contar con local de primeros auxilios:",
+        "correctOptionIndex": 1,
+        "optionA": "Las empresas con más de 10 trabajadores",
+        "optionB": "Las empresas con más de 50 trabajadores",
+        "optionC": "Las empresas con más de 25 trabajadores",
+        "optionD": "Cualquier empresa"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "La falta de correspondencia entre las competencias ofrecidas por la población activa y demandadas por los oferentes de empleo ocasiona:",
+        "correctOptionIndex": 2,
+        "optionA": "Equilibrio laboral",
+        "optionB": "Desempleo no estructural",
+        "optionC": "Desempleo estructural",
+        "optionD": "Pleno empleo"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "Es una característica de la evolución del mercado de trabajo actual en España:",
+        "correctOptionIndex": 0,
+        "optionA": "Reducción de la temporalidad",
+        "optionB": "Reducción de los contratos fijos discontinuos",
+        "optionC": "Reducción de la precariedad",
+        "optionD": "Reducción del número de personas ocupadas"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "Un ejemplo de área de actividad con gran potencial es:",
+        "correctOptionIndex": 1,
+        "optionA": "Edición e imprenta",
+        "optionB": "Las energías renovables",
+        "optionC": "La minería",
+        "optionD": "Atención al público presencial"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "Las actividades agrícolas pertenecen al sector (productivo):",
+        "correctOptionIndex": 0,
+        "optionA": "Primario",
+        "optionB": "Secundario",
+        "optionC": "Terciario",
+        "optionD": "Cuaternario"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "El trabajo de un abogado del Estado pertenece al sector(productivo):",
+        "correctOptionIndex": 1,
+        "optionA": "Privado",
+        "optionB": "Público",
+        "optionC": "Primario",
+        "optionD": "Secundario"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "Una física que trabaja en un laboratorio pertenece al sector profesional:",
+        "correctOptionIndex": 0,
+        "optionA": "Ciencia e investigación",
+        "optionB": "Deporte",
+        "optionC": "Tecnológico",
+        "optionD": "Administración"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "La prospectiva de un título de grado superior proporciona información sobre:",
+        "correctOptionIndex": 2,
+        "optionA": "Los puestos de trabajo afines a la titulación por cuenta ajena",
+        "optionB": "Los puestos de trabajo afines a la titulación por cuenta propia",
+        "optionC": "Tendencias del mercado laboral para la titulación",
+        "optionD": "Las profesiones reguladas asociadas al título"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "¿Cuál de los siguientes no se considera un método activo de búsqueda de empleo?",
+        "correctOptionIndex": 2,
+        "optionA": "Enviar una autocandidatura",
+        "optionB": "Estudiar las ofertas de trabajo",
+        "optionC": "Revisar diariamente Instagram",
+        "optionD": "Estar en contacto con una oficina de empleo"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "Para la Encuesta de Población Activa, un estudiante que no busca trabajo es considerado:",
+        "correctOptionIndex": 2,
+        "optionA": "Activo ocupado",
+        "optionB": "Activo desempleado",
+        "optionC": "Inactivo",
+        "optionD": "Parado"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_5",
+        "text": "El principal objetivo de la Red EURAXESS es:",
+        "correctOptionIndex": 1,
+        "optionA": "Proporcionar acceso a un listado de organizaciones sin ánimo de lucro acreditadas",
+        "optionB": "Proporcionar información sobre vacantes y apoyo a investigadores profesionales",
+        "optionC": "Proporcionar información sobre vacantes y apoyo a ciudadanos europeos para cualquier tipo de trabajo",
+        "optionD": "Facilitar el acceso a micro financiación a emprendedores con dificultades financieras"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "¿Cuál de las siguientes no se considera una ventaja del empleo en el sector privado?",
+        "correctOptionIndex": 0,
+        "optionA": "Tener mayor estabilidad",
+        "optionB": "Generalmente sueldos más elevados",
+        "optionC": "Flexibilidad para cambiar de trabajo",
+        "optionD": "Existencia de incentivos económicos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "En relación con las fases en las que puede organizarse la búsqueda de trabajo, ¿Cuál sería el primer paso o primera fase?",
+        "correctOptionIndex": 3,
+        "optionA": "Contactar con empresas",
+        "optionB": "Entrar en el proceso de selección",
+        "optionC": "Mandar el curriculum a todas las empresas",
+        "optionD": "Identificar el trabajo que queremos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "¿Cuál de las siguientes fuentes de empleo se considera una fuente pública?",
+        "correctOptionIndex": 1,
+        "optionA": "Una red de contactos profesionales",
+        "optionB": "El SEPE",
+        "optionC": "Una ETT",
+        "optionD": "Una revista especializada"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "¿Cuál de estos servicios NO es ofrecido por un portal de empleo?:",
+        "correctOptionIndex": 1,
+        "optionA": "Un tutorial sobre cómo hacer tu cv",
+        "optionB": "Un simulador para calcular lo que cotiza la empresa por el trabajador",
+        "optionC": "Un buscador de ofertas de empleo",
+        "optionD": "La posibilidad de adjuntar una carta de presentación"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "En una oferta de trabajo, el número de personas inscritas lo podemos encontrar en el apartado de:",
+        "correctOptionIndex": 1,
+        "optionA": "Encabezado",
+        "optionB": "Información adicional",
+        "optionC": "Presentación",
+        "optionD": "Requisitos exigidos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "¿Cuál de estas redes sociales es específica para la búsqueda de empleo?:",
+        "correctOptionIndex": 0,
+        "optionA": "LinkedIn",
+        "optionB": "Facebook",
+        "optionC": "Whatsapp",
+        "optionD": "TikTok"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "Un error común en el uso de redes sociales para buscar empleo es:",
+        "correctOptionIndex": 2,
+        "optionA": "Cuidar tu marca personal",
+        "optionB": "Buscar empleo en diversas redes sociales",
+        "optionC": "No separar lo personal de lo profesional",
+        "optionD": "Responder de forma rápida a los mensajes"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "¿Cuál de las siguientes redes sociales para buscar empleo permite la creación de pools de talentos?",
+        "correctOptionIndex": 2,
+        "optionA": "LinkedIn",
+        "optionB": "Xing",
+        "optionC": "BeWanted",
+        "optionD": "Womenalia"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "Para indicar en LinkedIn que estás buscando trabajo:",
+        "correctOptionIndex": 0,
+        "optionA": "Debes seleccionar la opción #OpenToWork",
+        "optionB": "Debes seleccionar la opción #WantToWork",
+        "optionC": "Debes personalizar tus mensajes",
+        "optionD": "Debes agregar muchos contactos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_6",
+        "text": "¿Qué titulación se exige como mínimo para acceder al grupo B de los empleos públicos?",
+        "correctOptionIndex": 1,
+        "optionA": "Titulación universitaria de grado",
+        "optionB": "Título de técnico superior",
+        "optionC": "Título de técnico medio",
+        "optionD": "Graduado en ESO"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "El mal humor constante de un compañero de trabajo puede considerarse:",
+        "correctOptionIndex": 2,
+        "optionA": "Una aptitud",
+        "optionB": "Una competencia general",
+        "optionC": "Una actitud",
+        "optionD": "Una unidad competencial"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "Una actitud muy demanda por el mercado laboral es:",
+        "correctOptionIndex": 0,
+        "optionA": "La empatía",
+        "optionB": "El liderazgo",
+        "optionC": "El trabajo en equipo",
+        "optionD": "La ofimática"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "¿En cuántos niveles de cualificación profesional se estructura el CNCP?:",
+        "correctOptionIndex": 1,
+        "optionA": "3",
+        "optionB": "5",
+        "optionC": "2",
+        "optionD": "6"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "¿Qué competencias son aquellas que comprenden las cualidades y habilidades de una persona para su día a día y para su crecimiento personal?",
+        "correctOptionIndex": 0,
+        "optionA": "Competencias personales",
+        "optionB": "Competencias profesionales",
+        "optionC": "Competencias especiales",
+        "optionD": "Competencias sociales"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "En relación a las competencias profesionales y para la empleabilidad, la empatía, escucha activa y resolución de conflictos se consideran:",
+        "correctOptionIndex": 3,
+        "optionA": "Competencias personales",
+        "optionB": "Competencias profesionales",
+        "optionC": "Competencias especiales",
+        "optionD": "Competencias sociales"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "¿Cuál de las siguientes afirmaciones es correcta en relación a la carta de presentación?",
+        "correctOptionIndex": 3,
+        "optionA": "Incluye una foto del candidato",
+        "optionB": "Debe tener un mínimo de 3 páginas",
+        "optionC": "Sustituye siempre al currículum",
+        "optionD": "Tiene el objetivo de dar un toque personal"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "¿Qué tipo de currículum es aquel que organiza la información de la experiencia laboral por fecha de la más antigua a la más reciente?",
+        "correctOptionIndex": 0,
+        "optionA": "Cronológico",
+        "optionB": "Funcional",
+        "optionC": "Temporal",
+        "optionD": "Curriculum 2.0"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "En relación al curriculum, ¿En qué apartado debemos incluir el permiso de conducir en caso de tenerlo?",
+        "correctOptionIndex": 2,
+        "optionA": "Datos personales",
+        "optionB": "Formación académica",
+        "optionC": "Otros datos",
+        "optionD": "Experiencia laboral"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "Presentación en vídeo en la que el aspirante relata y habla de sí mismo, sobre sus aptitudes, habilidades y logros:",
+        "correctOptionIndex": 3,
+        "optionA": "Curriculum",
+        "optionB": "Carta de presentación",
+        "optionC": "Entrevista",
+        "optionD": "Videocurriculum"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_7",
+        "text": "¿Cuál de las siguientes no se considera una recomendación a tener en cuenta en las entrevistas?",
+        "correctOptionIndex": 2,
+        "optionA": "Evitar juicios de valor",
+        "optionB": "Adaptarse a la situación de la empresa",
+        "optionC": "Comentar cuando serán las próximas vacaciones",
+        "optionD": "Vestir adecuadamente y ser puntual"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "Identifica la jornada laboral que no es legal:",
+        "correctOptionIndex": 2,
+        "optionA": "María trabaja de 23:00 a 7:00 de martes a jueves",
+        "optionB": "Mercedes trabaja de 10:00 a 15:00 de lunes a viernes",
+        "optionC": "Juan trabaja a turnos y trabaja todo el mes de junio de noches",
+        "optionD": "Pedro trabaja de 8:00 a 15:00 de lunes a viernes con veinte minutos de descanso al día"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "El descanso mínimo entre jornadas es de:",
+        "correctOptionIndex": 0,
+        "optionA": "12 horas en horario normal",
+        "optionB": "12 horas en horario de turnos",
+        "optionC": "9 horas en horario normal",
+        "optionD": "9 horas en horario de turnos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "¿Cuál de estos trabajadores puede realizar horas complementarias?:",
+        "correctOptionIndex": 1,
+        "optionA": "Un trabajador con un contrato a tiempo parcial de 9 horas semanales",
+        "optionB": "Un trabajador con un contrato a tiempo parcial de 15 horas semanales",
+        "optionC": "Un trabajador a jornada completa",
+        "optionD": "Un trabajador cuya jornada laboral es de 1 hora diaria."
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "¿Cuál de estos trabajadores puede hacer horas extraordinarias?:",
+        "correctOptionIndex": 1,
+        "optionA": "Un trabajador en ERTE",
+        "optionB": "Un trabajador con un contrato indefinido a tiempo completo",
+        "optionC": "Un trabajador con un contrato a media jornada",
+        "optionD": "Un trabajador con un contrato formativo"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "El empresario debe notificar al trabajador las fechas de sus vacaciones con una anticipación de:",
+        "correctOptionIndex": 1,
+        "optionA": "15 días",
+        "optionB": "2 meses",
+        "optionC": "6 meses",
+        "optionD": "El 1 de enero de cada año"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "La duración mínima de vacaciones anuales de un trabajador es de:",
+        "correctOptionIndex": 0,
+        "optionA": "30 días naturales",
+        "optionB": "15 días naturales",
+        "optionC": "30 días hábiles",
+        "optionD": "15 días hábiles"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "La duración del permiso retribuido por cuidado del lactante es de:",
+        "correctOptionIndex": 2,
+        "optionA": "Media hora diaria",
+        "optionB": "30 horas al mes",
+        "optionC": "1 hora diaria",
+        "optionD": "La ley no contempla permisos retribuidos por esta causa"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "La protección jurídica de la Ley de Familias se refiere a:",
+        "correctOptionIndex": 0,
+        "optionA": "La regulación de las nuevas situaciones familiares",
+        "optionB": "Las ayudas económicas para familias con menores de tres años",
+        "optionC": "Las medidas de apoyo para el uso de las TICs",
+        "optionD": "Las medidas de apoyo al ocio de las familias"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "La característica de “colectividad”, en la elaboración de un Plan de Igualdad, se refiere a que:",
+        "correctOptionIndex": 3,
+        "optionA": "Es secuencial y admite cambios",
+        "optionB": "No es indefinido",
+        "optionC": "Comprende todas las áreas de la empresa a nivel horizontal",
+        "optionD": "Afecta positivamente a todos los trabajadores de la empresa"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_8",
+        "text": "Para ser considerado teletrabajo, el trabajo realizado a distancia debe comprender, al menos:",
+        "correctOptionIndex": 1,
+        "optionA": "El 50% de la jornada",
+        "optionB": "El 30% de la jornada en un período de referencia de 3 meses",
+        "optionC": "El 100% de la jornada, ya que es un trabajo a distancia",
+        "optionD": "Ninguna de las respuestas es correcta"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "Señale cuáles son los requisitos de una relación laboral:",
+        "correctOptionIndex": 2,
+        "optionA": "Trabajo personal, voluntario, retribuido, independiente y por cuenta ajena",
+        "optionB": "Trabajo personal, voluntario, retribuido, dependiente y por cuenta propia",
+        "optionC": "Trabajo personal, voluntario, retribuido, dependiente y por cuenta ajena",
+        "optionD": "Trabajo personal, forzoso, retribuido, dependiente y por cuenta ajena"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "Identifique cuál de las siguientes actividades es una relación laboral especial:",
+        "correctOptionIndex": 0,
+        "optionA": "Un hombre que presta servicios de limpieza en un hogar (retribuidos)",
+        "optionB": "La profesora de una universidad privada",
+        "optionC": "Un consultor de banca que cobra sólo a comisión",
+        "optionD": "Un fontanero que trabaja por cuenta propia"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "¿Cuál de las siguientes fuentes del derecho laboral es prioritaria?:",
+        "correctOptionIndex": 1,
+        "optionA": "El convenio colectivo",
+        "optionB": "Las leyes",
+        "optionC": "El contrato de trabajo",
+        "optionD": "Los usos y costumbres"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "El principio de jerarquía normativa implica:",
+        "correctOptionIndex": 1,
+        "optionA": "En caso de duda, la razón se le da al trabajador",
+        "optionB": "Las normas superiores están por encima de las inferiores, y las inferiores no pueden contradecirlas",
+        "optionC": "Ante dos normas del mismo rango, se aplicará la más beneficiosa para el trabajador",
+        "optionD": "Las normas superiores marcan mínimos que las inferiores sólo pueden mejorar"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "El derecho al descanso del trabajador:",
+        "correctOptionIndex": 1,
+        "optionA": "Es un derecho colectivo",
+        "optionB": "Es un derecho individual",
+        "optionC": "Es una obligación colectiva",
+        "optionD": "Es una obligación individual"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "El hecho de que un convenio colectivo sea aplicable al sector de oficinas y despachos es un ámbito de aplicación de tipo:",
+        "correctOptionIndex": 0,
+        "optionA": "Funcional",
+        "optionB": "Territorial",
+        "optionC": "Temporal",
+        "optionD": "Personal"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "Según la última actualización de los convenios colectivos:",
+        "correctOptionIndex": 2,
+        "optionA": "Las empresas no pueden modificar el horario laboral",
+        "optionB": "Las empresas pueden modificar el salario base, pero no los complementos salariales",
+        "optionC": "El convenio se prorroga automáticamente si no hay nuevo acuerdo",
+        "optionD": "Las empresas no pueden modificar los trabajos a turnos"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "La Inspección de Trabajo y Seguridad Social es:",
+        "correctOptionIndex": 0,
+        "optionA": "Una institución pública de carácter estatal",
+        "optionB": "Una institución pública de carácter local",
+        "optionC": "Una empresa de alcance internacional",
+        "optionD": "Una PYME que vela por el cumplimiento de las normas laborales"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "Los derechos y obligaciones asociadas a una relación laboral están contemplados, en España en:",
+        "correctOptionIndex": 3,
+        "optionA": "La Constitución Española y en los reglamentos regionales",
+        "optionB": "La Constitución Española y en los Tratados internacionales",
+        "optionC": "Los Tratados internacionales y el Estatuto de los Trabajadores",
+        "optionD": "La Constitución Española y el Estatuto de los Trabajadores"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_9",
+        "text": "El Tribunal Laboral es:",
+        "correctOptionIndex": 1,
+        "optionA": "Un tribunal mercantil con jurisdicción especial",
+        "optionB": "Un tribunal civil con jurisdicción especial",
+        "optionC": "Un tribunal penal",
+        "optionD": "Un tribunal europeo"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "El consentimiento, como elemento esencial de un contrato de trabajo, se refiere:",
+        "correctOptionIndex": 2,
+        "optionA": "Al intercambio de trabajo por salario",
+        "optionB": "A la prestación o trabajo realizado",
+        "optionC": "A la voluntariedad por parte de las partes firmantes",
+        "optionD": "A la contraprestación o salario recibido"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "Identifique cuál de las siguientes personas NO puede firmar un contrato de trabajo:",
+        "correctOptionIndex": 0,
+        "optionA": "Marta, de 15 años, con el consentimiento de sus padres a no ser que sea en espectáculos públicos.",
+        "optionB": "Pepe, de 18 años, sin el consentimiento de sus padres",
+        "optionC": "Laurita, de 37 años, que vive con sus padres",
+        "optionD": "José Luis, de 17 años, que vive sólo, con el consentimiento de sus padres"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "Un contrato indefinido ordinario puede celebrarse de forma:",
+        "correctOptionIndex": 1,
+        "optionA": "Únicamente verbal",
+        "optionB": "Verbal o escrita",
+        "optionC": "Únicamente escrita",
+        "optionD": "Ninguna de las respuestas es correcta"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "Indique la respuesta correcta respecto del período de prueba:",
+        "correctOptionIndex": 1,
+        "optionA": "Durante el período de prueba, el empleador debe preavisar del cese del contrato",
+        "optionB": "Puede ser rescindido por cualquiera de las partes sin ningún tipo de causa",
+        "optionC": "Durante el período de prueba, el trabajador debe preavisar del cese del contrato",
+        "optionD": "Durante el período de prueba, el trabajador cobra un 90% del salario fijado en el contrato"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "Las modalidades de contratación legales en España son:",
+        "correctOptionIndex": 1,
+        "optionA": "Indefinida, contratos fijos-discontinuos y de formación",
+        "optionB": "Indefinida, de duración determinada y de formación",
+        "optionC": "A tiempo parcial, de duración determinada y de formación",
+        "optionD": "Indefinida, de sustitución y a tiempo parcial"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "Los contratos indefinidos ordinarios:",
+        "correctOptionIndex": 0,
+        "optionA": "No generan derechos a incentivos o bonificaciones",
+        "optionB": "Alternan periodos de trabajo y de no trabajo",
+        "optionC": "Tienen un componente formativo para mejorar las competencias del trabajador",
+        "optionD": "La edad del trabajador debe estar comprendida entre 16 y 30 años"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "El contrato adecuado para un trabajador en la vendimia es:",
+        "correctOptionIndex": 2,
+        "optionA": "Un contrato indefinido ordinario",
+        "optionB": "Un contrato de sustitución a tiempo parcial",
+        "optionC": "Un contrato fijo discontinuo",
+        "optionD": "Un contrato para la obtención de la práctica profesional"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "La duración de un contrato de formación en alternancia debe ser:",
+        "correctOptionIndex": 0,
+        "optionA": "De 3 meses a 2 años",
+        "optionB": "Indefinida",
+        "optionC": "De 6 meses a 1 año",
+        "optionD": "Máximo de 90 días trabajados de forma continuada"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "En los contratos formativos en alternancia, el primer año se debe dedicar, como máximo, al trabajo efectivo:",
+        "correctOptionIndex": 3,
+        "optionA": "Nada, ya que es un contrato de formación",
+        "optionB": "El 100% del tiempo",
+        "optionC": "El 35% del tiempo",
+        "optionD": "El 65% del tiempo"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_10",
+        "text": "¿Cuál de las siguientes modificaciones del contrato de trabajo se refiere a una movilidad laboral?:",
+        "correctOptionIndex": 1,
+        "optionA": "La modificación del sistema de remuneración",
+        "optionB": "El traslado de un trabajador",
+        "optionC": "La movilidad funcional extraordinaria",
+        "optionD": "Una modificación de la jornada de trabajo"
+    }
 ]
