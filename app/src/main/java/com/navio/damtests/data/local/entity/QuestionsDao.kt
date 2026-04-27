@@ -16,7 +16,11 @@ interface QuestionsDao {
     suspend fun insertQuestions(questions: List<Question>)
 
     @Query("SELECT * FROM questions WHERE subjectId = :subjectId AND topicId = :topicId ORDER BY RANDOM() LIMIT :limit")
-    suspend fun getRandomQuestionsForTopic(subjectId: String, topicId: String, limit: Int): List<Question>
+    suspend fun getRandomQuestionsForTopic(
+        subjectId: String,
+        topicId: String,
+        limit: Int
+    ): List<Question>
 
     @Query("DELETE FROM questions WHERE subjectId = :subjectId AND topicId = :topicId")
     suspend fun deleteQuestionsByTopic(subjectId: String, topicId: String)
@@ -39,7 +43,11 @@ interface QuestionsDao {
 
     // 3. Borrar y meter (para el SyncManager)
     @Transaction
-    suspend fun refreshTopicQuestions(subjectId: String, topicId: String, questions: List<Question>) {
+    suspend fun refreshTopicQuestions(
+        subjectId: String,
+        topicId: String,
+        questions: List<Question>
+    ) {
         deleteQuestionsByTopic(subjectId, topicId)
         insertQuestions(questions)
     }
@@ -58,4 +66,10 @@ interface QuestionsDao {
 
     @Query("SELECT * FROM topic_progress")
     fun getAllProgress(): Flow<List<TopicProgress>>
+
+
+    @Query(" SELECT * FROM questions WHERE subjectId = :subjectId AND topicId IN (:topicIds) ORDER BY RANDOM() LIMIT :limit")
+    suspend fun getRandomQuestionsForTopicList(
+        subjectId: String, topicIds: List<String>, limit: Int
+    ): List<Question>
 }

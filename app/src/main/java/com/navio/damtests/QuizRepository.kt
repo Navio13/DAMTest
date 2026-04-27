@@ -50,6 +50,8 @@ class QuizRepository(private val questionsDao: QuestionsDao) {
             Topic(id, name, subjectId)
         }.toMutableList()
 
+        list.add(Topic("-2", "TEST GENERAL (TEMAS 1-10)", subjectId))
+        list.add(Topic("-3", "TEST GENERAL (TEMAS 11-20)", subjectId))
         list.add(Topic("-1", "TEST GENERAL", subjectId))
         return list
     }
@@ -78,5 +80,15 @@ class QuizRepository(private val questionsDao: QuestionsDao) {
     // También asegúrate de tener esta para el Sync
     suspend fun deleteQuestionsByTopic(subjectId: String, topicId: String) {
         questionsDao.deleteQuestionsByTopic(subjectId, topicId)
+    }
+
+    // Añade esto a tu QuizRepository.kt
+
+    suspend fun getQuestionsForRange(subjectId: String, start: Int, end: Int, limit: Int): List<Question> {
+        // Generamos la lista de IDs: ["tema_1", "tema_2", ..., "tema_10"]
+        val topicIds = (start..end).map { "tema_$it" }
+
+        // Llamamos a una nueva función en el DAO (que crearemos abajo)
+        return questionsDao.getRandomQuestionsForTopicList(subjectId, topicIds, limit)
     }
 }

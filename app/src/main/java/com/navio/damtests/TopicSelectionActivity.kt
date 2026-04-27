@@ -63,13 +63,23 @@ class TopicSelectionActivity : AppCompatActivity() {
                 when {
                     topic.id.startsWith("tema_") -> 0
                     topic.id.startsWith("caso_") -> 1
-                    topic.id == "-1" -> 2
+                    topic.id in listOf("-1", "-2", "-3") -> 2 // Todos los generales al final
                     else -> 3
                 }
             }, { topic ->
                 // Dentro de cada grupo, ordenamos por el número
                 // Extraemos solo los dígitos del ID (ej: "tema_10" -> 10)
-                topic.id.filter { it.isDigit() }.toIntOrNull() ?: Int.MAX_VALUE
+                // Si es un test general, los ordenamos entre ellos (-2, luego -3, luego -1)
+                if (topic.id.startsWith("-")) {
+                    when(topic.id) {
+                        "-2" -> 1
+                        "-3" -> 2
+                        "-1" -> 3
+                        else -> 4
+                    }
+                } else {
+                    topic.id.filter { it.isDigit() }.toIntOrNull() ?: Int.MAX_VALUE
+                }
             }))
 
             // 3. Escuchamos el progreso y pasamos la lista YA ORDENADA
@@ -176,6 +186,8 @@ class TopicSelectionActivity : AppCompatActivity() {
         names.forEachIndexed { index, name ->
             list.add(Topic("tema_${index + 1}", "Tema ${index + 1}: $name", subjectId))
         }
+        list.add(Topic("-2", "TEST GENERAL (TEMAS 1-10)", subjectId))
+        list.add(Topic("-3", "TEST GENERAL (TEMAS 11-20)", subjectId))
         list.add(Topic("-1", "TEST GENERAL", subjectId))
         return list
     }

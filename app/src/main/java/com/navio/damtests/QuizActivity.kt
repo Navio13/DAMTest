@@ -3,10 +3,8 @@ package com.navio.damtests
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
 import android.widget.Button
-import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
@@ -34,7 +32,7 @@ class QuizActivity : AppCompatActivity() {
     private var currentShuffledQuestion: ShuffledQuestion? = null
     private lateinit var btnContextInfo: Button // Al principio de la clase con los demás
     private val gemini = GeminiExplainer()
-    private val groq = FastExplainer();
+    private val groq = FastExplainer()
     private lateinit var btnNext: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,7 +60,7 @@ class QuizActivity : AppCompatActivity() {
         val subjectId = intent.getStringExtra("SUBJECT_ID") ?: "programacion"
         val topicId = intent.getStringExtra("TOPIC_ID") ?: "1"
 
-        val limit = if (topicId == "-1") 20 else 10
+        if (topicId.startsWith("-")) 20 else 10
 
         TestDataHolder.currentSubjectId = subjectId
         TestDataHolder.currentTopicId = topicId
@@ -99,6 +97,17 @@ class QuizActivity : AppCompatActivity() {
                     val currentPos = index + 1
                     tvCount.text = "$currentPos de ${questions.size}"
                     progressBar.progress = currentPos
+
+                    // --- NUEVA LÓGICA AQUÍ ---
+                    if (currentPos == questions.size) {
+                        btnNext.text = "Finalizar Test"
+                        // Opcional: puedes cambiarle el color para que resalte
+                        // btnNext.setBackgroundColor(Color.parseColor("#10B981"))
+                    } else {
+                        btnNext.text = "Siguiente Pregunta"
+                    }
+                    // -------------------------
+
                     updateUI(questions[index])
                 }
             }
@@ -171,14 +180,12 @@ class QuizActivity : AppCompatActivity() {
 
     private fun showResultsDialog(score: Int) {
         val dialogView = layoutInflater.inflate(R.layout.dialog_results, null)
-        val dialog = AlertDialog.Builder(this)
-            .setView(dialogView)
-            .setCancelable(false)
-            .create()
+        val dialog = AlertDialog.Builder(this).setView(dialogView).setCancelable(false).create()
 
         dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
 
-        dialogView.findViewById<TextView>(R.id.tvDialogMessage).text = "Has acertado $score preguntas."
+        dialogView.findViewById<TextView>(R.id.tvDialogMessage).text =
+            "Has acertado $score preguntas."
 
         dialogView.findViewById<Button>(R.id.btnDialogReview).setOnClickListener {
             dialog.dismiss()
@@ -196,8 +203,8 @@ class QuizActivity : AppCompatActivity() {
     private fun showReviewScreen() {
         // Obtenemos los resultados reales del ViewModel
         val results = viewModel.getResults()
-        val totalQuestions = results.size
-        val correctAnswers = results.count { it.userSelectedIndex == it.question.correctOptionIndex }
+        results.size
+        results.count { it.userSelectedIndex == it.question.correctOptionIndex }
 
         // Guardamos en el Holder para la lista
         TestDataHolder.lastResults = results
@@ -212,11 +219,8 @@ class QuizActivity : AppCompatActivity() {
     }
 
     private fun showContextDialog(text: String) {
-        AlertDialog.Builder(this)
-            .setTitle("Enunciado del Caso")
-            .setMessage(text)
-            .setPositiveButton("Cerrar", null)
-            .show()
+        AlertDialog.Builder(this).setTitle("Enunciado del Caso").setMessage(text)
+            .setPositiveButton("Cerrar", null).show()
     }
 
     private fun highlightButtons(result: QuizViewModel.AnswerResult) {
@@ -233,7 +237,7 @@ class QuizActivity : AppCompatActivity() {
         // 1. Pintamos los bordes de los botones (Lógica de textos infalible)
         val shuffled = currentShuffledQuestion ?: return
         val question = shuffled.originalQuestion
-        val correctText = when(question.correctOptionIndex) {
+        val correctText = when (question.correctOptionIndex) {
             0 -> question.optionA
             1 -> question.optionB
             2 -> question.optionC
@@ -276,9 +280,7 @@ class QuizActivity : AppCompatActivity() {
                 // 2. Ahora sí pasamos los STRINGS: el texto de la pregunta y los textos de las opciones
                 try {
                     val fullResponse = groq.explicarRapido(
-                        pregunta = question.text,
-                        elegida = textoElegido,
-                        correcta = textoCorrecto
+                        pregunta = question.text, elegida = textoElegido, correcta = textoCorrecto
                     )
 
                     val partes = fullResponse.split("|")
@@ -309,11 +311,15 @@ class QuizActivity : AppCompatActivity() {
     private fun resetUI() {
         val buttons = listOf(btnA, btnB, btnC, btnD)
         val feedbacks = listOf<TextView>(
-            findViewById(R.id.tvFeedbackA), findViewById(R.id.tvFeedbackB),
-            findViewById(R.id.tvFeedbackC), findViewById(R.id.tvFeedbackD)
+            findViewById(R.id.tvFeedbackA),
+            findViewById(R.id.tvFeedbackB),
+            findViewById(R.id.tvFeedbackC),
+            findViewById(R.id.tvFeedbackD)
         )
 
-        buttons.forEach { (it as com.google.android.material.button.MaterialButton).strokeWidth = 0 }
+        buttons.forEach {
+            (it as com.google.android.material.button.MaterialButton).strokeWidth = 0
+        }
         feedbacks.forEach {
             it.visibility = View.GONE
             it.text = ""

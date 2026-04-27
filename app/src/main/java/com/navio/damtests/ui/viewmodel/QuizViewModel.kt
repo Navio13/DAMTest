@@ -42,15 +42,13 @@ class QuizViewModel(private val repository: QuizRepository) : ViewModel() {
             _score.value = 0
             _currentQuestionIndex.value = 0
 
-            val limit = if (topicId == "-1") 20 else 10
+            val limit = if (topicId.startsWith("-")) 20 else 10
 
-            // CAMBIO AQUÍ: Decidimos qué consulta usar según el topicId
-            val loadedQuestions = if (topicId == "-1") {
-                // Llamamos a la nueva consulta de Test General (solo temas)
-                repository.getRandomQuestionsForGeneralTest(subjectId, limit)
-            } else {
-                // Llamamos a la consulta normal para un tema/caso/repaso específico
-                repository.getQuestionsByTopic(subjectId, topicId, limit)
+            val loadedQuestions = when (topicId) {
+                "-1" -> repository.getRandomQuestionsForGeneralTest(subjectId, limit)
+                "-2" -> repository.getQuestionsForRange(subjectId, 1, 10, limit)  // Bloque 1
+                "-3" -> repository.getQuestionsForRange(subjectId, 11, 20, limit) // Bloque 2
+                else -> repository.getQuestionsByTopic(subjectId, topicId, limit)
             }
 
             _questions.value = loadedQuestions
