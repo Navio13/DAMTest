@@ -1208,5 +1208,805 @@
         "optionB": "Para conectarse a internet",
         "optionC": "Para diferenciar en la dirección IP la parte de red de la de host",
         "optionD": "Para pasar la IP a binario"
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "En Windows Server…",
+        "optionA": "Solo esta instalada por defecto en la versión Datacenter",
+        "optionB": "La característica DHCP no está instalada por defecto, y se instala desde Administración del servidor",
+        "optionC": "Se utiliza el comando ifconfig para ver la configuración de red",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "El comando nslookup…",
+        "optionA": "Se utiliza solo en sistemas Windows",
+        "optionB": "Muestra el contenido en cache DNS de un equipo cliente en Windows",
+        "optionC": "Es el comando más utilizado para ver si se están resolviendo correctamente los nombres e IPs",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "Las primeras peticiones que envía un equipo que se intenta conectar a una red por DHCP son conocidas como….",
+        "optionA": "DHCPREQUEST",
+        "optionB": "DHCPACK",
+        "optionC": "DHCPDISCOVER",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "Un protocolo de la capa de ENLACE es:",
+        "optionA": "HTTP",
+        "optionB": "TELNET",
+        "optionC": "ETHERNET",
+        "optionD": "TCP",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "La técnica que permite que los equipos se comuniquen entre si mediante nombres en lugar de direcciones IP es…",
+        "optionA": "DNS",
+        "optionB": "DHCP",
+        "optionC": "MX",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "El registro DNS utilizado para correo electrónico es…",
+        "optionA": "AAAA",
+        "optionB": "MX",
+        "optionC": "NS",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "Para visualizar la configuración de red un sistema Linux se utiliza el comando…",
+        "optionA": "ipaddres",
+        "optionB": "ifconfig",
+        "optionC": "ipconfig",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "El protocolo TCP…",
+        "optionA": "Confirma y garantiza la entrega de paquetes",
+        "optionB": "Se utiliza cuando no es necesario el acuse de recibo",
+        "optionC": "Aumenta la velocidad, pero no garantiza la entrega de todos los paquetes",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "La capa encargada de determinar la mejor ruta de destino a través del uso de tablas de enrutamiento es …",
+        "optionA": "Capa física",
+        "optionB": "Capa de transporte",
+        "optionC": "Capa de red",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_11",
+        "text": "EL protocolo HTTP se corresponde en el modelo OSI con la…",
+        "optionA": "Capa de red",
+        "optionB": "Capa de sesión",
+        "optionC": "Capa de aplicación",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "El protocolo de seguridad de cifrado para redes WLAN más seguro es…",
+        "optionA": "WPA2",
+        "optionB": "WPA2-PSK",
+        "optionC": "WEP",
+        "optionD": "WEP2-PSK",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "El comando show running-config en un switch o router…",
+        "optionA": "Muestra el estado global de los protocolos de capa 3",
+        "optionB": "Indica la ruta que recorre un paquete por la red",
+        "optionC": "Facilita toda la configuración del dispositivo",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "El cable que se utiliza habitualmente para conectar a un router o switch para realizar la primera configuración tiene conectores….",
+        "optionA": "RJ45 y USB",
+        "optionB": "RS232 y USB",
+        "optionC": "RS232 y RJ45",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "El comando utilizado para configurar la interfaz para recibir direcciones IP por DHCP",
+        "optionA": "ip dhcp",
+        "optionB": "Copy startup-config",
+        "optionC": "ip adress dhcp",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "Las antenas WISP se utilizan para…",
+        "optionA": "Zonas donde el cable, DSL o fibra no estan disponibles",
+        "optionB": "Conexiones 4G de los terminales móviles",
+        "optionC": "Ampliar el radio de una red inalámbrica",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "Las redes locales inalámbricas también son conocidas como…",
+        "optionA": "LAN WIFI",
+        "optionB": "WLAN",
+        "optionC": "ETHERWLAN",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "El dispositivo de red que conecta varios dispositivos en la misma red controlando el flujo de datos y dirigiendo los mensajes a los hosts especificados en cada mensaje …",
+        "optionA": "Hub",
+        "optionB": "Switch",
+        "optionC": "Router",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "El dispositivo de red que reenvía todos los mensajes que recibe por todos sus puertos es…",
+        "optionA": "Hub",
+        "optionB": "Switch",
+        "optionC": "Router",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "Determinar la mejor ruta para enviar un paquete a otra red es función de un …",
+        "optionA": "Hub",
+        "optionB": "Switch",
+        "optionC": "Router",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_12",
+        "text": "Para monitorizar la red se utiliza habitualmente el protocolo…",
+        "optionA": "TCP",
+        "optionB": "IP",
+        "optionC": "SNMP",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "Una de las medidas que pueden evitar un ataque de denegación del servicio es…",
+        "optionA": "Disponer de un sistema antivirus",
+        "optionB": "Disponer de un firewall",
+        "optionC": "No abrir archivos sospechosos",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "El ataque en el que se infecta a los equipos y servidores tomando el control de los equipos y cifrando la información para a continuación pedir un rescate a cambio de una cuantía económica es conocido como…",
+        "optionA": "Ataque de denegación del servicio",
+        "optionB": "Ataque de fuerza bruta",
+        "optionC": "Ransomware",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "La utilidad de Windows que ayuda a verificar el nivel de seguridad dentro de una red es:",
+        "optionA": "TDSSKiller",
+        "optionB": "Microsoft Baseline Security Analyzer (MBSA)",
+        "optionC": "Getsusp",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "El software SNORT…",
+        "optionA": "Realiza limpieza de adware",
+        "optionB": "Es una de los principales softwares para la detección de malware",
+        "optionC": "Es considerado uno de los IDS (Intrusion Detection System) más eficaces gracias a su capacidad de respuesta, precisión y adaptabilidad",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "Con la seguridad informática se pretende mantener…",
+        "optionA": "La integridad de la información",
+        "optionB": "La disponibilidad de la información",
+        "optionC": "La confidencialidad de la información",
+        "optionD": "Todas las respuestas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "Los intrusos que tienen como objetivo dañar los sistemas informáticos son conocidos como…",
+        "optionA": "Crackers",
+        "optionB": "Hackers",
+        "optionC": "Sniffers",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "Bloquear los puertos 137 y 138 UDP, y 139 y 445 TCP es una medida de seguridad para evitar…",
+        "optionA": "Ataques de denegación de servicio",
+        "optionB": "Ataques de ransomware",
+        "optionC": "Ataques de fuerza bruta",
+        "optionD": "Ataques de Ingeniería social",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "El comando para habilitar el firewall preinstaldo en Ubuntu es…",
+        "optionA": "Sudo apt-get install ufw",
+        "optionB": "Sudo apt-get ufw",
+        "optionC": "Sudo ufw enable",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "Un firewall de red…",
+        "optionA": "Es un dispositivo que se ubica entre dos redes, normalmente entre Internet y la red LAN para evitar accesos no autorizados y controlar el tráfico",
+        "optionB": "Se instala en un sistema operativo y utiliza diversas técnicas como es el filtrado de paquetes, aplicaciones o URLs.",
+        "optionC": "Es una de las herramientas que nos ayudan a detectar los dispositivos que hayan podido acceder a la red. Escanea la red facilitando el nombre de cada dispositivo, fabricante, dirección IP y MAC.",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_13",
+        "text": "Un adware es…",
+        "optionA": "Un tipo de malware que muestra anuncios y publicidad, principalmente en navegadores",
+        "optionB": "Un programa que oculta malware",
+        "optionC": "Un tipo de malware similar a un troyano, pero con mayor eficacia",
+        "optionD": "Ninguna de las respuestas anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "El sistema RAID que incluye el sistema operativo es…",
+        "optionA": "RAID por software",
+        "optionB": "(LA RESPUESTA NO ESTA EN EL DOCUMENTO, HAY QUE IR AL TEST A MIRARLA)",
+        "optionC": "RAID 3",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "El ID de evento 11 indica…",
+        "optionA": "Estructura del sistema de archivos dañado",
+        "optionB": "Disco extraído o desconectado de forma imprevista",
+        "optionC": "Error de controladora en disco",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "El envío de alertas de errores de disco se configura a través de….",
+        "optionA": "Administrador de dispositivos",
+        "optionB": "Administrador de discos",
+        "optionC": "Programador de tareas",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "El sistema RAID 1…",
+        "optionA": "Dispone de códigos de paridad",
+        "optionB": "Necesita como mínimo 3 discos",
+        "optionC": "Refleja automáticamente y en tiempo real el contenido de un disco a otro",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "Los errores de disco pueden visualizarse en Windows Server en …",
+        "optionA": "Visor de eventos",
+        "optionB": "Administrador de discos",
+        "optionC": "Administrador de dispositivos",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "El primer paso para configurar un sistema RAID por software es…",
+        "optionA": "Formatear los volúmenes como NTFS",
+        "optionB": "Eliminar los volúmenes",
+        "optionC": "Formatear los volúmenes como FAT32",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "Para configurar un sistema RAID desde Windows se utiliza…",
+        "optionA": "Monitor de recursos",
+        "optionB": "Administrar espacios de almacenamiento",
+        "optionC": "Administrador de dispositivos",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "El sistema RAID que duplica la velocidad de lectura y escritura, pero si falla uno de los discos se pierden todos los datos es…",
+        "optionA": "RAID 0",
+        "optionB": "RAID 1",
+        "optionC": "RAID 5",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "El comando para instalar Copias de seguridad en Windows Server …",
+        "optionA": "Install-Windows -Backup",
+        "optionB": "Install-WindowsFeature Backup",
+        "optionC": "Install-WindowsFeature Windows-Server-Backup",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_14",
+        "text": "Realizar copias de seguridad es obligatorio…",
+        "optionA": "Para todas las empresas",
+        "optionB": "Para empresas con más de 100 empleados",
+        "optionC": "Para empresas que traten con datos de carácter personal",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "Cuando se crea un usuario local en Windows Server, por defecto…",
+        "optionA": "Se añade el grupo Administradores",
+        "optionB": "Se añade el grupo Usuarios",
+        "optionC": "Se añade el grupo de Escritorio remoto",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "La versión de Windows Server 2019 diseñada principalmente para entornos virtualizados y cloud es…",
+        "optionA": "Essentials",
+        "optionB": "Standard",
+        "optionC": "Datacenter",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "Los roles en Windows Server son….",
+        "optionA": "Las funciones de un usuario local",
+        "optionB": "Las funciones de un servidor",
+        "optionC": "Las de un grupo local",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "Cuando se instala Windows Server, por defecto…",
+        "optionA": "Se habilita el usuario Invitado",
+        "optionB": "Se habilitan todas las directivas de seguridad",
+        "optionC": "Se crea el usuario Administrador",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "Cuál de las siguientes contraseñas se considera segura…",
+        "optionA": "Va2+AU56lF",
+        "optionB": "Va2AU56lF",
+        "optionC": "va2au56lf",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "La edición Nano Server de Windows Server…",
+        "optionA": "Dispone de un entorno gráfico similar al de Windows 10",
+        "optionB": "No dispone de entorno gráfico y está optimizada para entornos cloud",
+        "optionC": "Admite un máximo de 25 usuarios y 50 dispositivos",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "Los perfiles de usuario se crean por defecto en…",
+        "optionA": "C:\\",
+        "optionB": "C:\\users",
+        "optionC": "C:\\windows\\users",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "Para instalar Windows Server se necesita como mínimo…",
+        "optionA": "32 GB de espacio en disco",
+        "optionB": "2,4 GHz de procesador",
+        "optionC": "1024 MB de memoria RAM",
+        "optionD": "64 GB de espacio en disco",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "La edición Essentials de Windows Server…",
+        "optionA": "Admite un máximo de 50 usuarios y 25 dispositivos",
+        "optionB": "Es ideal para entornos virtualizados",
+        "optionC": "Admite un máximo de 25 usuarios y 50 dispositivos",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_15",
+        "text": "Cuál de los siguientes usuarios es creado por defecto con la instalación con Windows Server…",
+        "optionA": "Usuario de escritorio remoto",
+        "optionB": "Usuario",
+        "optionC": "Invitado",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "El administrador de directivas de grupo puede abrirse con el comando…",
+        "optionA": "gpadmin.msc",
+        "optionB": "gpmc.msc",
+        "optionC": "gpedit.msi",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "¿Qué elemento o concepto agrupa todos los objetos de una red de ordenadores?…",
+        "optionA": "Arbol",
+        "optionB": "Unidad organizativa",
+        "optionC": "Dominio",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "Son atributos que permiten a los usuarios o grupos realizar determinadas acciones….",
+        "optionA": "Los permisos",
+        "optionB": "Los derechos",
+        "optionC": "Las listas de control",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "La conexión remota a Windows Server…",
+        "optionA": "Solo se puede habilitar para usuarios administradores",
+        "optionB": "Está habilitada por defecto para todos los usuarios",
+        "optionC": "Esta deshabilitada por defecto",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "Las listas de control de acceso…",
+        "optionA": "Se utilizan para administrar el tráfico de datos y flujo por medio de un router o cortafuegos",
+        "optionB": "Se utilizan para bloquear acceso a recursos compartidos de red",
+        "optionC": "Se utilizan para bloquear algunas características de los usuarios administradores",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "Para auditar los accesos a todas las carpetas y archivos del sistema se utiliza la herramienta…",
+        "optionA": "Active Directory",
+        "optionB": "Directiva de Seguridad local",
+        "optionC": "Administración de equipos",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "Los contenedores en los que se organizan los objetos del dominio son conocidos como…",
+        "optionA": "Grupos de dominio",
+        "optionB": "Unidades organizativas",
+        "optionC": "Sitio",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "¿Qué comando se utiliza para sincronizar inmediatamente las directivas en los equipos clientes?…",
+        "optionA": "Gpupdate /force",
+        "optionB": "Gpupdate /result",
+        "optionC": "gpupdate",
+        "optionD": "gpedit.msc",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "Para ver el registro de accesos cuando se activa la auditoria hay que utilizar la herramienta…",
+        "optionA": "Listas de control de accesos",
+        "optionB": "Active Directory",
+        "optionC": "Visor de eventos",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_16",
+        "text": "¿Cuál de las siguientes características son ciertas sobre Active Directory?…",
+        "optionA": "La administración está fundamentada en directivas",
+        "optionB": "Alta escalabilidad",
+        "optionC": "Distribución jerárquica",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "El comando cd…",
+        "optionA": "Muestra el contenido de una carpeta",
+        "optionB": "Permite movernos entre directorios",
+        "optionC": "Muestra el contenido de un dispositivo óptico",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "El comando utilizado para visualizar en Símbolo del sistema la configuración de red es…",
+        "optionA": "tracert",
+        "optionB": "ping",
+        "optionC": "Ipconfig /all",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "El servicio “RDS” permite que….",
+        "optionA": "Los usuarios pueden conectar a una web con aplicaciones",
+        "optionB": "Los usuarios pueden conectar directamente al servidor por medio una sesión de usuario",
+        "optionC": "Los usuarios pueden acceder a una web con escritorios virtuales",
+        "optionD": "Todas las opciones son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "El comando que muestra las interfaces de red en Símbolo del sistema es…",
+        "optionA": "Netsh interface",
+        "optionB": "Netsh interface show",
+        "optionC": "Netsh interface show interface",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "La conexión inalámbrica en Windows Server…",
+        "optionA": "Se activa a través del servicio WLAN.",
+        "optionB": "No está permitida",
+        "optionC": "Solo está permitida con determinado hardware autorizado por Microsoft",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "La técnica de NIC teaming en Windows Server…",
+        "optionA": "Permite conectar dos servidores entre si directamente con el mismo cableado",
+        "optionB": "Permite agrupar varias tarjetas de red para balancear la carga de red y obtener alta disponibilidad",
+        "optionC": "Se configura automáticamente al realizar dos o más conexiones en un mismo servidor",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "Un archivo de texto simple en el que se almacenan una seria de comandos para su ejecución en serie es…",
+        "optionA": "Un objeto del dominio",
+        "optionB": "script",
+        "optionC": "Una tarea programada",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "El intérprete de comandos más potente de Windows es…",
+        "optionA": "Símbolo de sistema y Powershell son igual de potentes, pero tienen diferentes funcionalidades",
+        "optionB": "Símbolo del sistema",
+        "optionC": "Powershell",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "Con el comando Get-command…",
+        "optionA": "Se crean, modifican o eliminan variables del entorno",
+        "optionB": "Se muestran los procesos en ejecución",
+        "optionC": "Se muestra un listado de todos los comandos",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_17",
+        "text": "Los cmdlet son …",
+        "optionA": "Scripts",
+        "optionB": "Comandos de símbolo del sistema",
+        "optionC": "Comandos de Powershell",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "El Visor de eventos puede abrirse con el comando…",
+        "optionA": "virevent.msc",
+        "optionB": "eventvwr.msc",
+        "optionC": "eventvir.msc",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "Los eventos reenviados son logs…",
+        "optionA": "Únicamente sobre aplicaciones del sistema",
+        "optionB": "De auditoria",
+        "optionC": "De equipos remotos",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "La herramienta que facilita un índice de estabilidad del sistema del 1 al 10 es….",
+        "optionA": "El monitor de recursos",
+        "optionB": "El monitor de confiabilidad",
+        "optionC": "El monitor de rendimiento",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "Los procesos en segundo plano…",
+        "optionA": "También son conocidos como interactivos",
+        "optionB": "Se ejecutan únicamente de forma manual",
+        "optionC": "Se inician automáticamente como parte del sistema",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "Un proceso en espera…",
+        "optionA": "No se encuentra en activo, pero si preparado de que ocurra algún evento que requiera su inicio.",
+        "optionB": "No se está ejecutando, pero se ha detenido y aún tiene una entrada en la tabla de procesos",
+        "optionC": "Se esta ejecutando, pero no al 100%",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "Un programa que está en ejecución como instancia de una aplicación es…",
+        "optionA": "Un programa que está en ejecución como instancia de una aplicación es…",
+        "optionB": "Un proceso",
+        "optionC": "Un log",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "Cuál de los siguientes NO es un tipo de inicio de un servicio…",
+        "optionA": "Automático (inicio retrasado)",
+        "optionB": "En primer plano",
+        "optionC": "Automático",
+        "optionD": "Manual",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "Los servicios…",
+        "optionA": "Solo se pueden gestionar a través de comandos",
+        "optionB": "Se ejecutan en primer plano",
+        "optionC": "Se ejecutan en segundo plano",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "Cuando un proceso no se está ejecutando, pero aún tiene una entrada en la tabla de procesos se encuentra en el estado…",
+        "optionA": "Espera",
+        "optionB": "Detenido",
+        "optionC": "Suspendido",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_18",
+        "text": "La herramienta que utiliza contadores para monitorizar el sistema es…",
+        "optionA": "El monitor de recursos",
+        "optionB": "El monitor de confiabilidad",
+        "optionC": "El monitor de rendimiento",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
     }
 ]

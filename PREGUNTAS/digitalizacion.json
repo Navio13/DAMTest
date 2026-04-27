@@ -998,5 +998,785 @@
         "optionB": "La IA puede gestionar y optimizar campañas de publicidad programática en tiempo real",
         "optionC": "Los algoritmos de IA pueden ajustar los precios en tiempo real basándose en factores como la demanda, la competencia, la disponibilidad de stock y el comportamiento del cliente.",
         "optionD": "La IA no permite analizar como varia el precio afectando a la demanda de productos"
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Cuál de las siguientes opciones describe mejor qué es un dato?",
+        "optionA": "Un número o letra con significado inherente.",
+        "optionB": "Información organizada de manera significativa.",
+        "optionC": "Una representación simbólica de una característica sin interpretación ni significado particular.",
+        "optionD": "El resultado del procesamiento de información.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Qué es necesario para que los datos se conviertan en información útil?",
+        "optionA": "Procesamiento",
+        "optionB": "Contextualización",
+        "optionC": "Interpretación",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Cuál es la diferencia entre un dato y la información?",
+        "optionA": "Un dato es procesado, mientras que la información es cruda y sin procesar.",
+        "optionB": "Un dato carece de contexto específico, mientras que la información tiene un contexto que le proporciona sentido.",
+        "optionC": "Un dato tiene significado inherente, mientras que la información no tiene valor directo hasta que se procesa.",
+        "optionD": "Un dato sin procesar puede ser utilizado para la toma de decisiones",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Por qué es importante la precisión en los datos?",
+        "optionA": "Para garantizar que la información derivada sea fiable y exacta.",
+        "optionB": "Para tomar decisiones correctas y efectivas.",
+        "optionC": "Para evitar errores costosos o peligrosos.",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Cuál es el propósito principal de los data warehouses?",
+        "optionA": "Almacenar datos no estructurados",
+        "optionB": "Realizar procesamiento en tiempo real",
+        "optionC": "Almacenar grandes volúmenes de datos históricos para análisis y reportes",
+        "optionD": "Integrar datos de múltiples fuentes",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Cuál de las siguientes herramientas se utiliza para el procesamiento de datos en tiempo real a medida que se generan?",
+        "optionA": "ETL Tools",
+        "optionB": "Apache Spark",
+        "optionC": "Streaming",
+        "optionD": "Microsoft SSIS",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Cuál no es una de las tres V de Big Data?",
+        "optionA": "Velocidad",
+        "optionB": "Variedad",
+        "optionC": "Veracidad",
+        "optionD": "Volumen",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Qué método de análisis se centra en investigar las causas subyacentes de un evento?",
+        "optionA": "Análisis descriptivo",
+        "optionB": "Análisis diagnóstico",
+        "optionC": "Análisis predictivo",
+        "optionD": "Análisis prescriptivo",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Cuál es un ejemplo de herramienta de Business Intelligence utilizada para visualización de datos y creación de dashboards?",
+        "optionA": "Python",
+        "optionB": "R",
+        "optionC": "Tableau",
+        "optionD": "Hadoop",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_11",
+        "text": "¿Cuál es un lenguaje de programación que se usa en el análisis de datos?",
+        "optionA": "Python",
+        "optionB": "Spark",
+        "optionC": "Tableau",
+        "optionD": "Hadoop",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Qué combina la ciencia de datos para extraer conocimiento y obtener información valiosa?",
+        "optionA": "Métodos estadísticos, matemáticos, de informática y técnicas de aprendizaje automático",
+        "optionB": "Técnicas de marketing y publicidad",
+        "optionC": "Solamente métodos estadísticos y matemáticos",
+        "optionD": "Métodos de gestión de proyectos y técnicas de ventas",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Qué tipo de datos pueden ser analizados en las ciencias de datos?",
+        "optionA": "Solo datos estructurados",
+        "optionB": "Solo datos no estructurados",
+        "optionC": "Ambos datos estructurados y no estructurados",
+        "optionD": "Ningún tipo de datos",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Qué etapa de la ciencia de datos implica identificar y corregir imprecisiones, inconsistencias y redundancias en los datos?",
+        "optionA": "Recolección de datos",
+        "optionB": "Limpieza y preparación de datos",
+        "optionC": "Almacenamiento y gestión de datos",
+        "optionD": "Visualización y presentación de datos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Cuál es el propósito principal de la etapa de visualización y presentación de datos en la ciencia de datos?",
+        "optionA": "Adquirir información de diversas fuentes",
+        "optionB": "Convertir datos crudos en información útil y procesable   Representar los datos de manera comprensible para obtener insights",
+        "optionC": "Representar los datos de manera comprensible para obtener insights",
+        "optionD": "Diseñar y construir sistemas de almacenamiento de datos",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Qué etapa de la ciencia de datos se centra en diseñar y construir sistemas que centralizan y organizan los datos recopilados?",
+        "optionA": "Limpieza y preparación de datos",
+        "optionB": "Implementación de soluciones basadas en datos",
+        "optionC": "Almacenamiento y gestión de datos",
+        "optionD": "Transformación y análisis de datos",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Qué es la última etapa crítica en la ciencia de datos?",
+        "optionA": "Visualización y presentación de datos",
+        "optionB": "Implementación de soluciones basadas en datos",
+        "optionC": "Almacenamiento y gestión de datos",
+        "optionD": "Recolección de datos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Qué protocolo añade una capa de seguridad mediante el cifrado de los datos en tránsito durante la transferencia de datos en aplicaciones web?",
+        "optionA": "HTTP",
+        "optionB": "FTP",
+        "optionC": "API REST",
+        "optionD": "HTTPS",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Qué técnica se utiliza para proteger los datos almacenados en servidores de la nube contra accesos no autorizados en caso de brechas de seguridad?",
+        "optionA": "Compresión de datos",
+        "optionB": "Encriptación en reposo",
+        "optionC": "Cifrado de clave pública",
+        "optionD": "Filtrado de datos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Qué protocolo de transferencia de archivos grandes se utiliza comúnmente en el almacenaje de datos en la nube?",
+        "optionA": "HTTP/HTTPS",
+        "optionB": "FTP/SFTP",
+        "optionC": "API REST/SOAP",
+        "optionD": "TLS",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_12",
+        "text": "¿Qué tipo de respaldo se utiliza para copiar solo los datos que han cambiado desde el último respaldo?",
+        "optionA": "Completo",
+        "optionB": "Incremental",
+        "optionC": "Diferencial",
+        "optionD": "Automático",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_13",
+        "text": "¿Qué es la Realidad Aumentada (RA)?",
+        "optionA": "Una tecnología que crea entornos completamente digitales",
+        "optionB": "Una tecnología que superpone información digital sobre el mundo real",
+        "optionC": "Una tecnología que utiliza exclusivamente gafas especiales",
+        "optionD": "Una tecnología que reemplaza la realidad física",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_13",
+        "text": "¿Cuál es una diferencia clave entre la Realidad Aumentada (RA) y la Realidad Virtual (RV)?",
+        "optionA": "La RA utiliza cascos de RV mientras que la RV no",
+        "optionB": "La RV superpone información digital sobre el mundo real mientras que la RA no",
+        "optionC": "La RA mejora el entorno real con elementos digitales, mientras que la RV reemplaza totalmente el entorno real",
+        "optionD": "La RV utiliza smartphones para capturar el entorno físico, mientras que la RA no",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_13",
+        "text": "¿Cuál de los siguientes motores de juego destaca ante el resto por su alto rendimiento gráfico y capacidades avanzadas?",
+        "optionA": "Unity",
+        "optionB": "ARCore",
+        "optionC": "ARKit",
+        "optionD": "Unreal Engine",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_13",
+        "text": "¿Qué plataforma de RA es desarrollada por Google para dispositivos Android?",
+        "optionA": "ARKit",
+        "optionB": "ARCore",
+        "optionC": "Vuforia",
+        "optionD": "Unity",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_13",
+        "text": "¿Cómo puede la Realidad Aumentada (RA) mejorar la educación y el entrenamiento?",
+        "optionA": "Proporcionando únicamente teorías escritas",
+        "optionB": "Transformando el aprendizaje en una experiencia lúdica mediante gamificación",
+        "optionC": "Remplazando a los maestros en el aula",
+        "optionD": "Eliminando la necesidad de materiales educativos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_13",
+        "text": "¿Qué se entiende por \"estructura no lineal\" en el desarrollo de contenidos en RA y RV?",
+        "optionA": "Replicar el mundo real con exactitud",
+        "optionB": "Permitir a los usuarios explorar diferentes caminos y perspectivas en la historia",
+        "optionC": "Ofrecer interfaces intuitivas y fáciles de entender",
+        "optionD": "Usar elementos visuales, auditivos y hápticos para reforzar la narrativa",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_13",
+        "text": "¿Cómo se logra la inmersión emocional en la RA y RV?",
+        "optionA": "Replicando el mundo real con exactitud",
+        "optionB": "Permitiendo la manipulación de objetos y la navegación en el espacio",
+        "optionC": "Utilizando elementos visuales, auditivos y hápticos que refuercen la narrativa",
+        "optionD": "Creando interfaces intuitivas y fáciles de entender",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_13",
+        "text": "¿Qué lenguaje se utiliza extensamente en Unity?",
+        "optionA": "JavaScript",
+        "optionB": "C++",
+        "optionC": "C#",
+        "optionD": "Python",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_13",
+        "text": "¿Qué herramienta de Google permite crear arte en 3D en un espacio de RV?",
+        "optionA": "Unity",
+        "optionB": "Unreal Engine",
+        "optionC": "Tilt Brush",
+        "optionD": "SketchAR",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Cuál de las siguientes afirmaciones describe mejor el ecommerce B2C?",
+        "optionA": "Transacciones entre empresas y consumidores finales, con volúmenes de compra más pequeños y ciclos de venta más cortos.",
+        "optionB": "Transacciones entre empresas, con grandes volúmenes y relaciones a largo plazo.",
+        "optionC": "Transacciones entre consumidores facilitadas por plataformas en línea, como eBay.",
+        "optionD": "Transacciones donde los consumidores venden productos o servicios a empresas.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Cuál de las siguientes actividades NO está incluida en el ecommerce?",
+        "optionA": "Ventas minoristas directas.",
+        "optionB": "Subastas en línea.",
+        "optionC": "Intercambio de datos electrónicos (EDI).",
+        "optionD": "Publicidad en televisión.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Qué modelo de ecommerce involucra a consumidores vendiendo productos o servicios a empresas?",
+        "optionA": "B2B",
+        "optionB": "B2C",
+        "optionC": "C2C",
+        "optionD": "C2B",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Cuál es una ventaja del modelo de negocio de venta directa en ecommerce?",
+        "optionA": "Reducción de riesgos y costos",
+        "optionB": "Márgenes más altos",
+        "optionC": "Ingresos recurrentes",
+        "optionD": "Variedad de productos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Qué modelo de negocio en ecommerce implica que los consumidores paguen una tarifa recurrente para recibir productos o servicios regularmente?",
+        "optionA": "Dropshipping",
+        "optionB": "Venta directa",
+        "optionC": "Suscripción",
+        "optionD": "Marketplace",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Cuál de las siguientes es una característica del modelo de negocio de dropshipping?",
+        "optionA": "Mantener grandes inventarios",
+        "optionB": "Ingresos recurrentes y predecibles",
+        "optionC": "El minorista no maneja el inventario físicamente",
+        "optionD": "Control total sobre la experiencia del cliente",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Qué modelo de negocio en ecommerce facilita la venta de productos entre terceros vendedores y compradores, actuando como intermediario?",
+        "optionA": "Dropshipping",
+        "optionB": "Marketplace",
+        "optionC": "Suscripción",
+        "optionD": "Venta directa",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Qué modelo de negocio en ecommerce combina elementos de varios modelos de negocio en ecommerce?",
+        "optionA": "Venta directa",
+        "optionB": "Suscripción",
+        "optionC": "Marketplace",
+        "optionD": "Modelos híbridos",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Qué estrategia de precios implica ajustar los precios en tiempo real según la demanda y otros factores del mercado?",
+        "optionA": "Precios basados en costos",
+        "optionB": "Precios competitivos",
+        "optionC": "Precios dinámicos",
+        "optionD": "Precios segmentados",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_14",
+        "text": "¿Qué deben incluir las descripciones de productos para ser efectivas?",
+        "optionA": "Herramientas de big data",
+        "optionB": "Sistemas automáticos de reordenación",
+        "optionC": "Descuentos y promociones",
+        "optionD": "Detalles técnicos y beneficios del producto",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Cuál es el objetivo principal de la transformación digital en una empresa?",
+        "optionA": "Reducir costos",
+        "optionB": "Mejorar la experiencia del cliente",
+        "optionC": "Cambiar fundamentalmente cómo opera y brinda valor a sus clientes",
+        "optionD": "Implementar nuevas tecnologías sin cambios culturales",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Qué buscan los consumidores en la era de la digitalización?",
+        "optionA": "Precios más bajos sin importar la calidad del servicio.",
+        "optionB": "Experiencias personalizadas, rápidas y eficientes.",
+        "optionC": "Productos exclusivamente físicos.",
+        "optionD": "Eliminar el uso de tecnologías digitales en las empresas.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Qué es un organigrama en el contexto de la estructura organizativa de una empresa?",
+        "optionA": "Un listado de los diferentes departamentos y unidades funcionales",
+        "optionB": "Una representación visual que muestra las relaciones jerárquicas y los niveles de autoridad dentro de la empresa",
+        "optionC": "Un mapeo de procesos que describe los flujos de trabajo y procesos interdepartamentales",
+        "optionD": "Un documento que detalla las tareas, responsabilidades y habilidades necesarias para cada rol",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Qué es lo que se busca identificar en las descripciones de puestos?",
+        "optionA": "Las responsabilidades principales de cada departamento y puesto",
+        "optionB": "Las habilidades y conocimientos necesarios para cada rol",
+        "optionC": "Las tareas y responsabilidades de cada puesto",
+        "optionD": "Las interdependencias entre departamentos",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Qué es un mapeo de procesos en el contexto de la evaluación del estado actual de la empresa?",
+        "optionA": "Un diagrama que muestra las relaciones jerárquicas y los niveles de autoridad dentro de la empresa",
+        "optionB": "Un listado de los diferentes departamentos y unidades funcionales",
+        "optionC": "Un diagrama que muestra las secuencias de actividades y las interacciones entre departamentos para completar un proceso específico",
+        "optionD": "Un documento que detalla las tareas, responsabilidades y habilidades necesarias para cada rol",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Qué es un cuello de botella en un proceso operativo?",
+        "optionA": "Un punto donde se aumenta la producción.",
+        "optionB": "Un paso que acelera el flujo de trabajo.",
+        "optionC": "Un punto que ralentiza el flujo de trabajo.",
+        "optionD": "Un área que requiere menos recursos.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Qué es un diagrama de flujo en el contexto de la evaluación de procesos operativos?",
+        "optionA": "Un listado de los diferentes departamentos y unidades funcionales",
+        "optionB": "Una representación visual de los pasos involucrados en un proceso crítico",
+        "optionC": "Un análisis de la capacidad de cada paso en un proceso para identificar limitaciones",
+        "optionD": "Un documento que detalla las tareas, responsabilidades y habilidades necesarias para cada rol",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Qué es un indicador de adaptabilidad en el contexto de la evaluación de la cultura empresarial?",
+        "optionA": "Una medida que muestra la capacidad de la empresa para desarrollar nuevas ideas",
+        "optionB": "Una medida que muestra la capacidad de la empresa para ajustarse a los cambios",
+        "optionC": "Un análisis de programas y proyectos de innovación existentes",
+        "optionD": "Un documento que detalla las tareas, responsabilidades y habilidades necesarias para cada rol",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Por qué es importante evaluar el impacto de las deficiencias identificadas?",
+        "optionA": "Para decidir si se deben eliminar áreas de la empresa.",
+        "optionB": "Para determinar su importancia y urgencia en el proyecto de transformación.",
+        "optionC": "Para aumentar los ingresos sin realizar cambios.",
+        "optionD": "Para reorganizar la estructura jerárquica de la empresa.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_15",
+        "text": "¿Qué es lo primero que se debe hacer después de obtener los resultados de la evaluación para identificar áreas claves para la transformación?",
+        "optionA": "Identificar patrones y tendencias en los datos",
+        "optionB": "Consolidar los datos en un formato comprensible y manejable",
+        "optionC": "Evaluar el impacto de las deficiencias identificadas",
+        "optionD": "Detección de anomalías en los resultados",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Qué significa SMART en el contexto de los objetivos?",
+        "optionA": "Específicos, Medibles, Alcanzables, Relevantes y Temporales",
+        "optionB": "Específicos, Medibles, Alcanzables, Realistas y Tácticos",
+        "optionC": "Específicos, Medibles, Alcanzables, Relevantes y Sostenibles",
+        "optionD": "Específicos, Medibles, Alcanzables, Realistas y Sencillos",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Cuál es el propósito principal de los Indicadores Clave de Desempeño (KPIs)?",
+        "optionA": "Medir el progreso y tomar decisiones informadas",
+        "optionB": "Alinear la organización y mejorar la transparencia",
+        "optionC": "Establecer objetivos y metas claras",
+        "optionD": "Definir métricas específicas para cada área de la empresa",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Qué se debe hacer antes de seleccionar los KPIs relevantes para la transformación digital?",
+        "optionA": "Implementar nuevas tecnologías",
+        "optionB": "Establecer una línea base para cada KPI",
+        "optionC": "Definir métricas específicas relevantes para cada área afectada",
+        "optionD": "Realizar un análisis SWOT",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Cuál es el propósito principal de utilizar herramientas de gestión de proyectos como ClickUp, Trello, Jira o Microsoft Project?",
+        "optionA": "Implementar plataformas de análisis de datos",
+        "optionB": "Monitorear el desempeño de las iniciativas relacionadas con el cliente",
+        "optionC": "Planificar, ejecutar y monitorear proyectos",
+        "optionD": "Realizar evaluaciones periódicas",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Cuál es la técnica de evaluación que implica comparar el desempeño de la empresa con estándares de la industria o competidores?",
+        "optionA": "Evaluaciones periódicas",
+        "optionB": "Feedback y retroalimentación",
+        "optionC": "Benchmarking",
+        "optionD": "Ajustes y adaptaciones basadas en evaluaciones",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Cuál es el paso final en el proceso de ajustes y adaptaciones basadas en evaluaciones?",
+        "optionA": "Analizar las desviaciones entre los resultados esperados y los reales",
+        "optionB": "Implementar los cambios necesarios en procesos, tecnologías y recursos humanos",
+        "optionC": "Documentar los resultados y lecciones aprendidas",
+        "optionD": "Utilizar la documentación para informar futuros proyectos de transformación digital",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Cuál de los siguientes es un componente clave de una cultura digital en una organización?",
+        "optionA": "Estructura jerárquica rígida",
+        "optionB": "Liderazgo digital",
+        "optionC": "Minimización del riesgo",
+        "optionD": "Centralización de la toma de decisiones",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Qué se debe fomentar en una cultura digital para promover la innovación?",
+        "optionA": "Evitar el uso de nuevas tecnologías",
+        "optionB": "Fomentar la experimentación y aceptar el fracaso calculado",
+        "optionC": "Limitar la colaboración entre equipos",
+        "optionD": "Mantener una estructura organizativa rígida",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Cuál es el perfil profesional responsable de liderar la estrategia digital de la organización?",
+        "optionA": "Data Scientist",
+        "optionB": "Digital Marketing Specialist",
+        "optionC": "UX/UI Designer",
+        "optionD": "Chief Digital Officer (CDO)",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_16",
+        "text": "¿Cuál es la habilidad fundamental que todos los empleados deben desarrollar para contribuir eficazmente a la transformación digital?",
+        "optionA": "Competencia en tecnologías digitales",
+        "optionB": "Pensamiento analítico y crítico",
+        "optionC": "Adaptabilidad y flexibilidad",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Cuál es la principal función de la implementación en la digitalización de una organización?",
+        "optionA": "Aumentar los ingresos de la empresa",
+        "optionB": "Garantizar que los objetivos y estrategias de la digitalización se pongan en práctica",
+        "optionC": "Cambiar la estructura de la organización",
+        "optionD": "Aumentar la cantidad de empleados",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Cuál de las siguientes es una ventaja de la implementación parcial de la digitalización?",
+        "optionA": "Rápida obtención de beneficios en toda la organización",
+        "optionB": "Cohesión y uniformidad en la adopción de nuevas tecnologías",
+        "optionC": "Menor riesgo inicial y posibilidad de medir resultados",
+        "optionD": "Impacto inmediato en la competitividad",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Cuál de los siguientes enfoques de implementación busca una transformación completa y rápida de la organización?",
+        "optionA": "Implementación gradual",
+        "optionB": "Implementación parcial",
+        "optionC": "Implementación total",
+        "optionD": "Implementación experimental",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Cuál es una ventaja de la implementación total de tecnologías y procesos digitales en toda la organización simultáneamente?",
+        "optionA": "Mayor impacto en la competitividad",
+        "optionB": "Menor riesgo inicial",
+        "optionC": "Posibilidad de medir resultados y realizar ajustes",
+        "optionD": "Cohesión y uniformidad en la adopción de nuevas tecnologías y procesos",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Cuál es un beneficio de una estructura organizacional plana en una empresa digitalizada?",
+        "optionA": "Mayor complejidad en la toma de decisiones",
+        "optionB": "Reducción de niveles jerárquicos para agilizar la toma de decisiones",
+        "optionC": "Mayor autonomía y responsabilidad para los equipos",
+        "optionD": "Menos innovación y capacidad de respuesta al cambio",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Qué es un centro de excelencia (CoE) en una empresa digitalizada?",
+        "optionA": "Un equipo multifuncional que trabaja en proyectos específicos",
+        "optionB": "Una unidad especializada en áreas clave como análisis de datos, innovación tecnológica, y gestión del cambio",
+        "optionC": "Una red de colaboración que utiliza plataformas y herramientas de colaboración digital",
+        "optionD": "Una estructura organizacional plana que reduce niveles jerárquicos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Qué tipo de estructura organizacional se adapta para maximizar la agilidad, innovación y capacidad de respuesta al cambio en una empresa digitalizada?",
+        "optionA": "Estructura piramidal",
+        "optionB": "Estructura plana",
+        "optionC": "Estructura jerárquica",
+        "optionD": "Estructura funcional",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Cómo afecta la transformación digital a la productividad laboral?",
+        "optionA": "Disminuye la moral de los empleados",
+        "optionB": "Aumenta la carga de trabajo repetitivo",
+        "optionC": "Incrementa la productividad al liberar a los empleados de tareas repetitivas",
+        "optionD": "Reduce el valor añadido de las actividades",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Qué papel juegan las herramientas digitales en la satisfacción del cliente?",
+        "optionA": "Dificultan la retroalimentación del cliente",
+        "optionB": "Permiten ofrecer experiencias personalizadas y programas de fidelización",
+        "optionC": "Reducen la necesidad de innovación en productos",
+        "optionD": "Limitan la interacción con los clientes",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_17",
+        "text": "¿Qué desafío presenta la escalabilidad?",
+        "optionA": "La compatibilidad entre diferentes proveedores y tecnologías.",
+        "optionB": "La consolidación de datos provenientes de diversas fuentes.",
+        "optionC": "Adaptar las tecnologías a medida que la empresa expande sus operaciones.",
+        "optionD": "Baja moral, reducción de la productividad, fracaso en la adopción de nuevas herramientas.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_18",
+        "text": "¿Qué significa ERP?",
+        "optionA": "Enterprise Resource Process",
+        "optionB": "Enterprise Resource Planning",
+        "optionC": "Electronic Resource Planning",
+        "optionD": "Enterprise Retention Planning",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_18",
+        "text": "¿Cuál es el objetivo principal de un sistema ERP?",
+        "optionA": "Modularidad",
+        "optionB": "Integración",
+        "optionC": "Automatización",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_18",
+        "text": "¿Qué característica clave de los ERP permite automatizar muchos procesos de negocio, reduciendo así el tiempo y los recursos necesarios para completarlos?",
+        "optionA": "Integración.",
+        "optionB": "Escalabilidad.",
+        "optionC": "Bases de datos común.",
+        "optionD": "Automatización.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_18",
+        "text": "¿Cuál es el modo de implementación de los ERP que ofrece un alto grado de control y personalización, pero un coste elevado de implementación y mantenimiento?",
+        "optionA": "En la nube (Cloud)",
+        "optionB": "On-Premise (Local)",
+        "optionC": "Híbrido",
+        "optionD": "Escalable",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_18",
+        "text": "¿Qué significa la integración de procesos empresariales en una organización?",
+        "optionA": "La creación de nuevos departamentos",
+        "optionB": "La conexión de diferentes áreas funcionales y departamentos para que trabajen juntos de manera cohesiva",
+        "optionC": "La eliminación de la comunicación entre departamentos",
+        "optionD": "La reducción del número de empleados",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_18",
+        "text": "¿Qué se realiza durante la fase de migración de datos en un proceso de integración de ERP?",
+        "optionA": "Personalización del sistema",
+        "optionB": "Definición de flujos de trabajo",
+        "optionC": "Consolidación de datos y limpieza de datos",
+        "optionD": "Evaluación de necesidades de cada departamento",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_18",
+        "text": "¿Qué se debe hacer después del despliegue del sistema ERP?",
+        "optionA": "Detener todas las operaciones para evaluar el sistema",
+        "optionB": "Configurar el ERP para que funcione en una plataforma separada",
+        "optionC": "Realizar la monitorización continua del sistema para identificar problemas y optimizar procesos",
+        "optionD": "Eliminar la base de datos común para evitar redundancias",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_18",
+        "text": "¿Qué tipo de CRM se centra en la recopilación y análisis de datos relacionados con los clientes?",
+        "optionA": "Operativo",
+        "optionB": "Analítico",
+        "optionC": "Colaborativo",
+        "optionD": "Estratégico",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_18",
+        "text": "¿Qué función principal tiene el componente de Automatización de la Fuerza de Ventas (SFA) en un CRM?",
+        "optionA": "Gestionar campañas de marketing",
+        "optionB": "Almacenar datos de contacto de clientes",
+        "optionC": "Automatizar tareas de ventas y optimizar el proceso de ventas",
+        "optionD": "Proveer soporte a través de múltiples canales",
+        "correctOptionIndex": 3
     }
 ]

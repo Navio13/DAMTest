@@ -1328,5 +1328,805 @@
         "optionB": "Herencia mixta.",
         "optionC": "Herencia múltiple.",
         "optionD": "Súper Herencia."
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "¿Una clase se puede declarar como abstracta y no contener métodos abstractos?",
+        "optionA": "Si, no hay ningún problema.",
+        "optionB": "No, en las clases abstractas todos los métodos tienen que ser abstractos forzosamente.",
+        "optionC": "Si, pero solo si como mínimo la hereda otra clase.",
+        "optionD": "No, ya que mínimo ha de tener un método abstracto.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "Las interfaces:",
+        "optionA": "Pueden contener variables privadas, y estas ser usadas en los métodos.",
+        "optionB": "En ellas todos los métodos son abstractos de forma implícita.",
+        "optionC": "Tienen que heredar de la clase Interface.",
+        "optionD": "Son lo mismo que las clases abstractas.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "La interfaz Comparator",
+        "optionA": "Se emplea para definir el orden natural de los objetos de una clase",
+        "optionB": "Tiene un solo método llamado comparator",
+        "optionC": "Se utiliza para definir múltiples formas de ordenar objetos.",
+        "optionD": "Permite definir un único criterio de ordenación",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "¿Cómo indicamos en Java que una clase va a usar los métodos de una interfaz?",
+        "optionA": "Con la palabra reservada implements.",
+        "optionB": "Con la palabra reservada extends.",
+        "optionC": "Con la palabra reservada implementa.",
+        "optionD": "Con la palabra reservada aplic.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "Tenemos una clase que implementa dos interfaces diferentes y estas contienen un método con el mismo nombre:",
+        "optionA": "Si los dos métodos devuelven un tipo de dato diferente se producirá un error de compilación.",
+        "optionB": "Si los dos métodos devuelven el mismo tipo de dato se ejecutarán los dos.",
+        "optionC": "Si los dos métodos son exactamente iguales, se producirá un error de compilación.",
+        "optionD": "Una clase no puede implementar dos interfaces.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "¿Qué palabra reservada tenemos que utilizar para declarar una interfaz?",
+        "optionA": "enum",
+        "optionB": "interface",
+        "optionC": "inter",
+        "optionD": "intertract",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "Sobre las interfaces:",
+        "optionA": "La interfaz que se use no pertenece a la jerarquía de clases.",
+        "optionB": "La interfaz que se use pertenece a la jerarquía de clases.",
+        "optionC": "Las interfaces tienen que heredar de una clase que pertenezca a la jerarquía en la que se usa.",
+        "optionD": "Las interfaces solo se pueden utilizar con clases de las que no se pueda heredar.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "¿Qué palabra reservada tenemos que utilizar para declarar una clase abstracta?",
+        "optionA": "Interface",
+        "optionB": "final",
+        "optionC": "abstract",
+        "optionD": "static",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "Como podemos saber de que tipo es un objeto",
+        "optionA": "Mediante la sentencia instanceof",
+        "optionB": "Mediante la sentencia typeof",
+        "optionC": "Mediante la sentencia instanceType",
+        "optionD": "Mediante la sentencia instance",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_11",
+        "text": "¿Cómo separamos las interfaces cuando se implementa más de una en una clase?",
+        "optionA": "Mediante espacios en blanco.",
+        "optionB": "Mediante comas.",
+        "optionC": "Mediante punto y coma.",
+        "optionD": "Mediante tabuladores.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "¿Dónde se van a encontrar todas las clases de acceso a ficheros?",
+        "optionA": "En el paquete java.files.*;",
+        "optionB": "En el paquete java.io.*;",
+        "optionC": "En el paquete java.files.io.*;",
+        "optionD": "En el paquete java.io.files.*;",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "¿Cuál de las siguientes clases no ofrece un acceso a flujos de caracteres?",
+        "optionA": "InputStreamReader.",
+        "optionB": "Reader.",
+        "optionC": "InputStream.",
+        "optionD": "Writer",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "La ruta absoluta:",
+        "optionA": "Indica la posición de un fichero desde la posición actual.",
+        "optionB": "Indica la posición de un fichero desde la raíz.",
+        "optionC": "Indica la posición de un fichero desde la posición actual en Windows y desde la raíz en GNU/Linux.",
+        "optionD": "Indica la posición de un fichero desde la posición actual en GNU/Linux y desde la raíz en Windows.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "En cuanto a cómo se guardan los datos en un fichero, ¿Cuál es el tipo de organización que emplea dos archivos para almacenar la información?",
+        "optionA": "Organización Secuencial.",
+        "optionB": "Organización Directa.",
+        "optionC": "Organización Aleatoria.",
+        "optionD": "Organización Secuencial Indexada.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "El flujo predeterminado para la salida es:",
+        "optionA": "El teclado.",
+        "optionB": "La pantalla.",
+        "optionC": "La pantalla, pero con las letras rojas.",
+        "optionD": "Un fichero.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "El conjunto de información que puede ser escrito o leído de una sola vez se corresponde con",
+        "optionA": "Registros lógico.",
+        "optionB": "Registro físico.",
+        "optionC": "Dirección lógica",
+        "optionD": "Factor de bloque",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "El flujo predeterminado para la entrada es:",
+        "optionA": "El teclado.",
+        "optionB": "La pantalla.",
+        "optionC": "La pantalla, pero con las letras rojas.",
+        "optionD": "Un fichero.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "De acuerdo al tipo de organización, que tipo de fichero no existe",
+        "optionA": "Secuencial",
+        "optionB": "Por bloques",
+        "optionC": "Aleatorio",
+        "optionD": "Secuencial indexado",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "La ruta relativa:",
+        "optionA": "Indica la posición de un fichero desde la posición actual.",
+        "optionB": "Indica la posición de un fichero desde la raíz.",
+        "optionC": "Indica la posición de un fichero desde la posición actual en Windows y desde la raíz en GNU/Linux.",
+        "optionD": "Indica la posición de un fichero desde la posición actual en GNU/Linux y desde la raíz en Windows.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_12",
+        "text": "¿Qué tipo de rutas existen?",
+        "optionA": "Ruta absoluta.",
+        "optionB": "Ruta relativa.",
+        "optionC": "Ruta intermedia.",
+        "optionD": "Absoluta y relativa",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "Para borrar un directorio:",
+        "optionA": "Lo podemos hacer con el método delete().",
+        "optionB": "Los podemos hacer con el método delete() pero cuando esté vacío.",
+        "optionC": "En Java no se pueden tratar los directorios, solo los ficheros.",
+        "optionD": "En Java no se pueden eliminar directorios, solo podremos crearlos.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "¿Qué excepción provoca una división entre cero?",
+        "optionA": "IndexOfBoundsException.",
+        "optionB": "Exception.",
+        "optionC": "ArithmeticException.",
+        "optionD": "NullPointerException.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "¿Cuántas excepciones se pueden propagar en un método?",
+        "optionA": "Todas las que necesitemos, separadas mediante comas.",
+        "optionB": "Solo una, las demás habrá que tratarlas con un bloque try-catch.",
+        "optionC": "Los métodos no pueden propagar excepciones.",
+        "optionD": "Solo pueden propagar excepciones las funciones, mientras que los procedimientos no.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "¿Cuántos bloques finally puede haber en un bloque try-catch?",
+        "optionA": "1",
+        "optionB": "2",
+        "optionC": "3",
+        "optionD": "Todos los que necesitemos, uno por excepción controlada.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "Para crear una excepción propia deberemos:",
+        "optionA": "Crear una nueva clase y hacer que implemente Exception.",
+        "optionB": "Crear una nueva clase y hacer que herede de Exception, sin importar su nombre.",
+        "optionC": "Crear una nueva clase y hacer que herede de Exception, siendo recomendable que su nombre termine en Exception.",
+        "optionD": "En Java no podemos crear excepciones propias, sino que debemos trabajar con las que nos propone el propio lenguaje.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "¿Qué excepción provoca un array cuando intentamos acceder a una posición no válida?",
+        "optionA": "IndexOfBoundsException.",
+        "optionB": "Exception.",
+        "optionC": "ArithmeticException.",
+        "optionD": "NullPointerException.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "¿Qué excepción provoca que cuando tengamos que leer un dato entero introduzcamos una cadena?",
+        "optionA": "NullPointerException.",
+        "optionB": "InputMismatchException.",
+        "optionC": "DatoMalIntroducidoException.",
+        "optionD": "ArithmeticException.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "Los errores en tiempo de ejecución:",
+        "optionA": "Son los errores que tendremos cuando se ejecuta el programa y, por ejemplo, intentamos obtener un elemento de una posición no válida de un array.",
+        "optionB": "Son los errores que tendremos que cuando escribimos el código, avisándonos de ello el propio compilador.",
+        "optionC": "En Java no hay distinción de errores.",
+        "optionD": "Tanto a como b son ciertas.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "Si queremos abrir un fichero en modo lectura y no tenemos permiso, ¿qué excepción se lanzará?",
+        "optionA": "Exception.",
+        "optionB": "IOException.",
+        "optionC": "FileNotFoundException.",
+        "optionD": "NullPointerException.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_13",
+        "text": "¿Cuál de las siguientes excepciones utilizaremos en el tratamiento de ficheros?",
+        "optionA": "NullPointerException.",
+        "optionB": "FileNotFoundException.",
+        "optionC": "IndexOfBoundException.",
+        "optionD": "FileException.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "¿Cuándo se ejecutará el bloque finally?",
+        "optionA": "Después de que se ejecute el bloque try.",
+        "optionB": "Después de que se ejecute el catch.",
+        "optionC": "Después de que se ejecuten los bloques try y catch.",
+        "optionD": "Habrá que llamarlo expresamente.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "La clase BufferedReader la podemos utilizar en:",
+        "optionA": "Solo en la lectura de ficheros de texto.",
+        "optionB": "Solo en la lectura de ficheros binarios.",
+        "optionC": "Tanto en la lectura de ficheros de texto como en la lectura de ficheros binarios.",
+        "optionD": "Tanto en la escritura de ficheros de texto como en la escritura de ficheros binarios.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "Si queremos serializar objetos:",
+        "optionA": "No hace falta hacer nada especial.",
+        "optionB": "Deberemos implementar la interfaz Serializable en las clases que queramos serializar sus objetos.",
+        "optionC": "La clase File ya dispone de un método writeObject que lo hace automático.",
+        "optionD": "No se pueden escribir objetos, se tienen que escribir uno a uno todos sus atributos.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "Para la escritura de objetos se necesitan las siguientes clases",
+        "optionA": "FileOutputStream y ObjectOutputStream",
+        "optionB": "FileInputStream y ObjectInputStream",
+        "optionC": "ObjectInputStream   ObjectOutputStream",
+        "optionD": "ObjectOutputStream",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "La API JAXB se utiliza con ficheros",
+        "optionA": "XSD",
+        "optionB": "DTD",
+        "optionC": "JSON",
+        "optionD": "XML",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "Para identificar la versión del programa se emplea",
+        "optionA": "El atributo serialVersionUID",
+        "optionB": "El nombre del programa",
+        "optionC": "El fichero .class del programa",
+        "optionD": "El nombre del fichero",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "Para indicar que un atributo no se serialice, empleamos el modificador.",
+        "optionA": "private",
+        "optionB": "transient",
+        "optionC": "uid",
+        "optionD": "protected",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "Cuando escribimos en un fichero:",
+        "optionA": "Se sobrescribirá la información.",
+        "optionB": "Podremos escribir la final solo si es binario.",
+        "optionC": "Podremos escribir al final sea de texto o binario.",
+        "optionD": "Podremos escribir al final solo es de texto.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "Los pasos para operar con ficheros son:",
+        "optionA": "Abrir, operar y cerrar.",
+        "optionB": "Abrir, comprobar que se ha abierto correctamente, operar y cerrar.",
+        "optionC": "Operar y cerrar.",
+        "optionD": "Abrir y cerrar.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_14",
+        "text": "Para la lectura de objetos serializados se necesita _______",
+        "optionA": "ObjectInputStream",
+        "optionB": "FileOutputStream y ObjectOutputStream",
+        "optionC": "FileInputStream y ObjectInputStream",
+        "optionD": "ObjectOutputStream",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "El ciclo de vida del software ________",
+        "optionA": "Termina una vez que sacamos el producto a producción",
+        "optionB": "Termina cuando se decide retirar el producto",
+        "optionC": "Es inexistente",
+        "optionD": "Siempre se mueve hacia delante, nunca vuelve a fases anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "La fase de planificación ________",
+        "optionA": "Es opcional",
+        "optionB": "Solo se incorpora en ciclos de vidas extendidos",
+        "optionC": "Debe ser de las primeras fases a considerar",
+        "optionD": "Es poco relevante, no afecta al producto",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "El despliegue de un sistema ________",
+        "optionA": "Tiene en cuenta el desarrollo",
+        "optionB": "Se centra en realizar pruebas",
+        "optionC": "Se centra en el proceso de instalación",
+        "optionD": "Considera la fase de análisis",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "La depuración ________",
+        "optionA": "Permite observar detalles de la planificación",
+        "optionB": "Siempre se realiza con trazas",
+        "optionC": "Puede requerir la utilización de software dedicado",
+        "optionD": "Es poco útil en la actualidad",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "¿Cuál es la principal función de un depurador?",
+        "optionA": "Optimizar el rendimiento del código automáticamente.",
+        "optionB": "Permitir la ejecución paso a paso y la inspección de variables.",
+        "optionC": "Compilar el código fuente a lenguaje máquina.",
+        "optionD": "Generar documentación técnica del programa.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "La fuera bruta ________",
+        "optionA": "Es una técnica muy costosa",
+        "optionB": "Es una técnica muy eficiente",
+        "optionC": "Nunca se aplica en la actualidad",
+        "optionD": "Solo se utiliza en el campo de pruebas de software",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "Las pruebas de caja blanca ________",
+        "optionA": "Son poco útiles en la actualidad",
+        "optionB": "Son poco costosas",
+        "optionC": "Se utilizan de forma aislada",
+        "optionD": "Requieren que el programador conozca el código fuente",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "Las pruebas de caja negra ________",
+        "optionA": "Están muy limitadas",
+        "optionB": "No tienen sentido en la actualidad",
+        "optionC": "Son más efectivas si el programador no conoce el código",
+        "optionD": "Solo valen para pruebas internas",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "La utilización de pruebas ________",
+        "optionA": "Permite guiar el proceso de desarrollo",
+        "optionB": "Es poco útil para el proceso de desarrollo",
+        "optionC": "Puede introducir errores en el código",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_15",
+        "text": "La calidad del software________",
+        "optionA": "Es independiente del proceso de pruebas",
+        "optionB": "Es poco relevante para el usuario",
+        "optionC": "Puede mejorar con la utilización de pruebas",
+        "optionD": "Carece de importancia en cualquier metodología de desarrollo",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "¿Cuál de las siguientes colecciones no admite elementos repetidos?",
+        "optionA": "ArrayList.",
+        "optionB": "HashLinkedMap.",
+        "optionC": "LinkedList.",
+        "optionD": "TreeSet.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "Los métodos de la interfaz Set",
+        "optionA": "Son los mismos que los de List",
+        "optionB": "Son los mismos que los de Collection",
+        "optionC": "Son implementados en la clase ArrayList",
+        "optionD": "Esta interfaz no tiene métodos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "Si en un TreeSet insertamos los siguientes valores: 2, 0, 7, 6, ¿cómo aparecerán al mostrarlo por pantalla?",
+        "optionA": "2, 0, 7, 6",
+        "optionB": "0, 2, 7, 6",
+        "optionC": "0, 2, 6, 7",
+        "optionD": "7, 6, 2, 0",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "¿Cuál de las siguientes definiciones no es correcta?",
+        "optionA": "ArrayList<String> array = new ArrayList<>();",
+        "optionB": "ArrayList<Boolean> array = new ArrayList<>();",
+        "optionC": "ArrayList<ArrayList<Integer>> array = new ArrayList<>();",
+        "optionD": "ArrayList<int> array = new ArrayList<>();",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "¿Cuándo podemos invocar al método remove de los iteradores?",
+        "optionA": "En cualquier momento.",
+        "optionB": "Después de usar next().",
+        "optionC": "Después de usar hasNext().",
+        "optionD": "Es mejor eliminar los elementos de las colecciones mediante el método delete, ya que es más seguro.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "Los tipos genéricos sirven para",
+        "optionA": "Usar objetos de la clase Object",
+        "optionB": "Usar variables primitivas",
+        "optionC": "Usar tipos parametrizados",
+        "optionD": "No tener que usar ningún tipo",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "El bucle for-each:",
+        "optionA": "Nos permite recorrer una colección de forma segura y sencilla.",
+        "optionB": "Este tipo de bucle no existe en Java, sino que es propio de Python.",
+        "optionC": "Es un bucle for encubierto.",
+        "optionD": "Solo se puede utilizar en colecciones que tengan almacenados datos de tipo String.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "¿Cuántos tipos genéricos puede tener una clase genérica en su declaración?",
+        "optionA": "Todos los que haga falta.",
+        "optionB": "El máximo que se pueden usar en una clase son 3.",
+        "optionC": "El máximo que se pueden usar en una clase son 2.",
+        "optionD": "El máximo que se pueden usar en una clase es 1.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "ArrayList y LinkedList se diferencian:",
+        "optionA": "En el número de elementos",
+        "optionB": "En el rendimiento",
+        "optionC": "En el orden de los elementos",
+        "optionD": "En nada",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_16",
+        "text": "¿Qué tipo de dato no se puede usar con los genéricos?",
+        "optionA": "String.",
+        "optionB": "Double.",
+        "optionC": "char.",
+        "optionD": "Persona.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "¿Cómo distribuye los elementos el GridLayout?",
+        "optionA": "Los ordena en 5 partes, norte, sur, este y oeste.",
+        "optionB": "Los alinea en el centro del panel.",
+        "optionC": "Los maqueta en forma de matriz.",
+        "optionD": "No existe el layout FlowLayout.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "¿Qué biblioteca utilizamos en Java para la creación de la interfaz gráfica?",
+        "optionA": "SDL",
+        "optionB": "WxPython",
+        "optionC": "AWT",
+        "optionD": "Swing",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "Las ventanas son objetos de la clase:",
+        "optionA": "JFrame",
+        "optionB": "JLabel",
+        "optionC": "JWindow",
+        "optionD": "Frame",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "¿Cuál de los siguientes no es un Layout?",
+        "optionA": "BorderLayout",
+        "optionB": "StaticLayout",
+        "optionC": "FlowLayout",
+        "optionD": "GridLayout",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "¿Cómo se le puede agregar el evento actionPerformed a un JButton?",
+        "optionA": "Solo haciendo doble click sobre el botón.",
+        "optionB": "Solo desde el panel de eventos del botón.",
+        "optionC": "Solo pulsando botón derecho sobre el botón y seleccionando el evento.",
+        "optionD": "O bien haciendo doble click sobre el botón o desde el panel de eventos.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "¿Cómo distribuye los elementos el FlowLayout?",
+        "optionA": "Los ordena en 5 partes, norte, sur, este y oeste.",
+        "optionB": "Los alinea en el centro del panel.",
+        "optionC": "Los maqueta en forma de matriz.",
+        "optionD": "No existe el layout FlowLayout.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "¿Qué evento se lanzará cuando pulsemos sobre un menú?",
+        "optionA": "clickedMenu.",
+        "optionB": "actionPerformed.",
+        "optionC": "menuPerformed.",
+        "optionD": "singleClickMenu.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "¿Qué clase se utiliza para crear las ventanas de diálogo predefinidas?",
+        "optionA": "JOptionPane.",
+        "optionB": "JFrame.",
+        "optionC": "JPanel.",
+        "optionD": "JPredefined.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "La clase JMenuItem:",
+        "optionA": "Esta clase representa un menú concreto.",
+        "optionB": "Esta clase representa un ítem de un menú, al que le podremos dar funcionalidad.",
+        "optionC": "Esta clase representa un ítem de un menú, pero mostrará un radiobutton en él.",
+        "optionD": "Esta clase representa un ítem de un menú, pero mostrará un checkbox en él.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_17",
+        "text": "La clase JRadioButtonMenuItem:",
+        "optionA": "Esta clase representa un menú concreto.",
+        "optionB": "Esta clase representa un ítem de un menú, al que le podremos dar funcionalidad.",
+        "optionC": "Es un ítem de menú que actúa como un botón de radio (radio button).",
+        "optionD": "Esta clase representa un ítem de un menú, pero mostrará un checkbox en él.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "La clase Statement:",
+        "optionA": "Es la clase que nos permitirá instanciar objetos donde se almacenará nuestra conexión.",
+        "optionB": "Es la clase que nos permitirá instanciar objetos que utilizaremos para realizar las consultas SQL.",
+        "optionC": "Es la clase que nos permitirá instanciar objetos que nos devolverán los resultados de las consultas SQL.",
+        "optionD": "Es la excepción propia de SQL.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "La excepción que se lanza cuando se ejecuta una consulta INSERT es:",
+        "optionA": "SQLException.",
+        "optionB": "InsertException.",
+        "optionC": "NotInsertedException.",
+        "optionD": "Exception.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "El método executeQuery devuelve:",
+        "optionA": "La cantidad de filas que han sido afectadas por la consulta ejecutada.",
+        "optionB": "Verdadero o falso, según se haya ejecutado correctamente o no.",
+        "optionC": "No devuelve nada, sabremos que no se ha ejecutado bien si se lanza una excepción.",
+        "optionD": "Devuelve un ResultSet con los datos devueltos por la consulta ejecutada.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "¿Cuántas claves primarias puede tener cada fila en una tabla?",
+        "optionA": "1",
+        "optionB": "2",
+        "optionC": "3",
+        "optionD": "4",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "¿Cuál de las siguientes sentencias INSERT no es correcta?",
+        "optionA": "INSERT INTO persona (DNI, nombre, apellidos) VALUES (‘147A', ‘Pepe’, ‘López’)",
+        "optionB": "INSERT INTO persona (DNI, nombre, apellidos) VALUES (‘147A', ‘Pepe’, ‘Lopez’)",
+        "optionC": "INSERT INTO persona (DNI, nombre, apellidos) VALUES (‘147A', ‘López’, ‘Pepe’)",
+        "optionD": "INSERT INTO persona (DNI, nombre, apellidos) VALUES (147A, ‘Pepe’, ‘López’)",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "La clase SQLException:",
+        "optionA": "Es la clase que nos permitirá instanciar objetos donde se almacenará nuestra conexión.",
+        "optionB": "Es la clase que nos permitirá instanciar objetos que utilizaremos para realizar las consultas SQL.",
+        "optionC": "Es la clase que nos permitirá instanciar objetos que nos devolverán los resultados de las consultas SQL.",
+        "optionD": "Es la excepción propia de SQL.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "La clase ResultSet:",
+        "optionA": "Es la clase que nos permitirá instanciar objetos donde se almacenará nuestra conexión.",
+        "optionB": "Es la clase que nos permitirá instanciar objetos que utilizaremos para realizar las consultas SQL.",
+        "optionC": "Es la clase que nos permitirá instanciar objetos que nos devolverán los resultados de las consultas SQL.",
+        "optionD": "Es la excepción propia de SQL.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "¿En qué punto hay que cerrar la conexión a la base de datos?",
+        "optionA": "Dentro del bloque try.",
+        "optionB": "Dentro del bloque catch.",
+        "optionC": "Fuera del bloque try catch.",
+        "optionD": "Dentro del bloque finally.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "¿Qué instrucción no ejecuta el método executeUpdate?",
+        "optionA": "SELECT",
+        "optionB": "INSERT INTO",
+        "optionC": "DELETE",
+        "optionD": "UPDATE",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_18",
+        "text": "¿Qué ocurre si no ponemos el WHERE en la instrucción DELETE FROM?",
+        "optionA": "Lanza una SQLException ya que está mal la sintaxis.",
+        "optionB": "Borra todos los elementos de la tabla.",
+        "optionC": "Borra la tabla.",
+        "optionD": "Se ejecuta, pero no tiene efecto.",
+        "correctOptionIndex": 1
     }
 ]

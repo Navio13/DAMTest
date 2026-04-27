@@ -1058,5 +1058,805 @@
         "optionB": "Reducir el tiempo de desarrollo",
         "optionC": "Facilitar la comunicación con clientes y desarrolladores",
         "optionD": "Todas las anteriores son correctas"
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "Los diagramas de actividad…",
+        "optionA": "No están contemplados en UML",
+        "optionB": "Permiten mostrar el flujo de ejecución",
+        "optionC": "Realizan una tarea similar a los diagramas de secuencia",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "Un diagrama de tiempo…",
+        "optionA": "Permite mostrar el flujo temporal",
+        "optionB": "No está contemplado en UML",
+        "optionC": "Se puede utilizar para planificación temporal del proyecto",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "En un diagrama de actividad podemos distinguir…",
+        "optionA": "Nodos objeto",
+        "optionB": "Nodos de control",
+        "optionC": "Nodos ejecutables",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "Cuando queremos mostrar la planificación temporal…",
+        "optionA": "Mejor utilizar un diagrama de clases",
+        "optionB": "Mejor utilizar un diagrama de planificación",
+        "optionC": "Mejor utilizar un diagrama de tiempos",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "En referencia los diagramas de tiempo…",
+        "optionA": "Existen diferentes tipos",
+        "optionB": "No se pueden utilizar en la planificación UML",
+        "optionC": "No tiene sentido utilizarlos en el desarrollo software",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "Un diagrama de red de tareas…",
+        "optionA": "Es un tipo especial de diagrama de actividad",
+        "optionB": "Es un tipo especial de diagrama de tiempo",
+        "optionC": "Es un tipo especial de diagrama de clase",
+        "optionD": "Es un tipo especial de diagrama de secuencia",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "Un diagrama de Gantt…",
+        "optionA": "Es lo mismo que un diagrama de barras",
+        "optionB": "Se puede utilizar para la planificación temporal",
+        "optionC": "Tiene muchas limitaciones para el desarrollo software",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "Un diagrama PERT…",
+        "optionA": "Es un diagrama de secuencia",
+        "optionB": "Es un diagrama de actividad",
+        "optionC": "Es un tipo de diagrama de clases",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "Para contemplar los retrasos en la planificación…",
+        "optionA": "Es mejor utilizar un diagrama de actividad",
+        "optionB": "Hay que utilizar un diagrama de clases",
+        "optionC": "Es suficiente con cualquier diagrama de tiempo",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_11",
+        "text": "En un diagrama de actividad…",
+        "optionA": "Es necesario marcar el estado inicial",
+        "optionB": "Hay que tener en cuenta las actividades",
+        "optionC": "Hay que incluir las acciones",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "Un diagrama de estado…",
+        "optionA": "Solo se aplica en el ámbito matemático",
+        "optionB": "Proviene del ámbito matemático",
+        "optionC": "Solo se utiliza en el diseño software",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "El término determinista…",
+        "optionA": "No se aplica los diagramas de estado",
+        "optionB": "No tiene nada que ver con la informática",
+        "optionC": "Es imprescindible en los diagramas de estado",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "En un diagrama de estado…",
+        "optionA": "Solo podemos tener estados",
+        "optionB": "Solo podemos tener estado con transiciones",
+        "optionC": "Pueden existir estados con flujos dentro",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "Una buena práctica para crear diagramas de estados es…",
+        "optionA": "Definir previamente el conjunto de estados",
+        "optionB": "Realizarlo una vez que el software esté implementado",
+        "optionC": "Utilizar el diagrama de secuencia",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "Un estado de convergencia…",
+        "optionA": "No se puede representar en un diagrama de estado",
+        "optionB": "Es aquel en el que confluyen varias transiciones de diferentes estados",
+        "optionC": "No está soportado por UML",
+        "optionD": "Aquel del que parten varias posibles transiciones",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "Un evento en un diagrama de estado…",
+        "optionA": "No está soportado por UML",
+        "optionB": "No se puede representar en el sistema",
+        "optionC": "Normalmente se produce con un disparador",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "Para poder crear un diagrama de estado…",
+        "optionA": "Solo puede haber un estado inicial",
+        "optionB": "Es necesario especificar al menos un estado de finalización",
+        "optionC": "Hay que definir los estados",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "En un diagrama de estado, los eventos de llamada…",
+        "optionA": "No existen",
+        "optionB": "Son siempre asíncronos",
+        "optionC": "No están soportados",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "Los eventos en el diagrama de estados…",
+        "optionA": "Son siempre síncronos",
+        "optionB": "Son siempre asíncronos",
+        "optionC": "Los síncronos no se contemplan en UML",
+        "optionD": "Pueden ser síncronos o asíncronos",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_12",
+        "text": "Un diagrama de estado…",
+        "optionA": "Permite mostrar el flujo de ejecución y los estados de los objetos",
+        "optionB": "Se puede reemplazar por un diagrama de secuencia",
+        "optionC": "Se puede reemplazar por un diagrama de clases",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "Las pruebas software…",
+        "optionA": "No forman parte de la planificación de un proyecto",
+        "optionB": "Pueden ser de diferentes tipos",
+        "optionC": "Normalmente es mejor no utilizarlas",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "En la planificación de un proyecto software…",
+        "optionA": "Solo es necesario contemplar el tiempo de implementación",
+        "optionB": "No es necesario contemplar la realización de pruebas",
+        "optionC": "Es muy importante añadir el tiempo de pruebas y desarrollo de éstas",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "Las metodologías basadas en pruebas…",
+        "optionA": "Basan toda su filosofía en la existencia de pruebas",
+        "optionB": "No existe tipo de metodologías",
+        "optionC": "Son muy lentas",
+        "optionD": "No se aplican en la actualidad",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "Las pruebas estáticas…",
+        "optionA": "Permiten observar el funcionamiento del código",
+        "optionB": "Son muy potentes",
+        "optionC": "Solo permiten valorar el código desde el punto vista lógico",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "Las pruebas no funcionales…",
+        "optionA": "Se centran en probar que se cumplen los requisitos no funcionales",
+        "optionB": "Se centran en probar si se cumplen los requisitos funcionales y no funcionales",
+        "optionC": "No son muy relevantes",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "Las pruebas dinámicas…",
+        "optionA": "Son menos potentes que las pruebas estáticas",
+        "optionB": "Permiten comprobar el código en funcionamiento",
+        "optionC": "No se utilizan en la actualidad",
+        "optionD": "Son solo de un tipo",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "Los casos de prueba…",
+        "optionA": "No están relacionados con los casos de uso",
+        "optionB": "Solo se relacionan con los casos de uso en requisitos no funcionales",
+        "optionC": "Están relacionados con los casos de uso",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "Las pruebas unitarias…",
+        "optionA": "Permite verificar todo el código a la vez",
+        "optionB": "Permiten comprobar cómo se comporta el código con otros componentes",
+        "optionC": "Permiten comprobar que no existen errores de regresión",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "Las pruebas de regresión…",
+        "optionA": "Permiten comprobar que no existen efectos colaterales",
+        "optionB": "Se hacen al principio del desarrollo",
+        "optionC": "Son imprescindibles para avanzar más rápidamente",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_13",
+        "text": "Las pruebas de integración…",
+        "optionA": "Se realizan con la utilización de pruebas funcionales",
+        "optionB": "Es recomendable realizarlas después de las pruebas de regresión",
+        "optionC": "Es recomendable realizarlas después de las pruebas unitarias",
+        "optionD": "Es mejor realizarlas después de las pruebas de componentes",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "Las pruebas de caja negra…",
+        "optionA": "Permiten observar los detalles del código",
+        "optionB": "Ocultan totalmente los detalles del código",
+        "optionC": "No son una solución válida para las pruebas software",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "Las pruebas de seguridad…",
+        "optionA": "No son relevantes en el software",
+        "optionB": "No requieren ningún estándar",
+        "optionC": "Dependerán del tipo de información almacenada",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "Las pruebas de usabilidad…",
+        "optionA": "Se realizan siempre automáticamente",
+        "optionB": "No son necesarias en el software",
+        "optionC": "Requieren siempre intervención humana",
+        "optionD": "No afectan en la calidad de la aplicación",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "Las pruebas de aceptación…",
+        "optionA": "Son de las últimas en realizarse",
+        "optionB": "Pueden requerir información de estadísticas",
+        "optionC": "Se suelen realizar incluso una vez publicado el software",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "Las pruebas de tipo A/B…",
+        "optionA": "Son poco eficientes",
+        "optionB": "No permiten elegir el mejor candidato",
+        "optionC": "No se utilizan en el desarrollo software",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "Las pruebas de caja blanca…",
+        "optionA": "Pueden tener acceso total al código",
+        "optionB": "No pueden ver los detalles de implementación",
+        "optionC": "No se aplican en el software",
+        "optionD": "No son eficientes para detectar errores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "El enfoque exploratorio…",
+        "optionA": "No es una solución válida para las pruebas software",
+        "optionB": "Aplica una metodología determinada",
+        "optionC": "Se centran en la experiencia del probador",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "Las pruebas de caja gris…",
+        "optionA": "Son una solución intermedia entre las pruebas de caja negra y las de caja blanca",
+        "optionB": "No existe en el desarrollo software",
+        "optionC": "Son un tipo de prueba exploratoria",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "El desarrollo de prueba en cascada…",
+        "optionA": "Es el más utilizado en la actualidad",
+        "optionB": "No se adapta a las necesidades actuales de las empresas",
+        "optionC": "No utiliza prueba de caja negra",
+        "optionD": "No utiliza prueba de caja blanca",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_14",
+        "text": "Las pruebas de accesibilidad…",
+        "optionA": "Permiten aumentar el público objetivo",
+        "optionB": "Actualmente son muy importantes",
+        "optionC": "Se suelen confundir con las pruebas de usabilidad",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "El depurador de código…",
+        "optionA": "No es necesario en ningún caso",
+        "optionB": "Se vuelve más necesario a medida que aumenta el número de líneas de código",
+        "optionC": "Afecta al rendimiento de la versión final",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "El depurador…",
+        "optionA": "Nunca se incluye en los entornos de desarrollo",
+        "optionB": "Solo se puede utilizar en lenguajes compilados",
+        "optionC": "Permite la utilización de puntos de ruptura",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "Un punto de ruptura…",
+        "optionA": "Permite aumentar la velocidad de ejecución",
+        "optionB": "Lugar donde existe un error en el código",
+        "optionC": "Permite parar el flujo de ejecución en un punto determinado",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "Para conocer el contenido de una variable…",
+        "optionA": "Solo podemos imprimirla por los logs",
+        "optionB": "No se puede saber el contenido de una variable",
+        "optionC": "En versiones de depuración se puede utilizar los examinadores de variables",
+        "optionD": "Solo es posible conocer los valores de las variables en entornos web",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "En relación con los puntos de ruptura…",
+        "optionA": "Son necesarios para la versión de depuración",
+        "optionB": "Dificultan el flujo de ejecución",
+        "optionC": "Dificultan el proceso de desarrollo",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "Para poder generar una versión de depuración…",
+        "optionA": "Es necesario que sea soportado por el entorno de desarrollo",
+        "optionB": "Es necesario que sea soportado por el hardware subyacente",
+        "optionC": "Deben existir una versión especial de depuración",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "A la hora de depurar el interior de una función…",
+        "optionA": "Se puede utilizar la opción step into",
+        "optionB": "Se puede utilizar la opción step forward",
+        "optionC": "Se puede utilizar la opción step out",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "A la hora de depurar un programa…",
+        "optionA": "No podemos fijar muchos puntos de ruptura",
+        "optionB": "No tenemos que considerar los requisitos de la máquina",
+        "optionC": "No hay que generar una versión especial de la aplicación",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "Al trabajar con muchas líneas de código…",
+        "optionA": "Es mejor utilizar una impresora para depurar",
+        "optionB": "No es posible utilizar la depuración",
+        "optionC": "Lo ideal es disponer de un depurador",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_15",
+        "text": "Desde el punto de vista del programador…",
+        "optionA": "Tener muchos puntos de ruptura es costoso",
+        "optionB": "Disponer de un depurador es una pérdida de tiempo",
+        "optionC": "Es importante utilizar herramientas adecuadas al desarrollo",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "Para poder realizar pruebas a mayor velocidad…",
+        "optionA": "Es necesario tener claro los vectores de pruebas",
+        "optionB": "Hay que definir y acotar los rangos de pruebas",
+        "optionC": "Se pueden utilizar herramientas de prueba automática",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "La calidad del código…",
+        "optionA": "No tiene ninguna forma de medirse",
+        "optionB": "Es fundamental para disponer de un buen producto",
+        "optionC": "No se relaciona con las pruebas",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "Los valores extremos…",
+        "optionA": "No requieren de pruebas específicas",
+        "optionB": "No se aplican en el software",
+        "optionC": "Son valores de casos particulares",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "Desde el punto de vista de los estándares…",
+        "optionA": "No se pueden utilizar para medir el código",
+        "optionB": "No existe ningún estándar que se pueda utilizar en el software",
+        "optionC": "Permiten determinar reglas para medir la calidad del software",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "En cuanto a la realización de pruebas…",
+        "optionA": "Son necesarias para garantizar la seguridad",
+        "optionB": "Permiten garantizar la fiabilidad del software",
+        "optionC": "Pueden requerir mucho tiempo para su ejecución",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "En relación con JUnit …",
+        "optionA": "Es una herramienta para realizar pruebas unitarias",
+        "optionB": "Es una herramienta para medir la calidad",
+        "optionC": "Una herramienta que permite documentar el código",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "Las pruebas de interfaz gráfica…",
+        "optionA": "Normalmente requieren la intervención humana",
+        "optionB": "Normalmente se automatizan",
+        "optionC": "No se llevan nunca acabo",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "Las pruebas unitarias…",
+        "optionA": "Pueden ser muy numerosas",
+        "optionB": "Solo garantizan que el código es correcto",
+        "optionC": "Puede llegar a ser complicado realizarlas",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "Las pruebas de cobertura…",
+        "optionA": "Son muy complicadas de realizar",
+        "optionB": "No se pueden aplicar a soluciones software",
+        "optionC": "Son las más comunes de realizar",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_16",
+        "text": "Las clases de equivalencia…",
+        "optionA": "Aumentan el número de casos de prueba",
+        "optionB": "No se pueden aplicar al software",
+        "optionC": "Disminuyen el número de casos de prueba",
+        "optionD": "No afecta al número de casos de prueba",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "La refactorización…",
+        "optionA": "Es una tarea muy sencilla",
+        "optionB": "Requiere comprobar el código generado",
+        "optionC": "No posee ninguna herramienta de apoyo",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "Las herramientas de refactorización…",
+        "optionA": "Pueden ayudar a realizar un borrado seguro",
+        "optionB": "Pueden ayudar a realizar un renombrado de métodos",
+        "optionC": "Pueden ayudar a realizar un renombrado de variables",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "Los patrones de refactorización…",
+        "optionA": "Solo se pueden aplicar a determinados casos",
+        "optionB": "No garantizan que se estructure mejor el código",
+        "optionC": "Requieren que se hagan pruebas a posteriori",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "Al referirnos a la sustitución de bloques…",
+        "optionA": "Hace referencia a cambiar el nombre de los métodos",
+        "optionB": "Se refiere a encapsular los datos",
+        "optionC": "Permite sustituir bloques dando el nombre de métodos",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "Cuando movemos una clase a otro nivel…",
+        "optionA": "Es un tipo de refactorización",
+        "optionB": "No podemos hablar de refactorización",
+        "optionC": "Siempre se produce un error",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "En referencia a los analizadores de código…",
+        "optionA": "Se pueden utilizar para conocer el estado de nuestro código",
+        "optionB": "Pueden apoyar en la toma decisiones",
+        "optionC": "Están basados en métricas",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "Las herramientas para la refactorización…",
+        "optionA": "Permiten la refactorización de manera automática",
+        "optionB": "No incluyan métodos para renombrado",
+        "optionC": "No se encuentran integradas en los entornos de desarrollo",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "Para poder realizar un borrado seguro…",
+        "optionA": "Es necesario recompilar",
+        "optionB": "Deberíamos tener en cuenta dónde se está utilizando el elemento de código a borrar",
+        "optionC": "El borrado nunca es una tarea segura",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "Los analizadores de código…",
+        "optionA": "No son utilizados en la actualidad",
+        "optionB": "Tienen una potencia más limitada",
+        "optionC": "Suelen estar integrados en el editor del entorno de desarrollo",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_17",
+        "text": "La realización de pruebas…",
+        "optionA": "No son necesarias cuando se hace una refactorización",
+        "optionB": "No se pueden aplicar después de una refactorización",
+        "optionC": "Son poco eficientes después de una refactorización",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "Un sistema de generación documentación…",
+        "optionA": "Utiliza etiquetas para marcar los datos",
+        "optionB": "Puede ser integrados en entornos de desarrollo",
+        "optionC": "Pueden trabajar con múltiples lenguajes de programación",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "Los sistemas de control de versiones…",
+        "optionA": "Complican la tarea trabajar con equipos grandes",
+        "optionB": "Son muy útiles a la hora de trabajar con equipos grandes",
+        "optionC": "No son recomendables de utilizar en el código",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "Cuando surge un conflicto con el código…",
+        "optionA": "El sistema de gestión de versiones no se puede utilizar",
+        "optionB": "Siempre se utilizará lo más nuevo",
+        "optionC": "Será necesario la intervención humana para resolver el conflicto",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "Las herramientas de generación automática de documentación…",
+        "optionA": "No son adecuadas para generar manuales de usuario",
+        "optionB": "No son necesarias en el desarrollo software",
+        "optionC": "Pueden utilizarse para generar manuales de usuario",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "A la hora de trabajar con un sistema de control de versiones…",
+        "optionA": "Es necesario descargar el código",
+        "optionB": "Es posible realizar modificaciones",
+        "optionC": "Se puede subir el código cuando sea necesario",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "La herramienta Doxygen…",
+        "optionA": "Se trata de un sistema Cloud",
+        "optionB": "Permite controlar las versiones del código",
+        "optionC": "Es un sistema de generación de documentación",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "En relación con JavaDoc…",
+        "optionA": "Permite llevar a cabo el control del código",
+        "optionB": "Permite generar documentación para diferentes lenguajes",
+        "optionC": "No funciona con etiquetas",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "A la hora de subir el código a un repositorio…",
+        "optionA": "Pueden existir conflictos",
+        "optionB": "Siempre se soluciona automáticamente los conflictos encontrados",
+        "optionC": "No es posible realizar la subida al repositorio en cualquier momento",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "A la hora de documentar APIs…",
+        "optionA": "Se pueden utilizar herramientas de generación de documentación",
+        "optionB": "Se pueden utilizar etiquetas",
+        "optionC": "Una alternativa sería JavaDoc si está escrito en Java",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_18",
+        "text": "La documentación creada para las APIs…",
+        "optionA": "Puede servir a desarrolladores externos",
+        "optionB": "Puede servir a desarrolladores internos",
+        "optionC": "Se puede generar con la herramienta de generación automática de documentación",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
     }
 ]

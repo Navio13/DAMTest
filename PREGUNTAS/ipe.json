@@ -998,5 +998,805 @@
         "optionB": "El traslado de un trabajador",
         "optionC": "La movilidad funcional extraordinaria",
         "optionD": "Una modificación de la jornada de trabajo"
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "El salario de una artesana que vende pulseras hechas a mano a una empresa y cobra 1 € por pulsera se calcula según:",
+        "optionA": "Salario mixto",
+        "optionB": "Salario por unidad de tiempo",
+        "optionC": "Salario por unidad de obra",
+        "optionD": "Salario en especie",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "El salario en especie no puede ser:",
+        "optionA": "Superior al 30% del salario total",
+        "optionB": "Inferior al 30% del salario total",
+        "optionC": "Superior al 30% de los pluses salariales",
+        "optionD": "Inferior al 50% de los pluses salariales",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "¿Qué tipos de complementos salariales están directamente relacionados con las condiciones individuales del trabajador?",
+        "optionA": "Complementos por puntualidad",
+        "optionB": "Complementos por peligrosidad",
+        "optionC": "Complementos personales",
+        "optionD": "Complementos por toxicidad",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "Señale qué complementos son complementos extrasalariales:",
+        "optionA": "Dietas de viaje y kilometraje",
+        "optionB": "Plus de toxicidad y salario base",
+        "optionC": "Horas extras y plus de convenio",
+        "optionD": "Plus de nocturnidad y trabajo en especie",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "Las dietas o los gastos de locomoción de un trabajador se consideran:",
+        "optionA": "Una percepción salarial",
+        "optionB": "Una percepción no salarial",
+        "optionC": "Un plus salarial",
+        "optionD": "Un complemento salarial",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "Las siglas SMI significan:",
+        "optionA": "Salario Máximo Interprofesional",
+        "optionB": "Salario Mínimo Interprofesional",
+        "optionC": "Salario Mínimo Íntegro",
+        "optionD": "Salario Muy Importante",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "En relación a la estructura de la nómina, ¿En qué parte se detalla la cantidad final que recibirá el trabajador?",
+        "optionA": "Encabezado",
+        "optionB": "Salario neto",
+        "optionC": "Periodo de liquidación",
+        "optionD": "Deducciones",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "Contraprestación que recibe el trabajador por su tiempo y esfuerzo dedicado a la producción de bienes o servicios para la empresa:",
+        "optionA": "Percepciones dinerarias",
+        "optionB": "Percepciones salariales",
+        "optionC": "Percepciones no salariales",
+        "optionD": "Complementos extrasalariales",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "¿En qué base de cotización quedan recogidos los devengos, la parte proporcional de pagas y las horas extras?",
+        "optionA": "Base de cotización por contingencias profesionales",
+        "optionB": "Base de cotización por contingencias comunes",
+        "optionC": "Base de cotización por horas extra",
+        "optionD": "Base de cotización por devengos",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_11",
+        "text": "El líquido a percibir o salario neto se calcula:",
+        "optionA": "Restando al salario base las deducciones",
+        "optionB": "Restando a los devengos las deducciones y retenciones",
+        "optionC": "Restando el salario bruto y el salario base",
+        "optionD": "Sumando todos los devengos y el salario base",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "El comité de empresa:",
+        "optionA": "Es un órgano de representación de los trabajadores colectiva sindical",
+        "optionB": "Es un órgano de representación de los empresarios colectiva sindical",
+        "optionC": "Es un órgano de representación de los trabajadores colectiva unitaria",
+        "optionD": "Es un órgano de representación de los empresarios colectiva unitaria",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "¿Cuál de los siguientes trabajadores podría afiliarse a un sindicato?:  Teresa, administrativa con un contrato por cuenta ajena a jornada parcial",
+        "optionA": "Teresa, administrativa con un contrato por cuenta ajena a jornada parcial",
+        "optionB": "Hugo, Juez",
+        "optionC": "Laura, fiscal del Estado",
+        "optionD": "Christian, autónomo con un empleado a su cargo",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "¿Cuál de las siguientes no es una función destacada de los sindicatos en la empresa?",
+        "optionA": "Negociación colectiva",
+        "optionB": "Promoción de la justicia social",
+        "optionC": "Establecer las vacaciones",
+        "optionD": "Prestación de asesoramiento legal",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "Según el enfoque jurídico, los conflictos pueden ser:",
+        "optionA": "Latentes o visibles",
+        "optionB": "Individuales y colectivos",
+        "optionC": "Pacíficos o agresivos",
+        "optionD": "Funcionales o disfuncionales",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "Un conflicto colectivo es aquel que:",
+        "optionA": "Tiene efectos negativos sobre el funcionamiento de la empresa",
+        "optionB": "Engloba los derechos de múltiples trabajadores",
+        "optionC": "Están ocultos, aunque se percibe cierta tensión",
+        "optionD": "Se producen por un derecho individual",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "¿Qué tipo de solución extrajudicial del conflicto es aquella en la que interviene una tercera persona que intenta que las partes lleguen a una acuerdo pero sin ofrecer soluciones?",
+        "optionA": "Negociación",
+        "optionB": "Conciliación",
+        "optionC": "Mediación",
+        "optionD": "Arbitraje",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "¿Qué organismo fue creado por las organizaciones empresariales CEOE, CEPYME y UGT para gestionar procedimientos de resolución extrajudicial de conflictos?",
+        "optionA": "ASAC",
+        "optionB": "SIMA",
+        "optionC": "Comisión arbitral",
+        "optionD": "Sindicatos obreros",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "¿Cuál de las siguientes condiciones no es necesaria para considerar que una huelga es legal?",
+        "optionA": "Carácter colectivo",
+        "optionB": "Acuerdo previo",
+        "optionC": "Temporalidad",
+        "optionD": "Anuncios en la prensa",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "Señala la afirmación incorrecta en relación con las consecuencias de la huelga para los trabajadores:",
+        "optionA": "Los días de huelga serán descontados de las vacaciones   No se cobra ni hay cotización durante esos días",
+        "optionB": "No se cobra ni hay cotización durante esos días",
+        "optionC": "No es posible sustituir a los trabajadores",
+        "optionD": "Se debe respetar la libertad de trabajar de los no huelguistas",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_12",
+        "text": "¿Cuál de las siguientes no se considera una ventaja de un equipo de trabajo?:",
+        "optionA": "La mejora del clima laboral",
+        "optionB": "La mejora salarial",
+        "optionC": "La mejora de la comunicación",
+        "optionD": "El enriquecimiento personal y profesional",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "Los organismos de la Seguridad Social en la actualidad son:",
+        "optionA": "El INSS, la TGSS, el PEPE y el INSST",
+        "optionB": "El INSS, la TGSS, el SEPE y el INS",
+        "optionC": "El INSS, la TGSS, el SEPE y el INSST",
+        "optionD": "La TGSS y el Instituto Social de la Marina",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "Los ámbitos de aplicación de la Seguridad Social son:",
+        "optionA": "General y especial",
+        "optionB": "General y de autónomos",
+        "optionC": "Contributivo y no contributivo",
+        "optionD": "Altas, bajas y afiliaciones",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "La afiliación de un trabajador en la Seguridad Social se realiza:",
+        "optionA": "Una sola vez, con su primer trabajo",
+        "optionB": "Cada vez que comienza un trabajo nuevo",
+        "optionC": "Cada vez que finaliza un trabajo",
+        "optionD": "Cuando finaliza su actividad empresarial, para poder percibir la jubilación",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "De forma general, ¿De cuánto tiempo dispone la empresa para comunicar la baja de un trabajador ante la Seguridad Social?",
+        "optionA": "5 días",
+        "optionB": "3 días",
+        "optionC": "1 día",
+        "optionD": "1 semana",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "Un marinero contratado por cuenta ajena en un buque pesquero debe registrarse en:",
+        "optionA": "En el régimen general",
+        "optionB": "El régimen especial de trabajadores del mar",
+        "optionC": "El régimen especial de autónomos",
+        "optionD": "El régimen especial de trabajadores de la minería del carbón",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "Para calcular el coste para el empresario de la nómina de un trabajador asociado al FOGASA, se aplica un porcentaje sobre:",
+        "optionA": "La base BCCC",
+        "optionB": "La base BCCP",
+        "optionC": "El salario neto",
+        "optionD": "La base de IRPF",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "¿Qué % de cotización debe pagar el empresario en el régimen general para el desempleo de trabajadores indefinidos?",
+        "optionA": "2,36",
+        "optionB": "0,2",
+        "optionC": "5,5",
+        "optionD": "6,7",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "Cuando un autónomo tiene ingresos por debajo del SMI:",
+        "optionA": "Debe fijar la base de cotización como cualquier otro trabajador autónomo",
+        "optionB": "Debe fijar la base de cotización como cualquier otro autónomo pero descontando el MEI",
+        "optionC": "Fija la base de cotización con una tabla de tipo reducido",
+        "optionD": "No está obligado a cotizar a la Seguridad Social",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "¿En qué portal de la Seguridad Social se pueden realizar los trámites relacionados con los datos personales, solicitud de vida laboral?",
+        "optionA": "Prestaciones Seguridad Social",
+        "optionB": "Importass",
+        "optionC": "Sistema Red",
+        "optionD": "Sistema de liquidación directa",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_13",
+        "text": "¿Cuál de las siguientes no es una vía de reconocimiento de identidad válida para obtener el informe de vida laboral?",
+        "optionA": "Clave permanente",
+        "optionB": "Nota de voz",
+        "optionC": "DNI",
+        "optionD": "Vía sms",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "Qué % del SMI no se debe superar para acceder a las pensiones no contributivas?",
+        "optionA": "Un 50%",
+        "optionB": "Un 75%",
+        "optionC": "Un 175%",
+        "optionD": "Un 80%",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "¿Qué prestación cubre la pérdida económica que se produce cuando, por riesgo en el embarazo, la trabajadora tiene que suspender su contrato de trabajo?",
+        "optionA": "Prestación por riesgo del menor",
+        "optionB": "Prestación por nacimiento",
+        "optionC": "Prestación por riesgo en el embarazo",
+        "optionD": "Prestación por cuidado del menor",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "La cuantía de la prestación por riesgo en el embarazo es del:",
+        "optionA": "50% de la base reguladora",
+        "optionB": "100% de la base reguladora",
+        "optionC": "70% de la base reguladora",
+        "optionD": "Ninguna de las respuestas es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "¿Cuál es la duración de la prestación por nacimiento y cuidado del menor?",
+        "optionA": "12 semanas",
+        "optionB": "22 semanas",
+        "optionC": "14 semanas",
+        "optionD": "Hasta 19 semanas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "¿Qué % de la base reguladora se percibe el día 9 de una baja por incapacidad temporal causada por una enfermedad común?",
+        "optionA": "Un 75%",
+        "optionB": "Un 60%",
+        "optionC": "Un 100%",
+        "optionD": "Un 50%",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "Un trabajador que sufre una incapacidad permanente absoluta:",
+        "optionA": "No puede realizar su trabajo habitual, pero sí otro trabajo",
+        "optionB": "No puede realizar ningún trabajo, pero no necesita ayuda de un tercero para vivir",
+        "optionC": "Puede realizar su trabajo habitual, pero con menor capacidad",
+        "optionD": "No puede realizar ningún trabajo y requiere ayuda de un tercero para vivir",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "Para acceder a la prestación por desempleo:",
+        "optionA": "Se debe haber cotizado, al menos, 360 días durante los últimos diez años",
+        "optionB": "Se debe haber cotizado, al menos, 360 días durante los últimos seis años",
+        "optionC": "Se debe haber cotizado, al menos, 360 días",
+        "optionD": "Se debe haber cotizado, durante los últimos diez años",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "Para calcular la base reguladora de la pensión de jubilación se toma la media de lo cotizado en los últimos...",
+        "optionA": "15 años",
+        "optionB": "38 años",
+        "optionC": "25 años",
+        "optionD": "10 años",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "La jubilación demorada consiste en que:",
+        "optionA": "Se retrasa la jubilación y se incrementa la pensión",
+        "optionB": "Compatibiliza la jubilación con un contrato a tiempo parcial",
+        "optionC": "Compatibiliza la jubilación con un contrato a tiempo completo",
+        "optionD": "Se retrasa la jubilación y se reduce la pensión",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_14",
+        "text": "¿Qué prestación tiene como objetivo prestar los servicios médicos y farmacéuticos precisos para conservar y restablecer la salud de los beneficiarios y su aptitud para trabajar?",
+        "optionA": "Prestación por riesgo en la maternidad",
+        "optionB": "Prestación por asistencia sanitaria",
+        "optionC": "Prestación por incapacidad permanente",
+        "optionD": "Prestación por muerte y supervivencia",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "Una de las competencias personales más útiles para encontrar trabajo en la actualidad es:",
+        "optionA": "La tonificación muscular",
+        "optionB": "El manejo de vehículos agrarios",
+        "optionC": "La flexibilidad y adaptabilidad",
+        "optionD": "La contabilidad manual",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "Una de las competencias profesionales más demandadas en el mercado laboral hoy es:",
+        "optionA": "La programación y ciberseguridad",
+        "optionB": "El carnet de manipulador de alimentos",
+        "optionC": "Saber esculpir madera",
+        "optionD": "La sinceridad",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "Identifica la respuesta correcta, en relación con el pensamiento crítico:",
+        "optionA": "No guarda relación con las emociones de nuestra experiencia vital",
+        "optionB": "Su objetivo es tomar decisiones racionales y estructuradas",
+        "optionC": "Su objetivo es tomar decisiones irracionales y estructuradas",
+        "optionD": "No es relevante para desempeñar una actividad laboral",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "¿Qué fase del pensamiento crítico se lleva a cabo para evitar prejuicios y gaps de información?",
+        "optionA": "Identificación del problema",
+        "optionB": "Investigación",
+        "optionC": "Calibración",
+        "optionD": "Cuestionamiento",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "¿Cuál de los siguientes no es un aspecto clave del autoconocimiento?",
+        "optionA": "Los intereses profesionales",
+        "optionB": "La personalidad",
+        "optionC": "Los rasgos físicos",
+        "optionD": "Las competencias profesionales",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "Herramienta para el autoconocimiento que se basa en la identificación de un área pública, un área oculta, un área ciega y un área desconocida:",
+        "optionA": "El IKIGAI",
+        "optionB": "Ventana de Johari",
+        "optionC": "Pensamiento crítico",
+        "optionD": "Autoconocimiento",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "¿A qué área de la ventana de Johari pertenece la información sobre la personalidad que no conocen ni el grupo ni el individuo como por ejemplo miedos o fobias?",
+        "optionA": "Área oculta",
+        "optionB": "Área privada",
+        "optionC": "Área ciega",
+        "optionD": "Área desconocida",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "En el IKIGAI, la misión:",
+        "optionA": "Es lo común entre lo que el mundo necesita y aquello por lo que te pueden pagar",
+        "optionB": "Se sitúa en el primer nivel",
+        "optionC": "Es una competencia blanda",
+        "optionD": "Es lo común entre lo que tú amas y lo que el mundo necesita",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "Señala cuál no se considera una ventaja del trabajo colaborativo en la búsqueda de empleo:",
+        "optionA": "Mejorar el perfil profesional",
+        "optionB": "Amenizar el proceso de búsqueda de empleo",
+        "optionC": "Abrir puertas en el futuro",
+        "optionD": "Mejorar las hard skills",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_15",
+        "text": "Identifica cuál de estos tipos de estrategias colaborativas no es una estrategia 2.0.:",
+        "optionA": "Google Meet",
+        "optionB": "Reunión informativa en la sede de la empresa",
+        "optionC": "Dropbox",
+        "optionD": "Microsoft Teams",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "La primera etapa que hay que seguir para elaborar un proyecto profesional es:",
+        "optionA": "Conocimiento del mercado laboral",
+        "optionB": "Definir tu profesión objetivo",
+        "optionC": "El autoconocimiento",
+        "optionD": "Identificar las opciones profesionales",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "¿Qué área de actuación del proyecto profesional hace mención a la asistencia a talleres y conferencias?",
+        "optionA": "Experiencia profesional",
+        "optionB": "Formación",
+        "optionC": "Marca personal",
+        "optionD": "Competencias profesionales",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "La profesión objetivo debe ser:",
+        "optionA": "Determinista, realista y positiva",
+        "optionB": "Realista, flexible y positiva",
+        "optionC": "Surrealista, flexible y positiva",
+        "optionD": "Realista, cómoda y flexible",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "¿Cuál de estos elementos no será necesario considerar para definir nuestra profesión objetivo?:",
+        "optionA": "Condiciones laborales",
+        "optionB": "Que alguien cercano haya trabajado de esa profesión.",
+        "optionC": "El lugar de trabajo",
+        "optionD": "La formación exigida",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "¿A qué se refiere la letra “T” del acrónimo SMART, en relación a los objetivos de un proyecto laboral?:",
+        "optionA": "Que el objeto sea económico.",
+        "optionB": "A que el objetivo esté delimitado en el tiempo",
+        "optionC": "A que el objetivo sea alcanzable",
+        "optionD": "A que el objetivo sea concreto",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "¿Con cuál de las siguientes vías NO se puede acceder a un grado superior?:",
+        "optionA": "Con un título de ciclo formativo de grado medio",
+        "optionB": "Con un título de bachillerato",
+        "optionC": "Con la prueba de acceso a la universidad para mayores de 25 años",
+        "optionD": "Con la prueba de acceso a un ciclo formativo de grado superior si tienes 17 años 3",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "¿Qué significa que un nodo interno puede ser aleatorio?",
+        "optionA": "Pueden ser decisionales o aleatorios.",
+        "optionB": "Exclusivamente serán decisionales.",
+        "optionC": "Que finaliza un camino",
+        "optionD": "Que une otros nodos formando caminos",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "Los cuatro cuadrantes de la matriz DAFO recogen:",
+        "optionA": "Debilidades, Análisis interno, Fortalezas y Oportunidades",
+        "optionB": "Debilidades, Análisis externo, Fortalezas y Oportunidades",
+        "optionC": "Debilidades, Amenazas, Fortalezas y Externalidades",
+        "optionD": "Debilidades, Amenazas, Fortalezas y Oportunidades",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "A la hora de elaborar el análisis DAFO, ¿Dónde incluiríamos la alta demanda de una profesión o una titulación con mucho futuro?",
+        "optionA": "Debilidades",
+        "optionB": "Fortalezas",
+        "optionC": "Amenazas",
+        "optionD": "Oportunidades",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_16",
+        "text": "¿Cuál de las siguientes afirmaciones no sería correcta en relación con el trabajo en equipo?",
+        "optionA": "El trabajo en equipo favorece la motivación",
+        "optionB": "El trabajo en equipo beneficia a los trabajadores, pero no a la empresa",
+        "optionC": "El trabajo en equipo mejora la capacidad de comunicación",
+        "optionD": "El trabajo en equipo mejora el autoconocimiento",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "¿Cuáles de los siguientes elementos no se deben incluir en un plan de acción para la mejora de competencias profesionales?:",
+        "optionA": "Estrategias y acciones",
+        "optionB": "Amenazas y oportunidades",
+        "optionC": "Recursos y personas",
+        "optionD": "Resultados y evidencias",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "Las siglas del análisis CAME significan:",
+        "optionA": "Corregir, Afrontar, Mantener, Explotar",
+        "optionB": "Competir, Afrontar, Mantener, Explotar",
+        "optionC": "Crecer, Afrontar, Mantener, Explotar",
+        "optionD": "Competir, Afrontar, Mantener, Enumerar",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "La estrategia defensiva del análisis CAME es adecuada para:",
+        "optionA": "Situaciones de crisis económica y poca oferta de empleo",
+        "optionB": "Situaciones de bonanza económica y mucha oferta de empleo",
+        "optionC": "Personas que buscan empleo por primera vez y tienen poca experiencia",
+        "optionD": "Trabajadores con un currículum sólido y con experiencia laboral",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "Si en nuestro caso, no sabemos idiomas. En la matriz CAME, la acción “Hacer un curso de inglés”, la podríamos incluir en el cuadrante:",
+        "optionA": "Explotar oportunidades",
+        "optionB": "Corregir debilidades",
+        "optionC": "Mantener fortalezas",
+        "optionD": "Afrontar amenazas",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "En relación con la autoevaluación vital, si conseguimos promocionar en una empresa se considera un logro:",
+        "optionA": "Formativo",
+        "optionB": "Promocional",
+        "optionC": "Profesional",
+        "optionD": "Educativo",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "Los hitos vitales se pueden identificar categorizando nuestra trayectoria vital en etapas. ¿De qué forma se estructuran estas etapas si diferenciamos primero etapas educativas y después etapas profesionales?",
+        "optionA": "Cronológica",
+        "optionB": "Temporal",
+        "optionC": "Vital",
+        "optionD": "Funcional",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "¿Cuál de las siguientes no se considera una función principal de la figura del psicólogo laboral?",
+        "optionA": "Asegurar un clima laboral favorable",
+        "optionB": "Formación de los trabajadores",
+        "optionC": "Tratamiento de problemas familiares de los trabajadores",
+        "optionD": "Apoyo a la dirección de la empresa",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "¿Cuál de estas medidas no se considera una medida de prevención del estrés laboral?:",
+        "optionA": "Diseño adecuado de puestos de trabajo",
+        "optionB": "Instalación de comedores con máquina de café",
+        "optionC": "Organización de la jornada laboral con descansos apropiados",
+        "optionD": "Establecimiento de canales de comunicación adecuados",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "Capacidad de un individuo para enfrentar y superar los desafíos, el estrés y las adversidades en el ámbito laboral:",
+        "optionA": "Psicología laboral",
+        "optionB": "Gestión del estrés",
+        "optionC": "Resiliencia",
+        "optionD": "Matriz CAME",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_17",
+        "text": "¿Cuál de la siguientes no se considera una ventaja de la resiliencia laboral?:",
+        "optionA": "Proporciona evidencias de los resultados alcanzados",
+        "optionB": "Mejora la satisfacción del trabajador",
+        "optionC": "Mejora la autoestima del trabajador",
+        "optionD": "Permite aprender de los grandes desafíos",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "En relación con el análisis prospectivo y caracterización de futuros empleos, ¿Qué tipo de análisis será la mejora del nivel educativo?",
+        "optionA": "Factores educativos",
+        "optionB": "Factores de demanda",
+        "optionC": "Factores de oferta",
+        "optionD": "Factores de niveles",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "Indica cuál de estos factores no se corresponde con el análisis de los factores de demanda:",
+        "optionA": "Mejora del nivel educativo.",
+        "optionB": "La evolución del sector exterior",
+        "optionC": "La sostenibilidad y el empleo",
+        "optionD": "Las innovaciones tecnológicas",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "¿Cuál de las siguientes no se considera una estrategia para el aprendizaje autónomo?:",
+        "optionA": "Combinar tareas individuales y grupales",
+        "optionB": "Recibir formación de un docente especializado",
+        "optionC": "Potenciar el pensamiento crítico",
+        "optionD": "Fomentar el aprendizaje cooperativo",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "En relación al aprendizaje autónomo, ¿A qué fundamento hace referencia la implicación activa del individuo?",
+        "optionA": "Al procesamiento de la información",
+        "optionB": "Al compromiso personal",
+        "optionC": "Al aprendizaje lógico",
+        "optionD": "A la creatividad",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "¿Cuál de los siguientes no se considera un beneficio específico del empleo verde para el medio ambiente?:",
+        "optionA": "Minimizar residuos",
+        "optionB": "Proporcionar una especialización profesional",
+        "optionC": "Reducir los niveles de contaminación",
+        "optionD": "Adaptación al cambio climático",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "¿Cuál de los siguientes es, según lo estudiado, un sector que proporciona empleo verde en auge?",
+        "optionA": "La administración pública",
+        "optionB": "La energía renovable",
+        "optionC": "La sanidad",
+        "optionD": "La construcción",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "¿Cuál de estos sectores se verá poco afectado por la inteligencia artificial?:",
+        "optionA": "La ganadería",
+        "optionB": "El sector financiero",
+        "optionC": "Las telecomunicaciones",
+        "optionD": "La consultoría",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "Entre los perfiles profesionales con mayor demanda relacionados con la IA, ¿Cuál se encargará de crear y mantener infraestructuras en la nube?",
+        "optionA": "Ingeniero cloud",
+        "optionB": "Especialista en IA",
+        "optionC": "Analista de datos",
+        "optionD": "Prompt engineers",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "Señale la respuesta correcta:",
+        "optionA": "El emprendimiento sólo se contempla en caso de no encontrar empleo por cuenta ajena",
+        "optionB": "Una ventaja del emprendimiento es que se trabaja poco",
+        "optionC": "Un inconveniente del emprendimiento es la rigidez de horarios",
+        "optionD": "La actividad emprendedora conlleva riesgos",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_18",
+        "text": "La globalización en el trabajo se refiere a:",
+        "optionA": "La mejora del nivel educativo.",
+        "optionB": "El envejecimiento poblacional.",
+        "optionC": "El compromiso personal.",
+        "optionD": "Las macrotendencias conjuntas de empleo en el mercado laboral",
+        "correctOptionIndex": 3
     }
 ]

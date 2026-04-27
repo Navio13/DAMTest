@@ -1198,5 +1198,805 @@
         "optionB": "<style src=\"style.css\">",
         "optionC": "<link href=\"style.css\" type=\"text/css\">",
         "optionD": "<style type=\"text/css\" href=\"style.css\">"
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "Un tipo simple en un esquema",
+        "optionA": "Puede incluir otros elementos",
+        "optionB": "Puede tener atributos",
+        "optionC": "Contiene datos de tipo carácter.",
+        "optionD": "Ninguna es correcta.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "El tipo de elemento que podemos tener dentro de otros elementos es",
+        "optionA": "<xs:sequence>",
+        "optionB": "<xs:choice>",
+        "optionC": "<xs:all>",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "¿Con qué etiqueta se define un atributo?",
+        "optionA": "<atrr>",
+        "optionB": "<attrib>",
+        "optionC": "<attribute>",
+        "optionD": "<att>",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "Para indicar que el atributo no puede aparecer en el XML hay que utilizar el valor",
+        "optionA": "required",
+        "optionB": "optional",
+        "optionC": "nooption",
+        "optionD": "prohibited",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "Para crear nuevos tipos datos simples personalizados se utilizan",
+        "optionA": "condiciones",
+        "optionB": "restricciones",
+        "optionC": "adaptaciones",
+        "optionD": "Ninguna es correcta.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "Con la restriction length controlamos",
+        "optionA": "El número de caracteres de un literal",
+        "optionB": "El número de elementos de una lista",
+        "optionC": "El número de caracteres de un literal o elementos de una lista.",
+        "optionD": "Elementos de un array",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "¿Cómo se llama el XML derivado de un esquema?",
+        "optionA": "Subesquema",
+        "optionB": "Instancia del esquema",
+        "optionC": "Esquema descendiente",
+        "optionD": "Ninguna es correcta.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "El elemento que hay que utilizar para definir un tipo enumerado es:",
+        "optionA": "simpleType",
+        "optionB": "restriction",
+        "optionC": "enumeration",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "Para documentar un XML se utiliza la etiqueta",
+        "optionA": "Doc",
+        "optionB": "Infodoc",
+        "optionC": "Appdoc",
+        "optionD": "Annotation",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_11",
+        "text": "Indica una característica deseable de una herramienta de creación – validación de documentos XML",
+        "optionA": "Ayuda en la escritura de etiquetas.",
+        "optionB": "Sangrado de etiquetas.",
+        "optionC": "Visualización en forma de árbol.",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "¿Qué lenguaje forma parte de XSL?",
+        "optionA": "XPATH",
+        "optionB": "XSLT",
+        "optionC": "XSL-FO",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "¿Qué tipo de nodo es el que no tiene padre en un árbol dirigido?",
+        "optionA": "Nodo hermano",
+        "optionB": "Nodo raíz",
+        "optionC": "Nodo descendiente",
+        "optionD": "Nodo ascendiente.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "¿Qué tipo de nodo es el que almacena el contenido en un fichero XML?",
+        "optionA": "Elemento",
+        "optionB": "Atributo",
+        "optionC": "Texto",
+        "optionD": "Raíz",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "¿Qué parte en una expresión XPATH se encarga de restringir los nodos obtenidos con el eje?",
+        "optionA": "Predicado",
+        "optionB": "Selección de nodos.",
+        "optionC": "En el propio eje.",
+        "optionD": "Ninguna es correcta.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "¿Qué carácter nos permite la selección a partir del nodo raíz?",
+        "optionA": "//",
+        "optionB": "|",
+        "optionC": "/",
+        "optionD": "&",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "¿Qué carácter nos permite elegir varios caminos en una expresión XPATH?",
+        "optionA": "/",
+        "optionB": "@",
+        "optionC": "#",
+        "optionD": "|",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "¿Qué carácter selecciona el padre del nodo actual?",
+        "optionA": ".",
+        "optionB": "..",
+        "optionC": "/",
+        "optionD": "|",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "¿De qué tipo es la función last() que podemos usar en el predicado?",
+        "optionA": "De cadena de caracteres",
+        "optionB": "De posición.",
+        "optionC": "De manipulación de datos.",
+        "optionD": "Booleana.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "En la selección de nodos si sólo queremos seleccionar el texto y no las etiquetas se debe de usar…",
+        "optionA": "text()",
+        "optionB": "node()",
+        "optionC": "*",
+        "optionD": "@*",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_12",
+        "text": "Indicar cual de las siguientes herramientas es online.",
+        "optionA": "NOTEPAD++",
+        "optionB": "XML COPY EDITOR",
+        "optionC": "CODEBEAUTIFY",
+        "optionD": "Todas son online.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "¿Qué significan las siglas XSLT?",
+        "optionA": "Extensible Style Link Transformations.",
+        "optionB": "Extended Stylesheet Language Transformations.",
+        "optionC": "Extensible Stylesheet Language Transformations.",
+        "optionD": "Ninguna es correcta.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "¿Qué función realiza un procesador XSLT?",
+        "optionA": "Crear el documento XSL",
+        "optionB": "Aplicar la hoja de estilos XSL al documento XML",
+        "optionC": "Aplicar la hoja de estilos XML al documento XSL",
+        "optionD": "Aplicar la hoja de estilos XLS al documento XML",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "¿Cuál es la última versión de XSLT?",
+        "optionA": "2.1",
+        "optionB": "2.2",
+        "optionC": "3.1",
+        "optionD": "3.0",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "¿Qué hay que indicar en el atributo type para trabajar con xsl?",
+        "optionA": "text/xsl",
+        "optionB": "xsl/xml",
+        "optionC": "xsl",
+        "optionD": "type/xsl",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "¿Qué valor hay que indicar en el atributo match para indicar que voy a trabajar con todo el documento?",
+        "optionA": "&",
+        "optionB": "%",
+        "optionC": "/",
+        "optionD": "#",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "¿Qué atributo hay que utilizar en el elemento <xsl:value-of> para indicar el nodo del que quiero obtener su contenido?",
+        "optionA": "node",
+        "optionB": "select",
+        "optionC": "child",
+        "optionD": "content",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "¿Para qué se utiliza el elemento <xsl:text>?",
+        "optionA": "Para seleccionar texto",
+        "optionB": "Para incluir caracteres que no se pueden incluir directamente.",
+        "optionC": "Para incluir los nodos a seleccionar.",
+        "optionD": "Ninguna es correcta.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "¿Qué ocurre si en el elemento <xsl:apply-templates> no se le indica el atributo select?.",
+        "optionA": "Se genera un error",
+        "optionB": "Se recorre los nodos primarios del documento.",
+        "optionC": "Se procesan los nodos secundarios del nodo actual.",
+        "optionD": "Se procesa el primer nodo secundario del nodo actual.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "¿Con qué elemento se crea una subplantilla?",
+        "optionA": "<xsl:apply-templates>",
+        "optionB": "<xsl:template>",
+        "optionC": "<xsl:subtemplate>",
+        "optionD": "<xsl:temp>",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_13",
+        "text": "A la hora de aplicar estilos a un documento HTML que quiero generar, puedo incluir etiquetas",
+        "optionA": "Sólo etiquetas HTML",
+        "optionB": "Etiquetas HTML y CSS",
+        "optionC": "Sólo etiquetas CSS 2.1",
+        "optionD": "Depende de la versión de XSLT.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "¿Existe una versión gratuita de XML Oxygen Editor?",
+        "optionA": "Hay una versión de prueba de 30 días",
+        "optionB": "Este programa es gratuito.",
+        "optionC": "No dispone de ningún tipo de prueba.",
+        "optionD": "Hay una versión gratuita de 45 días.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "¿Qué elemento me permite incluir atributos en el documento resultado de una transformación XSLT?",
+        "optionA": "<xsl:attr>",
+        "optionB": "<xsl:attribute>",
+        "optionC": "<xsl:element>",
+        "optionD": "<xsl:attrib>",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "¿Qué elemento me permite recorrer nodos en un documento XML?",
+        "optionA": "<xsl:for-each>",
+        "optionB": "<xsl:for>",
+        "optionC": "<xsl:each-for>",
+        "optionD": "<xsl:for>",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "¿Es posible incluir una hoja de estilos CSS externa en un documento XSLT?",
+        "optionA": "No, sólo puede ser en línea.",
+        "optionB": "No, sólo se puede incluir entre las etiquetas <style> y </style>",
+        "optionC": "Sí.",
+        "optionD": "Sí, pero sólo si se encuentra en local.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "¿Qué palabra reservada hay que usar para indicar la condición en un elemento xsl:if?",
+        "optionA": "select",
+        "optionB": "condition",
+        "optionC": "test",
+        "optionD": "self",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "¿Cuántos elementos <xsl:when> se pueden repetir dentro de un elemento de tipo <xsl:choose>?",
+        "optionA": "1",
+        "optionB": "3",
+        "optionC": "2",
+        "optionD": "No hay límite.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "Indica un atributo del elemento <xsl:sort>.",
+        "optionA": "select",
+        "optionB": "order",
+        "optionC": "case-order",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "Con la herramienta de depuración, ¿se puede seguir la ejecución de un elemento <xsl:if>?",
+        "optionA": "Sí.",
+        "optionB": "No",
+        "optionC": "Depende de la versión de XSLT.",
+        "optionD": "Depende de la condición indicada.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "¿Qué significan las siglas XSL-FO?",
+        "optionA": "StyleSheets extensible language formating objects",
+        "optionB": "StyleSheets extensible language fork objects",
+        "optionC": "Extensible styleSheets language formating objects",
+        "optionD": "Extensible styles language formating objects",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_14",
+        "text": "¿Qué puede representar un objeto en XSL-FO?",
+        "optionA": "Páginas",
+        "optionB": "Párrafos",
+        "optionC": "Textos",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "¿Cómo se llaman las bases de datos que permiten almacenar información XML, pero que no son nativas?",
+        "optionA": "XML primary",
+        "optionB": "Relacionales",
+        "optionC": "XML Query",
+        "optionD": "XML enabled",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "¿Cómo se llama el proceso de extraer valores de documentos XML y usarlos para actualizar tablas en la base de datos?",
+        "optionA": "Publishing",
+        "optionB": "ExtractXML",
+        "optionC": "Shredding",
+        "optionD": "OutXml",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "Indica la base de datos nativa.",
+        "optionA": "Oracle",
+        "optionB": "PostgreSql",
+        "optionC": "IBM-DB2",
+        "optionD": "Tamino",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "¿Qué elementos son necesarios para una consulta XQUERY?",
+        "optionA": "Fichero XML",
+        "optionB": "Consulta XQUERY",
+        "optionC": "Procesador XQUERY",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "Las instrucciones propias de una consulta XQUERY van incluidas entre ….",
+        "optionA": "[ ]",
+        "optionB": "{ }",
+        "optionC": "( )",
+        "optionD": "| |",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "¿Con qué palabra reservada puedo definir rangos en una consulta XQUERY?",
+        "optionA": "at",
+        "optionB": "range",
+        "optionC": "to",
+        "optionD": "in",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "¿Qué cláusula nos permite asignar valores a variables?",
+        "optionA": "set",
+        "optionB": "let",
+        "optionC": "in",
+        "optionD": "assign",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "¿Qué operadores lógicos se pueden utilizar en la cláusula where?",
+        "optionA": "and",
+        "optionB": "or",
+        "optionC": "not",
+        "optionD": "Todas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "¿Qué palabra reservada tengo que utilizar para ordenar de manera ascendente?",
+        "optionA": "asc",
+        "optionB": "ascending",
+        "optionC": "ascended",
+        "optionD": "Ninguna es correcta.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_15",
+        "text": "Si queremos devolver varios valores en el return debemos de indicarlo ….",
+        "optionA": "Entre paréntesis y separado por un espacio",
+        "optionB": "Entre corchetes y separado por un espacio",
+        "optionC": "Entre paréntesis y separado por comas",
+        "optionD": "Entre llaves y separado por un espacio",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "La condición en una sentencia if",
+        "optionA": "Debe de ir entre paréntesis",
+        "optionB": "No es necesario incluir entre paréntesis.",
+        "optionC": "No se puede utilizar operadores lógicos",
+        "optionD": "Ninguna es correcta.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "¿Qué palabra reservada se utiliza para crear variables globales?",
+        "optionA": "var",
+        "optionB": "define",
+        "optionC": "declare",
+        "optionD": "$var",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "¿Qué constructor se utiliza para crear un nuevo nodo?",
+        "optionA": "node",
+        "optionB": "element",
+        "optionC": "atribbute",
+        "optionD": "Ninguna es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "Indica cual es la función de contexto",
+        "optionA": "count()",
+        "optionB": "duration()",
+        "optionC": "round()",
+        "optionD": "position()",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "¿Qué espacio de nombres se suele utilizar a la hora de crear funciones propias?",
+        "optionA": "loc",
+        "optionB": "inner",
+        "optionC": "local",
+        "optionD": "self",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "Indica un tipo que pueda devolver una función propia",
+        "optionA": "String",
+        "optionB": "Integer",
+        "optionC": "Decimal",
+        "optionD": "Todas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "¿Qué palabra reservada se utiliza para declarar los tipos de los parámetros de una función?",
+        "optionA": "in",
+        "optionB": "of",
+        "optionC": "as",
+        "optionD": "assign",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "¿Qué operación hay que utilizar para mostrar los nodos que aparecen en el primer conjunto, pero que no aparecen en el segundo?",
+        "optionA": "Union",
+        "optionB": "Intersect",
+        "optionC": "Except",
+        "optionD": "Minus",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "Al disponer de varios ficheros XML en una base de datos, podemos simular las características propias de las bases de datos.",
+        "optionA": "Relacionales",
+        "optionB": "Orientadas a objetos",
+        "optionC": "En red",
+        "optionD": "Ninguna es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_16",
+        "text": "Indica que operaciones se pueden realizar con XQUERY UPDATE FACILITY",
+        "optionA": "Insert",
+        "optionB": "Delete",
+        "optionC": "Replace",
+        "optionD": "Todas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "¿Qué otro nombre se le da a la sindicación de contenidos?",
+        "optionA": "Redifusión web",
+        "optionB": "Difusión web",
+        "optionC": "Public web",
+        "optionD": "Refact web",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "Para leer una fuente o canal es necesario un",
+        "optionA": "Diseñador",
+        "optionB": "Agregador",
+        "optionC": "Recopilador",
+        "optionD": "Creador",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "Indica una ventaja de la sindicación de contenidos",
+        "optionA": "Se puede filtrar, clasificar y ordenar el contenido.",
+        "optionB": "Centraliza la información.",
+        "optionC": "Aumenta el tráfico de nuestra web.",
+        "optionD": "Todas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "¿Qué significan las siglas RSS?",
+        "optionA": "Really Source Syndication",
+        "optionB": "Really Simple Syndication",
+        "optionC": "Really Simple Source",
+        "optionD": "Real Simple Syndication",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "¿Qué elemento que incluye subelementos se encarga de indicar información general del canal?",
+        "optionA": "item",
+        "optionB": "channel",
+        "optionC": "link",
+        "optionD": "atom",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "¿Qué indica el elemento <pubDate>?",
+        "optionA": "Fecha de la última modificación.",
+        "optionB": "Fecha de publicación.",
+        "optionC": "Fecha de la primera modificación.",
+        "optionD": "Fecha actual.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "¿Qué elemento se utiliza para identificar de manera única un <item>?",
+        "optionA": "key",
+        "optionB": "id",
+        "optionC": "ref",
+        "optionD": "guid",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "Indica la herramienta de creación de contenidos",
+        "optionA": "Feedforall",
+        "optionB": "Rssbuilder",
+        "optionC": "Todas son correctas",
+        "optionD": "List garden",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "Indica un agregador de escritorio",
+        "optionA": "Feedly",
+        "optionB": "Inoreader",
+        "optionC": "FeedDemon",
+        "optionD": "Ninguna es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_17",
+        "text": "¿En qué consiste un directorio RSS?",
+        "optionA": "Es una herramienta de creación",
+        "optionB": "Es una herramienta de agregación",
+        "optionC": "Es un lugar donde publicar el canal",
+        "optionD": "Es un tipo de validador.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "Un script de tipo javascript hay que indicarlo con",
+        "optionA": "type=”javascript”",
+        "optionB": "type=”javascript/text”",
+        "optionC": "type=”text/javascript”",
+        "optionD": "type=”text”",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "¿Cuál es la sentencia para escribir en la consola del navegador?",
+        "optionA": "log()",
+        "optionB": "log.console()",
+        "optionC": "console()",
+        "optionD": "console.log()",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "¿Qué valor se devuelve cuando en una caja de tipo prompt pulsamos cancel?",
+        "optionA": "Undefined",
+        "optionB": "“”",
+        "optionC": "Null",
+        "optionD": "Ninguna es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "Indica una característica de JavaScript",
+        "optionA": "Los espacios en blanco se tienen en cuenta",
+        "optionB": "No distingue entre mayúsculas y minúsculas",
+        "optionC": "No es necesario definir el tipo de variable.",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "¿Qué símbolo se utiliza cuando el comentario ocupa sólo una línea?",
+        "optionA": "//",
+        "optionB": "/",
+        "optionC": "/*",
+        "optionD": "*/",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "¿Qué nombre recibe la conversión entre tipos?",
+        "optionA": "Casting",
+        "optionB": "Typecast",
+        "optionC": "Cast",
+        "optionD": "Typecasting",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "Indica cuál es el operador AND",
+        "optionA": "%",
+        "optionB": "&&",
+        "optionC": "||",
+        "optionD": "$",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "Si en una sentencia switch no se cumple ninguna de las condiciones indicadas se ejecuta lo que se indica en:",
+        "optionA": "Default",
+        "optionB": "Otherwise",
+        "optionC": "Other case",
+        "optionD": "Daría error.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "En una sentencia for(par1;par2;par3). ¿Qué parámetro indica la condición que hay que comprobar en cada iteración?",
+        "optionA": "par1",
+        "optionB": "par3",
+        "optionC": "par2",
+        "optionD": "Falta un parámetro.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_18",
+        "text": "¿Cuál es la palabra reservada para crear objetos en JavaScript?",
+        "optionA": "Create",
+        "optionB": "New",
+        "optionC": "document.create",
+        "optionD": "Inc",
+        "correctOptionIndex": 1
     }
 ]

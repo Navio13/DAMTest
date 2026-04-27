@@ -1598,5 +1598,205 @@
         "optionC": "No pueden cambiar de tamaño dinámicamente",
         "optionD": "Pueden ser almacenados directamente en la base de datos",
         "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Un bloque de código diseñado con un propósito específico, al cual se le asigna un nombre para poder reutilizarlo en distintas partes del programa es",
+        "optionA": "Un job",
+        "optionB": "Un disparador",
+        "optionC": "Un procedimiento",
+        "optionD": "Un paquete",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Los disparadores tipo fila",
+        "optionA": "Se ejecutan una vez por cada fila afectada",
+        "optionB": "Se ejecutan una vez por cada operación DML",
+        "optionC": "Se ejecutan múltiples veces por cada columna afectada",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Los paquetes permiten agrupar",
+        "optionA": "Funciones, procedimientos y tipos de datos.",
+        "optionB": "Cursores, excepciones y disparadores",
+        "optionC": "Tablas, vistas y secuencias.",
+        "optionD": "No permiten agrupar nada",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Los disparadores se utilizan para",
+        "optionA": "Rastrear los cambios en las tablas e identificar al usuario que los realizó",
+        "optionB": "Automatizar tareas de mantenimiento o administrativas",
+        "optionC": "Aplicar reglas de integridad",
+        "optionD": "Todas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Los procedimientos se pueden invocar desde otros bloques de código",
+        "optionA": "Usando el comando INVOKE",
+        "optionB": "Usando su nombre",
+        "optionC": "Usando el comando SQL DESCRIBE",
+        "optionD": "Usando la palabra PROCEDURE",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Las operaciones COMMIT, ROLLBACK, SAVEPOINT o SET TRANSACTION",
+        "optionA": "Están prohibidas dentro de un disparador",
+        "optionB": "Son obligatorias dentro de un disparador",
+        "optionC": "No están recomendadas, pero se pueden realizar dentro de un disparador",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Con las cláusulas IF INSERTING, IF UPDATING e IF DELETING",
+        "optionA": "Se pueden modificar los permisos de usuario durante la ejecución del disparador",
+        "optionB": "Se puede deshacer la operación DML que activó el disparador",
+        "optionC": "Se puede determinar el momento exacto en que se ejecutará el disparador",
+        "optionD": "Se puede identificar la operación DML que disparó la ejecución del disparador",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Los disparadores de tipo INSTEAD OF se utilizan exclusivamente en",
+        "optionA": "Tablas",
+        "optionB": "Paquetes",
+        "optionC": "Vistas",
+        "optionD": "En vistas y tablas",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Para automatizar la ejecución de scripts en PL/SQL existen varias opciones como",
+        "optionA": "Oracle Enterprise Manager",
+        "optionB": "DBMS_JOB",
+        "optionC": "Oracle Scheduler",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_17",
+        "text": "Para habilitar o deshabilitar un disparador se emplea la sentencia",
+        "optionA": "DROP TRIGGER",
+        "optionB": "UPDATE TRIGGER",
+        "optionC": "ACTIVE TRIGGER",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "En una base de datos objeto-relacional",
+        "optionA": "Los tipos de datos son simples",
+        "optionB": "Los lenguajes de consulta son poco robustos",
+        "optionC": "No se puede realizar la integración con lenguajes de programación",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "Respecto a la correspondencia entre los elementos del modelo orientado a objetos y el modelo relacional",
+        "optionA": "Un objeto se corresponde con una tupla",
+        "optionB": "Una variable se puede comparar con una relación",
+        "optionC": "Un objeto se puede comparar con un atributo",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "Un tipo de dato objeto",
+        "optionA": "Se compone de dos elementos, que son el nombre y los atributos",
+        "optionB": "Se estructura en dos partes, que son la especificación y el cuerpo",
+        "optionC": "Es una representación creada por un software para reflejar un elemento del mundo real",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "¿Cuál de las siguientes afirmaciones es correcta sobre los métodos estáticos según el texto?",
+        "optionA": "Los métodos estáticos pueden acceder a los atributos de instancia del objeto.",
+        "optionB": "Los métodos estáticos requieren la creación de una instancia del objeto para ser llamados",
+        "optionC": "Los métodos estáticos se invocan directamente utilizando el nombre del tipo de dato objeto.",
+        "optionD": "Los métodos estáticos son útiles solo cuando se necesita acceder a los atributos de instancia del objeto.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "En relación a la sintaxis para definir un tipo de dato objeto, la sentencia utilizada es",
+        "optionA": "CREATE TYPE nombre_tipo AS OBJECT",
+        "optionB": "CREATE nombre_tipo AS OBJECT",
+        "optionC": "CREAR nombre_tipo",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "En relación a la declaración de atributos de un tipo de dato objeto",
+        "optionA": "El tipo de dato asociado puede ser cualquiera disponible",
+        "optionB": "El tipo de dato puede ser otro tipo de dato objeto",
+        "optionC": "Está permitida la asignación de la restricción NOT NULL",
+        "optionD": "Se pueden declarar después de los métodos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "En relación a la declaración de métodos",
+        "optionA": "Se declaran en el cuerpo del tipo de dato objeto",
+        "optionB": "Incluye el código del método",
+        "optionC": "Se declaran utilizando la palabra MEMBER",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "MEMBER PROCEDURE calcular_perímetro (longitud NUMBER);MEMBER PROCEDURE calcular_perímetro (longitud NUMBER, ancho NUMBER); En el código anterior se muestra un ejemplo de",
+        "optionA": "Sobrecarga",
+        "optionB": "Definición de funciones",
+        "optionC": "Métodos constructores",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "En el caso de las funciones, si el parámetro SELF no se declara de manera explícita, su modo por defecto será",
+        "optionA": "INSIDE",
+        "optionB": "IN",
+        "optionC": "IN OUT",
+        "optionD": "BETWEEN",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_18",
+        "text": "En un tipo de dato objeto el cuerpo permanece",
+        "optionA": "Público",
+        "optionB": "Protegido",
+        "optionC": "Privado",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
     }
 ]

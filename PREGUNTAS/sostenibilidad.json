@@ -998,5 +998,805 @@
         "optionB": "Plásticos, moda y fabricación industrial",
         "optionC": "Plásticos, moda y alimentación",
         "optionD": "Papel, moda y alimentación"
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "Ninguna de las anteriores es correcta",
+        "optionA": "Debidos al hombre",
+        "optionB": "De origen natural",
+        "optionC": "De fabricación sintética",
+        "optionD": "De origen natural o antropogénico",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "La cantidad de contaminantes liberados en el aire desde una fuente determinada en un período de tiempo específico es …",
+        "optionA": "Inmisión",
+        "optionB": "Emisión",
+        "optionC": "Difusión",
+        "optionD": "Dispersión",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "El término que nos indica la calidad del aire es…",
+        "optionA": "Inmisión",
+        "optionB": "Emisión",
+        "optionC": "Difusión",
+        "optionD": "Dispersión",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "El movimiento de contaminantes en el aire y la atmósfera en su conjunto es …",
+        "optionA": "Inmisión",
+        "optionB": "Emisión",
+        "optionC": "Difusión",
+        "optionD": "Dispersión",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "Los compuestos químicos liberados a la atmósfera directamente desde la fuente de emisión son…",
+        "optionA": "Contaminantes secundarios",
+        "optionB": "Contaminantes mixtos",
+        "optionC": "Contaminantes naturales   Contaminantes primarios",
+        "optionD": "Contaminantes primarios",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "Los contaminantes que se producen como resultado de procesos fotoquímicos y químicos en la atmósfera son …",
+        "optionA": "Contaminantes secundarios",
+        "optionB": "Contaminantes mixtos",
+        "optionC": "Contaminantes de origen antropogénico",
+        "optionD": "Contaminantes primarios",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "Indica cuál de las siguientes afirmaciones es falsa…",
+        "optionA": "La ganadería es el principal emisor de metano a la atmósfera",
+        "optionB": "Una de las principales fuentes de emisión de contaminación atmosférica es el tráfico rodado",
+        "optionC": "El sector de la agricultura no emite ningún tipo de contaminación atmosférica",
+        "optionD": "El sector residencial debido al consumo energético es uno de los principales emisores de contaminantes a la atmósfera",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "Gestionar y almacenar estiércoles y purines son medidas para mejorar la calidad del aire del sector …",
+        "optionA": "Agrícola y ganadero",
+        "optionB": "Industrial",
+        "optionC": "Residencial",
+        "optionD": "Transporte",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "Los problemas de concentración son un problema de salud debido a la contaminación acústica de tipo…",
+        "optionA": "Auditivo",
+        "optionB": "Cognitivo",
+        "optionC": "Psicológico",
+        "optionD": "De sueño",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_11",
+        "text": "Los problemas de hipertensión son un problema de salud debido a la contaminación acústica de tipo …",
+        "optionA": "Auditivo",
+        "optionB": "Cardiovascular",
+        "optionC": "Psicológico",
+        "optionD": "Cognitivo",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "Las radiaciones que presentan suficiente energía para ionizar los átomos de la materia que atraviesan son…",
+        "optionA": "Naturales",
+        "optionB": "No ionizantes",
+        "optionC": "Antropogénicas",
+        "optionD": "Ionizantes",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "Las fuentes de radiación emiten …",
+        "optionA": "Radiaciones no ionizantes",
+        "optionB": "Radiaciones ionizantes",
+        "optionC": "Radiaciones artificiales",
+        "optionD": "Radiaciones naturales",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "La fuente de la radiación emitida por las centrales nucleares es …",
+        "optionA": "Artificial",
+        "optionB": "Sintética",
+        "optionC": "Natural",
+        "optionD": "Inocua",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "El radón contenido en las rocas de la sierra de Madrid es un tipo de contaminación de fuente …",
+        "optionA": "Artificial",
+        "optionB": "Antropogénicas",
+        "optionC": "Natural",
+        "optionD": "Inocua",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "Las náuseas, cefalea, cataratas, interrupción del sueño, esterilidad masculina, Alzheimer o arritmias cardíacas son efectos de la contaminación por radiación…",
+        "optionA": "Ionizante",
+        "optionB": "Aguda",
+        "optionC": "Crónica",
+        "optionD": "No ionizante",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "El mercurio de la corteza terrestre es una fuente de contaminación de las aguas…",
+        "optionA": "Natural",
+        "optionB": "Antropogénica",
+        "optionC": "Puntual",
+        "optionD": "Difusa",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "La contaminación de agua por la agricultura es una fuente de contaminación …",
+        "optionA": "Natural y difusa",
+        "optionB": "Antropogénica y puntual",
+        "optionC": "Puntual",
+        "optionD": "Antropogénica y Difusa",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "La contaminación de agua debida a los vertidos de estaciones depuradores es una fuente de contaminación …",
+        "optionA": "Natural y difusa",
+        "optionB": "Antropogénica y puntual",
+        "optionC": "Puntual",
+        "optionD": "Antropogénica y Difusa",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "Los ácidos, sales y metales tóxicos son contaminantes de las aguas de tipo …",
+        "optionA": "Residuos orgánicos",
+        "optionB": "Sustancias químicas inorgánicas",
+        "optionC": "Materiales en suspensión",
+        "optionD": "Compuestos orgánicos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_12",
+        "text": "Los nitratos y fosfatos son contaminantes de las aguas de tipo …",
+        "optionA": "Sustancias químicas inorgánicas",
+        "optionB": "Nutrientes inorgánicos",
+        "optionC": "Materiales en suspensión",
+        "optionD": "Compuestos orgánicos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "Los escombros producidos en una obra son un residuo que podemos clasificar según su origen en …",
+        "optionA": "Industriales",
+        "optionB": "Municipales",
+        "optionC": "Domésticos",
+        "optionD": "De construcción y demolición",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "Los restos de comida producidos en los hogares son un residuo de tipo …",
+        "optionA": "Doméstico e inorgánico",
+        "optionB": "Doméstico y orgánico",
+        "optionC": "Municipal y orgánico",
+        "optionD": "Comercial y orgánico",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "Las podas de jardines de tu localidad suponen un residuo de tipo …",
+        "optionA": "Municipal y orgánico",
+        "optionB": "Municipal e inorgánico",
+        "optionC": "Industrial y orgánico",
+        "optionD": "Minero e inorgánico",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "Los plásticos generados en el hogar son un residuo de tipo …",
+        "optionA": "Doméstico y biodegradable",
+        "optionB": "Doméstico y orgánico",
+        "optionC": "Doméstico y no biodegradable",
+        "optionD": "Comercial y orgánico",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "Un envase que ha contenido aceite de motor se debe clasificar como…",
+        "optionA": "No peligroso",
+        "optionB": "Biodegradable",
+        "optionC": "Inerte",
+        "optionD": "Peligroso",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "Un concepto es clave para comprender las soluciones y nuestro papel como ciudadanos en la reducción y gestión de residuos es …  Jerarquía de residuo",
+        "optionA": "Jerarquía de residuo",
+        "optionB": "Sociedad del reciclado",
+        "optionC": "Economía circular",
+        "optionD": "Gestión de residuos",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "La Lista Europea de Residuos (LER) identifica el residuo de manera inequívoca mediante …",
+        "optionA": "Tres dígitos",
+        "optionB": "Cuatro dígitos",
+        "optionC": "Dos dígitos",
+        "optionD": "Seis dígitos",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "Los Códigos CER, aplicables a los residuos en España, clasifican los residuos con fines estadísticos mediante un código de …",
+        "optionA": "Tres dígitos",
+        "optionB": "Cuatro dígitos",
+        "optionC": "Dos dígitos",
+        "optionD": "Seis dígitos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "Señala la respuesta incorrecta",
+        "optionA": "Según su origen los residuos se pueden clasificar en domésticos, municipales, comerciales e industriales entre otros.",
+        "optionB": "Según su capacidad de biodegradación los residuos se pueden clasificar en biodegradables, inertes o no biodegradables",
+        "optionC": "Según su composición los residuos se pueden clasificar en orgánicos o inorgánicos",
+        "optionD": "Según su peligrosidad los residuos se pueden clasificar en inertes, no peligrosos o peligrosos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_13",
+        "text": "Señala la respuesta incorrecta",
+        "optionA": "Los restos de comida son un residuo orgánico",
+        "optionB": "Los materiales que no se degradan de forma natural son residuos biodegradables",
+        "optionC": "Los residuos inertes no experimentan cambios físicos, ni químicos ni biológicos",
+        "optionD": "El aceite usado se considera un residuo líquido atendiendo a la clasificación de residuos según su estado físico",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "Aquella comunidad de organismos vivos que interactúan entre sí y con su entorno físico es …",
+        "optionA": "Soluciones Basadas en la Naturaleza",
+        "optionB": "Diversidad biológica",
+        "optionC": "Servicios ecosistémicos",
+        "optionD": "Ecosistema",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "La variabilidad de organismos dentro de cada especie y entre las especies es …",
+        "optionA": "Relaciones entre especies",
+        "optionB": "Diversidad biológica",
+        "optionC": "Servicios ecosistémicos",
+        "optionD": "Ecosistema",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "Los beneficios que la naturaleza aporta para la supervivencia y el bienestar de la humanidad son …",
+        "optionA": "Soluciones Basadas en la Naturaleza",
+        "optionB": "Diversidad biológica",
+        "optionC": "Servicios ecosistémicos",
+        "optionD": "Ecosistema",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "El Ciclo de nutrientes es un servicio ecosistémico …",
+        "optionA": "De apoyo",
+        "optionB": "De abastecimiento",
+        "optionC": "De regulación",
+        "optionD": "Cultural",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "La regulación del clima es un servicio ecosistémico …",
+        "optionA": "De apoyo",
+        "optionB": "De abastecimiento",
+        "optionC": "De regulación",
+        "optionD": "Cultural",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "La polinización de cultivos es un servicio ecosistémico …",
+        "optionA": "De apoyo",
+        "optionB": "De abastecimiento",
+        "optionC": "De regulación",
+        "optionD": "Cultural",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "La conexión espiritual con la naturaleza es un servicio ecosistémico …",
+        "optionA": "De apoyo",
+        "optionB": "De abastecimiento",
+        "optionC": "De regulación",
+        "optionD": "Cultural",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "Las acciones encaminadas a la protección, gestión y restauración de ecosistemas son …",
+        "optionA": "Soluciones Basadas en la Naturaleza",
+        "optionB": "Diversidad biológica",
+        "optionC": "Servicios ecosistémicos",
+        "optionD": "Soluciones Basadas en Proyectos",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "Señala la respuesta correcta…",
+        "optionA": "Las empresas no generan impacto en la biodiversidad",
+        "optionB": "La actividad económica global está estrechamente vinculada a la biodiversidad",
+        "optionC": "Las empresas no están concienciadas con la sostenibilidad y la biodiversidad",
+        "optionD": "Para estar comprometida con la biodiversidad una empresa no necesita integrar objetivos ambientales en su gestión",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_14",
+        "text": "La degradación de tierras en zonas áridas y semiáridas como consecuencia de actividades humanas o factores climáticos es …",
+        "optionA": "Deforestación",
+        "optionB": "Cambio climático",
+        "optionC": "Degradación",
+        "optionD": "Desertificación",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "La llegada o entrada de personas en un país es lo que conocemos como…",
+        "optionA": "Emigración",
+        "optionB": "Migración temporal",
+        "optionC": "Migración interna",
+        "optionD": "Inmigración",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "Los movimientos de personas dentro de un mismo país es lo que conocemos como…",
+        "optionA": "Emigración",
+        "optionB": "Migración temporal",
+        "optionC": "Migración interna",
+        "optionD": "Inmigración",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "Alguno de los factores de expulsión, cuando nos referimos a los movimientos poblacionales, son …",
+        "optionA": "Oportunidades de empleo, mejores salarios o condiciones de vida",
+        "optionB": "Seguridad, acceso a servicios de salud y educación de calidad",
+        "optionC": "Falta de empleo, salarios bajos o pobreza",
+        "optionD": "Mejores condiciones climáticas o áreas más seguras frente a desastres naturales",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "Los factores de atracción, cuando nos referimos a los movimientos, poblacionales son …",
+        "optionA": "Falta de empleo, salarios bajos o pobreza.",
+        "optionB": "Oportunidades de empleo, mejores salarios o condiciones de vida.",
+        "optionC": "Conflictos, violencia, persecución o falta de servicios básicos como educación y salud.",
+        "optionD": "Desastres naturales, cambio climático o degradación de los recursos naturales.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "El concepto que define las áreas rurales del interior de nuestro país que han sufrido despoblación y pérdida de actividad económica es…",
+        "optionA": "Desarrollo sostenible",
+        "optionB": "Refugiados climáticos",
+        "optionC": "España Vacía",
+        "optionD": "Urbanización",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "El conjunto de estrategias y políticas destinadas a mejorar las condiciones de vida en las zonas rurales, fortaleciendo la economía de dichas áreas es …",
+        "optionA": "Desarrollo rural",
+        "optionB": "Refugiados climáticos",
+        "optionC": "España Vacía",
+        "optionD": "Urbanización",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "Una medida para favorecer el desarrollo rural es …",
+        "optionA": "Garantizar conexión a internet",
+        "optionB": "Dar servicios de salud y educación sólo en aquellos municipios de mayor tamaño",
+        "optionC": "Cierre de servicios públicos locales",
+        "optionD": "No actualizar las infraestructuras de transporte",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "Las personas que emigran como consecuencia de conflictos en el uso de recursos es lo que conocemos como …",
+        "optionA": "Desarrollo sostenible",
+        "optionB": "Refugiados climáticos",
+        "optionC": "España Vacía",
+        "optionD": "Urbanización",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "Los estudiantes que viajan con motivo de sus estudios se considera un movimiento poblacional de tipo…",
+        "optionA": "Desplazamiento forzado",
+        "optionB": "Migración temporal",
+        "optionC": "Migración interna",
+        "optionD": "Migración internacional",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_15",
+        "text": "Una guerra o conflicto se considera un movimiento poblacional de tipo…",
+        "optionA": "Desplazamiento forzado",
+        "optionB": "Migración temporal",
+        "optionC": "Migración interna",
+        "optionD": "Migración internacional",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "Las diferencias en la capacidad de las familias para sustentar la educación de sus hijos es una desigualdad de tipo…",
+        "optionA": "Económica",
+        "optionB": "De género",
+        "optionC": "Regional",
+        "optionD": "Educativa",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "La brecha salarial es una desigualdad de tipo…",
+        "optionA": "Económica",
+        "optionB": "De género",
+        "optionC": "Regional",
+        "optionD": "Social",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "Las diferencias en el acceso a agua potable, electricidad o transporte es una desigualdad de tipo …",
+        "optionA": "Económica",
+        "optionB": "De género",
+        "optionC": "Regional",
+        "optionD": "Social",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "Señala la respuesta correcta en lo que se refiere a globalización …",
+        "optionA": "Impide la diversidad y apreciación de culturas diversas",
+        "optionB": "Promueve la difusión rápida de información y conocimientos",
+        "optionC": "Crea fronteras económicas",
+        "optionD": "Limita competencia entre países",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "Señala la respuesta incorrecta en lo que se refiere a globalización …",
+        "optionA": "Genera competencia entre países",
+        "optionB": "Disminuye la brecha entre ricos y pobres",
+        "optionC": "Se benefician las grandes empresas",
+        "optionD": "Se corre un riesgo de pérdida de cultura",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "Los aspectos fundamentales de los Derechos Humanos son …",
+        "optionA": "Inherentes y Universales, Indivisibles e Interdependientes e Inalienables",
+        "optionB": "Universales e Interdependientes",
+        "optionC": "Interdependientes y Sectoriales",
+        "optionD": "Globales y homogéneos",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "Que los Derechos Humanos sean inalienables significa que …",
+        "optionA": "Son asignados a todas las personas desde el momento de su nacimiento",
+        "optionB": "Son derechos que hay que ganarlos",
+        "optionC": "Están interrelacionados, no pudiéndose aislar unos de otros",
+        "optionD": "No se pueden eliminar o suspender",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "Que los Derechos Humanos sean inherentes significa que …",
+        "optionA": "Son asignados a todas las personas desde el momento de su nacimiento",
+        "optionB": "Son derechos que hay que ganarlos",
+        "optionC": "Están interrelacionados, no pudiéndose aislar unos de otros",
+        "optionD": "No se pueden eliminar o suspender",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "El coeficiente de Gini mide …",
+        "optionA": "La desigualdad de género",
+        "optionB": "La distribución del ingreso en la población",
+        "optionC": "Las disparidades culturales",
+        "optionD": "La desigualdad racial",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_16",
+        "text": "Muchos Objetivos de Desarrollo Sostenible abogan por los derechos humanos y las desigualdades, pero el ODS enfocado a reducir la desigualdad en y entre los países es el …",
+        "optionA": "ODS10",
+        "optionB": "ODS1",
+        "optionC": "ODS16",
+        "optionD": "ODS7",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "¿Cuál de las siguientes afirmaciones NO es una característica del derecho a la alimentación?",
+        "optionA": "Debe asegurarse la cantidad y calidad suficientes",
+        "optionB": "Debe asegurarse su acceso, tanto económico como físico",
+        "optionC": "Debe asegurarse que todas las personas reciban alimentos gratuitos del Estado",
+        "optionD": "Debe asegurarse la satisfacción de las necesidades nutricionales de la población",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "¿Cuál de las siguientes acciones NO es una obligación de los Estados para garantizar el derecho a la alimentación?",
+        "optionA": "Respetar y proteger el acceso a los alimentos",
+        "optionB": "Facilitar recursos y herramientas para producir, obtener y comprar alimentos",
+        "optionC": "Suministrar alimentos en caso de emergencias",
+        "optionD": "Proporcionar alimentos gratuitos a toda la población en todo momento",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "El Pacto Internacional de Derechos Económicos, Sociales y Culturales engloba el derecho a…",
+        "optionA": "La educación y la salud",
+        "optionB": "La educación y la alimentación",
+        "optionC": "La educación, la alimentación y la salud",
+        "optionD": "La alimentación y la salud",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "¿Cuál de las siguientes afirmaciones NO es una característica fundamental del derecho a la educación?",
+        "optionA": "Debe ser de calidad",
+        "optionB": "Debe ser gratuita en niveles prescolares",
+        "optionC": "Debe ser universal",
+        "optionD": "Debe poder elegirse libremente",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "Señala los derechos que están interrelacionados entre sí …",
+        "optionA": "La educación y la salud únicamente",
+        "optionB": "La educación y la alimentación únicamente",
+        "optionC": "La educación, la alimentación y la salud",
+        "optionD": "La alimentación y la salud únicamente",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "¿Cuál de las siguientes acciones NO es una medida que garantice el derecho a la educación?",
+        "optionA": "Aplicación de las obligaciones jurídicas estipuladas por Naciones Unidas y UNESCO",
+        "optionB": "Desarrollo y cumplimiento de políticas nacionales",
+        "optionC": "Proveer desayunos saludables a los estudiantes",
+        "optionD": "Fomento de políticas inclusivas hacia los grupos vulnerables",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "¿Cuál de las siguientes afirmaciones NO es una acción para garantizar el derecho a la salud?",
+        "optionA": "Garantizar el acceso a servicios de salud accesibles y de calidad",
+        "optionB": "Considerar factores sociales como la alimentación y las condiciones laborales",
+        "optionC": "Realizar programas de prevención, tratamiento y control de enfermedades",
+        "optionD": "Proveer atención médica gratuita solo a las personas mayores de 60 años",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "Una medida para promover el derecho a la salud es…",
+        "optionA": "Implicar únicamente a actores nacionales",
+        "optionB": "No incorporar el derecho a la salud en las leyes nacionales",
+        "optionC": "La correcta capacitación del personal de salud",
+        "optionD": "Exclusiva responsabilidad de los gobiernos sin necesidad de involucrar a la población",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "Una de las metas del ODS 3 es …",
+        "optionA": "Asegurar el acceso igualitario a la formación técnica, profesional, superior y universitaria",
+        "optionB": "Asegurar las competencias técnicas y profesionales para acceder al empleo",
+        "optionC": "Eliminar las desigualdades de género en la educación",
+        "optionD": "Reducir la tasa mundial de mortalidad materna",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_17",
+        "text": "Una de las metas del ODS 4 es …",
+        "optionA": "Eliminar las desigualdades de género en la educación",
+        "optionB": "Reducir la tasa mundial de mortalidad materna",
+        "optionC": "Reducir la mortalidad neonatal",
+        "optionD": "Reducir las muertes causadas por accidentes de tráfico",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "Los Convenios y Recomendaciones establecen normas laborales y son elaborados por…",
+        "optionA": "Los distintos estados miembros",
+        "optionB": "El Marco estratégico de la UE",
+        "optionC": "La Organización Internacional del Trabajo",
+        "optionD": "Los municipios y comunidades autónomas",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "La Organización Internacional del Trabajo es una estructura tripartita que significa que está formada por …",
+        "optionA": "Municipios, comunidades autónomas y estado",
+        "optionB": "ONGs, sindicatos y representantes europeos",
+        "optionC": "Las tres potencias de la UE",
+        "optionD": "Representantes de gobiernos, empresas y trabajadores",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "¿Cuál de los siguientes NO es un objetivo de la Organización Internacional del Trabajo?",
+        "optionA": "Mejorar las condiciones laborales",
+        "optionB": "Promover oportunidades de empleo decente",
+        "optionC": "Garantizar la protección social en materia laboral",
+        "optionD": "Limitar el diálogo social en temas laborales",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "¿Cuál de los siguientes NO es un objetivo del Marco Estratégico de la UE en materia de salud y seguridad en el trabajo?",
+        "optionA": "Asegurar la seguridad y salud de los trabajadores",
+        "optionB": "Eliminar la salud mental laboral como problema emergente",
+        "optionC": "Promover un enfoque de «visión cero»",
+        "optionD": "Anticipar ante posibles crisis sanitarias futuras",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "Los cuatro ámbitos de la seguridad y salud en el trabajo a atender son …",
+        "optionA": "Seguridad en el trabajo, higiene industrial, ergonomía y medicina del trabajo",
+        "optionB": "Seguridad social, higiene industrial, ergonomía y medicina del trabajo",
+        "optionC": "Seguridad en el trabajo, higiene personal, ergonomía y medicina del trabajo",
+        "optionD": "Seguridad en el trabajo, higiene industrial, alimentación y medicina del trabajo",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "La identificación de los riesgos asociados con el trabajo compete a la especialidad de …",
+        "optionA": "Seguridad en el trabajo",
+        "optionB": "Higiene industrial",
+        "optionC": "Ergonomía y Psicosociología aplicada",
+        "optionD": "Medicina del trabajo",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "La identificación de contaminantes y tóxicos (químicos, físicos o biológicos) en el ámbito laboral compete a la especialidad de …",
+        "optionA": "Seguridad en el trabajo",
+        "optionB": "Higiene industrial",
+        "optionC": "Ergonomía y Psicosociología aplicada",
+        "optionD": "Medicina del trabajo",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "El análisis de las características y naturaleza de las tareas laborales, así como la forma en que se llevan a cabo (postura, esfuerzos, movimientos repetitivos) compete a la especialidad de …",
+        "optionA": "Seguridad en el trabajo",
+        "optionB": "Higiene industrial",
+        "optionC": "Ergonomía y Psicosociología aplicada",
+        "optionD": "Medicina del trabajo",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "Una característica que NO corresponde a la Normas OHSAS 18001 es …",
+        "optionA": "Es una norma británica",
+        "optionB": "Tiene reconocimiento internacional",
+        "optionC": "Marca los requisitos necesarios para la implementación de un Sistema de Gestión de la Seguridad y Salud en el Trabajo",
+        "optionD": "Se trata de una norma no certificable",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_18",
+        "text": "¿qué significan las siglas SGSST?",
+        "optionA": "Sistemas de Gestión de Seguridad y Salud en el Trabajo",
+        "optionB": "Sistemas de Gestión de Seguridad en el Trabajo",
+        "optionC": "Sistemas de Gestión de la Seguridad Social en el Trabajo",
+        "optionD": "Sistemas de Gestión de Salud Social en el Trabajo",
+        "correctOptionIndex": 0
     }
 ]
