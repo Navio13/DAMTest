@@ -6,8 +6,8 @@ import com.navio.damtests.data.local.entity.Question // He visto que esta es tu 
 
 class GeminiExplainer {
     private val generativeModel = GenerativeModel(
-        modelName = "gemini-3.0-pro-preview",
-        apiKey = BuildConfig.GEMINI_API_KEY
+        modelName = "gemini-3.1-flash-lite-preview",
+        apiKey = AiConfig.geminiKey
     )
 
     suspend fun explicarFallo(pregunta: Question, respuestaUsuario: Int): String {

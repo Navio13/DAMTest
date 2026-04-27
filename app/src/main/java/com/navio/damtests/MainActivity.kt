@@ -34,6 +34,11 @@ class MainActivity : AppCompatActivity() {
 
         lifecycleScope.launch {
             Log.d("SYNC", "Iniciando sincronización desde MainActivity...")
+            syncManager.fetchApiKeys()
+        }
+
+        lifecycleScope.launch {
+            Log.d("SYNC", "Iniciando sincronización desde MainActivity...")
             syncManager.syncQuestions()
         }
 

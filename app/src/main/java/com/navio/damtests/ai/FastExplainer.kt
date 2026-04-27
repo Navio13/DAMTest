@@ -11,7 +11,7 @@ import com.navio.damtests.BuildConfig
 class FastExplainer() {
     private val openai = OpenAI(
         host = OpenAIHost("https://api.groq.com/openai/v1/"),
-        token = BuildConfig.GROQ_API_KEY
+        token = AiConfig.groqKey
     )
 
     suspend fun explicarRapido(pregunta: String, elegida: String, correcta: String): String {
