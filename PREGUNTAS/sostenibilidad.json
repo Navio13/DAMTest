@@ -1798,5 +1798,105 @@
         "optionC": "Sistemas de Gestión de la Seguridad Social en el Trabajo",
         "optionD": "Sistemas de Gestión de Salud Social en el Trabajo",
         "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "¿A qué se refiere el concepto de grupos de interés o stakeholders en el contexto de la sostenibilidad empresarial?",
+        "optionA": "A las acciones que toma una empresa para aumentar sus beneficios.",
+        "optionB": "A las actividades de comunicación interna en la empresa.",
+        "optionC": "A las personas u organizaciones que se relacionan con la empresa o se ven afectadas por su actividad.",
+        "optionD": "A los departamentos responsables del cumplimiento normativo en la empresa.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "¿Qué evalúa el pilar \"G\" dentro de los criterios ASG?",
+        "optionA": "La protección de la biodiversidad.",
+        "optionB": "El cumplimiento de los objetivos de producción.",
+        "optionC": "El comportamiento de los consumidores.",
+        "optionD": "La gestión interna de la empresa.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "¿Qué se entiende por greenwashing según los criterios ASG?",
+        "optionA": "Uso de productos ecológicos en la producción.",
+        "optionB": "Simular sostenibilidad sin aplicarla realmente.",
+        "optionC": "Transformación de residuos en energía limpia.",
+        "optionD": "Fiscalidad verde aplicada a la actividad empresarial.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "¿Cuál de las siguientes afirmaciones describe un objetivo de sostenibilidad bien formulado?",
+        "optionA": "Reducir un 20 % las emisiones en 3 años.",
+        "optionB": "Mejorar el impacto ambiental.",
+        "optionC": "Fomentar el uso responsable de los recursos.",
+        "optionD": "Ser más respetuoso con el medio ambiente.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "¿Qué son las externalidades que genera una empresa?",
+        "optionA": "Los ingresos netos obtenidos por las operaciones.",
+        "optionB": "Las consecuencias fiscales de su actividad.",
+        "optionC": "Los efectos que produce en otras personas, grupos o entornos sin formar parte directa de sus operaciones.",
+        "optionD": "Los costes derivados de la actividad productiva.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "¿Qué objetivo persigue el ecodiseño?",
+        "optionA": "Ampliar el número de productos disponibles en el mercado.",
+        "optionB": "Reducir los costes económicos de fabricación.",
+        "optionC": "Crear productos con materiales exclusivamente naturales.",
+        "optionD": "Minimizar el impacto ambiental de un producto durante todo su ciclo de vida.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "¿Qué es un plan de sostenibilidad?",
+        "optionA": "Un documento que recoge las acciones de la empresa para cumplir los criterios ASG y generar valor a largo plazo.",
+        "optionB": "Un conjunto de normas legales que toda empresa debe cumplir.",
+        "optionC": "Un resumen anual de acciones sociales.",
+        "optionD": "Un informe financiero sobre inversiones responsables.",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "¿Qué caracteriza a la inversión socialmente responsable (ISR)?",
+        "optionA": "Busca únicamente el máximo rendimiento económico.",
+        "optionB": "Combina rendimiento económico con impacto positivo en la sociedad y el medio ambiente",
+        "optionC": "Financia exclusivamente empresas tecnológicas.",
+        "optionD": "Se aplica solo en sectores públicos.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "Una característica que deben cumplir los indicadores ASG es:",
+        "optionA": "Ser confidenciales y subjetivos",
+        "optionB": "Depender únicamente de las tendencias del mercado.",
+        "optionC": "Ser generales y de difícil comparación.",
+        "optionD": "Estar relacionados directamente con los objetivos del plan.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sostenibilidad",
+        "topicId": "tema_19",
+        "text": "¿Para qué sirven los sistemas de certificación y ecoetiquetado en sostenibilidad?",
+        "optionA": "Para reducir el precio de los productos sostenibles",
+        "optionB": "Para demostrar el cumplimiento de criterios sostenibles y generar confianza.",
+        "optionC": "Para sustituir la normativa ambiental nacional.",
+        "optionD": "ara aumentar la producción industrial en sectores ecológicos.",
+        "correctOptionIndex": 1
     }
 ]

@@ -1778,5 +1778,105 @@
         "optionC": "Automatizar tareas de ventas y optimizar el proceso de ventas",
         "optionD": "Proveer soporte a través de múltiples canales",
         "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál de los siguientes pilares de la seguridad en la red garantiza que la información solo sea accesible a las personas autorizadas?",
+        "optionA": "Integridad",
+        "optionB": "Disponibilidad",
+        "optionC": "Confidencialidad",
+        "optionD": "Autenticación",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Qué protocolo de seguridad utiliza el protocolo HTTP sobre un canal seguro para permitir la autenticación y el cifrado de la información?",
+        "optionA": "SSL/TLS",
+        "optionB": "VPN",
+        "optionC": "HTTPS",
+        "optionD": "FTP",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál es la función principal de un firewall de inspección con estado?",
+        "optionA": "Filtrar paquetes de datos según reglas predefinidas",
+        "optionB": "Analizar el tráfico de aplicaciones específicas",
+        "optionC": "Supervisar el estado de la conexión para verificar la legitimidad del tráfico",
+        "optionD": "Cifrar el tráfico de red",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál es la diferencia principal entre un IDS (Sistema de Detección de Intrusos) y un IPS (Sistema de Prevención de Intrusos)?",
+        "optionA": "El IDS bloquea el tráfico malicioso, mientras que el IPS solo detecta intrusiones.",
+        "optionB": "El IPS detecta intrusiones y bloquea el tráfico malicioso, mientras que el IDS solo detecta intrusiones.",
+        "optionC": "El IDS cifra el tráfico de datos, mientras que el IPS no lo hace.",
+        "optionD": "El IPS filtra el tráfico de red basado en reglas predefinidas, mientras que el IDS monitoriza el estado de la conexión.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Por qué los dispositivos móviles son un objetivo atractivo para los ciberdelincuentes?",
+        "optionA": "Debido a su capacidad para almacenar grandes cantidades de datos.",
+        "optionB": "Por su acceso a datos sensibles, como contactos, correos electrónicos y credenciales de acceso.",
+        "optionC": "Porque tienen una mayor vida útil que otros dispositivos.",
+        "optionD": "Por su facilidad para realizar copias de seguridad.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Qué tipo de copia de seguridad incluye solo los datos que han cambiado desde la última copia de seguridad completa?",
+        "optionA": "Completa",
+        "optionB": "Incremental",
+        "optionC": "Diferencial",
+        "optionD": "Manual",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Por qué es importante mantener copias de seguridad en algunas industrias?",
+        "optionA": "Para cumplir con las regulaciones legales.",
+        "optionB": "Para proteger la información contra ataques cibernéticos.",
+        "optionC": "Para garantizar la disponibilidad de los sistemas y datos.",
+        "optionD": "Para todas las anteriores.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál es el objetivo principal de un ataque de phishing?",
+        "optionA": "Bloquear el acceso a los sistemas o dispositivos completos.",
+        "optionB": "Cifrar archivos y exigir un rescate para descifrarlos.",
+        "optionC": "Engañar a las víctimas para que revelen información confidencial.",
+        "optionD": "Redirigir a los usuarios a sitios web fraudulentos sin su conocimiento.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Qué caracteriza a un ataque APT (Advanced Persistent Threat)?",
+        "optionA": "Ataques cortos y poco sofisticados que se centran en un objetivo específico.",
+        "optionB": "Ataques prolongados y dirigidos realizados por actores avanzados, a menudo con objetivos de espionaje o sabotaje.",
+        "optionC": "Cifrar archivos y exigir un rescate a cambio de una clave.",
+        "optionD": "Redirigir a los usuarios a sitios fraudulentos a través de la manipulación de servidores DNS.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "digitalizacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál es una característica distintiva de los virus en comparación con otros tipos de malware?",
+        "optionA": "Se propagan por sí mismos a través de redes sin necesidad de un programa huésped.",
+        "optionB": "Se presentan como software legítimo y permiten acceso remoto al sistema.",
+        "optionC": "Se adjuntan a un programa legítimo o archivo y se replican al ejecutarse, infectando otros archivos o sistemas.",
+        "optionD": "Se instalan para espiar la actividad del usuario y capturar datos confidenciales.",
+        "correctOptionIndex": 2
     }
 ]

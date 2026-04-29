@@ -1998,5 +1998,105 @@
         "optionC": "document.create",
         "optionD": "Inc",
         "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "¿Qué método me devuelve el carácter que ocupa la posición indicada en una cadena de texto?",
+        "optionA": "charAt()",
+        "optionB": "indexOf()",
+        "optionC": "index()",
+        "optionD": "char()",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "¿Qué método elimina el primer elemento de un array?",
+        "optionA": "pop()",
+        "optionB": "push()",
+        "optionC": "shift()",
+        "optionD": "unshift()",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "¿Es obligatorio el uso de return en una función definida por el usuario?",
+        "optionA": "Sí",
+        "optionB": "No",
+        "optionC": "Depende del número de parámetros",
+        "optionD": "Depende del tipo de valor devuelto.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "¿Qué significan las siglas DOM?",
+        "optionA": "Document Object Model",
+        "optionB": "Design Object Model",
+        "optionC": "Doc Object Model",
+        "optionD": "Document Object Main",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "Indica un tipo de nodo",
+        "optionA": "Document",
+        "optionB": "Element",
+        "optionC": "Text",
+        "optionD": "Todas son correctas.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "¿Qué método me permite acceder a un nodo por su identificador?",
+        "optionA": "getElementsById()",
+        "optionB": "getElementsByName()",
+        "optionC": "getElementByName()",
+        "optionD": "Ninguna es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "¿Cómo se transforma la propiedad CSS font-size si la quiero utilizar a través del atributo style del DOM?",
+        "optionA": "Fontsize",
+        "optionB": "fontSize",
+        "optionC": "FontSize",
+        "optionD": "Fontsize",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "¿Qué evento controla cuando un elemento pierde el foco?",
+        "optionA": "onfocus",
+        "optionB": "onblur",
+        "optionC": "onfoc",
+        "optionD": "onsubmit",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "¿Cuál es el método más utilizado cuando accedemos a un documento XML a través del DOM?",
+        "optionA": "getElementsByTagName()",
+        "optionB": "getElementById()",
+        "optionC": "getElementsByName()",
+        "optionD": "getElementByClassName()",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "marcas",
+        "topicId": "tema_19",
+        "text": "Cuando trabajamos con XML, ¿qué método me indica si un nodo tiene hijos?",
+        "optionA": "childNodes()",
+        "optionB": "hasNodes()",
+        "optionC": "hasChildNodes()",
+        "optionD": "haschildNodes()",
+        "correctOptionIndex": 2
     }
 ]

@@ -1798,5 +1798,105 @@
         "optionC": "El compromiso personal.",
         "optionD": "Las macrotendencias conjuntas de empleo en el mercado laboral",
         "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "¿Cuál de las siguientes no se considera como tal una característica de las competencias digitales?:",
+        "optionA": "Permiten crear información",
+        "optionB": "Son dinámicas y evolucionan con las innovaciones tecnológicas.",
+        "optionC": "Son estáticas y estables",
+        "optionD": "Apoyan el uso de dispositivos digitales",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "¿Qué tipo de competencia digital básica se considera la capacidad para realizar compras y rellenar formularios por internet?",
+        "optionA": "Fundamentales",
+        "optionB": "De comunicación",
+        "optionC": "De resolución de problemas",
+        "optionD": "De transacción",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "¿Cuál de estas competencias digitales es una competencia soft?:",
+        "optionA": "Saber programar en Python",
+        "optionB": "Saber trabajar en equipo en entornos digitales",
+        "optionC": "Dominar una hoja de cálculo de Excel",
+        "optionD": "Saber elaborar analíticas web",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "¿Qué elemento de la identidad digital habla sobre las recomendaciones y comentarios que otros usuarios hacen en la red sobre nosotros?",
+        "optionA": "Reputación digital",
+        "optionB": "Marca personal",
+        "optionC": "Información en redes sociales",
+        "optionD": "Datos personales",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "La primera etapa para construir nuestra marca personal es:",
+        "optionA": "Gestionar nuestra reputación",
+        "optionB": "Identificar nuestros objetivos",
+        "optionC": "Construir nuestra historia personal",
+        "optionD": "Fortalecer nuestras redes de contactos",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "En la construcción de nuestra marca personal, la etapa de autodiagnóstico actual se refiere a:",
+        "optionA": "Contar tu historia de forma natural, destacando tus logros",
+        "optionB": "Investigar tu presencia en la red",
+        "optionC": "Elegir las redes sociales en las que proyectar tu marca online",
+        "optionD": "Participar en eventos y comunidades virtuales",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "¿Cuál de las siguientes es una habilidad digital de usuario?",
+        "optionA": "Enviar un correo electrónico",
+        "optionB": "Conocer el significado de software",
+        "optionC": "Saber cuáles son los sistemas operativos",
+        "optionD": "Tener un dispositivo móvil",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "En relación a las habilidades digitales de usuario, el uso eficiente de buscadores implica:",
+        "optionA": "Un uso correcto de palabras clave",
+        "optionB": "Envío y recepción de mensajes",
+        "optionC": "Gestión de contactos",
+        "optionD": "Adjuntar archivos de gran tamaño",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "¿Cuál de los siguientes se considera una amenaza para la seguridad digital?",
+        "optionA": "El trabajo colaborativo en la nube",
+        "optionB": "La descarga de un hardware",
+        "optionC": "La descarga de un software sin conocimiento",
+        "optionD": "Selección de un canal",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "ipe",
+        "topicId": "tema_19",
+        "text": "¿Cuál de las siguientes no se considera una herramienta para mejorar la seguridad digital?:",
+        "optionA": "Un antivirus",
+        "optionB": "El phishing",
+        "optionC": "El almacenamiento en la nube",
+        "optionD": "Un programa de control parental",
+        "correctOptionIndex": 1
     }
 ]

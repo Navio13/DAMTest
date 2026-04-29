@@ -1798,5 +1798,105 @@
         "optionC": "Privado",
         "optionD": "Ninguna de las anteriores",
         "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "FUNCTION modificarProfesor (a NUMBER) RETURN profesor; ¿Qué se está realizando mediante el código anterior?",
+        "optionA": "Se está declarando una función que devuelve un objeto profesor",
+        "optionB": "Se está declarando una función al que se le pasa un objeto por parámetro",
+        "optionC": "Se está declarando un objeto de tipo alumno",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "venta5 := NEW venta (0482, ‘Sara Martínez López’, 3000) ¿Qué se está realizando mediante el código anterior?",
+        "optionA": "Se está declarando un objeto",
+        "optionB": "Se está modificando un objeto de tipo venta",
+        "optionC": "Se está inicializando un objeto de tipo venta",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "¿Cómo crearíamos una variable para almacenar un objeto de tipo alumno?",
+        "optionA": "alumno2 alumno;",
+        "optionB": "alumno alumno2;",
+        "optionC": "alumno2 := alumno;",
+        "optionD": "alumno := alumno2;",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "Queremos asignar un valor ‘Ramiro’ al atributo nombre del objeto profesor1",
+        "optionA": "Ramiro = profesor1;",
+        "optionB": "profesor1.nombre := ‘Ramiro’;",
+        "optionC": "nombre.profesor1 := ‘Ramiro’;",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "Si queremos invocar el método setSalario del objeto profesor1 debemos escribir la siguiente instrucción:",
+        "optionA": "profesor1.setSalario();",
+        "optionB": "setSalario().profesor1;",
+        "optionC": "profesor1().setSalario;",
+        "optionD": "setSalario.profesor1();",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "El comando que impide que otros tipos de objeto puedan heredar del objeto en cuestión es",
+        "optionA": "MAP",
+        "optionB": "NOT FINAL",
+        "optionC": "NOT HEREDITARY",
+        "optionD": "FINAL",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "Los métodos STATIC",
+        "optionA": "Se invocan directamente sobre el tipo de objeto en sí",
+        "optionB": "Se llaman sobre instancias específicas de un objeto",
+        "optionC": "Se suelen utilizar para modificar o consultar los valores de sus atributos",
+        "optionD": "Todas las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "Respecto a los métodos MAP",
+        "optionA": "Es obligatorio tener múltiples en cada tipo de objeto",
+        "optionB": "En los tipos de objeto no se puede tener métodos MAP",
+        "optionC": "Se definen tantos como se considere oportunos en cada tipo de objeto",
+        "optionD": "Sólo puede existir un único método de tipo MAP para cada tipo de objeto",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "Un método marcado como FINAL",
+        "optionA": "Permite que su implementación sea sobrescrita en cualquier subtipo",
+        "optionB": "Impide que el método sea llamado por otros métodos del mismo tipo de objeto",
+        "optionC": "Asegura que su implementación no pueda ser sobrescrita en ningún subtipo",
+        "optionD": "Hace que el método sólo pueda ser invocado desde dentro del mismo tipo de objeto",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "base_de_datos",
+        "topicId": "tema_19",
+        "text": "Cuando un subtipo hereda de un supertipo no instanciable, si queremos que pueda tener instancias, es obligatorio usar la palabra clave",
+        "optionA": "NO INSTANTIABLE",
+        "optionB": "INSTANTIABLE",
+        "optionC": "SELF AS RESULT",
+        "optionD": "MAP",
+        "correctOptionIndex": 1
     }
 ]

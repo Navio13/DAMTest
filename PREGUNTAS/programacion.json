@@ -2128,5 +2128,105 @@
         "optionC": "Borra la tabla.",
         "optionD": "Se ejecuta, pero no tiene efecto.",
         "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "El Modelo Vista-Controlador:",
+        "optionA": "Es un patrón que se usaba al inicio del desarrollo de software, pero ya no se usa porque está anticuado.",
+        "optionB": "Es un patrón que divide nuestro proyecto en tres partes y que es ampliamente usado hoy en día.",
+        "optionC": "Es un patrón de diseño de software pero solo en ámbitos web, no pudiendo utilizarlo para crear programas de escritorio o apps móviles.",
+        "optionD": "Es un patrón de diseño de software pero solo en ámbito de programas de escritorio o apps móviles, no pudiendo utilizarlo en ámbitos web.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál es una práctica recomendada para mitigar la inyección SQL en Java?",
+        "optionA": "Utilizar consultas SQL dinámicas concatenando cadenas de texto con datos proporcionados por el usuario.",
+        "optionB": "Permitir cualquier tipo de dato proporcionado por el usuario sin validación.",
+        "optionC": "Utilizar consultas parametrizadas o preparadas con PreparedStatement.",
+        "optionD": "Ignorar la longitud y los caracteres especiales en los datos de entrada del usuario.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "¿Qué método se utiliza para verificar si el cursor está colocado justo delante de la primera fila en un ResultSet?",
+        "optionA": "isFirst()",
+        "optionB": "isBeforeFirst()",
+        "optionC": "isLast()",
+        "optionD": "isAfterLast()",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "¿Qué interfaz en Java se utiliza para implementar las sentencias parametrizadas?",
+        "optionA": "Statement",
+        "optionB": "CallableStatement",
+        "optionC": "PreparedStatement",
+        "optionD": "ResultSet",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "¿En qué punto hay que cerrar la conexión a la base de datos orientada a objetos cuando tenemos tipos de datos estructurados?",
+        "optionA": "Dentro del bloque try.",
+        "optionB": "Dentro del bloque catch.",
+        "optionC": "Fuera del bloque try catch.",
+        "optionD": "Dentro del bloque finally.",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál de las siguientes vulnerabilidades es una de las más comunes en las aplicaciones que interactúan con bases de datos?",
+        "optionA": "Cross-Site Scripting (XSS)",
+        "optionB": "Inyección SQL",
+        "optionC": "Fuga de memoria",
+        "optionD": "Ataque de intermediario (Man-in-the-Middle)",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "¿Qué es una inyección SQL?",
+        "optionA": "Una técnica para mejorar el rendimiento de las consultas SQL.",
+        "optionB": "Una vulnerabilidad de seguridad que permite a los atacantes ejecutar comandos SQL no autorizados.",
+        "optionC": "Un método para encriptar datos en una base de datos.",
+        "optionD": "Una forma de hacer que las consultas SQL sean más eficientes.",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál es el papel principal del controlador en el patrón MVC?",
+        "optionA": "Presentar los datos al usuario.",
+        "optionB": "Almacenar y manipular los datos.",
+        "optionC": "Actuar como intermediario entre el modelo y la vista.",
+        "optionD": "Diseñar la interfaz de usuario.",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál de los siguientes componentes del patrón MVC se encarga de representar la lógica de negocio y los datos de la aplicación?",
+        "optionA": "Modelo",
+        "optionB": "Vista",
+        "optionC": "Controlador",
+        "optionD": "ActionListener",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "programacion",
+        "topicId": "tema_19",
+        "text": "¿Cuál de los siguientes métodos se utiliza para mover el cursor al siguiente registro en un ResultSet?",
+        "optionA": "first()",
+        "optionB": "next()",
+        "optionC": "previous()",
+        "optionD": "absolute(int row)",
+        "correctOptionIndex": 1
     }
 ]

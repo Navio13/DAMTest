@@ -2008,5 +2008,105 @@
         "optionC": "El monitor de rendimiento",
         "optionD": "Ninguna de las anteriores es correcta",
         "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "La conexión remota…",
+        "optionA": "Esta activada por defecto en Windows Server",
+        "optionB": "Se activa en Windows Server desde Sistema, Configuración de escritorio remoto",
+        "optionC": "No está permitida en sistemas Linux por motivos de seguridad",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "Que servidor facilita la transferencia de archivos entre sistemas",
+        "optionA": "Servidor de archivos",
+        "optionB": "Servidor de correo",
+        "optionC": "Servidor FTP",
+        "optionD": "Servidor de aplicaciones",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "El protocolo de correo electrónico que almacena los correos en un dispositivo local es:",
+        "optionA": "IMAP",
+        "optionB": "POP3",
+        "optionC": "SMTP",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "La herramienta Tasksel se utiliza en sistemas Linux para…",
+        "optionA": "Instalar aplicaciones remotas compatibles entre sistemas Windows y Linux",
+        "optionB": "Instalar servidores de correo",
+        "optionC": "Instalar grupos de paquetes de forma conjunta, haciendo la instalación más sencilla",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "El servidor de Administración de impresión en Windows Server permite…",
+        "optionA": "Administrar las impresoras instaladas en red",
+        "optionB": "Que equipos Unix puedan utilizar impresoras de un servidor Windows",
+        "optionC": "Generar un sitio web para gestionar trabajos de impresión",
+        "optionD": "Todas las respuestas son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "El principal inconveniente de un sistema Cloud es…",
+        "optionA": "Sufrir una parada del servicio si tenemos un corte en la red.",
+        "optionB": "Las pocas opciones de ampliar los recursos de hardware del sistema",
+        "optionC": "Las pocas opciones de ampliar la capacidad de almacenamiento",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "Como se llama el servidor de correo local al que se envía el email a través de la red",
+        "optionA": "MUA",
+        "optionB": "MTA",
+        "optionC": "MSA",
+        "optionD": "MCA",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "El servicio de transferencia de archivos FTP…",
+        "optionA": "Se utiliza principalmente en entornos cloud",
+        "optionB": "Esta instalado y configurado por defecto en Windows Server",
+        "optionC": "Se utiliza principalmente en entornos de desarrollo y diseño web",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "El servidor de impresión incluido en sistemas Linux es…",
+        "optionA": "CUPS",
+        "optionB": "Administrador de impresión",
+        "optionC": "LAMP",
+        "optionD": "No incluye ningún servidor de impresión",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "sistemas",
+        "topicId": "tema_19",
+        "text": "En Windows Server se administran los sitios FTP desde…",
+        "optionA": "Administrador de Internet Information Services (IIS)",
+        "optionB": "Panel de control",
+        "optionC": "Centro de redes y recursos compartidos",
+        "optionD": "Ninguna de las anteriores",
+        "correctOptionIndex": 0
     }
 ]

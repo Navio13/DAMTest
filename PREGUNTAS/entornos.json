@@ -1858,5 +1858,105 @@
         "optionC": "Se puede generar con la herramienta de generación automática de documentación",
         "optionD": "Todas las anteriores son correctas",
         "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "Los repositorios de código distribuido…",
+        "optionA": "Solo permite que el código está en un nodo central",
+        "optionB": "Permiten que el código esté en diferentes máquinas de los usuarios",
+        "optionC": "Son menos potentes que los centralizados.",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 1
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "Un sistema de control de versiones…",
+        "optionA": "Puede afectar al rendimiento del equipo",
+        "optionB": "Debe de adaptarse a la forma de trabajo",
+        "optionC": "Pueden tener interfaz gráfica",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "Al trabajar con múltiples ramas de desarrollo…",
+        "optionA": "Es mejor tener un sistema distribuido",
+        "optionB": "Es mejor tener un sistema centralizado",
+        "optionC": "No podemos tener un sistema centralizado",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 0
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "El sistema de control de versiones Git…",
+        "optionA": "Es un sistema antiguo",
+        "optionB": "Es menos potente que SVN",
+        "optionC": "Es un sistema distribuido",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "Un sistema de control de versiones basado en repositorio centralizados…",
+        "optionA": "Suelen ser más rígidos a la hora de trabajar",
+        "optionB": "Puede ser adecuado para medidas de seguridad",
+        "optionC": "Pueden tener problema con el renombrado de archivos",
+        "optionD": "Todas las anteriores son correctas",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "A la hora de establecer roles, un repositorio…",
+        "optionA": "Es más sencillo en un sistema distribuido",
+        "optionB": "Es más sencillo en un sistema centralizado",
+        "optionC": "Tenemos que hacerlo a nivel de servidor",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "Utilizando Git…",
+        "optionA": "No es necesario inicializar el repositorio",
+        "optionB": "No se puede clonar repositorio remoto",
+        "optionC": "Se puede hacer commit en local",
+        "optionD": "Nunca surgen conflictos",
+        "correctOptionIndex": 2
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "Cuando surge un conflicto…",
+        "optionA": "Git lo resuelva automáticamente",
+        "optionB": "SVN lo resuelve automáticamente",
+        "optionC": "En los repositorios distribuidos no pueden existir conflictos",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "En referencia al histórico de cambios…",
+        "optionA": "Git no posee histórico de cambios",
+        "optionB": "SVN no permite ver los cambios realizados",
+        "optionC": "En el caso de Git hay que utilizar git clone log",
+        "optionD": "Ninguna de las anteriores es correcta",
+        "correctOptionIndex": 3
+    },
+    {
+        "subjectId": "entornos",
+        "topicId": "tema_19",
+        "text": "En cuanto a la integración con los sistemas operativos…",
+        "optionA": "SVN dispone de mayor compatibilidad",
+        "optionB": "Los sistemas operativos tienen que ser adaptados para este tipo de herramientas",
+        "optionC": "Git posee mayor compatibilidad",
+        "optionD": "El sistema operativo no influye en estas herramientas",
+        "correctOptionIndex": 2
     }
 ]
